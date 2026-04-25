@@ -7,7 +7,7 @@ Cowork を介さずに、ローカルに保存されている activity / clockif
 
 提供API:
   GET  /                           → ダッシュボードHTML (index.html)
-  GET  /favicon.svg                → vault直下 oclock.svg をファビコンとして配信
+  GET  /favicon.svg                → daily-log/oclock.svg をファビコンとして配信
   GET  /api/activity/YYYY-MM-DD    → その日のactivity JSONLをパースしたJSON
   GET  /api/clockify/YYYY-MM-DD    → その日のclockify JSON + _latest.json
   GET  /api/files/YYYY-MM-DD       → その日に編集されたTsukapon内の.mdファイル一覧
@@ -41,7 +41,7 @@ ACTIVITY_DIR = BASE / "activity"
 CLOCKIFY_DIR = BASE / "clockify"
 REPORTS_DIR = VAULT_ROOT / "Daily Log"
 MEMO_DIR = REPORTS_DIR / "memo"
-FAVICON_PATH = VAULT_ROOT / "oclock.svg"
+FAVICON_PATH = BASE / "oclock.svg"
 GIT_REPOS_CONFIG = BASE / "git-repos.json"
 
 HOST = os.environ.get("DAILY_LOG_HOST", "127.0.0.1")
