@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-23",
+  "synced_at": "2026-04-25T14:25:07+09:00",
+  "workspace_id": "684043134d7e18788e95a3d5",
+  "user_id": "684043134d7e18788e95a3d4",
+  "entries": [
+    {
+      "id": "69eadbca19ca2b48dfa9bcd8",
+      "description": "X・Threads・note 運用",
+      "start": "2026-04-23T08:00:00+09:00",
+      "end": "2026-04-23T11:00:00+09:00",
+      "duration_iso": "PT3H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eadc306afafe30b7df2ed3",
+      "description": "「一条会クリニック」サイト移管に伴うミーティング",
+      "start": "2026-04-23T11:00:00+09:00",
+      "end": "2026-04-23T12:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "担当外業務",
+      "project_color": "#8D6E63",
+      "tags": [
+        "LinkStaff"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eadc5b70cb4c708652bf5a",
+      "description": "「新卒採用」ページ 合格者発表 4/23分 公開対応",
+      "start": "2026-04-23T12:00:00+09:00",
+      "end": "2026-04-23T13:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "サイト運営",
+      "project_color": "#039BE5",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eadc74ee3ed6a1d274c997",
+      "description": "5月分 制作・仮掲載対応",
+      "start": "2026-04-23T13:00:00+09:00",
+      "end": "2026-04-23T14:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "歯科経営者に聴く",
+      "project_color": "#039BE5",
+      "tags": [
+        "e-dentist"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eadc8eee3ed6a1d274cc39",
+      "description": "指定医院の公開日変更方法の調査",
+      "start": "2026-04-23T14:00:00+09:00",
+      "end": "2026-04-23T15:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "サイト運営",
+      "project_color": "#AB47BC",
+      "tags": [
+        "e-doctor"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eadcbb808299a69e33bdf5",
+      "description": "コミック消費",
+      "start": "2026-04-23T16:00:00+09:00",
+      "end": "2026-04-23T19:00:00+09:00",
+      "duration_iso": "PT3H",
+      "project": "hobby",
+      "project_color": "#5C6BC0",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eae9e970cb4c708653f3ec",
+      "description": "test-01",
+      "start": "2026-04-23T20:00:00+09:00",
+      "end": "2026-04-23T20:30:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "サイト運営",
+      "project_color": "#E91E63",
+      "tags": [
+        "e-dentist"
+      ],
+      "billable": true,
+      "is_running": false
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "id": "conv-1776227583473-sviyr96d2",
+  "providerId": "claude",
+  "title": "Generate personalized post reply",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776227583478,
+  "updatedAt": 1776234084095,
+  "lastResponseAt": 1776233931448,
+  "sessionId": "b7e437fd-4bed-4c48-a922-f4c4e790447a",
+  "providerState": {
+    "providerSessionId": "b7e437fd-4bed-4c48-a922-f4c4e790447a",
+    "subagentData": {
+      "toolu_011TvreSsb1Rh83Xo4v3WiBQ": {
+        "id": "toolu_011TvreSsb1Rh83Xo4v3WiBQ",
+        "description": "Explore my-clone personality data",
+        "prompt": "Explore the directory \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone\" thoroughly. I need to understand the personality, writing style, interests, and values of the person described in these files. Look at all files in the directory, read their contents, and summarize:\n1. Their personality traits and communication style\n2. Their interests and hobbies\n3. Their values and beliefs\n4. Their typical way of expressing opinions\n5. Any specific topics they're passionate about\n6. Their tone when commenting on others' posts\n\nBe very thorough - read all files you can find.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "toolu_01XGoPqsvEAsenKp3DQQZar8",
+            "name": "Bash",
+            "input": {
+              "command": "find /Volumes/500GB/GoogleDrive/_kiwami/my-clone -type f | head -50"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/.DS_Store\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/avatar.jpg\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/NGワード.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/ターゲット.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/口調パターン.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/語尾クセ.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/価値観.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/判断基準.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/絶対ルール.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/失敗談.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/成功体験.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/専門知識.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/競合リスト.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/読者の悩み.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/トレンド感度.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/reference/20260402.md"
+          },
+          {
+            "id": "toolu_01UkvdPmVpkFpSnHJoZVKzxE",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/口調パターン.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t# 口調パターン\n2\t\n3\t提供された投稿テキストを分析した口調・文体の特徴まとめです。\n4\t\n5\t## 語尾の癖\n6\t- **感嘆符（！）の多用**: 感情や熱量を表現する際に「！」をよく使う。（例：「できるみたい！」「〜作成！」「めっちゃ便利！」「挑戦してみる！」）\n7\t- **柔らかい疑問形**: 質問を投げかける際は、「〜のかな？」「〜良いのかな？」「〜でしょうか？」といった、相手に圧迫感を与えない配慮のある柔らかい語尾を使用する。\n8\t- **カジュアルと丁寧の使い分け**:\n9\t  - 作業や依頼の連絡では、「〜対応します」「〜欲しいです！」と、丁寧で爽やかな「デス・マス調」を用いる。\n10\t  - 個人の感想や独り言では、「〜痛い」「〜やってられない」「〜味が付いてない」など、形容詞や砕けた口語表現（少し男言葉寄り）で終わる。\n11\t- **理由の省略・連結**: 「〜したいんで、」のように、「ので」を「んで」と崩して繋げるカジュアルな癖がある。\n12\t\n13\t## よく使う接続詞・繋ぎの言葉\n14\t- 明確な接続詞（しかし、だから等）よりも、**接続助詞や会話的な繋ぎ**（「〜て」「〜なんで」「〜でも」）を使って文を滑らかに展開する。\n15\t- 文頭に「ごめん、」「ちょっと」といった**クッション言葉・前置き**を置き、相手への配慮や気軽さを演出する。\n16\t\n17\t## 文のリズム\n18\t- **短文・テンポ感**: 1文が短めで、ダラダラと長引かせずスッキリとしている。テンポが良い。\n19\t- **「事実・状況」＋「感情・要望」の構成**:\n20\t  - 状況を説明した後に、ポンっと自分の感情やお願いを付け足すリズムが多い。\n21\t  - （例1）比率を切りよく3:2にしたいんで（状況）＋767×512にしてもらえないでしょうか？（要望）\n22\t  - （例2）拡張機能を作った（事実）＋めっちゃ便利！（感情）\n23\t- **絵文字のワンポイント使用**: 「💦」のような絵文字を感情表現の補足として添えることで、オンライン上の冷たさを緩和し、親しみやすいリズムを作っている。\n24\t"
+          },
+          {
+            "id": "toolu_01M6i4GsU25fbwxQpd49ujPB",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/語尾クセ.txt"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_01SYU35UWZ4g1yCWiduwzEDa",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/NGワード.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t# NGワード・禁止表現ガイド\n2\t\n3\t> SNS投稿（X / note）における凍結・公開停止リスクのあるワード・表現をまとめたリファレンス。\n4\t> 記事やポスト作成時のチェックリストとして活用する。\n5\t\n6\t---\n7\t\n8\t## X（旧Twitter）\n9\t\n10\t### 凍結・ロック対象ワード\n11\t\n12\t> [!warning] 実例\n13\t> 「蚊をぶっ殺した」というツイートで**永久凍結**された事例あり。文脈に関わらず検知される。\n14\t\n15\tXには大きく **5パターン** の禁止ワードカテゴリがある。\n16\t\n17\t| カテゴリ | 危険ワード例 |\n18\t|---|---|\n19\t| 暴力・脅迫系 | 殺す、ころす、コロス、死ね、しね、ぶっ殺す |\n20\t| 自傷・自殺助長系 | 死にたい、死のう、自殺（文脈次第だが検知されやすい） |\n21\t| 差別・ヘイト系 | クズ、寄生虫 など人種・民族を非人間的に扱う表現 |\n22\t| 陰謀論系 | Qアノン関連の用語 |\n23\t| コロナ関連 | 医学的な誤情報・デマ |\n24\t\n25\t### 規約上の禁止コンテンツ\n26\t\n27\t以下の行為は規約で明確に禁止されており、凍結リスクが高い。\n28\t\n29\t- 個人情報の無断公開（晒し行為）\n30\t- 合意のない性的画像の投稿\n31\t- 選挙・市民活動を妨害する虚偽情報\n32\t- なりすまし\n33\t- 違法な商品・サービスの取引促進\n34\t\n35\t### シャドウバン要因\n36\t\n37\t- 禁止ワードの使用\n38\t- スパム的な連続投稿\n39\t- 不自然なハッシュタグの乱用\n40\t- AI生成による大量自動投稿\n41\t\n42\t> [!important] AI表記義務（2025年11月〜）\n43\t> AI生成コンテンツには**明示的な表示義務**が課されている。違反すると投稿制限やアカウント凍結のリスクあり。\n44\t\n45\t---\n46\t\n47\t## note\n48\t\n49\t### 規約で明示されている禁止コンテンツ\n50\t\n51\t- 盗作・剽窃、著作権等の侵害\n52\t- 誹謗中傷\n53\t- わいせつ・暴力的表現\n54\t- 民族・宗教・人種・性別・年齢等の差別\n55\t- 自殺・自傷・違法薬物使用の助長\n56\t- マルチ商法等の情報商材\n57\t- 株式の銘柄推奨や金融商品取引法に抵触するもの\n58\t\n59\t### 要注意表現（公開停止の実例多数）\n60\t\n61\t| カテゴリ | NGワード・表現例 | 備考 |\n62\t|---|---|---|\n63\t| 誇大・断言系 | 確実、絶対、100%、必ず、間違いなく | 機械的にフィルタリングされると推測 |\n64\t| 稼ぐ系 | 「誰でもnoteで稼げる」「必ずもうかる」 | タイトルに含めるだけで公開停止の例あり |\n65\t| 売上煽り | 「7桁達成」＋売上スクショ | 購入を煽る行為として禁止 |\n66\t| 金融・投資助言 | 「絶対買うべきは◯◯」 | 投資助言にあたり違法とみなされる |\n67\t\n68\t### NG判定ロジック（推測）\n69\t\n70\t> [!note] 掛け合わせ判定\n71\t> **要注意ワード** × **要注意テーマ**（ネットビジネス・投資・ギャンブル系）× **断言系表現**\n72\t> の掛け合わせでNG判定される。テーマ自体がお金絡みの場合、断言表現が少しあるだけでも引っかかりやすい。\n73\t\n74\t---\n75\t\n76\t## まとめ：共通して避けるべき表現\n77\t\n78\t### 両プラットフォーム共通NG\n79\t\n80\t- 🚫 暴力・脅迫表現\n81\t- 🚫 差別・ヘイト\n82\t- 🚫 著作権侵害\n83\t- 🚫 個人情報晒し\n84\t- 🚫 違法行為の助長\n85\t\n86\t### プラットフォーム別の特徴\n87\t\n88\t| プラットフォーム | 特に厳しいポイント |\n89\t|---|---|\n90\t| **X** | AI無表記、スパム的挙動 |\n91\t| **note** | 誇大表現、断言系ワード |"
+          },
+          {
+            "id": "toolu_01PSK4XJNaLharGxF6r84u88",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/ターゲット.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t# ターゲット\n2\t\n3\t## 届けたい相手\n4\t\n5\t- 30代〜40代の会社員。副業に興味があるけど何をすればいいかわからない\n6\t- AIを使ってみたいけど「難しそう」で手が出ない\n7\t- Xで発信を始めたけど、フォロワーが増えずに挫折しかけてる\n8\t- 情報収集はするけど「行動に移す」ところで止まる\n9\t- 「時間がない」が口癖。でも本当は「やり方がわからない」\n10\t\n11\t## この人が深夜に検索すること\n12\t\n13\t- 「X フォロワー 増やし方 初心者」\n14\t- 「AI 副業 具体的 方法」\n15\t- 「投稿 伸びない 原因」\n16\t- 「会社員 副業 バレない 始め方」\n17\t\n18\t## この人が反応するフック\n19\t\n20\t- 具体的な数字（「3日で」「5分で」「月10万」）\n21\t- ビフォーアフター（「〇〇だったのが→△△になった」）\n22\t- 「私も同じだった」系の共感\n23\t- すぐ使えるテンプレ・手順の公開"
+          },
+          {
+            "id": "toolu_0168jt3zkmWrNHbq5gxptuas",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/価値観.txt"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_01LTxy7wX8CGgEzdxvgyGgw4",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/判断基準.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_01KbiMWrX9ZP6of2VvVvE5dR",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/絶対ルール.txt"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_01JpSRmcMfU5aEujTw3FZAvg",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/失敗談.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_012Hz1u1HjDWf5JkA23dGZAU",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/成功体験.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_01MXFbTK6zPbfdFZHav4i4AW",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/専門知識.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\tここ2～3年はviteでのwebサイト制作をメインに変更中。\n2\tそれ以前は5年ほどgulpでのscssコンパイル、ブラウザシンクを利用してwebサイトの制作を行なっていた。\n3\t\n4\tプログラムの知識はほぼ皆無だが、WordPressのカスタマイズはサイトを検索しながらさまざまな機能に対応できる自信あり。\n5\t最近ではAIの活用で効率良い作業が行えている。\n6\t\n7\tデータベースは利用していないが、Laravelでのサイト構築も経験あり。\n8\t\n9\t10年以上前になるが、EC-CUBEでのショッピングサイトも構築経験あり。"
+          },
+          {
+            "id": "toolu_015pS33Ncfx1b2KuvheTL8rX",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/競合リスト.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_019wtj2YVd328kbBErLe6rFw",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/読者の悩み.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_01D7M4Tbk3tB2wNZmLkukS22",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/トレンド感度.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "<system-reminder>Warning: the file exists but is shorter than the provided offset (1). The file has 1 lines.</system-reminder>"
+          },
+          {
+            "id": "toolu_017a853utqaDSzAQxuUDo9g5",
+            "name": "Read",
+            "input": {
+              "file_path": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/reference/20260402.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t「思いついたタイトルをそのまま使う」のを今すぐやめてください。\n2\t\n3\t私はそれで2ヶ月、売上700円でした。\n4\tタイトルを変えた翌月、3万円になりました。\n5\t\n6\t売れるタイトルには型があります。\n7\tこの3パターンだけ使えば大丈夫です。\n8\t\n9\t① 数字を入れる\n10\t✕「簿記の勉強法」\n11\t〇「3回落ちた私が、4回目で合格した5つの習慣」\n12\t\n13\t② 読む人を決める\n14\t✕「副業のはじめ方」\n15\t〇「残業が月40時間ある会社員が、夜1時間で始めた副業」\n16\t\n17\t③ 結果を先に書く\n18\t✕「noteを続けるコツ」\n19\t〇「週1投稿で月3万円になった、私のnote習慣」\n20\t\n21\t共通点は一つ。\n22\t「これ、私のことだ」と思わせること。\n23\t上手い文章より、刺さるタイトルの方が売れます。\n24\t\n25\tセンスじゃなくて、型の話です。\n26\t今日書く記事のタイトル、この3パターンで試してみてください。\n27\t\n28\t---\n29\t\n30\tnoteを続けていると他人の成果が気になる時期があると思うんだけど、そこで焦ると軸がぶれるんですよね。\n31\t\n32\t他人のペースは他人のもの。自分には自分の速度がある。比較するなら過去の自分とだけ。この意識を持てた時から書くことが楽になったのでおすすめ。\n33\t\n34\t---\n35\t\n36\t初心が大事な理由\n37\t\n38\t・伸びた後でも本質に立ち返れる\n39\t・うまくいった理由を見失わない\n40\t・慢心を防ぎ、学び続けられる\n41\t・小さな成長に気づける\n42\t・挑戦する勇気を思い出せる\n43\t・他人へのリスペクトを忘れない\n44\t・継続する一番の理由になる\n45\t・結果よりプロセスを大切にできる\n46\t・「なんで始めたか」を見失わない\n47\t\n48\t初心は迷ったときに帰れる場所だからこそ、ずっとずっと大切にするべき\n49\t\n50\t---\n51\t\n52\tインプ500止まり、才能じゃない。\n53\t\n54\t毎日投稿してるのに\n55\t伸びない\n56\tこれで悩んでるなら\n57\t\n58\tほぼ確定だ。\n59\t\n60\t壊れてるのは\n61\t「内容」じゃない\n62\t\n63\tもっと手前\n64\t設計がズレてる。\n65\t\n66\tでも9割は気づかない。\n67\t\n68\t壊れてるのはこの3つだ。\n69\t\n70\t【①誰に向けてるかが曖昧】\n71\t・初心者も上級者も全部混ぜる\n72\t・毎回違う人に話してる\n73\t・「何者か」が説明できない\n74\t・関わる界隈がバラバラ\n75\t\n76\t覚えられない人は\n77\t選ばれない\n78\t\n79\t【②入口と回収がズレてる】\n80\t・プロフ見ても何してるか不明\n81\t・1行目が肩書きで止まる\n82\t・固定ポストが今とズレてる\n83\t・投稿とプロフで別人\n84\t\n85\tポストは入口\n86\tプロフは回収\n87\t\n88\tここズレたら\n89\t全部無駄\n90\t\n91\t【③設計を疑ってない】\n92\t・センスのせいにする\n93\t・「もっと投稿」で解決しようとする\n94\t・数字落ちたら内容いじる\n95\t・導線を考えてない\n96\t\n97\tこれやってる限り\n98\t一生空回り\n99\t断言する\n100\t伸びない原因は\n101\t\n102\t「何を書くか」じゃない\n103\t\n104\t・誰に向けてるか\n105\t・どこから入るか\n106\t・何を見せるか\n107\t\n108\tここ\n109\t設計が整えば\n110\t\n111\t同じ投稿でも\n112\t普通に伸びる\n113\t\n114\t逆に\n115\tズレたまま量増やすと\n116\tアルゴは冷える\n117\t今やることは1つ\n118\t\n119\t投稿を増やすな\n120\t\n121\t自分のアカウント\n122\t\n123\t「誰の何を変えるか」\n124\t\n125\t1文で言え。\n126\t\n127\t言えなきゃ\n128\t全部ズレてる。\n129\t\n130\t---\n131\t\n132\tnoteで成果を出す方法、\n133\t具体的にやるべきステップ↓\n134\t\n135\t①発信ジャンルを決める\n136\t②そのジャンルで上手く行ってる人をピックアップ\n137\t③どういう投稿がフォロー増えるか分析\n138\t④自分のアカウントとそのアカウントの違いを作る\n139\t⑤上手く行った投稿は何回も使う\n140\t⑥フォロワーが求める渾身のnoteを書く\n141\t\n142\t冗談抜きで100,000円は硬い。\n143\t\n144\t---\n145\t\n146\tAIで稼げない人の共通点5つ\n147\t\n148\t①AIに「書いて」しか言わない\n149\t②自分の体験を入れない\n150\t③感情を削除する\n151\t④「完璧」を待つ\n152\t⑤1回で完成させようとする\n153\t\n154\tAIは道具じゃなくて\"ビジネスパートナー\"\n155\t使うんじゃなく共闘して最大限に活かす😈\n156\t\n157\t---\n158\t\n159\t【X伸びない人のあるある】\n160\t正直、昔の自分これだった🙃\n161\t\n162\t〜全体編〜\n163\t・交流していない\n164\t・成功した他人と比べて自信を無くす\n165\t・あんまり楽しくない\n166\t・だんだん義務と化してくる\n167\t\n168\t〜ポスト編〜\n169\t・自分の考えではないことを言う\n170\t・当たり障りのないことしか言わない\n171\t・AIが書いたものだとすぐ分かる\n172\t・結局何を伝えたいのか分かりにくい\n173\t・発信軸がブレブレ\n174\t・1件伸びないだけで萎える\n175\t・そもそも発信が少ない\n176\t・引用する内容がリプで済む内容\n177\t・伸びた投稿の型を使わない\n178\t・競合のリサーチをやっていない\n179\t\n180\t〜リプ編〜\n181\t・ポストに沿わないリプをする（ほぼこれ）\n182\t※ふざけるのはまだ良いとしても真面目に関係ない話するやつおるww\n183\t\n184\t僕も今年の2月8日から始めたけど1ヶ月くらいはこんな状態でしたww  情けないし今なら当たり前なんって感じなんやが、当時はこれでも自分なりにちゃんとやってるつもりだったんよ🤣　けどこの状態から抜け出すのは簡単ではないよね。Xってセンスとかじゃなくいかに正しく、失敗を恐れずに動けるか。変に良く見せようとかしても逆効果。変態レベルに突き抜けた人が勝つんやろうね😎　\n185\t現実世界って真面目にやってればなんとかなること多いけどXは真面目なだけじゃ微妙やもんね🤔　これまで経験してこなかった世界だからこそどう運用していくかで結果が変わるよね😇\n186\t\n187\t---\n188\t\n189\t分かりやすく説明しすぎるの、やめましょう。\n190\t\n191\t全部を言葉にしない。\n192\t余白を残して読者に考えてもらう。\n193\t\n194\tその余白が思考を促し行動を生む。手取り足取りは優しさに見えて実は読者の力を奪っているんですよね。\n195\t\n196\t---\n197\t\n198\t"
+          },
+          {
+            "id": "toolu_01Ts2Dd2iBr3T8SKSFKw4jSC",
+            "name": "Bash",
+            "input": {
+              "command": "find /Volumes/500GB/GoogleDrive/_kiwami/my-clone -type f -name \"*.txt\" -o -name \"*.md\" | grep -v \".DS_Store\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/NGワード.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/ターゲット.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/口調パターン.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/語尾クセ.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/価値観.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/判断基準.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/絶対ルール.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/失敗談.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/成功体験.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/専門知識.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/競合リスト.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/読者の悩み.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/トレンド感度.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/reference/20260402.md"
+          },
+          {
+            "id": "toolu_01Gpg4dSbymbhjkSjaUwTMqk",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/語尾クセ.txt"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_015GBXfufURzyckVRoKpF8Xo",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/価値観.txt"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01MqMZgYMRUhRfiForedhfZG",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/判断基準.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_015dLGd2BUCy4QtWNvZ1kA5o",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/絶対ルール.txt"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01CiD3WisGwCBtuFLmYVYD8a",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/失敗談.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01NXEJVWmSeKPACudEXLMZhY",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/成功体験.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01Xh2z6nBhXSWffq6hD6cTEy",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/競合リスト.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01PX8aCDjNQPajvedBEKA7UR",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/読者の悩み.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01T21YRnQgScmpR9JmetMXkA",
+            "name": "Bash",
+            "input": {
+              "command": "cat /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/トレンド感度.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          },
+          {
+            "id": "toolu_01CAWxYEm4mKDJP13JKrn7Bc",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la /Volumes/500GB/GoogleDrive/_kiwami/my-clone/"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 376\ndrwxr-xr-x  10 fukuokase  staff     320 Apr  8 11:19 .\ndrwxr-xr-x  16 fukuokase  staff     512 Apr 15 12:48 ..\n-rw-r--r--@  1 fukuokase  staff    6148 Apr  5 14:55 .DS_Store\n-rw-r--r--@  1 fukuokase  staff  182049 Apr  8 11:19 avatar.jpg\ndrwxr-xr-x@  5 fukuokase  staff     160 Apr  5 14:56 brain\ndrwxr-xr-x@  5 fukuokase  staff     160 Apr  5 14:56 eyes\ndrwxr-xr-x   2 fukuokase  staff      64 Mar 19 10:23 feedback\ndrwxr-xr-x@  3 fukuokase  staff      96 Apr  3 09:39 reference\ndrwxr-xr-x@  5 fukuokase  staff     160 Apr  5 14:56 rules\ndrwxr-xr-x@  6 fukuokase  staff     192 Apr  9 12:13 voice"
+          },
+          {
+            "id": "toolu_012iNMe9HosyM1GVoEkGgsHQ",
+            "name": "Bash",
+            "input": {
+              "command": "find /Volumes/500GB/GoogleDrive/_kiwami/my-clone -type f -exec wc -l {} + | sort -n"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/.DS_Store\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/???.md\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/????.md\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/?????.md\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/?????.md\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/???????.md\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/???.txt\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/????.md\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/?????.txt\n       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/????.txt\n       8 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/????.md\n      22 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/?????.md\n      23 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/???????.md\n      90 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/NG????.md\n     197 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/reference/20260402.md\n     782 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/avatar.jpg\n    1122 total"
+          },
+          {
+            "id": "toolu_018ypTZjkmTnMZxPKkEuw4Ks",
+            "name": "Bash",
+            "input": {
+              "command": "find /Volumes/500GB/GoogleDrive/_kiwami/my-clone -type f | head -30"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Volumes/500GB/GoogleDrive/_kiwami/my-clone/.DS_Store\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/avatar.jpg\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/NGワード.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/ターゲット.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/口調パターン.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/語尾クセ.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/価値観.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/判断基準.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/絶対ルール.txt\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/失敗談.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/成功体験.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/専門知識.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/競合リスト.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/読者の悩み.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/トレンド感度.md\n/Volumes/500GB/GoogleDrive/_kiwami/my-clone/reference/20260402.md"
+          },
+          {
+            "id": "toolu_0129j5kJHi94Tyz25XAGvvJJ",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/語尾クセ.txt\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/????.txt"
+          },
+          {
+            "id": "toolu_01U1S6tPfrjyGMWfUkdyLyuD",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/価値観.txt\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/???.txt"
+          },
+          {
+            "id": "toolu_01FC7cdZ5xezFrHPEHMnFTgM",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/判断基準.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/????.md"
+          },
+          {
+            "id": "toolu_011wmNSsr4Sn8yLCRrQHQF9P",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/絶対ルール.txt\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/?????.txt"
+          },
+          {
+            "id": "toolu_01V2XCci4B9iK8F5LosyetH8",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/失敗談.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/???.md"
+          },
+          {
+            "id": "toolu_01Ae2ZHKZXjmnsxgypo1LfDM",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/成功体験.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/????.md"
+          },
+          {
+            "id": "toolu_01TzCCded2p7Qd2nbRPo2oiy",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/競合リスト.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/?????.md"
+          },
+          {
+            "id": "toolu_01PZ27KWLxCRjJrHipKkZwXS",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/読者の悩み.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/?????.md"
+          },
+          {
+            "id": "toolu_01Jf9CivtFnAVGZXHkWxVsj9",
+            "name": "Bash",
+            "input": {
+              "command": "wc \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/トレンド感度.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "       0       0       0 /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/??????.md"
+          },
+          {
+            "id": "toolu_01Xx53q9RMapxqR5ygtfg2up",
+            "name": "Bash",
+            "input": {
+              "command": "ls -lah /Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 24\ndrwxr-xr-x@  6 fukuokase  staff   192B Apr  9 12:13 .\ndrwxr-xr-x  10 fukuokase  staff   320B Apr  8 11:19 ..\n-rw-r--r--@  1 fukuokase  staff   3.4K Apr  3 11:51 NGワード.md\n-rw-r--r--@  1 fukuokase  staff   939B Apr  9 12:13 ターゲット.md\n-rw-r--r--@  1 fukuokase  staff   2.2K Mar 11 08:51 口調パターン.md\n-rw-------   1 fukuokase  staff     0B Mar 10 19:00 語尾クセ.txt"
+          },
+          {
+            "id": "toolu_01CRtAPSNcWLq66A7ib8GtCz",
+            "name": "Bash",
+            "input": {
+              "command": "ls -lah /Volumes/500GB/GoogleDrive/_kiwami/my-clone/rules/"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 0\ndrwxr-xr-x@  5 fukuokase  staff   160B Apr  5 14:56 .\ndrwxr-xr-x  10 fukuokase  staff   320B Apr  8 11:19 ..\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 価値観.txt\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 判断基準.md\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 絶対ルール.txt"
+          },
+          {
+            "id": "toolu_01YWoW94qTtiWjc1Cw1epMEn",
+            "name": "Bash",
+            "input": {
+              "command": "ls -lah /Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 8\ndrwxr-xr-x@  5 fukuokase  staff   160B Apr  5 14:56 .\ndrwxr-xr-x  10 fukuokase  staff   320B Apr  8 11:19 ..\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 失敗談.md\n-rw-r--r--@  1 fukuokase  staff   635B Mar 21 13:24 専門知識.md\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 成功体験.md"
+          },
+          {
+            "id": "toolu_01XbohY4w46YfHpbLNjNSUBq",
+            "name": "Bash",
+            "input": {
+              "command": "ls -lah /Volumes/500GB/GoogleDrive/_kiwami/my-clone/eyes/"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 0\ndrwxr-xr-x@  5 fukuokase  staff   160B Apr  5 14:56 .\ndrwxr-xr-x  10 fukuokase  staff   320B Apr  8 11:19 ..\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 トレンド感度.md\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 競合リスト.md\n-rw-------   1 fukuokase  staff     0B Mar 10 19:01 読者の悩み.md"
+          },
+          {
+            "id": "toolu_01417H52rgS4wxxs3pqzNuqK",
+            "name": "Bash",
+            "input": {
+              "command": "cat \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/NGワード.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "# NGワード・禁止表現ガイド\n\n> SNS投稿（X / note）における凍結・公開停止リスクのあるワード・表現をまとめたリファレンス。\n> 記事やポスト作成時のチェックリストとして活用する。\n\n---\n\n## X（旧Twitter）\n\n### 凍結・ロック対象ワード\n\n> [!warning] 実例\n> 「蚊をぶっ殺した」というツイートで**永久凍結**された事例あり。文脈に関わらず検知される。\n\nXには大きく **5パターン** の禁止ワードカテゴリがある。\n\n| カテゴリ | 危険ワード例 |\n|---|---|\n| 暴力・脅迫系 | 殺す、ころす、コロス、死ね、しね、ぶっ殺す |\n| 自傷・自殺助長系 | 死にたい、死のう、自殺（文脈次第だが検知されやすい） |\n| 差別・ヘイト系 | クズ、寄生虫 など人種・民族を非人間的に扱う表現 |\n| 陰謀論系 | Qアノン関連の用語 |\n| コロナ関連 | 医学的な誤情報・デマ |\n\n### 規約上の禁止コンテンツ\n\n以下の行為は規約で明確に禁止されており、凍結リスクが高い。\n\n- 個人情報の無断公開（晒し行為）\n- 合意のない性的画像の投稿\n- 選挙・市民活動を妨害する虚偽情報\n- なりすまし\n- 違法な商品・サービスの取引促進\n\n### シャドウバン要因\n\n- 禁止ワードの使用\n- スパム的な連続投稿\n- 不自然なハッシュタグの乱用\n- AI生成による大量自動投稿\n\n> [!important] AI表記義務（2025年11月〜）\n> AI生成コンテンツには**明示的な表示義務**が課されている。違反すると投稿制限やアカウント凍結のリスクあり。\n\n---\n\n## note\n\n### 規約で明示されている禁止コンテンツ\n\n- 盗作・剽窃、著作権等の侵害\n- 誹謗中傷\n- わいせつ・暴力的表現\n- 民族・宗教・人種・性別・年齢等の差別\n- 自殺・自傷・違法薬物使用の助長\n- マルチ商法等の情報商材\n- 株式の銘柄推奨や金融商品取引法に抵触するもの\n\n### 要注意表現（公開停止の実例多数）\n\n| カテゴリ | NGワード・表現例 | 備考 |\n|---|---|---|\n| 誇大・断言系 | 確実、絶対、100%、必ず、間違いなく | 機械的にフィルタリングされると推測 |\n| 稼ぐ系 | 「誰でもnoteで稼げる」「必ずもうかる」 | タイトルに含めるだけで公開停止の例あり |\n| 売上煽り | 「7桁達成」＋売上スクショ | 購入を煽る行為として禁止 |\n| 金融・投資助言 | 「絶対買うべきは◯◯」 | 投資助言にあたり違法とみなされる |\n\n### NG判定ロジック（推測）\n\n> [!note] 掛け合わせ判定\n> **要注意ワード** × **要注意テーマ**（ネットビジネス・投資・ギャンブル系）× **断言系表現**\n> の掛け合わせでNG判定される。テーマ自体がお金絡みの場合、断言表現が少しあるだけでも引っかかりやすい。\n\n---\n\n## まとめ：共通して避けるべき表現\n\n### 両プラットフォーム共通NG\n\n- 🚫 暴力・脅迫表現\n- 🚫 差別・ヘイト\n- 🚫 著作権侵害\n- 🚫 個人情報晒し\n- 🚫 違法行為の助長\n\n### プラットフォーム別の特徴\n\n| プラットフォーム | 特に厳しいポイント |\n|---|---|\n| **X** | AI無表記、スパム的挙動 |\n| **note** | 誇大表現、断言系ワード |"
+          },
+          {
+            "id": "toolu_01J8UbeZxazVnJRNWxs6SMtX",
+            "name": "Bash",
+            "input": {
+              "command": "cat \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/ターゲット.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "# ターゲット\n\n## 届けたい相手\n\n- 30代〜40代の会社員。副業に興味があるけど何をすればいいかわからない\n- AIを使ってみたいけど「難しそう」で手が出ない\n- Xで発信を始めたけど、フォロワーが増えずに挫折しかけてる\n- 情報収集はするけど「行動に移す」ところで止まる\n- 「時間がない」が口癖。でも本当は「やり方がわからない」\n\n## この人が深夜に検索すること\n\n- 「X フォロワー 増やし方 初心者」\n- 「AI 副業 具体的 方法」\n- 「投稿 伸びない 原因」\n- 「会社員 副業 バレない 始め方」\n\n## この人が反応するフック\n\n- 具体的な数字（「3日で」「5分で」「月10万」）\n- ビフォーアフター（「〇〇だったのが→△△になった」）\n- 「私も同じだった」系の共感\n- すぐ使えるテンプレ・手順の公開"
+          },
+          {
+            "id": "toolu_017ZcUwYaZeJgQGsHqmzRbY7",
+            "name": "Bash",
+            "input": {
+              "command": "cat \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/voice/口調パターン.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "# 口調パターン\n\n提供された投稿テキストを分析した口調・文体の特徴まとめです。\n\n## 語尾の癖\n- **感嘆符（！）の多用**: 感情や熱量を表現する際に「！」をよく使う。（例：「できるみたい！」「〜作成！」「めっちゃ便利！」「挑戦してみる！」）\n- **柔らかい疑問形**: 質問を投げかける際は、「〜のかな？」「〜良いのかな？」「〜でしょうか？」といった、相手に圧迫感を与えない配慮のある柔らかい語尾を使用する。\n- **カジュアルと丁寧の使い分け**:\n  - 作業や依頼の連絡では、「〜対応します」「〜欲しいです！」と、丁寧で爽やかな「デス・マス調」を用いる。\n  - 個人の感想や独り言では、「〜痛い」「〜やってられない」「〜味が付いてない」など、形容詞や砕けた口語表現（少し男言葉寄り）で終わる。\n- **理由の省略・連結**: 「〜したいんで、」のように、「ので」を「んで」と崩して繋げるカジュアルな癖がある。\n\n## よく使う接続詞・繋ぎの言葉\n- 明確な接続詞（しかし、だから等）よりも、**接続助詞や会話的な繋ぎ**（「〜て」「〜なんで」「〜でも」）を使って文を滑らかに展開する。\n- 文頭に「ごめん、」「ちょっと」といった**クッション言葉・前置き**を置き、相手への配慮や気軽さを演出する。\n\n## 文のリズム\n- **短文・テンポ感**: 1文が短めで、ダラダラと長引かせずスッキリとしている。テンポが良い。\n- **「事実・状況」＋「感情・要望」の構成**:\n  - 状況を説明した後に、ポンっと自分の感情やお願いを付け足すリズムが多い。\n  - （例1）比率を切りよく3:2にしたいんで（状況）＋767×512にしてもらえないでしょうか？（要望）\n  - （例2）拡張機能を作った（事実）＋めっちゃ便利！（感情）\n- **絵文字のワンポイント使用**: 「💦」のような絵文字を感情表現の補足として添えることで、オンライン上の冷たさを緩和し、親しみやすいリズムを作っている。"
+          },
+          {
+            "id": "toolu_01KuJgsGooyyM2DyxPL59i36",
+            "name": "Bash",
+            "input": {
+              "command": "cat \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/brain/専門知識.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "ここ2～3年はviteでのwebサイト制作をメインに変更中。\nそれ以前は5年ほどgulpでのscssコンパイル、ブラウザシンクを利用してwebサイトの制作を行なっていた。\n\nプログラムの知識はほぼ皆無だが、WordPressのカスタマイズはサイトを検索しながらさまざまな機能に対応できる自信あり。\n最近ではAIの活用で効率良い作業が行えている。\n\nデータベースは利用していないが、Laravelでのサイト構築も経験あり。\n\n10年以上前になるが、EC-CUBEでのショッピングサイトも構築経験あり。"
+          },
+          {
+            "id": "toolu_01VpiASJHv6vZ564fDmPuDcm",
+            "name": "Bash",
+            "input": {
+              "command": "cat \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone/reference/20260402.md\""
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "「思いついたタイトルをそのまま使う」のを今すぐやめてください。\n\n私はそれで2ヶ月、売上700円でした。\nタイトルを変えた翌月、3万円になりました。\n\n売れるタイトルには型があります。\nこの3パターンだけ使えば大丈夫です。\n\n① 数字を入れる\n✕「簿記の勉強法」\n〇「3回落ちた私が、4回目で合格した5つの習慣」\n\n② 読む人を決める\n✕「副業のはじめ方」\n〇「残業が月40時間ある会社員が、夜1時間で始めた副業」\n\n③ 結果を先に書く\n✕「noteを続けるコツ」\n〇「週1投稿で月3万円になった、私のnote習慣」\n\n共通点は一つ。\n「これ、私のことだ」と思わせること。\n上手い文章より、刺さるタイトルの方が売れます。\n\nセンスじゃなくて、型の話です。\n今日書く記事のタイトル、この3パターンで試してみてください。\n\n---\n\nnoteを続けていると他人の成果が気になる時期があると思うんだけど、そこで焦ると軸がぶれるんですよね。\n\n他人のペースは他人のもの。自分には自分の速度がある。比較するなら過去の自分とだけ。この意識を持てた時から書くことが楽になったのでおすすめ。\n\n---\n\n初心が大事な理由\n\n・伸びた後でも本質に立ち返れる\n・うまくいった理由を見失わない\n・慢心を防ぎ、学び続けられる\n・小さな成長に気づける\n・挑戦する勇気を思い出せる\n・他人へのリスペクトを忘れない\n・継続する一番の理由になる\n・結果よりプロセスを大切にできる\n・「なんで始めたか」を見失わない\n\n初心は迷ったときに帰れる場所だからこそ、ずっとずっと大切にするべき\n\n---\n\nインプ500止まり、才能じゃない。\n\n毎日投稿してるのに\n伸びない\nこれで悩んでるなら\n\nほぼ確定だ。\n\n壊れてるのは\n「内容」じゃない\n\nもっと手前\n設計がズレてる。\n\nでも9割は気づかない。\n\n壊れてるのはこの3つだ。\n\n【①誰に向けてるかが曖昧】\n・初心者も上級者も全部混ぜる\n・毎回違う人に話してる\n・「何者か」が説明できない\n・関わる界隈がバラバラ\n\n覚えられない人は\n選ばれない\n\n【②入口と回収がズレてる】\n・プロフ見ても何してるか不明\n・1行目が肩書きで止まる\n・固定ポストが今とズレてる\n・投稿とプロフで別人\n\nポストは入口\nプロフは回収\n\nここズレたら\n全部無駄\n\n【③設計を疑ってない】\n・センスのせいにする\n・「もっと投稿」で解決しようとする\n・数字落ちたら内容いじる\n・導線を考えてない\n\nこれやってる限り\n一生空回り\n断言する\n伸びない原因は\n\n「何を書くか」じゃない\n\n・誰に向けてるか\n・どこから入るか\n・何を見せるか\n\nここ\n設計が整えば\n\n同じ投稿でも\n普通に伸びる\n\n逆に\nズレたまま量増やすと\nアルゴは冷える\n今やることは1つ\n\n投稿を増やすな\n\n自分のアカウント\n\n「誰の何を変えるか」\n\n1文で言え。\n\n言えなきゃ\n全部ズレてる。\n\n---\n\nnoteで成果を出す方法、\n具体的にやるべきステップ↓\n\n①発信ジャンルを決める\n②そのジャンルで上手く行ってる人をピックアップ\n③どういう投稿がフォロー増えるか分析\n④自分のアカウントとそのアカウントの違いを作る\n⑤上手く行った投稿は何回も使う\n⑥フォロワーが求める渾身のnoteを書く\n\n冗談抜きで100,000円は硬い。\n\n---\n\nAIで稼げない人の共通点5つ\n\n①AIに「書いて」しか言わない\n②自分の体験を入れない\n③感情を削除する\n④「完璧」を待つ\n⑤1回で完成させようとする\n\nAIは道具じゃなくて\"ビジネスパートナー\"\n使うんじゃなく共闘して最大限に活かす😈\n\n---\n\n【X伸びない人のあるある】\n正直、昔の自分これだった🙃\n\n〜全体編〜\n・交流していない\n・成功した他人と比べて自信を無くす\n・あんまり楽しくない\n・だんだん義務と化してくる\n\n〜ポスト編〜\n・自分の考えではないことを言う\n・当たり障りのないことしか言わない\n・AIが書いたものだとすぐ分かる\n・結局何を伝えたいのか分かりにくい\n・発信軸がブレブレ\n・1件伸びないだけで萎える\n・そもそも発信が少ない\n・引用する内容がリプで済む内容\n・伸びた投稿の型を使わない\n・競合のリサーチをやっていない\n\n〜リプ編〜\n・ポストに沿わないリプをする（ほぼこれ）\n※ふざけるのはまだ良いとしても真面目に関係ない話するやつおるww\n\n僕も今年の2月8日から始めたけど1ヶ月くらいはこんな状態でしたww  情けないし今なら当たり前なんって感じなんやが、当時はこれでも自分なりにちゃんとやってるつもりだったんよ🤣　けどこの状態から抜け出すのは簡単ではないよね。Xってセンスとかじゃなくいかに正しく、失敗を恐れずに動けるか。変に良く見せようとかしても逆効果。変態レベルに突き抜けた人が勝つんやろうね😎　\n現実世界って真面目にやってればなんとかなること多いけどXは真面目なだけじゃ微妙やもんね🤔　これまで経験してこなかった世界だからこそどう運用していくかで結果が変わるよね😇\n\n---\n\n分かりやすく説明しすぎるの、やめましょう。\n\n全部を言葉にしない。\n余白を残して読者に考えてもらう。\n\nその余白が思考を促し行動を生む。手取り足取りは優しさに見えて実は読者の力を奪っているんですよね。\n\n---"
+          },
+          {
+            "id": "toolu_017itCYvvBFudxNgV4UPuBjd",
+            "name": "Bash",
+            "input": {
+              "command": "ls -lah /Volumes/500GB/GoogleDrive/_kiwami/my-clone/feedback/"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "total 0\ndrwxr-xr-x   2 fukuokase  staff    64B Mar 19 10:23 .\ndrwxr-xr-x  10 fukuokase  staff   320B Apr  8 11:19 .."
+          }
+        ],
+        "isExpanded": false,
+        "result": "Now I have a complete understanding of the person described in these files. Let me provide a comprehensive summary:\n\n## Comprehensive Personality Profile\n\n### 1. Personality Traits & Communication Style\n\n**Core characteristics:**\n- **Energetic and enthusiastic**: Heavy use of exclamation marks (!) to convey passion and emotional intensity\n- **Thoughtful and considerate**: Uses soft, cushioning language (\"ごめん、\" / \"sorry,\" \"ちょっと\" / \"a sec\") to avoid sounding harsh or demanding\n- **Authentic and straightforward**: Values original thinking over mimicking others; dislikes polished facades\n- **Growth-oriented and reflective**: Constantly learns from mistakes and maintains humility about past struggles\n- **Pragmatic and results-focused**: Prioritizes actionable advice over theoretical perfection\n\n**Writing style quirks:**\n- Mixes formal and casual language strategically: Uses polite \"desu/masu\" for professional requests, but switches to casual masculine-leaning expressions for personal opinions (\"痛い\" / \"painful,\" \"やってられない\" / \"can't be bothered\")\n- Favors short, punchy sentences with good rhythm rather than long explanations\n- Uses conversational connectors (\"て,\" \"なんで,\" \"でも\") instead of formal conjunctions\n- Employs the structure: \"situation/fact\" + \"emotion/request\" in rapid succession\n- Minimal but strategic emoji use (💦, 😈, 🙃, 😇, 🤔) to humanize online communication\n\n### 2. Interests & Hobbies\n\n- **Digital content creation**: Primary focus on X (Twitter) and note platforms\n- **Web development & design**: Specialized in Vite-based site construction (currently); previously used Gulp for SCSS compilation\n- **WordPress customization**: Comfortable with hands-on modifications without deep programming knowledge\n- **AI integration**: Enthusiastic about using AI for efficiency and content creation\n- **SEO and algorithm optimization**: Deep interest in understanding what makes content \"pop\"\n- **Entrepreneurship**: Focused on side hustles, monetization strategies, and building online presence\n\n### 3. Values & Beliefs\n\n- **Authenticity over polish**: Rejects AI-generated content that's obviously synthetic; values human experience and personal stories\n- **Process over results**: Emphasizes that how you get there matters more than the destination\n- **Starting point matters**: \"初心\" (beginner's mind) is treated as sacred—something to return to when lost\n- **Self-comparison only**: Avoids measuring against others' success; tracks only personal progress\n- **Strategic clarity**: Values having a clear mission statement (\"Who am I changing what for?\")\n- **User empowerment over hand-holding**: Believes leaving intellectual space for readers to think independently is more respectful than over-explaining\n- **Rejection of manipulation**: Warns against overhyped claims and \"quick-fix\" promises\n- **Responsibility in communication**: Carefully avoids prohibited content and maintains ethical standards on social platforms\n\n### 4. Typical Way of Expressing Opinions\n\n- **Data-driven confidence**: Uses specific numbers and personal anecdotes (\"700円 → 3万円\" / \"$7 → $300\")\n- **Pattern recognition**: Identifies recurring problems and reduces them to \"3 patterns\" or simple frameworks\n- **Candid self-deprecation**: Freely admits past failures (\"僕も今年の2月8日から始めたけど1ヶ月くらいはこんな状態でした\" / \"I was like this for a month too\")\n- **Bullish about methodology**: Statements like \"冗談抜きで\" (no joke) and \"断言する\" (I say this with certainty) when confident\n- **Reality checks with humor**: Softens harsh criticism with emojis and self-aware commentary\n\n### 5. Passionate Topics\n\n1. **Content monetization strategy**: Obsessive about title formulas and audience targeting\n2. **Breaking through algorithmic stagnation**: Deeply interested in why accounts plateau\n3. **X/Twitter growth mechanics**: Understands the gap between sincere effort and actual results\n4. **AI as collaborative tool**: Views AI not as a replacement but as a \"business partner\"\n5. **Account design fundamentals**: Passionate about the clarity of positioning (\"何者か\" / \"what are you?\")\n6. **Platform safety**: Maintains detailed knowledge of prohibited words and regulations\n7. **The beginner's mindset preservation**: Repeatedly emphasizes returning to original intentions\n\n### 6. Tone When Commenting on Others' Posts\n\n- **Generous but honest**: Acknowledges common pitfalls while offering hope (\"これで悩んでるなら\" / \"if you're struggling with this\")\n- **Diagnostic approach**: Instead of \"you're doing it wrong,\" says \"9割は気づかない\" (90% don't realize) the real issue\n- **Self-inclusive humility**: \"昔の自分これだった\" (I used to be exactly like this) creates camaraderie\n- **Firm but not harsh**: Uses phrases like \"センスじゃなくて、型の話です\" (it's not about talent, it's about method) to depersonalize criticism\n- **Slightly irreverent humor**: References \"変態レベルに突き抜けた人が勝つ\" (weirdly brilliant people win) with a mix of respect and playful observation\n- **Future-focused encouragement**: Ends with actionable next steps rather than dwelling on problems\n\n### Overall Essence\n\nThis person is a **pragmatic mentor-coach hybrid** who has climbed from zero to tangible success in online platforms and is now documenting the patterns that actually work. They combine technical competence (web development, AI) with marketing psychology and maintain genuine humility about ongoing learning. Their voice is distinctly Japanese in structure but aggressively forward-thinking in content, with a philosophy that authenticity + systems thinking = sustainable growth."
+      }
+    }
+  },
+  "currentNote": "_kiwami/memo.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 773,
+    "cacheReadInputTokens": 37209,
+    "contextWindow": 200000,
+    "contextTokens": 37983,
+    "percentage": 19,
+    "contextWindowIsAuthoritative": true
+  }
+}

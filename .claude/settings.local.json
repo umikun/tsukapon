@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_claude-mem_mem-search__search",
+      "mcp__plugin_claude-mem_mem-search__get_observations",
+      "mcp__plugin_claude-mem_mem-search__get_observation",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT name, active, triggerCount FROM workflow_entity;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT id, workflowId, mode, status, startedAt, stoppedAt FROM execution_entity ORDER BY startedAt DESC LIMIT 15;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT datetime\\('now'\\) AS utc_now, datetime\\('now','localtime'\\) AS local_now;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT id, status, startedAt, stoppedAt FROM execution_entity WHERE workflowId='TuQn8cgrU8dTl2YP' ORDER BY startedAt DESC LIMIT 3;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT id, status, startedAt, stoppedAt FROM execution_entity WHERE status='error' ORDER BY startedAt DESC LIMIT 5;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT name FROM sqlite_master WHERE type='table' AND name LIKE '%execution%';\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT name FROM sqlite_master WHERE type='table';\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT ee.id, ee.status, substr\\(ed.data, 1, 500\\) FROM execution_entity ee JOIN execution_data ed ON ee.id = ed.executionId WHERE ee.workflowId='TuQn8cgrU8dTl2YP' ORDER BY ee.startedAt DESC LIMIT 1;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT ed.data FROM execution_entity ee JOIN execution_data ed ON ee.id = ed.executionId WHERE ee.workflowId='TuQn8cgrU8dTl2YP' ORDER BY ee.startedAt DESC LIMIT 1;\")",
+      "Read(//tmp/**)",
+      "Bash(python3)",
+      "Bash(cp /tmp/n8n_clockify_last_id.txt /tmp/n8n_clockify_last_id.txt.bak)",
+      "Bash(echo -n \"69eae84eee3ed6a1d275d510\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT json_extract\\(nodes, '$'\\) FROM workflow_entity WHERE id='TuQn8cgrU8dTl2YP';\")",
+      "Bash(python3 -c ' *)",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT connections FROM workflow_entity WHERE id='TuQn8cgrU8dTl2YP';\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT active, updatedAt FROM workflow_entity WHERE id='TuQn8cgrU8dTl2YP';\")",
+      "Bash(wait)",
+      "Bash(launchctl load *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:5678)",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT datetime\\('now','localtime'\\) AS now_jst, datetime\\(max\\(startedAt\\),'+9 hours'\\) AS last_run_jst FROM execution_entity WHERE workflowId='TuQn8cgrU8dTl2YP';\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT status, count\\(*\\) FROM execution_entity WHERE workflowId='TuQn8cgrU8dTl2YP' AND startedAt >= '2026-04-20' GROUP BY status;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT datetime\\(startedAt,'+9 hours'\\) AS jst, status FROM execution_entity WHERE workflowId='TuQn8cgrU8dTl2YP' AND startedAt >= '2026-04-20' AND status='error' ORDER BY startedAt ASC;\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT datetime\\(min\\(startedAt\\),'+9 hours'\\), datetime\\(max\\(startedAt\\),'+9 hours'\\) FROM execution_entity WHERE workflowId='TuQn8cgrU8dTl2YP' AND startedAt >= '2026-04-20';\")",
+      "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT name, type, substr\\(data, 1, 200\\) FROM credentials_entity;\")",
+      "mcp__claude_ai_Google_Calendar__list_calendars",
+      "mcp__claude_ai_Google_Calendar__list_events"
+    ]
+  }
+}

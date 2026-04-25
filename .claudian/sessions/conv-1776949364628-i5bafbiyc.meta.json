@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776949364628-i5bafbiyc",
+  "providerId": "claude",
+  "title": "Create deep analysis markdown skill",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776949364641,
+  "updatedAt": 1777083333201,
+  "lastResponseAt": 1777075722174,
+  "sessionId": "4e278066-f6f2-4b84-a965-f32f755ce1bd",
+  "providerState": {
+    "providerSessionId": "4e278066-f6f2-4b84-a965-f32f755ce1bd"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 576,
+    "cacheReadInputTokens": 82243,
+    "contextWindow": 200000,
+    "contextTokens": 82820,
+    "percentage": 41,
+    "contextWindowIsAuthoritative": true
+  }
+}

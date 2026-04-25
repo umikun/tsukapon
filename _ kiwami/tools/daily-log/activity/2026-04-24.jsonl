@@ -1,0 +1,375 @@
+{"ts": "16:16", "app": "unknown", "title": "", "idle": 0, "cat": "other"}
+{"ts": "16:17", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "16:18", "app": "Claude", "title": "Claude", "idle": 43, "cat": "focus"}
+{"ts": "16:19", "app": "Claude", "title": "Claude", "idle": 103, "cat": "focus"}
+{"ts": "16:20", "app": "Claude", "title": "Claude", "idle": 164, "cat": "focus"}
+{"ts": "16:21", "app": "stable", "title": "#", "idle": 0, "cat": "other"}
+{"ts": "16:22", "app": "Google Chrome", "title": "Daily Log (Standalone) - Google Chrome - kun", "idle": 8, "cat": "other"}
+{"ts": "16:23", "app": "Opera", "title": "Clockify", "idle": 1, "cat": "focus"}
+{"ts": "16:24", "app": "Opera", "title": "Clockify", "idle": 0, "cat": "focus"}
+{"ts": "16:25", "app": "Opera", "title": "Clockify", "idle": 51, "cat": "focus"}
+{"ts": "16:26", "app": "Opera", "title": "Clockify", "idle": 111, "cat": "focus"}
+{"ts": "16:27", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "16:28", "app": "Cursor", "title": "Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "16:29", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "16:30", "app": "Claude", "title": "Claude", "idle": 2, "cat": "focus"}
+{"ts": "16:31", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "16:32", "app": "Claude", "title": "Claude", "idle": 44, "cat": "focus"}
+{"ts": "16:33", "app": "Claude", "title": "Claude", "idle": 104, "cat": "focus"}
+{"ts": "16:34", "app": "Claude", "title": "Claude", "idle": 165, "cat": "focus"}
+{"ts": "16:35", "app": "Claude", "title": "Claude", "idle": 225, "cat": "idle"}
+{"ts": "16:36", "app": "Claude", "title": "Claude", "idle": 5, "cat": "focus"}
+{"ts": "16:37", "app": "Google Chrome", "title": "Workflow Automation - n8n[DEV] - 固定済み - Google Chrome - kun", "idle": 11, "cat": "other"}
+{"ts": "16:38", "app": "Cursor", "title": "Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "16:39", "app": "Cursor", "title": "Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "16:40", "app": "Cursor", "title": "Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "16:41", "app": "Cursor", "title": "Tsukapon", "idle": 15, "cat": "focus"}
+{"ts": "16:42", "app": "Finder", "title": "ダウンロード", "idle": 1, "cat": "other"}
+{"ts": "16:43", "app": "Cursor", "title": "Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "16:44", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 4, "cat": "focus"}
+{"ts": "16:45", "app": "Google Chrome", "title": "Workflow Automation - n8n[DEV] - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:46", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 37, "cat": "other"}
+{"ts": "16:47", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "16:48", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 65, "cat": "other"}
+{"ts": "16:49", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 126, "cat": "other"}
+{"ts": "16:50", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 187, "cat": "idle"}
+{"ts": "16:51", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 247, "cat": "idle"}
+{"ts": "16:52", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 307, "cat": "idle"}
+{"ts": "16:53", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 368, "cat": "idle"}
+{"ts": "16:54", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 428, "cat": "idle"}
+{"ts": "16:55", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 489, "cat": "idle"}
+{"ts": "16:56", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "16:57", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "16:58", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "16:59", "app": "Claude", "title": "Claude", "idle": 9, "cat": "focus"}
+{"ts": "17:00", "app": "Claude", "title": "Claude", "idle": 70, "cat": "focus"}
+{"ts": "17:01", "app": "Claude", "title": "Claude", "idle": 130, "cat": "focus"}
+{"ts": "17:02", "app": "Claude", "title": "Claude", "idle": 191, "cat": "idle"}
+{"ts": "17:03", "app": "Claude", "title": "Claude", "idle": 251, "cat": "idle"}
+{"ts": "17:04", "app": "Claude", "title": "Claude", "idle": 312, "cat": "idle"}
+{"ts": "17:05", "app": "Claude", "title": "Claude", "idle": 372, "cat": "idle"}
+{"ts": "17:06", "app": "Claude", "title": "Claude", "idle": 432, "cat": "idle"}
+{"ts": "17:07", "app": "Claude", "title": "Claude", "idle": 493, "cat": "idle"}
+{"ts": "17:08", "app": "Day One", "title": "すべての項目", "idle": 0, "cat": "distraction"}
+{"ts": "17:09", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "17:10", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 2, "cat": "focus"}
+{"ts": "17:11", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 5, "cat": "focus"}
+{"ts": "17:12", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 3, "cat": "focus"}
+{"ts": "17:13", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 17, "cat": "focus"}
+{"ts": "17:14", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 48, "cat": "focus"}
+{"ts": "17:16", "app": "Cursor", "title": "2026-04-24 16.42.23.png — Tsukapon", "idle": 2, "cat": "focus"}
+{"ts": "17:17", "app": "Cursor", "title": "2026-04-24 17.16.13.png — Tsukapon", "idle": 6, "cat": "focus"}
+{"ts": "17:18", "app": "Cursor", "title": "2026-04-24 17.16.13.png — Tsukapon", "idle": 3, "cat": "focus"}
+{"ts": "17:19", "app": "Cursor", "title": "2026-04-24 17.16.13.png — Tsukapon", "idle": 64, "cat": "focus"}
+{"ts": "17:20", "app": "Cursor", "title": "2026-04-24 17.16.13.png — Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "17:21", "app": "Cursor", "title": "2026-04-24 17.16.13.png — Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "17:22", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "17:23", "app": "Opera", "title": "[1]Chatwork - 【SE共有】連絡用", "idle": 0, "cat": "focus"}
+{"ts": "17:24", "app": "Google Chrome", "title": "comic - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "17:25", "app": "Google Chrome", "title": "【衝撃】旭山動物園の焼却炉に妻の遺体遺棄か　市職員の30代男が供述「園内に…」現在も捜査中：哲学ニュースnwk - Google Chrome - kun", "idle": 7, "cat": "other"}
+{"ts": "17:26", "app": "Google Chrome", "title": "【衝撃】旭山動物園の焼却炉に妻の遺体遺棄か　市職員の30代男が供述「園内に…」現在も捜査中：哲学ニュースnwk - Google Chrome - kun", "idle": 45, "cat": "other"}
+{"ts": "17:27", "app": "Google Chrome", "title": "痛いニュース(ﾉ∀`) : 【長野】男子高校生が重傷　自転車に乗っていて後ろから車にはねられる　車を運転の59歳男を過失運転傷害の疑いで現行犯逮捕　松本 - ライブドアブログ - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "17:28", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 3, "cat": "other"}
+{"ts": "17:29", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "17:30", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "17:31", "app": "Finder", "title": "Tsukapon", "idle": 0, "cat": "other"}
+{"ts": "17:32", "app": "cooViewer", "title": "AccessoryWindow", "idle": 3, "cat": "distraction"}
+{"ts": "17:33", "app": "cooViewer", "title": "AccessoryWindow", "idle": 17, "cat": "distraction"}
+{"ts": "17:34", "app": "cooViewer", "title": "AccessoryWindow", "idle": 6, "cat": "distraction"}
+{"ts": "17:35", "app": "cooViewer", "title": "AccessoryWindow", "idle": 19, "cat": "distraction"}
+{"ts": "17:36", "app": "cooViewer", "title": "AccessoryWindow", "idle": 8, "cat": "distraction"}
+{"ts": "17:37", "app": "cooViewer", "title": "AccessoryWindow", "idle": 8, "cat": "distraction"}
+{"ts": "17:38", "app": "cooViewer", "title": "AccessoryWindow", "idle": 0, "cat": "distraction"}
+{"ts": "17:39", "app": "Finder", "title": "ダウンロード", "idle": 7, "cat": "other"}
+{"ts": "17:40", "app": "Finder", "title": "ダウンロード", "idle": 1, "cat": "other"}
+{"ts": "17:41", "app": "cooViewer", "title": "AccessoryWindow", "idle": 28, "cat": "distraction"}
+{"ts": "17:42", "app": "Opera", "title": "チャット | デンタル・SE 連絡用 | Microsoft Teams", "idle": 0, "cat": "focus"}
+{"ts": "17:43", "app": "cooViewer", "title": "AccessoryWindow", "idle": 12, "cat": "distraction"}
+{"ts": "17:44", "app": "cooViewer", "title": "AccessoryWindow", "idle": 12, "cat": "distraction"}
+{"ts": "17:45", "app": "cooViewer", "title": "AccessoryWindow", "idle": 4, "cat": "distraction"}
+{"ts": "17:46", "app": "cooViewer", "title": "AccessoryWindow", "idle": 24, "cat": "distraction"}
+{"ts": "17:47", "app": "Finder", "title": "ダウンロード", "idle": 0, "cat": "other"}
+{"ts": "17:48", "app": "Preview", "title": "スポットライト求人変更依頼4.24.pdf – 1ページ", "idle": 4, "cat": "other"}
+{"ts": "17:49", "app": "Finder", "title": "iCloud Drive", "idle": 1, "cat": "other"}
+{"ts": "17:50", "app": "Docker Desktop", "title": "Containers - Docker Desktop", "idle": 3, "cat": "other"}
+{"ts": "17:51", "app": "Sourcetree", "title": "local_e-dentist (Git)", "idle": 0, "cat": "focus"}
+{"ts": "17:52", "app": "Code", "title": "Claude Code — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "17:53", "app": "Google Chrome", "title": "医療法人 田園会の歯科求人募集情報｜e-dentist - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "17:54", "app": "Code", "title": "index.html — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "17:55", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "17:56", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "17:57", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "17:58", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 37, "cat": "other"}
+{"ts": "17:59", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 97, "cat": "other"}
+{"ts": "18:00", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:01", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:02", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 2, "cat": "other"}
+{"ts": "18:03", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:04", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:05", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:06", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 25, "cat": "other"}
+{"ts": "18:07", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 8, "cat": "other"}
+{"ts": "18:08", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 30, "cat": "other"}
+{"ts": "18:09", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:10", "app": "Code", "title": "", "idle": 0, "cat": "other"}
+{"ts": "18:11", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 27, "cat": "other"}
+{"ts": "18:12", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:13", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 17, "cat": "other"}
+{"ts": "18:14", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 4, "cat": "other"}
+{"ts": "18:15", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:16", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:17", "app": "Code", "title": "style.scss — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:18", "app": "Opera", "title": "チャット | デンタル・SE 連絡用 | Microsoft Teams", "idle": 0, "cat": "focus"}
+{"ts": "18:19", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:20", "app": "Opera", "title": "Chatwork - 田村佳加", "idle": 0, "cat": "focus"}
+{"ts": "18:21", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 11, "cat": "other"}
+{"ts": "18:22", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:23", "app": "Opera", "title": "トップページ - サイボウズ Office", "idle": 1, "cat": "focus"}
+{"ts": "18:24", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 0, "cat": "other"}
+{"ts": "18:25", "app": "Google Chrome", "title": "e-dentist ページ構築 - Google Chrome - kun", "idle": 9, "cat": "other"}
+{"ts": "18:26", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 16, "cat": "other"}
+{"ts": "18:27", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 76, "cat": "other"}
+{"ts": "18:28", "app": "Opera", "title": "トップページ - サイボウズ Office", "idle": 0, "cat": "focus"}
+{"ts": "18:29", "app": "Opera", "title": "Clockify", "idle": 0, "cat": "focus"}
+{"ts": "18:30", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 29, "cat": "other"}
+{"ts": "18:31", "app": "Google Chrome", "title": "Notes · Standard Notes - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:32", "app": "Google Chrome", "title": "Notes · Standard Notes - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:33", "app": "Google Chrome", "title": "Notes · Standard Notes - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "18:34", "app": "Opera", "title": "Clockify", "idle": 0, "cat": "focus"}
+{"ts": "18:35", "app": "cooViewer", "title": "AccessoryWindow", "idle": 15, "cat": "distraction"}
+{"ts": "18:36", "app": "cooViewer", "title": "AccessoryWindow", "idle": 9, "cat": "distraction"}
+{"ts": "18:37", "app": "cooViewer", "title": "AccessoryWindow", "idle": 27, "cat": "distraction"}
+{"ts": "18:38", "app": "cooViewer", "title": "AccessoryWindow", "idle": 13, "cat": "distraction"}
+{"ts": "18:39", "app": "cooViewer", "title": "AccessoryWindow", "idle": 17, "cat": "distraction"}
+{"ts": "18:40", "app": "cooViewer", "title": "AccessoryWindow", "idle": 23, "cat": "distraction"}
+{"ts": "18:41", "app": "Code", "title": "Highlight last item with… — local_e-dentist", "idle": 2, "cat": "other"}
+{"ts": "18:42", "app": "Sourcetree", "title": "【dentist】_staging (Git)", "idle": 0, "cat": "focus"}
+{"ts": "18:43", "app": "Opera", "title": "ピックアップページ「田園会」修正依頼対応。 — e-dentist.co.jp — Bitbucket", "idle": 0, "cat": "focus"}
+{"ts": "18:44", "app": "stable", "title": "edentist@staging:~", "idle": 0, "cat": "other"}
+{"ts": "18:45", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "18:46", "app": "Opera", "title": "チャット | デンタル・SE 連絡用 | Microsoft Teams", "idle": 0, "cat": "focus"}
+{"ts": "18:47", "app": "Opera", "title": "チャット | デンタル・SE 連絡用 | Microsoft Teams", "idle": 0, "cat": "focus"}
+{"ts": "18:48", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 34, "cat": "focus"}
+{"ts": "18:49", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 95, "cat": "focus"}
+{"ts": "18:50", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 155, "cat": "focus"}
+{"ts": "18:51", "app": "cooViewer", "title": "AccessoryWindow", "idle": 0, "cat": "distraction"}
+{"ts": "18:52", "app": "cooViewer", "title": "AccessoryWindow", "idle": 42, "cat": "distraction"}
+{"ts": "18:53", "app": "cooViewer", "title": "AccessoryWindow", "idle": 6, "cat": "distraction"}
+{"ts": "18:54", "app": "cooViewer", "title": "AccessoryWindow", "idle": 3, "cat": "distraction"}
+{"ts": "18:55", "app": "cooViewer", "title": "AccessoryWindow", "idle": 12, "cat": "distraction"}
+{"ts": "18:56", "app": "cooViewer", "title": "AccessoryWindow", "idle": 0, "cat": "distraction"}
+{"ts": "18:57", "app": "cooViewer", "title": "AccessoryWindow", "idle": 3, "cat": "distraction"}
+{"ts": "18:58", "app": "Opera", "title": "アクティビティ | デンタル・SE 連絡用 | Microsoft Teams", "idle": 5, "cat": "focus"}
+{"ts": "18:59", "app": "cooViewer", "title": "AccessoryWindow", "idle": 1, "cat": "distraction"}
+{"ts": "19:00", "app": "cooViewer", "title": "AccessoryWindow", "idle": 9, "cat": "distraction"}
+{"ts": "19:01", "app": "Google Chrome", "title": "Daily Log (Standalone) - 固定済み - Google Chrome - kun", "idle": 11, "cat": "other"}
+{"ts": "19:02", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "19:03", "app": "Opera", "title": "アナリティクス / X", "idle": 0, "cat": "focus"}
+{"ts": "19:04", "app": "Opera", "title": "メッセージの詳細 - サイボウズ Office", "idle": 0, "cat": "focus"}
+{"ts": "19:05", "app": "Google Chrome", "title": "Grok - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "19:06", "app": "Google Chrome", "title": "New conversation - Grok - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "19:07", "app": "Google Chrome", "title": "日本語AIポスト：過去3時間で5,000超0件 - Grok - 固定済み - Google Chrome - kun", "idle": 61, "cat": "other"}
+{"ts": "19:08", "app": "Google Chrome", "title": "W17-Claude統合運用フロー.md - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "19:09", "app": "Google Chrome", "title": "日本語AIポスト：過去3時間で5,000超0件 - Grok - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "19:10", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "19:11", "app": "Google Chrome", "title": "日本語AIポスト：過去3時間で5,000超0件 - Grok - 固定済み - Google Chrome - kun", "idle": 4, "cat": "other"}
+{"ts": "19:12", "app": "Google Chrome", "title": "ホーム / X - X(Twitter) AI投稿分析・引用RT作成 グループの一部 - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "19:13", "app": "Google Chrome", "title": "XユーザーのDai Motoki | ZentoAI（全国統一生成AI活用技能試験） 責任者さん: 「GPT Image2 → Codex GPT 5.5で大事なことは、 ボケた画像をクリアにすることや、 文字と画像を別々にすることが挙げられます。 「image genを使ってimage to imageをやって」 というと、確実に実行してくれます。 https://t.co/SLwCAlQfZ4」 / X - ⌛X(Twitter) AI投稿分析・引用RT作成 グループの一部 - Google Chrome - kun", "idle": 32, "cat": "other"}
+{"ts": "19:15", "app": "Google Chrome", "title": "XユーザーのDai Motoki | ZentoAI（全国統一生成AI活用技能試験） 責任者さん: 「GPT Image2 → Codex GPT 5.5で大事なことは、 ボケた画像をクリアにすることや、 文字と画像を別々にすることが挙げられます。 「image genを使ってimage to imageをやって」 というと、確実に実行してくれます。 https://t.co/SLwCAlQfZ4」 / X - ⌛X(Twitter) AI投稿分析・引用RT作成 グループの一部 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "19:16", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "19:17", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 4, "cat": "focus"}
+{"ts": "19:18", "app": "Google Chrome", "title": "XユーザーのDai Motoki | ZentoAI（全国統一生成AI活用技能試験） 責任者さん: 「GPT Image2 → Codex GPT 5.5で大事なことは、 ボケた画像をクリアにすることや、 文字と画像を別々にすることが挙げられます。 「image genを使ってimage to imageをやって」 というと、確実に実行してくれます。 https://t.co/SLwCAlQfZ4」 / X - Google Chrome - kun", "idle": 3, "cat": "other"}
+{"ts": "19:19", "app": "Google Chrome", "title": "XユーザーのDai Motoki | ZentoAI（全国統一生成AI活用技能試験） 責任者さん: 「GPT Image2 → Codex GPT 5.5で大事なことは、 ボケた画像をクリアにすることや、 文字と画像を別々にすることが挙げられます。 「image genを使ってimage to imageをやって」 というと、確実に実行してくれます。 https://t.co/SLwCAlQfZ4」 / X - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "19:20", "app": "Google Chrome", "title": "", "idle": 0, "cat": "other"}
+{"ts": "19:21", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "19:22", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "19:23", "app": "cooViewer", "title": "AccessoryWindow", "idle": 19, "cat": "distraction"}
+{"ts": "19:24", "app": "Finder", "title": "ダウンロード", "idle": 0, "cat": "other"}
+{"ts": "19:25", "app": "Finder", "title": "ダウンロード", "idle": 2, "cat": "other"}
+{"ts": "19:26", "app": "Finder", "title": "MEGA", "idle": 0, "cat": "other"}
+{"ts": "19:27", "app": "Obsidian", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "19:28", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "19:29", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 49, "cat": "focus"}
+{"ts": "19:30", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 110, "cat": "focus"}
+{"ts": "19:31", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 170, "cat": "focus"}
+{"ts": "19:32", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 231, "cat": "idle"}
+{"ts": "19:33", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 291, "cat": "idle"}
+{"ts": "19:34", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 3, "cat": "focus"}
+{"ts": "19:35", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 64, "cat": "focus"}
+{"ts": "19:36", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 124, "cat": "focus"}
+{"ts": "19:37", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 184, "cat": "idle"}
+{"ts": "19:38", "app": "Opera", "title": "[1]Chatwork - 【SE共有】連絡用", "idle": 0, "cat": "focus"}
+{"ts": "19:39", "app": "Opera", "title": "メッセージの送信（再利用） - サイボウズ Office", "idle": 0, "cat": "focus"}
+{"ts": "19:40", "app": "Microsoft Word", "title": "日報 令和8年04月24日（大隅）.docx", "idle": 0, "cat": "focus"}
+{"ts": "19:41", "app": "Google Chrome", "title": "", "idle": 0, "cat": "other"}
+{"ts": "19:42", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 42, "cat": "focus"}
+{"ts": "19:43", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 102, "cat": "focus"}
+{"ts": "19:44", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 162, "cat": "focus"}
+{"ts": "19:45", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 223, "cat": "idle"}
+{"ts": "19:46", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 283, "cat": "idle"}
+{"ts": "19:47", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 344, "cat": "idle"}
+{"ts": "19:48", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 404, "cat": "idle"}
+{"ts": "19:49", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 465, "cat": "idle"}
+{"ts": "19:50", "app": "Opera", "title": "チャット | Ohsumi Tsukasa | Microsoft Teams", "idle": 525, "cat": "idle"}
+{"ts": "19:51", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 4, "cat": "focus"}
+{"ts": "19:52", "app": "Obsidian", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "19:53", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 46, "cat": "focus"}
+{"ts": "19:54", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 107, "cat": "focus"}
+{"ts": "19:55", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 167, "cat": "focus"}
+{"ts": "19:56", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 228, "cat": "idle"}
+{"ts": "19:57", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 5, "cat": "focus"}
+{"ts": "19:58", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 65, "cat": "focus"}
+{"ts": "19:59", "app": "Opera", "title": "Chatwork - 【保守】武蔵野赤十字病院", "idle": 39, "cat": "focus"}
+{"ts": "20:00", "app": "Opera", "title": "Chatwork - 【保守】武蔵野赤十字病院", "idle": 100, "cat": "focus"}
+{"ts": "20:01", "app": "Opera", "title": "Chatwork - 【保守】武蔵野赤十字病院", "idle": 160, "cat": "focus"}
+{"ts": "20:02", "app": "Finder", "title": "iCloud Drive", "idle": 28, "cat": "other"}
+{"ts": "20:03", "app": "Finder", "title": "iCloud Drive", "idle": 88, "cat": "other"}
+{"ts": "20:04", "app": "Finder", "title": "iCloud Drive", "idle": 149, "cat": "other"}
+{"ts": "20:05", "app": "Finder", "title": "iCloud Drive", "idle": 209, "cat": "idle"}
+{"ts": "20:06", "app": "Finder", "title": "iCloud Drive", "idle": 270, "cat": "idle"}
+{"ts": "20:07", "app": "Finder", "title": "iCloud Drive", "idle": 330, "cat": "idle"}
+{"ts": "20:08", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 6, "cat": "focus"}
+{"ts": "20:09", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 27, "cat": "focus"}
+{"ts": "20:10", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 88, "cat": "focus"}
+{"ts": "20:11", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 148, "cat": "focus"}
+{"ts": "20:12", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 209, "cat": "idle"}
+{"ts": "20:13", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 270, "cat": "idle"}
+{"ts": "20:14", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 330, "cat": "idle"}
+{"ts": "20:15", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 391, "cat": "idle"}
+{"ts": "20:16", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 451, "cat": "idle"}
+{"ts": "20:17", "app": "Obsidian", "title": "", "idle": 511, "cat": "idle"}
+{"ts": "20:18", "app": "Obsidian", "title": "", "idle": 572, "cat": "idle"}
+{"ts": "20:19", "app": "Obsidian", "title": "", "idle": 632, "cat": "idle"}
+{"ts": "20:20", "app": "Obsidian", "title": "", "idle": 693, "cat": "idle"}
+{"ts": "20:21", "app": "Obsidian", "title": "", "idle": 753, "cat": "idle"}
+{"ts": "20:22", "app": "Obsidian", "title": "", "idle": 814, "cat": "idle"}
+{"ts": "20:23", "app": "Obsidian", "title": "", "idle": 874, "cat": "idle"}
+{"ts": "20:24", "app": "Obsidian", "title": "", "idle": 935, "cat": "idle"}
+{"ts": "20:25", "app": "Obsidian", "title": "", "idle": 995, "cat": "idle"}
+{"ts": "20:26", "app": "Obsidian", "title": "", "idle": 1056, "cat": "idle"}
+{"ts": "20:27", "app": "Obsidian", "title": "", "idle": 1116, "cat": "idle"}
+{"ts": "20:28", "app": "Obsidian", "title": "", "idle": 1177, "cat": "idle"}
+{"ts": "20:29", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "20:30", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:31", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 20, "cat": "focus"}
+{"ts": "20:32", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 80, "cat": "focus"}
+{"ts": "20:33", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 141, "cat": "focus"}
+{"ts": "20:34", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:35", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:36", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:37", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:38", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 14, "cat": "focus"}
+{"ts": "20:39", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 74, "cat": "focus"}
+{"ts": "20:40", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 26, "cat": "focus"}
+{"ts": "20:41", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 87, "cat": "focus"}
+{"ts": "20:42", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 148, "cat": "focus"}
+{"ts": "20:43", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 208, "cat": "idle"}
+{"ts": "20:44", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 268, "cat": "idle"}
+{"ts": "20:45", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 329, "cat": "idle"}
+{"ts": "20:46", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 389, "cat": "idle"}
+{"ts": "20:47", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 450, "cat": "idle"}
+{"ts": "20:48", "app": "Obsidian", "title": "", "idle": 510, "cat": "idle"}
+{"ts": "20:49", "app": "Obsidian", "title": "", "idle": 571, "cat": "idle"}
+{"ts": "20:50", "app": "Obsidian", "title": "", "idle": 631, "cat": "idle"}
+{"ts": "20:51", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 13, "cat": "focus"}
+{"ts": "20:52", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 73, "cat": "focus"}
+{"ts": "20:53", "app": "Obsidian", "title": "20260424_quote_draft - Tsukapon - Obsidian 1.12.7", "idle": 134, "cat": "focus"}
+{"ts": "20:54", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:55", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 46, "cat": "focus"}
+{"ts": "20:56", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 107, "cat": "focus"}
+{"ts": "20:57", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 167, "cat": "focus"}
+{"ts": "20:58", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 228, "cat": "idle"}
+{"ts": "20:59", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 288, "cat": "idle"}
+{"ts": "21:00", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 348, "cat": "idle"}
+{"ts": "21:01", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 409, "cat": "idle"}
+{"ts": "21:02", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 469, "cat": "idle"}
+{"ts": "21:03", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "21:04", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 33, "cat": "focus"}
+{"ts": "21:05", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 39, "cat": "focus"}
+{"ts": "21:06", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 99, "cat": "focus"}
+{"ts": "21:07", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 14, "cat": "focus"}
+{"ts": "21:08", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 74, "cat": "focus"}
+{"ts": "21:09", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 135, "cat": "focus"}
+{"ts": "21:10", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 195, "cat": "idle"}
+{"ts": "21:11", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 255, "cat": "idle"}
+{"ts": "21:12", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 316, "cat": "idle"}
+{"ts": "21:13", "app": "Obsidian", "title": "", "idle": 376, "cat": "idle"}
+{"ts": "21:14", "app": "Obsidian", "title": "", "idle": 437, "cat": "idle"}
+{"ts": "21:15", "app": "Obsidian", "title": "", "idle": 497, "cat": "idle"}
+{"ts": "21:16", "app": "Obsidian", "title": "", "idle": 558, "cat": "idle"}
+{"ts": "21:18", "app": "Obsidian", "title": "", "idle": 619, "cat": "idle"}
+{"ts": "21:19", "app": "Obsidian", "title": "", "idle": 680, "cat": "idle"}
+{"ts": "21:20", "app": "Obsidian", "title": "", "idle": 740, "cat": "idle"}
+{"ts": "21:21", "app": "Obsidian", "title": "", "idle": 801, "cat": "idle"}
+{"ts": "21:22", "app": "Obsidian", "title": "", "idle": 861, "cat": "idle"}
+{"ts": "21:23", "app": "Obsidian", "title": "", "idle": 922, "cat": "idle"}
+{"ts": "21:24", "app": "Obsidian", "title": "", "idle": 982, "cat": "idle"}
+{"ts": "21:25", "app": "Obsidian", "title": "", "idle": 1043, "cat": "idle"}
+{"ts": "21:26", "app": "Obsidian", "title": "", "idle": 1103, "cat": "idle"}
+{"ts": "21:27", "app": "Obsidian", "title": "", "idle": 1164, "cat": "idle"}
+{"ts": "21:28", "app": "Obsidian", "title": "", "idle": 1224, "cat": "idle"}
+{"ts": "21:29", "app": "Obsidian", "title": "", "idle": 1284, "cat": "idle"}
+{"ts": "21:30", "app": "Obsidian", "title": "", "idle": 1345, "cat": "idle"}
+{"ts": "21:31", "app": "Obsidian", "title": "", "idle": 1406, "cat": "idle"}
+{"ts": "21:32", "app": "Obsidian", "title": "", "idle": 1466, "cat": "idle"}
+{"ts": "21:33", "app": "Obsidian", "title": "", "idle": 1527, "cat": "idle"}
+{"ts": "21:34", "app": "Obsidian", "title": "", "idle": 1587, "cat": "idle"}
+{"ts": "21:35", "app": "Obsidian", "title": "", "idle": 1648, "cat": "idle"}
+{"ts": "21:36", "app": "Obsidian", "title": "", "idle": 1708, "cat": "idle"}
+{"ts": "21:37", "app": "Obsidian", "title": "", "idle": 1768, "cat": "idle"}
+{"ts": "21:38", "app": "Obsidian", "title": "", "idle": 1829, "cat": "idle"}
+{"ts": "21:39", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:40", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:41", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 18, "cat": "focus"}
+{"ts": "21:42", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 18, "cat": "focus"}
+{"ts": "21:43", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 79, "cat": "focus"}
+{"ts": "21:44", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 139, "cat": "focus"}
+{"ts": "21:45", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 200, "cat": "idle"}
+{"ts": "21:46", "app": "Obsidian", "title": "グラフビュー - Tsukapon - Obsidian 1.12.7", "idle": 260, "cat": "idle"}
+{"ts": "21:47", "app": "Obsidian", "title": "day59 - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "21:48", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "21:49", "app": "Opera", "title": "アナリティクス / X", "idle": 16, "cat": "focus"}
+{"ts": "21:50", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 29, "cat": "focus"}
+{"ts": "21:51", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 89, "cat": "focus"}
+{"ts": "21:52", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 149, "cat": "focus"}
+{"ts": "21:53", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 210, "cat": "idle"}
+{"ts": "21:54", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 270, "cat": "idle"}
+{"ts": "21:55", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 331, "cat": "idle"}
+{"ts": "21:56", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 391, "cat": "idle"}
+{"ts": "21:57", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 452, "cat": "idle"}
+{"ts": "21:58", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 512, "cat": "idle"}
+{"ts": "21:59", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 573, "cat": "idle"}
+{"ts": "22:00", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 633, "cat": "idle"}
+{"ts": "22:01", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 694, "cat": "idle"}
+{"ts": "22:02", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 754, "cat": "idle"}
+{"ts": "22:03", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 815, "cat": "idle"}
+{"ts": "22:04", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 875, "cat": "idle"}
+{"ts": "22:05", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 936, "cat": "idle"}
+{"ts": "22:06", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 996, "cat": "idle"}
+{"ts": "22:07", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 1057, "cat": "idle"}
+{"ts": "22:08", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 1117, "cat": "idle"}
+{"ts": "22:09", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 1177, "cat": "idle"}
+{"ts": "22:10", "app": "Opera", "title": "", "idle": 1238, "cat": "idle"}
+{"ts": "22:11", "app": "Opera", "title": "", "idle": 1298, "cat": "idle"}
+{"ts": "22:12", "app": "Opera", "title": "", "idle": 1359, "cat": "idle"}
+{"ts": "22:13", "app": "Opera", "title": "", "idle": 1419, "cat": "idle"}
+{"ts": "22:14", "app": "Opera", "title": "", "idle": 1480, "cat": "idle"}
+{"ts": "22:15", "app": "Opera", "title": "", "idle": 1540, "cat": "idle"}
+{"ts": "22:16", "app": "Opera", "title": "", "idle": 1601, "cat": "idle"}
+{"ts": "22:17", "app": "Opera", "title": "", "idle": 1661, "cat": "idle"}
+{"ts": "22:18", "app": "Opera", "title": "", "idle": 1722, "cat": "idle"}
+{"ts": "22:19", "app": "Opera", "title": "", "idle": 1782, "cat": "idle"}
+{"ts": "22:20", "app": "Opera", "title": "", "idle": 1843, "cat": "idle"}
+{"ts": "22:21", "app": "Opera", "title": "", "idle": 1903, "cat": "idle"}
+{"ts": "22:22", "app": "Opera", "title": "", "idle": 1964, "cat": "idle"}
+{"ts": "22:23", "app": "Opera", "title": "", "idle": 2024, "cat": "idle"}
+{"ts": "22:24", "app": "Opera", "title": "", "idle": 2084, "cat": "idle"}
+{"ts": "22:25", "app": "Opera", "title": "", "idle": 2145, "cat": "idle"}
+{"ts": "22:26", "app": "Opera", "title": "", "idle": 2205, "cat": "idle"}
+{"ts": "22:27", "app": "Opera", "title": "", "idle": 2266, "cat": "idle"}
+{"ts": "22:28", "app": "Opera", "title": "", "idle": 2326, "cat": "idle"}
+{"ts": "22:29", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 41, "cat": "focus"}
+{"ts": "22:30", "app": "Opera", "title": "ホーム | マネーフォワード クラウド勤怠", "idle": 101, "cat": "focus"}
+{"ts": "22:31", "app": "Opera", "title": "", "idle": 33, "cat": "focus"}
+{"ts": "22:32", "app": "Opera", "title": "", "idle": 94, "cat": "focus"}
+{"ts": "22:34", "app": "Opera", "title": "", "idle": 154, "cat": "focus"}

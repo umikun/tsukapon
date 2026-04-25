@@ -1,0 +1,39 @@
+{
+  "id": "conv-1776227163019-xm83fu467",
+  "providerId": "claude",
+  "title": "Generate authentic post reply about motivation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776227163029,
+  "updatedAt": 1776227550536,
+  "lastResponseAt": 1776227537544,
+  "sessionId": "0a7a2cfe-63f6-4298-8118-a072798e9768",
+  "providerState": {
+    "providerSessionId": "0a7a2cfe-63f6-4298-8118-a072798e9768",
+    "subagentData": {
+      "toolu_01BPrDcN96vGoFpSbcj3x3JR": {
+        "id": "toolu_01BPrDcN96vGoFpSbcj3x3JR",
+        "description": "Explore my-clone personality data",
+        "prompt": "Explore the directory \"/Volumes/500GB/GoogleDrive/_kiwami/my-clone\" thoroughly. I need to understand the personality, writing style, interests, values, and opinions of the person described in these files. Read all key files to build a comprehensive profile. Report back:\n1. What kind of person are they? (personality traits, values, communication style)\n2. What are their interests and hobbies?\n3. How do they typically write? (tone, vocabulary, sentence patterns)\n4. Any specific opinions or philosophies they hold about life, work, motivation, etc.\n5. Any examples of their actual writing or social media posts.\n\nBe very thorough - read as many files as possible to get a complete picture.",
+        "mode": "async",
+        "isExpanded": false,
+        "status": "error",
+        "toolCalls": [],
+        "asyncStatus": "orphaned",
+        "agentId": "a94e2a0f601b0ce78",
+        "startedAt": 1776227189994,
+        "result": "Conversation ended before task completed",
+        "completedAt": 1776227550533
+      }
+    }
+  },
+  "currentNote": "_kiwami/memo.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 15208,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 15211,
+    "percentage": 8
+  }
+}

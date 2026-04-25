@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776813570643-d05why3xx",
+  "providerId": "claude",
+  "title": "Regenerate daily content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776813570650,
+  "updatedAt": 1776899645661,
+  "lastResponseAt": 1776840284590,
+  "sessionId": "4d6a4a95-b86a-4be5-b373-804ddcc933b1",
+  "providerState": {
+    "providerSessionId": "4d6a4a95-b86a-4be5-b373-804ddcc933b1"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1654,
+    "cacheReadInputTokens": 161748,
+    "contextWindow": 200000,
+    "contextTokens": 163403,
+    "percentage": 82,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-22",
+  "synced_at": "2026-04-25T07:35:44+09:00",
+  "workspace_id": "684043134d7e18788e95a3d5",
+  "user_id": "684043134d7e18788e95a3d4",
+  "entries": [
+    {
+      "id": "69eada25cf4931d08d714709",
+      "description": "X・Threads・note 運用",
+      "start": "2026-04-22T10:00:00+09:00",
+      "end": "2026-04-22T14:00:00+09:00",
+      "duration_iso": "PT4H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eada6a19ca2b48dfa99da8",
+      "description": "5月分 制作・仮掲載対応",
+      "start": "2026-04-22T14:00:00+09:00",
+      "end": "2026-04-22T16:00:00+09:00",
+      "duration_iso": "PT2H",
+      "project": "歯科経営者に聴く",
+      "project_color": "#039BE5",
+      "tags": [
+        "e-dentist"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eada89a4155fee70e25ad4",
+      "description": "「既卒募集要領」ページ 情報更新対応",
+      "start": "2026-04-22T17:00:00+09:00",
+      "end": "2026-04-22T18:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "サイト運営",
+      "project_color": "#1976D2",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eadb2ccf4931d08d715ead",
+      "description": "「一条会クリニック」サイト移管に伴う各種調査",
+      "start": "2026-04-22T18:00:00+09:00",
+      "end": "2026-04-22T19:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "担当外業務",
+      "project_color": "#8D6E63",
+      "tags": [
+        "LinkStaff"
+      ],
+      "billable": true,
+      "is_running": false
+    }
+  ]
+}

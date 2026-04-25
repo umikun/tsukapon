@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-24",
+  "synced_at": "2026-04-25T14:25:07+09:00",
+  "workspace_id": "684043134d7e18788e95a3d5",
+  "user_id": "684043134d7e18788e95a3d4",
+  "entries": [
+    {
+      "id": "69eadd04808299a69e33c583",
+      "description": "X・Threads・note 運用",
+      "start": "2026-04-24T09:00:00+09:00",
+      "end": "2026-04-24T11:00:00+09:00",
+      "duration_iso": "PT2H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eae84eee3ed6a1d275d510",
+      "description": "個人開発対応",
+      "start": "2026-04-24T11:00:00+09:00",
+      "end": "2026-04-24T12:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "private",
+      "project_color": "#009688",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eae505a4155fee70e34acc",
+      "description": "4月分 本番公開対応（linkstaff.co.jpも同時に）",
+      "start": "2026-04-24T12:00:00+09:00",
+      "end": "2026-04-24T13:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "医師として",
+      "project_color": "#8D6E63",
+      "tags": [
+        "e-doctor"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eb1ab9808299a69e3b8f3f",
+      "description": "「Daily Log」システム構築",
+      "start": "2026-04-24T13:00:00+09:00",
+      "end": "2026-04-24T16:00:00+09:00",
+      "duration_iso": "PT3H",
+      "project": "private",
+      "project_color": "#009688",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eb38036afafe30b7ed40f4",
+      "description": "コミック消費",
+      "start": "2026-04-24T16:00:00+09:00",
+      "end": "2026-04-24T17:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "hobby",
+      "project_color": "#5C6BC0",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69eb394555532b2bf6d3a7d7",
+      "description": "「医療法人 田園会」修正対応",
+      "start": "2026-04-24T17:00:00+09:00",
+      "end": "2026-04-24T18:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "ピックアップページ対応",
+      "project_color": "#1976D2",
+      "tags": [
+        "e-dentist"
+      ],
+      "billable": true,
+      "is_running": false
+    }
+  ]
+}

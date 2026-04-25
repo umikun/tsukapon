@@ -1,0 +1,44 @@
+{
+  "_comment": "Daily Log アクティビティトラッカーの分類設定。macOSが報告する実際のプロセス名を確認して増減してください。不明な名前は activity/YYYY-MM-DD.jsonl を見ると分かります。",
+  "idle_threshold_seconds": 180,
+  "distraction_session_min_minutes": 15,
+  "categories": {
+    "focus": {
+      "label": "集中",
+      "color": "#10b981",
+      "apps": [
+        "Opera",
+        "Cursor",
+        "Antigravity",
+        "Obsidian",
+        "Claude",
+        "Codex",
+        "Gemini",
+        "Warp",
+        "Photoshop",
+        "Adobe Photoshop",
+        "Adobe Photoshop 2024",
+        "Adobe Photoshop 2025",
+        "Illustrator",
+        "Adobe Illustrator",
+        "Adobe Illustrator 2024",
+        "Adobe Illustrator 2025",
+        "Sourcetree",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Numbers",
+        "Transmit",
+        "Transmit 5"
+      ]
+    },
+    "distraction": {
+      "label": "脱線",
+      "color": "#ef4444",
+      "apps": [
+        "Day One",
+        "cooViewer",
+        "Music"
+      ]
+    }
+  }
+}

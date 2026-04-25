@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>神プロンプト30選 バナー</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e8e8e8;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  .banner {
+    width: 1280px;
+    height: 670px;
+    background: linear-gradient(135deg, #fefefe 0%, #f7f5f0 40%, #eee8dc 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+
+  /* 左側テキストエリア */
+  .text-area {
+    flex: 1;
+    padding: 50px 40px 50px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* 右側ビジュアルエリア */
+  .visual-area {
+    width: 480px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 背景グラデーション（右側） */
+  .visual-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(150deg, #1a1a2e 0%, #16213e 40%, #0f3460 70%, #e94560 100%);
+    opacity: 0.92;
+  }
+
+  /* タグ */
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(90deg, #e63946, #d62828);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 4px;
+    width: fit-content;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  .tag .pdf-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.25);
+    border-radius: 3px;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  /* メインタイトル */
+  .main-title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.35;
+    color: #1a1a1a;
+    margin-bottom: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  .main-title .highlight {
+    color: #e63946;
+    position: relative;
+  }
+
+  .main-title .highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: rgba(230, 57, 70, 0.15);
+    border-radius: 3px;
+  }
+
+  .main-title .number {
+    font-size: 58px;
+    color: #e63946;
+    font-weight: 900;
+  }
+
+  /* サブコピー */
+  .sub-copy {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 28px;
+  }
+
+  .sub-copy .em {
+    background: linear-gradient(transparent 60%, #ffeaa7 60%);
+    padding: 0 2px;
+  }
+
+  /* ボトムライン */
+  .bottom-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+  }
+
+  .bottom-line .x-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #000;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .bottom-line .x-logo {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  /* ===== 右側ビジュアル要素 ===== */
+
+  /* 時計 */
+  .clock {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid rgba(255,255,255,0.3);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clock-inner {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .clock-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #333;
+    border-radius: 50%;
+    z-index: 5;
+  }
+
+  .clock-hand-hour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 28px;
+    background: #333;
+    border-radius: 2px;
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(150deg);
+  }
+
+  .clock-hand-minute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 38px;
+    background: #e63946;
+    border-radius: 2px;
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%) rotate(0deg);
+  }
+
+  .clock-label {
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    font-weight: 900;
+    white-space: nowrap;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  /* 時計の数字 */
+  .clock-num {
+    position: absolute;
+    font-size: 11px;
+    font-weight: 700;
+    color: #555;
+  }
+  .clock-num.n12 { top: 2px; left: 50%; transform: translateX(-50%); }
+  .clock-num.n3 { top: 50%; right: 4px; transform: translateY(-50%); }
+  .clock-num.n6 { bottom: 2px; left: 50%; transform: translateX(-50%); }
+  .clock-num.n9 { top: 50%; left: 4px; transform: translateY(-50%); }
+
+  /* 窓と都市 */
+  .window {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 280px;
+    border: 6px solid rgba(255,255,255,0.15);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .window-sky {
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(180deg, #ff9a56 0%, #ff6b6b 40%, #c44569 100%);
+  }
+
+  .window-city {
+    width: 100%;
+    height: 40%;
+    background: #1a1a2e;
+    position: relative;
+  }
+
+  .building {
+    position: absolute;
+    bottom: 0;
+    background: #2d2d44;
+  }
+
+  .building:nth-child(1) { left: 10px; width: 18px; height: 50px; }
+  .building:nth-child(2) { left: 32px; width: 22px; height: 70px; }
+  .building:nth-child(3) { left: 58px; width: 16px; height: 45px; }
+  .building:nth-child(4) { left: 78px; width: 25px; height: 80px; }
+  .building:nth-child(5) { left: 108px; width: 20px; height: 55px; }
+  .building:nth-child(6) { left: 132px; width: 24px; height: 65px; }
+  .building:nth-child(7) { left: 160px; width: 18px; height: 40px; }
+
+  .building-light {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 214, 89, 0.6);
+    border-radius: 1px;
+  }
+
+  /* PDFドキュメント風 */
+  .doc-stack {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+
+  .doc {
+    width: 100px;
+    height: 130px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .doc:nth-child(1) {
+    bottom: 0;
+    left: -70px;
+    transform: rotate(-8deg);
+  }
+
+  .doc:nth-child(2) {
+    bottom: 10px;
+    left: -50px;
+    transform: rotate(-2deg);
+  }
+
+  .doc:nth-child(3) {
+    bottom: 15px;
+    left: -35px;
+    transform: rotate(4deg);
+  }
+
+  .doc .doc-icon {
+    width: 36px;
+    height: 42px;
+    background: #e63946;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+
+  .doc .doc-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 65px;
+  }
+
+  .doc .doc-line {
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+  }
+
+  .doc .doc-line:nth-child(2) { width: 80%; }
+  .doc .doc-line:nth-child(3) { width: 60%; }
+
+  /* 数字30のアクセント */
+  .big-number {
+    position: absolute;
+    bottom: 210px;
+    right: 30px;
+    font-size: 120px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.07);
+    z-index: 1;
+    line-height: 1;
+  }
+
+  /* デコ要素 */
+  .deco-circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.08);
+  }
+
+  .deco-circle.c1 {
+    width: 300px;
+    height: 300px;
+    bottom: -80px;
+    right: -80px;
+  }
+
+  .deco-circle.c2 {
+    width: 200px;
+    height: 200px;
+    bottom: -30px;
+    right: -30px;
+  }
+
+  /* 左側の装飾ライン */
+  .accent-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: linear-gradient(180deg, #e63946, #d62828);
+  }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <div class="accent-line"></div>
+
+  <!-- 左側：テキスト -->
+  <div class="text-area">
+    <div class="tag">
+      <span class="pdf-icon">PDF</span>
+      特典付 ｜ 完全保存版
+    </div>
+
+    <div class="main-title">
+      定時退社を叶える<br>
+      「<span class="highlight">神プロンプト</span> <span class="number">30</span>選」
+    </div>
+
+    <div class="sub-copy">
+      <span class="em">残業月80時間からゼロへ。</span><br>
+      AIを"最強の時短ツール"に変える、<br>
+      コピペOKなプロンプトの全て。
+    </div>
+
+    <div class="bottom-line">
+      <span class="x-badge">
+        <span class="x-logo">𝕏</span>
+        で大反響
+      </span>
+      30日間シリーズの集大成
+    </div>
+  </div>
+
+  <!-- 右側：ビジュアル -->
+  <div class="visual-area">
+    <!-- 窓 -->
+    <div class="window">
+      <div class="window-sky"></div>
+      <div class="window-city">
+        <div class="building">
+          <span class="building-light" style="top:8px;left:4px;"></span>
+          <span class="building-light" style="top:20px;left:10px;"></span>
+        </div>
+        <div class="building">
+          <span class="building-light" style="top:10px;left:5px;"></span>
+          <span class="building-light" style="top:22px;left:13px;"></span>
+          <span class="building-light" style="top:40px;left:5px;"></span>
+        </div>
+        <div class="building">
+          <span class="building-light" style="top:8px;left:6px;"></span>
+        </div>
+        <div class="building">
+          <span class="building-light" style="top:12px;left:6px;"></span>
+          <span class="building-light" style="top:28px;left:14px;"></span>
+          <span class="building-light" style="top:45px;left:6px;"></span>
+          <span class="building-light" style="top:60px;left:14px;"></span>
+        </div>
+        <div class="building">
+          <span class="building-light" style="top:10px;left:8px;"></span>
+          <span class="building-light" style="top:30px;left:4px;"></span>
+        </div>
+        <div class="building">
+          <span class="building-light" style="top:8px;left:6px;"></span>
+          <span class="building-light" style="top:25px;left:14px;"></span>
+          <span class="building-light" style="top:42px;left:6px;"></span>
+        </div>
+        <div class="building">
+          <span class="building-light" style="top:6px;left:4px;"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 時計 -->
+    <div class="clock">
+      <div class="clock-inner">
+        <span class="clock-num n12">12</span>
+        <span class="clock-num n3">3</span>
+        <span class="clock-num n6">6</span>
+        <span class="clock-num n9">9</span>
+        <div class="clock-hand-hour"></div>
+        <div class="clock-hand-minute"></div>
+        <div class="clock-center"></div>
+      </div>
+      <div class="clock-label">17:00</div>
+    </div>
+
+    <!-- 30の背景数字 -->
+    <div class="big-number">30</div>
+
+    <!-- PDFドキュメント -->
+    <div class="doc-stack">
+      <div class="doc">
+        <div class="doc-icon">PDF</div>
+        <div class="doc-lines">
+          <div class="doc-line"></div>
+          <div class="doc-line"></div>
+          <div class="doc-line"></div>
+        </div>
+      </div>
+      <div class="doc">
+        <div class="doc-icon">PDF</div>
+        <div class="doc-lines">
+          <div class="doc-line"></div>
+          <div class="doc-line"></div>
+          <div class="doc-line"></div>
+        </div>
+      </div>
+      <div class="doc">
+        <div class="doc-icon">PDF</div>
+        <div class="doc-lines">
+          <div class="doc-line"></div>
+          <div class="doc-line"></div>
+          <div class="doc-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- デコ -->
+    <div class="deco-circle c1"></div>
+    <div class="deco-circle c2"></div>
+  </div>
+</div>
+
+</body>
+</html>

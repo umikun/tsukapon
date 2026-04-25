@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"/Users/fukuokase/.claude/tasks/0c3e8899-2f2f-4ea7-99d3-56021be613f2\" \"/Volumes/500GB/_trash/_ claude/\")",
+      "Bash(mv \"/Users/fukuokase/.claude/projects/-Users-fukuokase-Library-Mobile-Documents-iCloud-md-obsidian-Documents-Tsukapon/0a7a2cfe-63f6-4298-8118-a072798e9768.jsonl\" \"/Volumes/500GB/_trash/_ claude/\")",
+      "Bash(mv \"/Users/fukuokase/.claude/projects/-Users-fukuokase-Library-Mobile-Documents-iCloud-md-obsidian-Documents-Tsukapon/0a7a2cfe-63f6-4298-8118-a072798e9768\" \"/Volumes/500GB/_trash/_ claude/\")",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/reply.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/thread.md)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/reply.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/rewrite.md)",
+      "Bash(mv \"/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/rewrite.md\" \"/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/re-daily.md\")",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/re-daily.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/weekly-analytics.md)",
+      "Bash(mkdir -p .claude/hooks)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/hooks/remind-skills-list.sh)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/settings.json)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/weekly-analytics.md)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/thread.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/md-format.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/quote-rewrite.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/deep-dive.md)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/remind-skills-list.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

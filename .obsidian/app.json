@@ -1,0 +1,18 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "tabSize": 2,
+  "showUnsupportedFiles": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 55
+  },
+  "focusNewTab": true,
+  "alwaysOpenInNewTab": true,
+  "alwaysUpdateLinks": true
+}

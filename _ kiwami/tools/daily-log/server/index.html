@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Daily Log</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #1a2332;
+    --bg-deep: #121a26;
+    --card: #22304a;
+    --card-raised: #2a3a57;
+    --border: #334155;
+    --border-soft: #2a3a57;
+    --text: #e5e7eb;
+    --text-dim: #cbd5e1;
+    --muted: #94a3b8;
+    --accent: #818cf8;
+    --accent-soft: rgba(129, 140, 248, 0.15);
+    --accent-hover: #a5b4fc;
+    --meeting: #3b82f6;
+    --task: #10b981;
+    --email: #f59e0b;
+    --research: #a78bfa;
+    --break: #64748b;
+    --other: #64748b;
+    --warning-bg: rgba(245, 158, 11, 0.15);
+    --warning-border: #f59e0b;
+    --warning-text: #fcd34d;
+    --info-bg: rgba(14, 165, 233, 0.15);
+    --info-border: #0ea5e9;
+    --info-text: #7dd3fc;
+    --cat-focus: #10b981;
+    --cat-distraction: #ef4444;
+    --cat-other: #64748b;
+    --cat-idle: #475569;
+    --cat-nodata: #1e293b;
+    --alert-bg: rgba(239, 68, 68, 0.12);
+    --alert-border: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 20px 28px;
+    font-family: -apple-system, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif;
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(129,140,248,0.12), transparent 60%),
+      radial-gradient(1000px 500px at 100% 0%, rgba(34,217,246,0.08), transparent 55%),
+      var(--bg);
+    color: var(--text); font-size: 14px; line-height: 1.5; min-height: 100vh;
+  }
+  .container { width: 100%; max-width: none; margin: 0; }
+  .grid-main {
+    display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 16px;
+  }
+  .grid-main > .card { margin-bottom: 0; }
+  .span-2 { grid-column: 1 / -1; }
+  @media (max-width: 1100px) { .grid-main { grid-template-columns: minmax(0, 1fr); } }
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 20px; flex-wrap: wrap; gap: 12px;
+  }
+  h1 {
+    font-size: 22px; font-weight: 700; margin: 0; color: #fff;
+    display: flex; align-items: center; gap: 10px;
+  }
+  h1 .icon { width: 26px; height: 26px; color: #22d9f6; display: inline-flex; }
+  h1 .sub {
+    font-size: 11px; color: var(--muted); font-weight: 500; margin-left: 4px;
+    text-transform: uppercase; letter-spacing: 0.12em;
+  }
+  .date-nav { display: flex; align-items: center; gap: 8px; }
+  .date-nav button {
+    background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+    padding: 4px 10px; cursor: pointer; font-size: 13px; color: var(--text);
+    font-family: inherit;
+  }
+  .date-nav button:hover { background: var(--card-raised); border-color: var(--accent); }
+  .date-display { font-weight: 500; min-width: 140px; text-align: center; color: var(--text-dim); }
+
+  .card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent), var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px; margin-bottom: 16px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.04) inset, 0 8px 24px rgba(0,0,0,0.18);
+  }
+  .section-title {
+    font-size: 11px; font-weight: 600; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+  }
+  .badge {
+    display: inline-block; padding: 2px 8px; font-size: 11px;
+    border-radius: 999px; background: var(--accent-soft); color: var(--accent-hover);
+    font-weight: 600; letter-spacing: 0; text-transform: none;
+  }
+  .badge.loading { background: rgba(245, 158, 11, 0.18); color: #fcd34d; }
+  .badge.error { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
+  .badge.ok { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; }
+  .badge.pending { background: rgba(148, 163, 184, 0.2); color: #cbd5e1; }
+
+  .quick-add {
+    display: grid; grid-template-columns: 90px 110px 1fr auto;
+    gap: 8px; align-items: center;
+  }
+  .quick-add input[type="time"],
+  .quick-add input[type="text"],
+  .quick-add select {
+    padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px;
+    font-size: 14px; font-family: inherit; background: var(--bg-deep);
+    color: var(--text);
+  }
+  .quick-add input::placeholder { color: var(--muted); }
+  .quick-add input:focus, .quick-add select:focus {
+    outline: none; border-color: var(--accent); background: var(--card-raised);
+  }
+  .quick-add button {
+    background: var(--accent); color: #fff; border: none; padding: 8px 16px;
+    border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500;
+    font-family: inherit;
+  }
+  .quick-add button:hover { background: var(--accent-hover); }
+
+  .summary {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px; margin-bottom: 16px;
+  }
+  .stat {
+    position: relative; overflow: hidden;
+    background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent), var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px; padding: 14px 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+  .stat::before {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+    background: var(--accent);
+  }
+  .stat.focus::before { background: var(--cat-focus); }
+  .stat.distraction::before { background: var(--cat-distraction); }
+  .stat.clockify::before { background: #22d9f6; }
+  .stat.files::before { background: var(--research); }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+  .stat-value { font-size: 26px; font-weight: 700; margin-top: 4px; color: #fff; font-variant-numeric: tabular-nums; }
+  .stat-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  .timeline-list { list-style: none; padding: 0; margin: 0; }
+  .timeline-list li {
+    display: grid; grid-template-columns: 60px 90px 1fr auto;
+    gap: 12px; align-items: center; padding: 10px 4px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .timeline-list li:last-child { border-bottom: none; }
+  .time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+  .tag {
+    display: inline-block; padding: 2px 10px; border-radius: 999px;
+    font-size: 12px; font-weight: 500; color: #fff; text-align: center;
+  }
+  .tag.meeting { background: var(--meeting); }
+  .tag.task { background: var(--task); }
+  .tag.email { background: var(--email); }
+  .tag.research { background: var(--research); }
+  .tag.break { background: var(--break); }
+  .tag.other { background: var(--other); }
+  .entry-text { word-break: break-word; color: var(--text-dim); }
+  .delete-btn {
+    background: transparent; border: none; color: var(--muted);
+    cursor: pointer; font-size: 16px; padding: 4px 8px; border-radius: 4px;
+  }
+  .delete-btn:hover { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
+
+  .auto-list { list-style: none; padding: 0; margin: 0; }
+  .auto-list li {
+    padding: 8px 4px; border-bottom: 1px solid var(--border-soft);
+    display: grid; grid-template-columns: 110px 1fr; gap: 12px; align-items: baseline;
+  }
+  .auto-list li:last-child { border-bottom: none; }
+  .auto-list .time { font-weight: 500; }
+  .auto-list .subject { font-weight: 500; color: var(--text); }
+  .auto-list .meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  .clockify-list li { display: grid; grid-template-columns: 75px 60px 1fr; gap: 10px; }
+  .proj-dot {
+    display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+    margin-right: 6px; vertical-align: middle; flex-shrink: 0;
+  }
+  .tag-chip {
+    display: inline-block; padding: 1px 7px; border-radius: 4px;
+    font-size: 11px; background: rgba(148, 163, 184, 0.18); color: #cbd5e1; margin-right: 4px;
+  }
+  .dur { font-variant-numeric: tabular-nums; font-size: 12px; color: var(--muted); font-weight: 500; }
+  .running-dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: #10b981; margin-left: 4px; animation: pulse 1.5s infinite;
+    box-shadow: 0 0 6px #10b981;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .sync-meta {
+    font-size: 11px; color: var(--muted); margin-bottom: 8px;
+    padding: 6px 10px; background: var(--bg-deep); border-radius: 4px;
+    border: 1px solid var(--border-soft);
+  }
+
+  .empty { text-align: center; color: var(--muted); padding: 24px 16px; font-size: 13px; }
+  .warning {
+    background: var(--warning-bg); border-left: 3px solid var(--warning-border);
+    padding: 10px 12px; border-radius: 4px; font-size: 13px; color: var(--warning-text);
+  }
+  .warning strong { color: #fde68a; }
+  .warning code {
+    background: rgba(0,0,0,0.35); padding: 1px 4px; border-radius: 3px;
+    font-size: 12px; color: #fde68a;
+  }
+  .info {
+    background: var(--info-bg); border-left: 3px solid var(--info-border);
+    padding: 12px 14px; border-radius: 4px; font-size: 13px; color: var(--info-text);
+  }
+  .info strong { color: #bae6fd; }
+  .info ol { padding-left: 20px; margin: 8px 0; }
+  .info li { margin: 4px 0; }
+  .info code {
+    background: rgba(0,0,0,0.35); padding: 1px 5px; border-radius: 3px;
+    font-size: 12px; font-family: "SF Mono", Menlo, monospace; color: #bae6fd;
+  }
+
+  .activity-timeline {
+    display: flex; height: 30px; border-radius: 6px; overflow: hidden;
+    border: 1px solid var(--border); background: var(--cat-nodata);
+    margin: 12px 0 4px; position: relative;
+  }
+  .activity-timeline .block { height: 100%; min-width: 0; transition: filter 0.15s; }
+  .activity-timeline .block:hover { filter: brightness(1.25); cursor: help; }
+  .block.cat-focus { background: var(--cat-focus); }
+  .block.cat-distraction { background: var(--cat-distraction); }
+  .block.cat-other { background: var(--cat-other); }
+  .block.cat-idle { background: var(--cat-idle); }
+  .block.cat-nodata { background: var(--cat-nodata); }
+  .activity-hours {
+    display: flex; justify-content: space-between;
+    font-size: 10px; color: var(--muted); margin-bottom: 10px;
+    font-variant-numeric: tabular-nums;
+  }
+  .activity-legend {
+    display: flex; gap: 14px; flex-wrap: wrap;
+    font-size: 12px; color: var(--muted); margin: 4px 0 14px;
+  }
+  .activity-legend-item { display: inline-flex; align-items: center; gap: 5px; }
+  .activity-legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+
+  .activity-stats {
+    display: grid; grid-template-columns: 220px 1fr 1fr; gap: 24px; margin-top: 16px;
+    align-items: start;
+  }
+  @media (max-width: 900px) { .activity-stats { grid-template-columns: 1fr; } }
+
+  .donut-wrap { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .donut { width: 200px; height: 200px; display: block; }
+  .donut .ring-bg { fill: none; stroke: var(--bg-deep); stroke-width: 18; }
+  .donut .ring { fill: none; stroke-width: 18; stroke-linecap: butt;
+    transform: rotate(-90deg); transform-origin: center; transition: stroke-dashoffset 0.6s ease; }
+  .donut .center-value { fill: #fff; font-size: 28px; font-weight: 700; text-anchor: middle; font-variant-numeric: tabular-nums; }
+  .donut .center-label { fill: var(--muted); font-size: 11px; text-anchor: middle; text-transform: uppercase; letter-spacing: 0.08em; }
+  .donut-legend {
+    display: grid; grid-template-columns: 1fr auto; gap: 4px 10px;
+    font-size: 12px; width: 100%; max-width: 220px;
+  }
+  .donut-legend .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+  .donut-legend .name { color: var(--text-dim); }
+  .donut-legend .pct { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+  .category-bar {
+    display: grid; grid-template-columns: 70px 1fr 56px;
+    gap: 8px; align-items: center; margin: 6px 0; font-size: 12px;
+    color: var(--text-dim);
+  }
+  .category-bar-track { height: 10px; border-radius: 4px; background: var(--bg-deep); overflow: hidden; }
+  .category-bar-fill { height: 100%; border-radius: 4px; }
+  .category-bar-time { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+  .top-app {
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 8px; padding: 6px 0; font-size: 12px;
+    border-bottom: 1px dashed var(--border-soft);
+    color: var(--text-dim);
+  }
+  .top-app:last-child { border-bottom: none; }
+  .top-app-name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .top-app-time { font-variant-numeric: tabular-nums; color: var(--muted); }
+
+  .app-titles-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px; margin-top: 8px;
+  }
+  .app-titles-group {
+    background: var(--bg-deep); border: 1px solid var(--border-soft);
+    border-radius: 8px; padding: 10px 12px;
+  }
+  .app-titles-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 1px dashed var(--border-soft); padding-bottom: 6px; margin-bottom: 6px;
+  }
+  .app-titles-name { font-weight: 600; color: var(--text); font-size: 13px; }
+  .app-titles-list { list-style: none; padding: 0; margin: 0; }
+  .app-titles-list li {
+    display: grid; grid-template-columns: 1fr auto; gap: 8px;
+    padding: 3px 0; font-size: 12px; align-items: baseline;
+  }
+  .app-titles-title {
+    color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .app-titles-time { font-variant-numeric: tabular-nums; color: var(--muted); }
+
+  .alert-list { margin-top: 10px; }
+  .alert-item {
+    display: grid; grid-template-columns: 120px 1fr auto;
+    gap: 12px; align-items: center; padding: 8px 12px;
+    background: var(--alert-bg); border-left: 3px solid var(--alert-border);
+    border-radius: 4px; margin: 6px 0; font-size: 13px;
+  }
+  .alert-time { font-variant-numeric: tabular-nums; color: #fca5a5; font-weight: 500; }
+  .alert-app { color: #fecaca; }
+  .alert-dur { color: #f87171; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .subsection-title {
+    font-size: 10px; font-weight: 600; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.08em; margin: 8px 0 6px;
+  }
+
+  .memo-wrap { display: flex; flex-direction: column; gap: 8px; }
+  .memo-textarea {
+    width: 100%; min-height: 360px; resize: vertical;
+    padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--bg-deep); color: var(--text);
+    font-family: -apple-system, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif;
+    font-size: 14px; line-height: 1.6;
+  }
+  .memo-textarea:focus { outline: none; border-color: var(--accent); background: #0f1622; }
+  .memo-status {
+    font-size: 11px; color: var(--muted); display: flex; justify-content: space-between; align-items: center;
+  }
+  .memo-status .ok { color: #6ee7b7; }
+  .memo-status .err { color: #fca5a5; }
+
+  .clockify-projects { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border-soft); }
+
+  .commits-repo {
+    background: var(--bg-deep); border: 1px solid var(--border-soft);
+    border-radius: 8px; padding: 10px 14px; margin-top: 10px;
+  }
+  .commits-repo-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 1px dashed var(--border-soft); padding-bottom: 6px; margin-bottom: 6px;
+  }
+  .commits-repo-name { font-weight: 600; color: var(--text); font-size: 13px; }
+  .commits-repo-meta { font-size: 11px; color: var(--muted); }
+  .commits-list { list-style: none; padding: 0; margin: 0; }
+  .commits-list li {
+    display: grid; grid-template-columns: 70px 60px 1fr; gap: 10px;
+    padding: 4px 0; font-size: 12px; align-items: baseline;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .commits-list li:last-child { border-bottom: none; }
+  .commit-time { font-variant-numeric: tabular-nums; color: var(--muted); }
+  .commit-sha {
+    font-family: "SF Mono", Menlo, monospace; color: #22d9f6; font-size: 11px;
+  }
+  .commit-msg { color: var(--text-dim); word-break: break-word; }
+
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+  .btn-secondary {
+    background: var(--card-raised); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px 14px; cursor: pointer;
+    font-size: 13px; font-family: inherit;
+  }
+  .btn-secondary:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .btn-secondary.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-secondary.primary:hover { background: var(--accent-hover); }
+
+  .report-output {
+    margin-top: 12px; background: var(--bg-deep); border: 1px solid var(--border);
+    border-radius: 6px; padding: 12px; white-space: pre-wrap;
+    font-family: "SF Mono", Menlo, monospace; font-size: 12px;
+    display: none; max-height: 400px; overflow: auto; color: var(--text-dim);
+  }
+  .report-output.visible { display: block; }
+
+  .activity-card { grid-column: 1 / -1; }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--bg-deep); }
+  ::-webkit-scrollbar-thumb { background: var(--card-raised); border-radius: 6px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--border); }
+
+  @media (max-width: 600px) {
+    body { padding: 16px; }
+    .clockify-list li { grid-template-columns: 60px 50px 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>
+      <span class="icon"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15ZM7.5 3V4H8.5V3H7.5ZM8 6.5C8.26715 6.5 8.518 6.56984 8.73526 6.69226L11.6707 4.12371L12.3293 4.87629L9.39388 7.44474C9.46235 7.61648 9.5 7.80384 9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.82719 6.52922 7.6612 6.583 7.50671L5.18765 6.39043L5.81235 5.60957L7.20786 6.72598C7.43774 6.58275 7.70921 6.5 8 6.5ZM3 8.5H4V7.5H3V8.5ZM12 8.5H13V7.5H12V8.5ZM7.5 12V13H8.5V12H7.5Z" fill="currentColor"/></svg></span>
+      Daily Log <span class="sub">dashboard</span>
+    </h1>
+    <div class="date-nav">
+      <button id="prev-day" title="前日">◀</button>
+      <span class="date-display" id="date-display"></span>
+      <button id="next-day" title="翌日">▶</button>
+      <button id="today-btn">今日</button>
+      <button id="reload-btn" title="再読込">⟳</button>
+    </div>
+  </header>
+
+  <div class="summary" id="summary"></div>
+
+  <div class="card activity-card">
+    <div class="section-title">
+      📊 活動トラッカー（アプリ自動記録）
+      <span class="badge loading" id="activity-status">読込中</span>
+      <span style="flex:1"></span>
+      <span class="dur" id="activity-total"></span>
+    </div>
+    <div id="activity-meta"></div>
+    <div id="activity-body"></div>
+  </div>
+
+  <div class="grid-main">
+    <div class="card">
+      <div class="section-title">
+        ⏱ Clockify 時間エントリ
+        <span class="badge loading" id="clockify-status">読込中</span>
+        <span style="flex:1"></span>
+        <span class="dur" id="clockify-total"></span>
+      </div>
+      <div id="clockify-sync-meta"></div>
+      <div id="clockify-projects" class="clockify-projects" style="display:none"></div>
+      <ul class="auto-list clockify-list" id="clockify-list"></ul>
+    </div>
+
+    <div class="card">
+      <div class="section-title">
+        📝 メモ
+        <span class="badge loading" id="memo-status" style="display:none">…</span>
+      </div>
+      <div class="memo-wrap">
+        <textarea id="memo-text" class="memo-textarea" placeholder="今日のメモ、振り返り、TODOなど..."></textarea>
+        <div class="memo-status">
+          <span id="memo-state">未編集</span>
+          <span id="memo-saved-path"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">
+      📦 コミット
+      <span class="badge loading" id="commits-status">読込中</span>
+      <span style="flex:1"></span>
+      <span class="dur" id="commits-total"></span>
+    </div>
+    <div id="commits-body"></div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">
+      📝 編集したMarkdown
+      <span class="badge loading" id="files-status">読込中</span>
+    </div>
+    <ul class="auto-list" id="files-list"></ul>
+  </div>
+
+  <div class="card">
+    <div class="section-title">業務報告を出力</div>
+    <div class="actions">
+      <button class="btn-secondary primary" id="export-md">Markdown形式で出力</button>
+      <button class="btn-secondary" id="copy-md">クリップボードにコピー</button>
+    </div>
+    <pre class="report-output" id="report-output"></pre>
+  </div>
+</div>
+
+<script>
+  const ACTIVITY_CAT_LABELS = {
+    focus: '集中', distraction: '脱線', other: 'その他',
+    idle: 'アイドル', nodata: 'データなし',
+  };
+  const DISTRACTION_ALERT_MIN = 15;
+
+  let currentDate = new Date();
+  let autoData = {
+    files: [],
+    clockify: [], clockifyTotalMs: 0, clockifyProjects: [],
+    activitySamples: [], activityTotals: {}, activityTopApps: [], activityAppTitles: [],
+    activityAlerts: [], activityBlocks: [],
+    commits: { repos: [], total: 0, errors: [] },
+  };
+  let memoState = { content: '', loaded: false, dirty: false, saving: false, saveTimer: null };
+
+  function pad(n) { return n.toString().padStart(2, '0'); }
+  function fmtKey(d) { return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; }
+  function fmtDisplay(d) {
+    const wd = ['日','月','火','水','木','金','土'][d.getDay()];
+    return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${wd}）`;
+  }
+  function nowHHMM() {
+    const d = new Date();
+    return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  }
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+  function fmtHM(ms) {
+    if (!ms || ms < 0) return '';
+    const mins = Math.round(ms / 60000);
+    const h = Math.floor(mins / 60);
+    const m = mins % 60;
+    if (h === 0) return `${m}m`;
+    return m === 0 ? `${h}h` : `${h}h${m}m`;
+  }
+  function fmtMin(mins) {
+    if (!mins) return '';
+    const h = Math.floor(mins / 60);
+    const m = mins % 60;
+    if (h === 0) return `${m}m`;
+    return m === 0 ? `${h}h` : `${h}h${m}m`;
+  }
+  function hhmmFromISO(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  }
+  function minutesToHHMM(mins) {
+    const h = Math.floor(mins / 60);
+    const m = mins % 60;
+    return `${pad(h)}:${pad(m)}`;
+  }
+  function durationMs(start, end) {
+    if (!start) return 0;
+    const s = new Date(start).getTime();
+    const e = end ? new Date(end).getTime() : Date.now();
+    return Math.max(0, e - s);
+  }
+
+  function renderDate() {
+    document.getElementById('date-display').textContent = fmtDisplay(currentDate);
+  }
+
+  function renderSummary() {
+    const wrap = document.getElementById('summary');
+    const totalClockify = fmtHM(autoData.clockifyTotalMs);
+    const focusMin = autoData.activityTotals.focus || 0;
+    const distractionMin = autoData.activityTotals.distraction || 0;
+    const focusTotal = focusMin + distractionMin + (autoData.activityTotals.other || 0);
+    const focusPct = focusTotal > 0 ? Math.round((focusMin / focusTotal) * 100) : 0;
+    const cards = [
+      `<div class="stat focus"><div class="stat-label">集中時間</div><div class="stat-value" style="color:var(--cat-focus)">${fmtMin(focusMin) || '—'}</div><div class="stat-sub">アクティブ時間の ${focusPct}%</div></div>`,
+      `<div class="stat distraction"><div class="stat-label">脱線時間</div><div class="stat-value" style="color:var(--cat-distraction)">${fmtMin(distractionMin) || '—'}</div><div class="stat-sub">${autoData.activityAlerts.length}件のアラート</div></div>`,
+      `<div class="stat clockify"><div class="stat-label">Clockify</div><div class="stat-value" style="color:#22d9f6">${totalClockify || '—'}</div><div class="stat-sub">${autoData.clockify.length}件のエントリ</div></div>`,
+      `<div class="stat files"><div class="stat-label">編集ファイル</div><div class="stat-value">${autoData.files.length}</div><div class="stat-sub">本日変更された .md</div></div>`,
+    ];
+    wrap.innerHTML = cards.join('');
+  }
+
+  function render() {
+    renderDate();
+    renderSummary();
+    document.getElementById('report-output').classList.remove('visible');
+  }
+
+  // --- Donut chart helper ---
+  function donutSvg(slices, centerValue, centerLabel) {
+    const R = 70, C = 2 * Math.PI * R;
+    const total = slices.reduce((s, x) => s + x.value, 0);
+    if (total <= 0) {
+      return `<svg class="donut" viewBox="0 0 200 200">
+        <circle class="ring-bg" cx="100" cy="100" r="${R}"></circle>
+        <text class="center-value" x="100" y="100" dominant-baseline="middle">—</text>
+        <text class="center-label" x="100" y="124">${escapeHtml(centerLabel)}</text>
+      </svg>`;
+    }
+    let offset = 0;
+    const rings = slices.map(s => {
+      const len = (s.value / total) * C;
+      const dasharray = `${len} ${C - len}`;
+      const dashoffset = -offset;
+      offset += len;
+      return `<circle class="ring" cx="100" cy="100" r="${R}"
+        stroke="${escapeHtml(s.color)}" stroke-dasharray="${dasharray}" stroke-dashoffset="${dashoffset}"
+        ><title>${escapeHtml(s.name)}: ${escapeHtml(s.label || String(s.value))}</title></circle>`;
+    }).join('');
+    return `<svg class="donut" viewBox="0 0 200 200">
+      <circle class="ring-bg" cx="100" cy="100" r="${R}"></circle>
+      ${rings}
+      <text class="center-value" x="100" y="98" dominant-baseline="middle">${escapeHtml(centerValue)}</text>
+      <text class="center-label" x="100" y="124">${escapeHtml(centerLabel)}</text>
+    </svg>`;
+  }
+  function donutLegend(slices) {
+    const total = slices.reduce((s, x) => s + x.value, 0) || 1;
+    return `<div class="donut-legend">${
+      slices.map(s => {
+        const pct = Math.round((s.value / total) * 100);
+        return `<div><span class="swatch" style="background:${escapeHtml(s.color)}"></span><span class="name">${escapeHtml(s.name)}</span></div>
+                <div class="pct">${s.label || ''} <span style="opacity:.7">(${pct}%)</span></div>`;
+      }).join('')
+    }</div>`;
+  }
+
+  function setStatus(id, cls, text) {
+    const el = document.getElementById(id);
+    el.className = 'badge ' + cls;
+    el.textContent = text;
+  }
+
+  function computeActivityBlocks(samples) {
+    const minutes = new Array(1440).fill(null);
+    const appByMin = new Array(1440).fill(null);
+    const titleByMin = new Array(1440).fill(null);
+    for (const s of samples) {
+      if (!s.ts) continue;
+      const m = s.ts.match(/^(\d{2}):(\d{2})/);
+      if (!m) continue;
+      const idx = parseInt(m[1]) * 60 + parseInt(m[2]);
+      if (idx >= 0 && idx < 1440) {
+        minutes[idx] = s.cat || 'other';
+        appByMin[idx] = s.app || '';
+        titleByMin[idx] = cleanTitle(s.app || '', s.title || '');
+      }
+    }
+    const blocks = [];
+    let start = 0;
+    for (let i = 1; i <= 1440; i++) {
+      if (i === 1440 || minutes[i] !== minutes[start]) {
+        blocks.push({ start, end: i, duration: i - start, cat: minutes[start] || 'nodata', apps: {}, titles: {} });
+        const last = blocks[blocks.length - 1];
+        for (let j = start; j < i; j++) {
+          const a = appByMin[j];
+          if (a) last.apps[a] = (last.apps[a] || 0) + 1;
+          const t = titleByMin[j];
+          if (t) last.titles[t] = (last.titles[t] || 0) + 1;
+        }
+        start = i;
+      }
+    }
+    return blocks;
+  }
+
+  // タイトル末尾のアプリ名を剥がし、ファイル名らしき部分を抽出
+  function cleanTitle(app, title) {
+    if (!title) return '';
+    let t = title.trim();
+    // 末尾に " — AppName" / " - AppName" / " | AppName" が付く場合は剥がす
+    const seps = [' — ', ' – ', ' - ', ' | '];
+    for (const sep of seps) {
+      const idx = t.lastIndexOf(sep);
+      if (idx > 0) {
+        const tail = t.slice(idx + sep.length);
+        if (tail === app || tail.includes(app)) {
+          t = t.slice(0, idx).trim();
+          break;
+        }
+      }
+    }
+    // Chromeのタブ名で末尾に "- Google Chrome" 等が残る場合への保険
+    t = t.replace(/\s*[-–—|]\s*Google Chrome.*$/i, '').trim();
+    return t || title.trim();
+  }
+
+  function computeAppTitles(samples, limit = 10) {
+    const map = new Map();
+    for (const s of samples) {
+      if (s.cat === 'idle' || !s.app) continue;
+      const cleaned = cleanTitle(s.app, s.title || '');
+      if (!cleaned) continue;
+      const key = s.app;
+      if (!map.has(key)) map.set(key, new Map());
+      const sub = map.get(key);
+      sub.set(cleaned, (sub.get(cleaned) || 0) + 1);
+    }
+    const result = [];
+    for (const [app, sub] of map.entries()) {
+      const titles = [...sub.entries()].sort((a, b) => b[1] - a[1]).slice(0, limit)
+        .map(([title, mins]) => ({ title, minutes: mins }));
+      const total = [...sub.values()].reduce((a, b) => a + b, 0);
+      result.push({ app, total, titles });
+    }
+    result.sort((a, b) => b.total - a.total);
+    return result;
+  }
+
+  function computeCategoryTotals(samples) {
+    const totals = {};
+    for (const s of samples) { totals[s.cat || 'other'] = (totals[s.cat || 'other'] || 0) + 1; }
+    return totals;
+  }
+
+  function computeTopApps(samples, limit = 8) {
+    const counts = {};
+    for (const s of samples) {
+      if (s.cat === 'idle' || !s.app) continue;
+      counts[s.app] = (counts[s.app] || 0) + 1;
+    }
+    return Object.entries(counts).sort((a,b) => b[1] - a[1]).slice(0, limit)
+      .map(([name, mins]) => ({ name, minutes: mins }));
+  }
+
+  function computeDistractionAlerts(blocks) {
+    return blocks.filter(b => b.cat === 'distraction' && b.duration >= DISTRACTION_ALERT_MIN)
+      .map(b => {
+        const topApp = Object.entries(b.apps).sort((a,b) => b[1] - a[1])[0];
+        return { startMin: b.start, endMin: b.end, duration: b.duration,
+                 app: topApp ? topApp[0] : '(不明)' };
+      });
+  }
+
+  function renderActivity() {
+    const body = document.getElementById('activity-body');
+    const totalEl = document.getElementById('activity-total');
+    const samples = autoData.activitySamples;
+    if (samples.length === 0) return;
+
+    totalEl.textContent = `集中 ${fmtMin(autoData.activityTotals.focus || 0) || '0m'}`;
+
+    const blocksHtml = autoData.activityBlocks.map(b => {
+      const lines = [`${minutesToHHMM(b.start)}-${minutesToHHMM(b.end)} ${ACTIVITY_CAT_LABELS[b.cat] || b.cat}${b.duration >= 3 ? ` (${fmtMin(b.duration)})` : ''}`];
+      const topTitles = Object.entries(b.titles || {}).sort((a, b) => b[1] - a[1]).slice(0, 3);
+      for (const [t, mins] of topTitles) {
+        lines.push(`・${t} (${fmtMin(mins) || '1m'})`);
+      }
+      return `<div class="block cat-${b.cat}" style="flex: ${b.duration} 0 0;" title="${escapeHtml(lines.join('\n'))}"></div>`;
+    }).join('');
+
+    const legendCats = ['focus', 'other', 'distraction', 'idle', 'nodata'];
+    const legendHtml = legendCats.map(c => `
+      <span class="activity-legend-item">
+        <span class="activity-legend-dot" style="background: var(--cat-${c})"></span>
+        ${ACTIVITY_CAT_LABELS[c]}
+      </span>
+    `).join('');
+
+    const catOrder = ['focus', 'other', 'distraction', 'idle'];
+    const maxMin = Math.max(...catOrder.map(c => autoData.activityTotals[c] || 0), 60);
+    const catBars = catOrder.map(c => {
+      const mins = autoData.activityTotals[c] || 0;
+      const pct = maxMin > 0 ? (mins / maxMin) * 100 : 0;
+      return `
+        <div class="category-bar">
+          <span>${ACTIVITY_CAT_LABELS[c]}</span>
+          <div class="category-bar-track"><div class="category-bar-fill" style="width:${pct}%;background:var(--cat-${c})"></div></div>
+          <span class="category-bar-time">${fmtMin(mins) || '—'}</span>
+        </div>
+      `;
+    }).join('');
+
+    const topAppsHtml = autoData.activityTopApps.map(a => `
+      <div class="top-app">
+        <span class="top-app-name" title="${escapeHtml(a.name)}">${escapeHtml(a.name)}</span>
+        <span class="top-app-time">${fmtMin(a.minutes)}</span>
+      </div>
+    `).join('') || '<div class="empty" style="padding:12px">データなし</div>';
+
+    const appTitlesHtml = autoData.activityAppTitles.map(a => `
+      <div class="app-titles-group">
+        <div class="app-titles-head">
+          <span class="app-titles-name" title="${escapeHtml(a.app)}">${escapeHtml(a.app)}</span>
+          <span class="top-app-time">${fmtMin(a.total)}</span>
+        </div>
+        <ul class="app-titles-list">
+          ${a.titles.map(t => `
+            <li>
+              <span class="app-titles-title" title="${escapeHtml(t.title)}">${escapeHtml(t.title)}</span>
+              <span class="app-titles-time">${fmtMin(t.minutes) || '1m'}</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    `).join('') || '<div class="empty" style="padding:12px">タイトル取得不可</div>';
+
+    const alerts = autoData.activityAlerts;
+    const alertsHtml = alerts.length === 0
+      ? '<div class="empty" style="padding:8px 12px;text-align:left">✅ 15分以上連続した脱線はありません</div>'
+      : alerts.map(a => `
+        <div class="alert-item">
+          <span class="alert-time">${minutesToHHMM(a.startMin)}-${minutesToHHMM(a.endMin)}</span>
+          <span class="alert-app">${escapeHtml(a.app)}</span>
+          <span class="alert-dur">${fmtMin(a.duration)}</span>
+        </div>
+      `).join('');
+
+    const donutSlices = ['focus', 'other', 'distraction', 'idle']
+      .map(c => ({ name: ACTIVITY_CAT_LABELS[c], color: getCssVar(`--cat-${c}`),
+                   value: autoData.activityTotals[c] || 0,
+                   label: fmtMin(autoData.activityTotals[c] || 0) || '0m' }))
+      .filter(s => s.value > 0);
+    const focusMin = autoData.activityTotals.focus || 0;
+    const totalMin = donutSlices.reduce((s, x) => s + x.value, 0);
+    const focusPct = totalMin > 0 ? Math.round((focusMin / totalMin) * 100) + '%' : '—';
+
+    body.innerHTML = `
+      <div class="activity-timeline">${blocksHtml}</div>
+      <div class="activity-hours">
+        <span>00</span><span>06</span><span>12</span><span>18</span><span>24</span>
+      </div>
+      <div class="activity-legend">${legendHtml}</div>
+      <div class="activity-stats">
+        <div class="donut-wrap">
+          <div class="subsection-title">カテゴリ構成</div>
+          ${donutSvg(donutSlices, focusPct, '集中比率')}
+          ${donutLegend(donutSlices)}
+        </div>
+        <div>
+          <div class="subsection-title">カテゴリ別時間</div>
+          ${catBars}
+        </div>
+        <div>
+          <div class="subsection-title">アプリ別 TOP ${autoData.activityTopApps.length}</div>
+          ${topAppsHtml}
+        </div>
+      </div>
+      <div class="subsection-title" style="margin-top:16px">📂 主に開いていたファイル / タイトル（アプリ別）</div>
+      <div class="app-titles-grid">${appTitlesHtml}</div>
+      <div class="subsection-title" style="margin-top:16px">⚠️ 脱線アラート（${DISTRACTION_ALERT_MIN}分以上連続）</div>
+      <div class="alert-list">${alertsHtml}</div>
+    `;
+  }
+
+  function getCssVar(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || '#888';
+  }
+
+  async function loadActivity() {
+    const body = document.getElementById('activity-body');
+    const metaEl = document.getElementById('activity-meta');
+    const totalEl = document.getElementById('activity-total');
+    setStatus('activity-status', 'loading', '読込中');
+    metaEl.innerHTML = ''; totalEl.textContent = ''; body.innerHTML = '';
+    autoData.activitySamples = []; autoData.activityTotals = {};
+    autoData.activityTopApps = []; autoData.activityAppTitles = [];
+    autoData.activityAlerts = []; autoData.activityBlocks = [];
+
+    try {
+      const dateKey = fmtKey(currentDate);
+      const res = await fetch(`/api/activity/${dateKey}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const samples = data.samples || [];
+      autoData.activitySamples = samples;
+
+      if (samples.length === 0) {
+        setStatus('activity-status', 'pending', '未設定');
+        body.innerHTML = `<div class="info">
+          <strong>アクティビティトラッカーのデータがまだありません。</strong><br>
+          launchdで <code>com.user.activity-tracker</code> が動作していることを確認してください：<br>
+          <code>launchctl list | grep activity-tracker</code>
+        </div>`;
+        renderSummary(); return;
+      }
+
+      autoData.activityBlocks = computeActivityBlocks(samples);
+      autoData.activityTotals = computeCategoryTotals(samples);
+      autoData.activityTopApps = computeTopApps(samples);
+      autoData.activityAppTitles = computeAppTitles(samples);
+      autoData.activityAlerts = computeDistractionAlerts(autoData.activityBlocks);
+
+      const lastTs = samples[samples.length - 1].ts;
+      metaEl.innerHTML = `<div class="sync-meta">サンプル数: ${samples.length} / 最終記録: ${lastTs}${autoData.activityAlerts.length ? ` / ⚠️ 脱線アラート ${autoData.activityAlerts.length}件` : ''}</div>`;
+
+      renderActivity();
+      setStatus('activity-status', 'ok', `${samples.length}分記録`);
+    } catch (e) {
+      setStatus('activity-status', 'error', 'エラー');
+      body.innerHTML = `<div class="warning"><strong>取得失敗:</strong> ${escapeHtml(e.message)}</div>`;
+    }
+    renderSummary();
+  }
+
+  async function loadClockify() {
+    const listEl = document.getElementById('clockify-list');
+    const metaEl = document.getElementById('clockify-sync-meta');
+    const totalEl = document.getElementById('clockify-total');
+    setStatus('clockify-status', 'loading', '読込中');
+    metaEl.innerHTML = ''; totalEl.textContent = '';
+    try {
+      const dateKey = fmtKey(currentDate);
+      const res = await fetch(`/api/clockify/${dateKey}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const parsed = await res.json();
+
+      if (!parsed.latest) {
+        setStatus('clockify-status', 'pending', '未設定');
+        listEl.innerHTML = `<div class="info"><strong>Clockify同期が動いていません。</strong><br>
+          <code>launchctl list | grep clockify-sync</code> で状態確認してください。</div>`;
+        autoData.clockify = []; autoData.clockifyTotalMs = 0; renderSummary(); return;
+      }
+
+      const syncedAt = parsed.latest.synced_at ? new Date(parsed.latest.synced_at) : null;
+      if (syncedAt) {
+        const now = new Date();
+        const mins = Math.round((now - syncedAt) / 60000);
+        const relative = mins < 1 ? '直前' : mins < 60 ? `${mins}分前` : `${Math.round(mins/60)}時間前`;
+        metaEl.innerHTML = `<div class="sync-meta">最終同期: ${syncedAt.toLocaleString('ja-JP')} (${relative})</div>`;
+      }
+
+      const entries = (parsed.day && parsed.day.entries) ? parsed.day.entries : [];
+      autoData.clockify = entries;
+
+      let totalMs = 0;
+      const projMap = new Map();
+      for (const e of entries) {
+        const ms = durationMs(e.start, e.end);
+        totalMs += ms;
+        const key = e.project || '(プロジェクトなし)';
+        const color = e.project_color || '#64748b';
+        const cur = projMap.get(key) || { name: key, color, ms: 0 };
+        cur.ms += ms;
+        projMap.set(key, cur);
+      }
+      autoData.clockifyTotalMs = totalMs;
+      autoData.clockifyProjects = [...projMap.values()].sort((a, b) => b.ms - a.ms);
+      totalEl.textContent = totalMs ? `合計: ${fmtHM(totalMs)}` : '';
+
+      const projWrap = document.getElementById('clockify-projects');
+      if (autoData.clockifyProjects.length > 0 && totalMs > 0) {
+        const slices = autoData.clockifyProjects.map(p => ({
+          name: p.name, color: p.color, value: p.ms, label: fmtHM(p.ms),
+        }));
+        projWrap.innerHTML = `
+          <div style="display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:center">
+            <div class="donut-wrap">${donutSvg(slices, fmtHM(totalMs), 'プロジェクト')}</div>
+            ${donutLegend(slices)}
+          </div>`;
+        projWrap.style.display = 'block';
+      } else {
+        projWrap.style.display = 'none';
+        projWrap.innerHTML = '';
+      }
+
+      if (entries.length === 0) {
+        listEl.innerHTML = '<div class="empty">この日に記録した時間エントリはありません。</div>';
+      } else {
+        listEl.innerHTML = entries.map(e => {
+          const startHM = hhmmFromISO(e.start);
+          const endHM = e.is_running ? '…' : hhmmFromISO(e.end);
+          const dur = fmtHM(durationMs(e.start, e.end));
+          const projColor = e.project_color || '#64748b';
+          const tags = (e.tags || []).map(t => `<span class="tag-chip">${escapeHtml(t)}</span>`).join('');
+          return `
+            <li>
+              <span class="time">${startHM}-${endHM}${e.is_running ? '<span class="running-dot"></span>' : ''}</span>
+              <span class="dur">${dur}</span>
+              <div>
+                <div class="subject">${escapeHtml(e.description || '(説明なし)')}</div>
+                <div class="meta">
+                  ${e.project ? `<span class="proj-dot" style="background:${escapeHtml(projColor)}"></span>${escapeHtml(e.project)}` : ''}
+                  ${tags ? ' ' + tags : ''}
+                </div>
+              </div>
+            </li>
+          `;
+        }).join('');
+      }
+      setStatus('clockify-status', 'ok', `${entries.length}件`);
+    } catch (e) {
+      setStatus('clockify-status', 'error', 'エラー');
+      listEl.innerHTML = `<div class="warning"><strong>取得失敗:</strong> ${escapeHtml(e.message)}</div>`;
+    }
+    renderSummary();
+  }
+
+  async function loadFiles() {
+    const listEl = document.getElementById('files-list');
+    setStatus('files-status', 'loading', '読込中');
+    try {
+      const dateKey = fmtKey(currentDate);
+      const res = await fetch(`/api/files/${dateKey}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const files = data.files || [];
+      autoData.files = files;
+      if (files.length === 0) {
+        listEl.innerHTML = `<div class="empty">この日に編集したmdファイルはありません。</div>`;
+      } else {
+        listEl.innerHTML = files.map(f => {
+          const name = f.path.split('/').pop();
+          const dir = f.path.includes('/') ? f.path.substring(0, f.path.lastIndexOf('/')) : '';
+          return `
+            <li>
+              <span class="time">${escapeHtml(f.time)}</span>
+              <div>
+                <div class="subject">${escapeHtml(name)}</div>
+                ${dir ? `<div class="meta">${escapeHtml(dir)}/</div>` : ''}
+              </div>
+            </li>
+          `;
+        }).join('');
+      }
+      setStatus('files-status', 'ok', `${files.length}件`);
+    } catch (e) {
+      setStatus('files-status', 'error', 'エラー');
+      listEl.innerHTML = `<div class="warning"><strong>取得失敗:</strong> ${escapeHtml(e.message)}</div>`;
+    }
+    renderSummary();
+  }
+
+  async function loadAllSources() {
+    await Promise.all([loadActivity(), loadClockify(), loadFiles(), loadMemo(), loadCommits()]);
+  }
+
+  async function loadCommits() {
+    const body = document.getElementById('commits-body');
+    const totalEl = document.getElementById('commits-total');
+    setStatus('commits-status', 'loading', '読込中');
+    body.innerHTML = ''; totalEl.textContent = '';
+    autoData.commits = { repos: [], total: 0, errors: [] };
+    try {
+      const res = await fetch(`/api/commits/${fmtKey(currentDate)}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      autoData.commits = { repos: data.repos || [], total: data.total || 0, errors: data.errors || [] };
+
+      const reposWithCommits = autoData.commits.repos.filter(r => (r.commits || []).length > 0 || r.error);
+
+      if ((autoData.commits.repos.length === 0)) {
+        setStatus('commits-status', 'pending', '未設定');
+        body.innerHTML = `<div class="info">
+          <strong>監視対象リポジトリが未設定です。</strong><br>
+          <code>_ kiwami/tools/daily-log/git-repos.json</code> の <code>repos</code> 配列にローカルパスを追加してください。<br>
+          例: <code>["/Users/fukuokase/work/repo-a"]</code>
+        </div>`;
+        return;
+      }
+      totalEl.textContent = `${autoData.commits.total} commits`;
+
+      if (reposWithCommits.length === 0) {
+        setStatus('commits-status', 'ok', '0件');
+        body.innerHTML = '<div class="empty">この日のコミットはありません。</div>';
+        return;
+      }
+
+      body.innerHTML = reposWithCommits.map(r => {
+        if (r.error) {
+          return `<div class="commits-repo">
+            <div class="commits-repo-head">
+              <span class="commits-repo-name">${escapeHtml(r.name)}</span>
+              <span class="commits-repo-meta">${escapeHtml(r.path)}</span>
+            </div>
+            <div class="warning"><strong>${escapeHtml(r.error)}</strong></div>
+          </div>`;
+        }
+        const items = (r.commits || []).map(c => {
+          const t = (c.datetime || '').slice(11, 16);
+          return `<li>
+            <span class="commit-time">${escapeHtml(t)}</span>
+            <span class="commit-sha">${escapeHtml(c.short)}</span>
+            <span class="commit-msg">${escapeHtml(c.subject)}</span>
+          </li>`;
+        }).join('');
+        return `<div class="commits-repo">
+          <div class="commits-repo-head">
+            <span class="commits-repo-name">${escapeHtml(r.name)} <span style="color:var(--muted);font-weight:400">(${(r.commits || []).length})</span></span>
+            <span class="commits-repo-meta" title="${escapeHtml(r.path)}">${escapeHtml(r.author || '')}</span>
+          </div>
+          <ul class="commits-list">${items}</ul>
+        </div>`;
+      }).join('');
+      setStatus('commits-status', 'ok', `${autoData.commits.total}件`);
+    } catch (e) {
+      setStatus('commits-status', 'error', 'エラー');
+      body.innerHTML = `<div class="warning"><strong>取得失敗:</strong> ${escapeHtml(e.message)}</div>`;
+    }
+  }
+
+  // --- Memo ---
+  async function loadMemo() {
+    const ta = document.getElementById('memo-text');
+    const stateEl = document.getElementById('memo-state');
+    const pathEl = document.getElementById('memo-saved-path');
+    memoState.loaded = false; memoState.dirty = false;
+    if (memoState.saveTimer) { clearTimeout(memoState.saveTimer); memoState.saveTimer = null; }
+    ta.value = ''; stateEl.textContent = '読込中…'; stateEl.className = ''; pathEl.textContent = '';
+    try {
+      const res = await fetch(`/api/memo/${fmtKey(currentDate)}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      memoState.content = data.content || '';
+      ta.value = memoState.content;
+      memoState.loaded = true;
+      stateEl.textContent = memoState.content ? '読み込み済み' : '未編集';
+      stateEl.className = '';
+      if (memoState.content) pathEl.textContent = `Daily Log/memo/${fmtKey(currentDate)}.md`;
+    } catch (e) {
+      stateEl.textContent = `読込失敗: ${e.message}`;
+      stateEl.className = 'err';
+    }
+  }
+
+  function scheduleMemoSave() {
+    if (!memoState.loaded) return;
+    const ta = document.getElementById('memo-text');
+    const stateEl = document.getElementById('memo-state');
+    memoState.dirty = true;
+    stateEl.textContent = '入力中…'; stateEl.className = '';
+    if (memoState.saveTimer) clearTimeout(memoState.saveTimer);
+    memoState.saveTimer = setTimeout(() => saveMemo(ta.value), 800);
+  }
+
+  async function saveMemo(content) {
+    const stateEl = document.getElementById('memo-state');
+    const pathEl = document.getElementById('memo-saved-path');
+    memoState.saving = true;
+    stateEl.textContent = '保存中…'; stateEl.className = '';
+    try {
+      const res = await fetch(`/api/memo/${fmtKey(currentDate)}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ content }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.ok) throw new Error(data.error || `HTTP ${res.status}`);
+      memoState.content = content; memoState.dirty = false;
+      const ts = new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      stateEl.textContent = `保存しました ${ts}`; stateEl.className = 'ok';
+      pathEl.textContent = data.path || '';
+    } catch (e) {
+      stateEl.textContent = `保存失敗: ${e.message}`; stateEl.className = 'err';
+    } finally {
+      memoState.saving = false;
+    }
+  }
+
+  function buildMarkdown() {
+    const lines = [`# Daily Log — ${fmtDisplay(currentDate)}`, ''];
+
+    const memo = (document.getElementById('memo-text').value || '').trim();
+    if (memo) {
+      lines.push('## メモ');
+      lines.push(memo);
+      lines.push('');
+    }
+
+    if (autoData.activitySamples.length) {
+      const focus = autoData.activityTotals.focus || 0;
+      const distraction = autoData.activityTotals.distraction || 0;
+      const other = autoData.activityTotals.other || 0;
+      const idle = autoData.activityTotals.idle || 0;
+      lines.push(`## 活動トラッカー`);
+      lines.push(`- 集中: ${fmtMin(focus) || '0m'} / その他: ${fmtMin(other) || '0m'} / 脱線: ${fmtMin(distraction) || '0m'} / アイドル: ${fmtMin(idle) || '0m'}`);
+      if (autoData.activityTopApps.length) {
+        lines.push(`- アプリ TOP3: ${autoData.activityTopApps.slice(0,3).map(a => `${a.name} (${fmtMin(a.minutes)})`).join(', ')}`);
+      }
+      if ((autoData.activityAppTitles || []).length) {
+        lines.push('');
+        lines.push('### 主に開いていたファイル / タイトル');
+        for (const a of autoData.activityAppTitles) {
+          if (!a.titles.length) continue;
+          lines.push(`- **${a.app}** (${fmtMin(a.total) || '0m'})`);
+          for (const t of a.titles) {
+            lines.push(`  - ${t.title} (${fmtMin(t.minutes) || '1m'})`);
+          }
+        }
+        lines.push('');
+      }
+      if (autoData.activityAlerts.length) {
+        lines.push(`- ⚠️ 脱線アラート:`);
+        for (const a of autoData.activityAlerts) {
+          lines.push(`  - ${minutesToHHMM(a.startMin)}-${minutesToHHMM(a.endMin)} ${a.app} (${fmtMin(a.duration)})`);
+        }
+      }
+      lines.push('');
+    }
+
+    if (autoData.clockify.length) {
+      lines.push(`## Clockify 時間エントリ（合計 ${fmtHM(autoData.clockifyTotalMs)}）`);
+      if (autoData.clockifyProjects.length) {
+        lines.push(`- プロジェクト別: ${autoData.clockifyProjects.map(p => `${p.name} ${fmtHM(p.ms)}`).join(' / ')}`);
+      }
+      for (const e of autoData.clockify) {
+        const startHM = hhmmFromISO(e.start);
+        const endHM = e.is_running ? '…' : hhmmFromISO(e.end);
+        const dur = fmtHM(durationMs(e.start, e.end));
+        const proj = e.project ? ` [${e.project}]` : '';
+        const tags = (e.tags || []).length ? ` #${e.tags.join(' #')}` : '';
+        lines.push(`- ${startHM}-${endHM} (${dur})${proj} ${e.description || ''}${tags}`);
+      }
+      lines.push('');
+    }
+
+    const commitRepos = (autoData.commits.repos || []).filter(r => (r.commits || []).length > 0);
+    if (commitRepos.length) {
+      lines.push(`## コミット（合計 ${autoData.commits.total}件）`);
+      for (const r of commitRepos) {
+        lines.push(`### ${r.name} (${r.commits.length})`);
+        for (const c of r.commits) {
+          const t = (c.datetime || '').slice(11, 16);
+          lines.push(`- ${t} \`${c.short}\` ${c.subject}`);
+        }
+      }
+      lines.push('');
+    }
+
+    if (autoData.files.length) {
+      lines.push('## 編集したファイル');
+      for (const f of autoData.files) {
+        lines.push(`- ${f.time}  ${f.path}`);
+      }
+      lines.push('');
+    }
+
+    if (lines.length <= 2) lines.push('（記録なし）');
+    return lines.join('\n');
+  }
+
+  // Events
+  const memoTa = document.getElementById('memo-text');
+  memoTa.addEventListener('input', scheduleMemoSave);
+  memoTa.addEventListener('blur', () => {
+    if (memoState.dirty) {
+      if (memoState.saveTimer) { clearTimeout(memoState.saveTimer); memoState.saveTimer = null; }
+      saveMemo(memoTa.value);
+    }
+  });
+
+  document.getElementById('prev-day').addEventListener('click', () => {
+    currentDate.setDate(currentDate.getDate() - 1);
+    render(); loadAllSources();
+  });
+  document.getElementById('next-day').addEventListener('click', () => {
+    currentDate.setDate(currentDate.getDate() + 1);
+    render(); loadAllSources();
+  });
+  document.getElementById('today-btn').addEventListener('click', () => {
+    currentDate = new Date();
+    render(); loadAllSources();
+  });
+  document.getElementById('reload-btn').addEventListener('click', () => {
+    loadAllSources();
+  });
+
+  document.getElementById('export-md').addEventListener('click', async () => {
+    const out = document.getElementById('report-output');
+    const md = buildMarkdown();
+    out.textContent = md;
+    out.classList.add('visible');
+
+    const btn = document.getElementById('export-md');
+    const orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = '保存中…';
+    try {
+      const res = await fetch(`/api/save-md/${fmtKey(currentDate)}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ content: md }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.ok) throw new Error(data.error || `HTTP ${res.status}`);
+      btn.textContent = `保存しました: ${data.path}`;
+    } catch (e) {
+      btn.textContent = `保存失敗: ${e.message}`;
+    } finally {
+      setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
+    }
+  });
+  document.getElementById('copy-md').addEventListener('click', async () => {
+    const md = buildMarkdown();
+    try {
+      await navigator.clipboard.writeText(md);
+      const btn = document.getElementById('copy-md');
+      const orig = btn.textContent;
+      btn.textContent = 'コピーしました';
+      setTimeout(() => btn.textContent = orig, 1500);
+    } catch(e) {
+      const out = document.getElementById('report-output');
+      out.textContent = md;
+      out.classList.add('visible');
+    }
+  });
+
+  // Auto-reload every 60 seconds while viewing today
+  setInterval(() => {
+    const todayKey = fmtKey(new Date());
+    if (fmtKey(currentDate) === todayKey) {
+      loadAllSources();
+    }
+  }, 60000);
+
+  render();
+  loadAllSources();
+</script>
+</body>
+</html>

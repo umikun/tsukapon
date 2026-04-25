@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776743670062-xpfkg7xf1",
+  "providerId": "claude",
+  "title": "X投稿の問題を調査",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776743670070,
+  "updatedAt": 1776813559078,
+  "lastResponseAt": 1776775664355,
+  "sessionId": "2a6f8e82-d4e4-4abb-9f6c-4671b9defeef",
+  "providerState": {
+    "providerSessionId": "2a6f8e82-d4e4-4abb-9f6c-4671b9defeef"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 293,
+    "cacheReadInputTokens": 144600,
+    "contextWindow": 200000,
+    "contextTokens": 144894,
+    "percentage": 72,
+    "contextWindowIsAuthoritative": true
+  }
+}

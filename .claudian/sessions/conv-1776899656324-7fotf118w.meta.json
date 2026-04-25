@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776899656324-7fotf118w",
+  "providerId": "claude",
+  "title": "Open daily note article",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776899656330,
+  "updatedAt": 1776949291001,
+  "lastResponseAt": 1776937711420,
+  "sessionId": "1a98fd6e-bc75-4c39-879e-dd3629ae44e4",
+  "providerState": {
+    "providerSessionId": "1a98fd6e-bc75-4c39-879e-dd3629ae44e4"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 854,
+    "cacheReadInputTokens": 91199,
+    "contextWindow": 200000,
+    "contextTokens": 92054,
+    "percentage": 46,
+    "contextWindowIsAuthoritative": true
+  }
+}
