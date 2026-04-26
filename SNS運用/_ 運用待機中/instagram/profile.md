@@ -2,8 +2,8 @@
 
 > **🔗 関連コンテンツ**
 > - 👥 人格データ（アバター・文体）: [[_ kiwami/my-clone/avatar.jpg]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile]]
-> - 🎞 Threads固定自己紹介: [[SNS運用/threads/20260410_自己紹介_固定用]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
+> - 🎞 Threads固定自己紹介: [[20260410_自己紹介_固定用]]
 > - 🎬 リールフォント設定: [[SNS運用/_ 運用待機中/short-movie/fonts]]
 > - 📱 Instagramキャプション一覧: [[SNS運用/_ 運用待機中/instagram/comments/day01_comment]]〜[[SNS運用/_ 運用待機中/instagram/comments/day11_comment|day11]]
 > - 📈 成長戦略: [[SNS運用/growth-strategy]]

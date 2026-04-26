@@ -4,21 +4,20 @@
   "title": "Analyze post by 09pauai",
   "titleGenerationStatus": "success",
   "createdAt": 1777083369217,
-  "updatedAt": 1777091589729,
-  "lastResponseAt": 1777091589729,
+  "updatedAt": 1777158774271,
+  "lastResponseAt": 1777106966308,
   "sessionId": "7b62377a-1de9-4d86-b54b-ee6668d6ccea",
   "providerState": {
     "providerSessionId": "7b62377a-1de9-4d86-b54b-ee6668d6ccea"
   },
-  "currentNote": "Clippings/Post by @09pauai on X.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 6821,
-    "cacheReadInputTokens": 105902,
+    "cacheCreationInputTokens": 363,
+    "cacheReadInputTokens": 87984,
     "contextWindow": 200000,
-    "contextTokens": 112724,
-    "percentage": 56,
+    "contextTokens": 88348,
+    "percentage": 44,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -18,7 +18,10 @@
       "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/thread.md)",
       "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/md-format.md)",
       "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/quote-rewrite.md)",
-      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/deep-dive.md)"
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/deep-dive.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/archive.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/remember.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/reflect.md)"
     ]
   },
   "hooks": {

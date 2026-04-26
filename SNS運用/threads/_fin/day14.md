@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day14.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day13.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day15.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 13/30】
 「AIで時短ってテキストだけでしょ？」

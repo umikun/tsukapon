@@ -6,7 +6,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day06.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day05_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day05_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 4/30】
 「この50ページのPDF、明日までに読んどいて」

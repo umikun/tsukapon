@@ -6,7 +6,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day12.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day11_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day11_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 10/30】
 「AI使ってみたけど、なんか変な答えしか返ってこない…」

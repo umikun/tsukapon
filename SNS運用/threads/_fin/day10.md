@@ -6,7 +6,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day11.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day10_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day10_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 9/30】
 「競合他社の情報リサーチ、丸一日かかりそう…」

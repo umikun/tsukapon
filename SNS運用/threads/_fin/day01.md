@@ -5,7 +5,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day02.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day01_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day01_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 「毎日残業してるのに終わらない…」
 それ、あなたの能力が低いわけじゃないよ。

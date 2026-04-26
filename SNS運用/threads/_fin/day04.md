@@ -6,7 +6,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day05.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day04_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day04_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 3/30】
 「企画のアイデアが出ない…」

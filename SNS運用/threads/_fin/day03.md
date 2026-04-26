@@ -6,7 +6,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day04.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day03_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day03_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 2/30】
 「会議の議事録作成で1時間潰れる…」

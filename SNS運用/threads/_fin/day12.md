@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day12.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day11.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day13.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 11/30】
 クレームの返信メール、書くの苦手じゃない？

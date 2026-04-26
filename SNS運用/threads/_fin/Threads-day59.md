@@ -2,8 +2,8 @@
 
 > **🔗 関連コンテンツ**
 > - ✖️ 対応するX投稿: [[day59]]
-> - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day60.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - ➡️ 翌日のThreads: [[Threads-day60]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 > - 📋 Threads運用戦略: [[SNS運用/Threads運用.md]]
 
 ## 投稿①（朝）

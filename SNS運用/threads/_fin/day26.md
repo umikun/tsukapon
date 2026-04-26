@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day26.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day25.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day27.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 25/30】
 「読みたい本があるのに、時間がなくて積読ばかり…」

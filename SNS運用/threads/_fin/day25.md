@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day25.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day24.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day26.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 24/30】
 「頭の中がごちゃごちゃして、何から手をつければいいか分からない…」

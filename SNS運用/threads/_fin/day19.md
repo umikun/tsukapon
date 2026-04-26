@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day19.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day18.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day20.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 18/30】
 「他社の料金プランと比較表を作って」って言われた時、どうしてる？

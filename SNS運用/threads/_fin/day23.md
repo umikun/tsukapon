@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day23.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day22.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day24.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 22/30】
 毎回「あなたは優秀な〇〇です」って打ち込むの、地味に面倒くない？

@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day30.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day29.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day31.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 29/30】
 いよいよ次回で最終回。その前に、一番大事なことを伝えさせて。

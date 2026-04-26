@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day18.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day17.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day19.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 17/30】
 「日報の所感、今日も書くことないな…」

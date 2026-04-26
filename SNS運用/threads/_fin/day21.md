@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day21.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day20.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day22.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 20/30】
 「この英文資料、直訳だと意味が通じない…」

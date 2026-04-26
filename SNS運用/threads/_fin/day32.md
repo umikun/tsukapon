@@ -4,7 +4,7 @@
 > - ✖️ 対応するX投稿（アーカイブ）: [[SNS運用/post/_fin/day32.md]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/_fin/day31.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day33.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 ## 投稿①（朝）
 

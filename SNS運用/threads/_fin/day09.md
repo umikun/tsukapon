@@ -6,7 +6,7 @@
 > - ➡️ 翌日のThreads: [[SNS運用/threads/_fin/day10.md]]
 > - 📸 Instagramコメント版: [[SNS運用/_ 運用待機中/instagram/comments/day09_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/_ 運用待機中/youtube/day09_youtube.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 
 【今日から使えるAI時短術 8/30】
 「毎日同じエクセルを開いて、同じ数字を転記して、同じ宛先にメールを打つ…」

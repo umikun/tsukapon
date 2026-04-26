@@ -1,7 +1,7 @@
 # 先頭固定ポスト案：毎日の単純作業を50%削減する「ChatGPTプロンプト厳選5選」無料配布
 
 > **🔗 関連コンテンツ**
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/profile.md]]
+> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
 > - 📸 Instagramプロフィール: [[SNS運用/_ 運用待機中/instagram/profile.md]]
 > - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
 > - 🧠 人格データ: [[_ kiwami/my-clone]]
