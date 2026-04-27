@@ -4,6 +4,20 @@
   "title": "推し活のAI deepfake問題に返信",
   "titleGenerationStatus": "success",
   "createdAt": 1777292985261,
-  "updatedAt": 1777293000759,
-  "sessionId": null
+  "updatedAt": 1777293912922,
+  "lastResponseAt": 1777293010960,
+  "sessionId": "cdc9ee1f-f590-4274-9f0c-c858efd6163a",
+  "providerState": {
+    "providerSessionId": "cdc9ee1f-f590-4274-9f0c-c858efd6163a"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 4436,
+    "cacheReadInputTokens": 25601,
+    "contextWindow": 1000000,
+    "contextTokens": 30038,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
 }
