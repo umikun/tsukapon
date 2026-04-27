@@ -1,0 +1,39 @@
+/* 行間を広げて読みやすく */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content {
+  line-height: 1.75;
+}
+
+/* 見出しの余白を強調 */
+.markdown-preview-view h1,
+.markdown-preview-view h2 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.3em;
+}
+
+/* H1 文字サイズの変更
+.markdown-preview-view h1 {
+  font-size: 24px;
+} */
+
+/* ファイル名（inline title）を小さく */
+.markdown-source-view .inline-title, .markdown-preview-view .inline-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+}
+
+/* コードブロックを少し丸く */
+.markdown-preview-view pre {
+  border-radius: 8px;
+  padding: 1em;
+}
+
+/* 引用を目立たせる */
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--interactive-accent);
+  background: var(--background-secondary);
+  padding: 0.5em 1em;
+}

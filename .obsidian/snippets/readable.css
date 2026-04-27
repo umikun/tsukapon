@@ -1,0 +1,65 @@
+/* 行間を広げて読みやすく */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content {
+  line-height: 1.75;
+}
+
+/* 見出しの余白を強調 */
+.markdown-preview-view h1,
+.markdown-preview-view h2 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.3em;
+}
+
+/* H1 文字サイズの変更 */
+.markdown-preview-view h1 {
+  font-size: 24px;
+}
+
+/* ファイル名（inline title）を小さく */
+.view-content .inline-title,
+.workspace-leaf .inline-title {
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.4em !important;
+  line-height: 1.3 !important;
+}
+
+/* Claudian チャット内の見出しサイズを揃える */
+.claudian-message-content h1 {
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  margin-top: 1.2em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.claudian-message-content h2 {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.4em !important;
+}
+
+.claudian-message-content h3 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  margin-top: 0.8em !important;
+  margin-bottom: 0.3em !important;
+}
+
+/* コードブロックを少し丸く */
+.markdown-preview-view pre {
+  border-radius: 8px;
+  padding: 1em;
+}
+
+/* 引用を目立たせる */
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--interactive-accent);
+  background: var(--background-secondary);
+  padding: 0.5em 1em;
+}

@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "SNS運用/action-20260427.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -253,7 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1139.5
+    "width": 1505.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,6 +273,7 @@
   },
   "active": "d6a7df12285ee480",
   "lastOpenFiles": [
+    "readable.css",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
     "Clippings/Post by @NainsiDwiv50980 on X.md",
     "調査/2026-04-27-socraticode-local-codebase-rag.md",
@@ -318,7 +319,6 @@
     "SNS運用/pending/instagram/comments/day09_comment.md",
     "SNS運用/pending/instagram/comments/day04_comment.md",
     "SNS運用/pending/instagram/comments/day08_comment.md",
-    "SNS運用/pending/instagram/comments/day07_comment.md",
     "無題のファイル.canvas"
   ]
 }

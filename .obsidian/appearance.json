@@ -1,7 +1,11 @@
 {
-  "accentColor": "",
+  "accentColor": "#2e82c2",
   "textFontFamily": "0xProto,Menlo",
   "monospaceFontFamily": "0xProto,Menlo",
   "interfaceFontFamily": "DIN Alternate,Futura",
-  "theme": "obsidian"
+  "theme": "moonstone",
+  "cssTheme": "Auger",
+  "enabledCssSnippets": [
+    "readable"
+  ]
 }

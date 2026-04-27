@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777275381824-ufl9qgoys",
+  "providerId": "claude",
+  "title": "Obsidianプレビューを見やすくする",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777275381833,
+  "updatedAt": 1777276983470,
+  "lastResponseAt": 1777276983470,
+  "sessionId": "3876635f-3b4d-4add-9f0c-d3b72ff58102",
+  "providerState": {
+    "providerSessionId": "3876635f-3b4d-4add-9f0c-d3b72ff58102"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 856,
+    "cacheReadInputTokens": 34525,
+    "contextWindow": 1000000,
+    "contextTokens": 35382,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
