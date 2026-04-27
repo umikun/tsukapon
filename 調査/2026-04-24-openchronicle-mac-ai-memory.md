@@ -84,7 +84,7 @@ source: "[[Clippings/Post by @L_go_mrk on X.md]]"
 - **LiteLLM**: 1本のAPIでOpenAI/Anthropic/Ollama/LM Studioに切り替えるためのラッパ。**"LLMプロバイダ中立"のプロジェクトはほぼこれを使う**。
 - **ローカルLLM（Ollama / LM Studio）**: OpenChronicleの"機密情報でも安心"説を成立させるにはここが必須。クラウドAPI指定なら結局送信される。
 - **Screenpipe**: 画面+音声をローカル保存する対抗OSS。**OpenChronicle（AXベース）vs Screenpipe（スクショ+音声）** は捕捉対象・容量・精度でトレードオフ関係。
-- **[[調査/2026-04-23-claude-obsidian-llm-wiki.md]]**: claude-obsidianがObsidian vault内の"知識"を扱うのに対し、OpenChronicleは "Mac上の作業行動"を扱う。**組み合わせて使うと「思考(vault)＋行動(Mac)」の両輪メモリ**になる。
+- **[[2026-04-23-claude-obsidian-llm-wiki]]**: claude-obsidianがObsidian vault内の"知識"を扱うのに対し、OpenChronicleは "Mac上の作業行動"を扱う。**組み合わせて使うと「思考(vault)＋行動(Mac)」の両輪メモリ**になる。
 
 ---
 
@@ -110,7 +110,7 @@ source: "[[Clippings/Post by @L_go_mrk on X.md]]"
 - [ ] Claude Desktop 以外の **MCPクライアント**（Cursor / Zed / Claude Code / Continue.dev など）での動作報告はあるか
 - [ ] Ollama ローカルLLMだけで運用したときの **検索精度・応答速度** の実測値
 - [ ] 日本語アプリ（Notion Mac / Obsidian / Craft 等）の **AXテキスト抽出精度**
-- [ ] [[調査/2026-04-23-claude-obsidian-llm-wiki.md]] との **組み合わせ運用**（行動ログ × 知識vault をClaudeに同時に渡す）が現実的か
+- [ ] [[2026-04-23-claude-obsidian-llm-wiki]] との **組み合わせ運用**（行動ログ × 知識vault をClaudeに同時に渡す）が現実的か
 
 ---
 
@@ -133,5 +133,5 @@ source: "[[Clippings/Post by @L_go_mrk on X.md]]"
 
 - **使い道**: 明日以降の [[SNS運用/note/]] の素材として強い。**「OpenAI Chronicle vs OSSのOpenChronicle」**というシンプルな対比軸は、X投稿／引用RT向きのフックになる（関係性KWは「会社の機密」）。
 - **刺さりそうな切り口**: 「**画面録画しない派**」という新しいサブカテゴリが成立しうる。Screenpipe（撮る派）とOpenChronicle（撮らない派）の2軸で記事化すると、稟議通過しやすいOSS選び方ガイドになる。
-- **Tsukapon vault との接続**: [[調査/2026-04-23-claude-obsidian-llm-wiki.md]] とセットで、**claude-obsidian（vault側）＋OpenChronicle（Mac作業側）＋MCP（接続層）＋Claude Desktop（UI）** の4層構成を描くと、"Claudianの次の進化系"の絵が描ける。
+- **Tsukapon vault との接続**: [[2026-04-23-claude-obsidian-llm-wiki]] とセットで、**claude-obsidian（vault側）＋OpenChronicle（Mac作業側）＋MCP（接続層）＋Claude Desktop（UI）** の4層構成を描くと、"Claudianの次の進化系"の絵が描ける。
 - **自分用の判断**: 業務Macで即導入はしない。**個人のサブMac or 仮想環境でv0.1を試し、v0.3くらいまで待ってから本番機に入れる** のが現実解。AXのアプリ除外が入るかを最初に確認すべき。

@@ -1,7 +1,7 @@
 # 【裏技】毎日3分で決まる。Grokを使ったX運用ネタ出し術
 
 > **🔗 関連コンテンツ**
-> - 📝 Web Clipperで情報収集: [[SNS運用/Obsidian Web Clipper活用.md]]
+> - 📝 Web Clipperで情報収集: [[Obsidian Web Clipper活用]]
 > - 📈 X/Threads増長戦略: [[SNS運用/growth-strategy.md]]
 > - 🧵 Threads運用全体像: [[SNS運用/Threads運用.md]]
 > - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]

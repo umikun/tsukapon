@@ -85,16 +85,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Post by @NainsiDwiv50980 on X.md",
+                "file": "Clippings/Post by @Techjunkie_Aman on X.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post by @NainsiDwiv50980 on X"
+              "title": "Post by @Techjunkie_Aman on X"
+            }
+          },
+          {
+            "id": "de7814237d70bed1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "調査/2026-04-24-claude-code-plugin-marketplace.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-24-claude-code-plugin-marketplace"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -253,7 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1505.5
+    "width": 1304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,13 +285,19 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d6a7df12285ee480",
+  "active": "de7814237d70bed1",
   "lastOpenFiles": [
+    "SNS運用/archive/confirmed/2026-04-23-oss-saas-alternatives.md",
+    "SNS運用/archive/confirmed/2026-04-23-claude-obsidian-llm-wiki.md",
+    "SNS運用/ネタ/2026-04-27-brave-containers.md",
+    "SNS運用/ネタ",
+    "Clippings/Post by @Techjunkie_Aman on X.md",
+    "SNS運用/archive/confirmed",
+    "Clippings/Post by @NainsiDwiv50980 on X.md",
+    "SNS運用/action-20260427.md",
     "readable.css",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
-    "Clippings/Post by @NainsiDwiv50980 on X.md",
     "調査/2026-04-27-socraticode-local-codebase-rag.md",
-    "SNS運用/action-20260427.md",
     "SNS運用/analytics/W17分析レポート.md",
     "SNS運用/analytics/W17戦略メモ.md",
     "SNS運用/analytics/W18戦略メモ.md",
@@ -299,9 +319,6 @@
     "SNS運用/analytics/W16戦略メモ.md",
     "SNS運用/analytics/W16分析レポート.md",
     "SNS運用/analytics/source/account_overview_analytics_2026-04-20_2026-04-26.csv",
-    "SNS運用/analytics/source/account_overview_analytics_2026-04-14_2026-04-20.csv",
-    "SNS運用/analytics/source/account_analytics_content_2026-04-20_2026-04-26.csv",
-    "SNS運用/analytics/source/account_analytics_content_2026-04-14_2026-04-20.csv",
     "SNS運用/post/day62.md",
     "SNS運用/archive/post/day61.md",
     "SNS運用/pending/instagram/reels/day11_thumbnail.png",
@@ -316,9 +333,6 @@
     "SNS運用/pending/instagram/reels/day02_thumbnail.png",
     "SNS運用/pending/instagram/comments/day11_comment.md",
     "SNS運用/pending/instagram/comments/day10_comment.md",
-    "SNS運用/pending/instagram/comments/day09_comment.md",
-    "SNS運用/pending/instagram/comments/day04_comment.md",
-    "SNS運用/pending/instagram/comments/day08_comment.md",
     "無題のファイル.canvas"
   ]
 }

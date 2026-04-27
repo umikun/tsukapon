@@ -78,7 +78,7 @@ source: "[[Clippings/Post by @HowToAI_ on X.md]]"
 ## 🧩 関連概念・隣接分野
 
 - **[[調査/2026-04-24-openchronicle-mac-ai-memory.md]]（OpenChronicle）**: Mac作業文脈をClaude Desktopに渡すMCPサーバ。**プラグインではなく"独立MCPサーバ"**なので、プラグインマーケット経由で入れられる日は近い。
-- **[[調査/2026-04-23-claude-obsidian-llm-wiki.md]]（claude-obsidian）**: 似た位置取り。Obsidian vaultをClaude Codeから扱うためのpluginだが、まだ公式マーケットには未登録っぽい。
+- **[[2026-04-23-claude-obsidian-llm-wiki]]（claude-obsidian）**: 似た位置取り。Obsidian vaultをClaude Codeから扱うためのpluginだが、まだ公式マーケットには未登録っぽい。
 - **MCPサーバの"公式 vs 野良"の境界**: `claude-plugins-official` に同梱されるMCP（GitHub/Linear/Slack等）はAnthropicが動作保証する一方、サードパーティMCPは完全に自己責任。**同じMCPでも"どのマーケット経由で入れたか"で信頼度が変わる**。
 - **ccpi（`@intentsolutionsio/ccpi`）**: Claude Code専用のnpmベースパッケージマネージャ。pnpm/npmと同じ感覚で扱える**"Claude Code界のhomebrew"**的ポジション。
 - **Claude Code Routines（2026-04-14発表）**: 拡張を"自分のMacで実行" → "Anthropic側のクラウドで常時実行"へ広げる仕組み。**プラグイン×Routines** で「選挙監視Bot」「毎朝ニュース要約」等を無人運用する未来が視野に。
@@ -95,7 +95,7 @@ source: "[[Clippings/Post by @HowToAI_ on X.md]]"
   - **任意コード実行のリスク**: Anthropic公式ドキュメントが**"highly trusted components that can execute arbitrary code"**と明記。悪意あるhookが1つ紛れ込むだけで、**`.env`、`~/.ssh/`、キーチェーン、ブラウザcookie**まで送信されうる。
   - **スケール問題**: 2ヶ月でnpmの10年を追い抜く勢いで増えているということは、**npm系のサプライチェーン攻撃（typosquatting / 依存関係ハイジャック / メンテナ乗っ取り）と同じ問題が圧縮された時間軸で発生する**ということ。
   - **"公式っぽい"名前の野良マーケット**: `claude-plugins-official` はAnthropic公式だが、`claudemarketplaces.com` / `buildwithclaude.com` は独立運営。名前の似た偽ディレクトリが出てくるのは時間の問題。
-  - **ライセンス・商用利用**: MITだからといって **中身のMCPサーバが別途商用制限を持っている** ケース（例: n8nのSustainable Use License）があり、**プラグイン単位で"本当に商用OKか"を確認する必要**がある → 参考: [[調査/2026-04-23-oss-saas-alternatives.md]]。
+  - **ライセンス・商用利用**: MITだからといって **中身のMCPサーバが別途商用制限を持っている** ケース（例: n8nのSustainable Use License）があり、**プラグイン単位で"本当に商用OKか"を確認する必要**がある → 参考: [[2026-04-23-oss-saas-alternatives]]。
 - **中立的に見るときの補助線**:
   - **"インストール先スコープ"を使い分ける**のが現実解。Anthropic公式機構は **user / project / local** の3スコープを提供している。**業務リポ＝projectスコープで厳選したものだけ** / 個人検証＝localスコープで野良も試す、と分けるのが安全。
   - **Tsukapon vault の `.claude/commands/` 自作運用** との関係: プラグインマーケットで見つけた良スキルを、**コピーしてvault内に自分の命名で保管**する方が、**外部アップデートで挙動が変わるリスクを回避**できる。拡張エコノミーが膨らむほど、**"手元で凍結する"運用の価値**が上がる。
