@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/post/template/news_thread_v2.md",
+                "file": "SNS運用/action-20260427.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "news_thread_v2"
+              "title": "action-20260427"
             }
           },
           {
@@ -108,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -285,14 +285,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6bb77ac8cef2303c",
+  "active": "01646b6aaee5d6e7",
   "lastOpenFiles": [
+    "SNS運用/post/template/news_thread_v2.md",
+    "SNS運用/post/day63.md",
     "SNS運用/action-20260427.md",
     "SNS運用/post/無題のフォルダ",
     "SNS運用/archive/threads/Threads-day62.md",
     "SNS運用/archive/post/day62.md",
     "Clippings/Post by @Techjunkie_Aman on X.md",
-    "SNS運用/post/template/news_thread_v2.md",
     "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
     "調査/2026-04-24-claude-code-plugin-marketplace.md",
     "SNS運用/archive/confirmed/2026-04-23-oss-saas-alternatives.md",
