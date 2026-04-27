@@ -4,8 +4,8 @@
   "title": "Setup hourly auto-push for Tsukapon",
   "titleGenerationStatus": "success",
   "createdAt": 1777256128679,
-  "updatedAt": 1777260574070,
-  "lastResponseAt": 1777260574070,
+  "updatedAt": 1777262547095,
+  "lastResponseAt": 1777262407894,
   "sessionId": "93a8cf49-5954-4f55-8eac-d1a5d8ac331f",
   "providerState": {
     "providerSessionId": "93a8cf49-5954-4f55-8eac-d1a5d8ac331f"
@@ -13,11 +13,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 8248,
-    "cacheReadInputTokens": 173452,
+    "cacheCreationInputTokens": 8817,
+    "cacheReadInputTokens": 207631,
     "contextWindow": 1000000,
-    "contextTokens": 181701,
-    "percentage": 18,
+    "contextTokens": 216449,
+    "percentage": 22,
     "contextWindowIsAuthoritative": true
   }
 }
