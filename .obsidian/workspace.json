@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/analytics/W17分析レポート.md",
+                "file": "SNS運用/analytics/W18戦略メモ.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W17分析レポート"
+              "title": "W18戦略メモ"
             }
           },
           {
@@ -271,16 +271,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "d6a7df12285ee480",
   "lastOpenFiles": [
+    "SNS運用/analytics/W18戦略メモ.md",
+    "SNS運用/analytics/W17分析レポート.md",
+    "SNS運用/action-20260427.md",
     "_ kiwami/tools/daily-log/com.user.git-fetcher.plist",
     "_ kiwami/tools/daily-log/git-fetcher.py",
     "_ kiwami/tools/daily-log/server/__pycache__/daily-log-server.cpython-313.pyc",
     "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
-    "SNS運用/action-20260427.md",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
     "SNS運用/archive/threads/profile.md",
-    "SNS運用/analytics/W17分析レポート.md",
     "SNS運用/analytics/W17-Claude統合運用フロー.md",
     "SNS運用/archive/action",
     "SNS運用/action",
@@ -294,7 +295,6 @@
     "SNS運用/analytics/source/account_analytics_content_2026-04-14_2026-04-20.csv",
     "SNS運用/analytics/source",
     "SNS運用/post/day62.md",
-    "SNS運用/サムネイル作成/~ai-4430e289-333c-4e19-90e7-0c06c9640fa5_.tmp",
     "SNS運用/archive/post/day61.md",
     "SNS運用/pending/instagram/reels/day11_thumbnail.png",
     "SNS運用/pending/instagram/reels/day10_thumbnail.png",
