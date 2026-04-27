@@ -173,3 +173,427 @@
 {"ts": "10:59", "app": "Google Chrome", "title": "(filter:follows) -is:retweet -is:reply - 検索 / X - 固定済み - Google Chrome - kun", "idle": 8, "cat": "other"}
 {"ts": "11:00", "app": "Google Chrome", "title": "(filter:follows) -is:retweet -is:reply - 検索 / X - 固定済み - Google Chrome - kun", "idle": 3, "cat": "other"}
 {"ts": "11:01", "app": "Google Chrome", "title": "Daily Log - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "11:02", "app": "Sourcetree", "title": "", "idle": 2, "cat": "focus"}
+{"ts": "11:03", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:04", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:05", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:06", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:07", "app": "Day One", "title": "Journal", "idle": 1, "cat": "distraction"}
+{"ts": "11:08", "app": "Day One", "title": "Journal", "idle": 50, "cat": "distraction"}
+{"ts": "11:09", "app": "Day One", "title": "Journal", "idle": 111, "cat": "distraction"}
+{"ts": "11:10", "app": "Day One", "title": "Journal", "idle": 171, "cat": "distraction"}
+{"ts": "11:11", "app": "Day One", "title": "Journal", "idle": 231, "cat": "idle"}
+{"ts": "11:12", "app": "Day One", "title": "Journal", "idle": 292, "cat": "idle"}
+{"ts": "11:13", "app": "Day One", "title": "Journal", "idle": 352, "cat": "idle"}
+{"ts": "11:14", "app": "Day One", "title": "Journal", "idle": 412, "cat": "idle"}
+{"ts": "11:15", "app": "Day One", "title": "Journal", "idle": 473, "cat": "idle"}
+{"ts": "11:16", "app": "Day One", "title": "Journal", "idle": 533, "cat": "idle"}
+{"ts": "11:17", "app": "Day One", "title": "Journal", "idle": 593, "cat": "idle"}
+{"ts": "11:18", "app": "Day One", "title": "Journal", "idle": 654, "cat": "idle"}
+{"ts": "11:19", "app": "Day One", "title": "Journal", "idle": 714, "cat": "idle"}
+{"ts": "11:20", "app": "Day One", "title": "Journal", "idle": 774, "cat": "idle"}
+{"ts": "11:21", "app": "Day One", "title": "Journal", "idle": 835, "cat": "idle"}
+{"ts": "11:22", "app": "Day One", "title": "Journal", "idle": 895, "cat": "idle"}
+{"ts": "11:23", "app": "Day One", "title": "Journal", "idle": 955, "cat": "idle"}
+{"ts": "11:24", "app": "Day One", "title": "Journal", "idle": 1016, "cat": "idle"}
+{"ts": "11:25", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:26", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:27", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:28", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:29", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:30", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "11:31", "app": "Day One", "title": "Journal", "idle": 1, "cat": "distraction"}
+{"ts": "11:32", "app": "Day One", "title": "Journal", "idle": 43, "cat": "distraction"}
+{"ts": "11:33", "app": "Day One", "title": "Journal", "idle": 103, "cat": "distraction"}
+{"ts": "11:34", "app": "Day One", "title": "Journal", "idle": 163, "cat": "distraction"}
+{"ts": "11:35", "app": "Day One", "title": "Journal", "idle": 224, "cat": "idle"}
+{"ts": "11:36", "app": "Day One", "title": "Journal", "idle": 284, "cat": "idle"}
+{"ts": "11:37", "app": "Day One", "title": "Journal", "idle": 344, "cat": "idle"}
+{"ts": "11:38", "app": "Day One", "title": "Journal", "idle": 405, "cat": "idle"}
+{"ts": "11:39", "app": "Day One", "title": "Journal", "idle": 465, "cat": "idle"}
+{"ts": "11:40", "app": "Day One", "title": "Journal", "idle": 525, "cat": "idle"}
+{"ts": "11:41", "app": "Day One", "title": "Journal", "idle": 585, "cat": "idle"}
+{"ts": "11:42", "app": "Day One", "title": "Journal", "idle": 646, "cat": "idle"}
+{"ts": "11:43", "app": "Day One", "title": "Journal", "idle": 706, "cat": "idle"}
+{"ts": "11:44", "app": "Day One", "title": "Journal", "idle": 766, "cat": "idle"}
+{"ts": "11:45", "app": "Day One", "title": "Journal", "idle": 827, "cat": "idle"}
+{"ts": "11:46", "app": "Day One", "title": "Journal", "idle": 887, "cat": "idle"}
+{"ts": "11:47", "app": "Day One", "title": "Journal", "idle": 947, "cat": "idle"}
+{"ts": "11:48", "app": "Day One", "title": "Journal", "idle": 1008, "cat": "idle"}
+{"ts": "11:49", "app": "Day One", "title": "Journal", "idle": 1068, "cat": "idle"}
+{"ts": "11:50", "app": "Day One", "title": "Journal", "idle": 1128, "cat": "idle"}
+{"ts": "11:51", "app": "Day One", "title": "Journal", "idle": 1189, "cat": "idle"}
+{"ts": "11:52", "app": "Day One", "title": "", "idle": 1249, "cat": "idle"}
+{"ts": "11:54", "app": "Day One", "title": "", "idle": 1309, "cat": "idle"}
+{"ts": "11:55", "app": "Day One", "title": "", "idle": 1370, "cat": "idle"}
+{"ts": "12:00", "app": "Day One", "title": "", "idle": 1430, "cat": "idle"}
+{"ts": "12:02", "app": "Day One", "title": "", "idle": 1490, "cat": "idle"}
+{"ts": "12:04", "app": "Day One", "title": "", "idle": 1551, "cat": "idle"}
+{"ts": "12:20", "app": "Day One", "title": "", "idle": 1611, "cat": "idle"}
+{"ts": "12:21", "app": "Day One", "title": "", "idle": 1672, "cat": "idle"}
+{"ts": "12:22", "app": "Day One", "title": "", "idle": 1732, "cat": "idle"}
+{"ts": "12:23", "app": "Day One", "title": "", "idle": 1792, "cat": "idle"}
+{"ts": "12:24", "app": "Day One", "title": "", "idle": 1853, "cat": "idle"}
+{"ts": "12:25", "app": "Day One", "title": "", "idle": 1913, "cat": "idle"}
+{"ts": "12:26", "app": "Day One", "title": "", "idle": 1973, "cat": "idle"}
+{"ts": "12:27", "app": "Day One", "title": "", "idle": 2034, "cat": "idle"}
+{"ts": "12:28", "app": "Day One", "title": "", "idle": 2094, "cat": "idle"}
+{"ts": "12:29", "app": "Day One", "title": "", "idle": 2154, "cat": "idle"}
+{"ts": "12:30", "app": "Day One", "title": "", "idle": 2215, "cat": "idle"}
+{"ts": "12:31", "app": "Day One", "title": "", "idle": 2275, "cat": "idle"}
+{"ts": "12:39", "app": "Day One", "title": "Journal", "idle": 0, "cat": "distraction"}
+{"ts": "12:40", "app": "Day One", "title": "Journal", "idle": 52, "cat": "distraction"}
+{"ts": "12:41", "app": "Day One", "title": "Journal", "idle": 112, "cat": "distraction"}
+{"ts": "12:42", "app": "Day One", "title": "Journal", "idle": 173, "cat": "distraction"}
+{"ts": "12:43", "app": "Day One", "title": "Journal", "idle": 233, "cat": "idle"}
+{"ts": "12:44", "app": "Day One", "title": "Journal", "idle": 294, "cat": "idle"}
+{"ts": "12:45", "app": "Day One", "title": "Journal", "idle": 354, "cat": "idle"}
+{"ts": "12:46", "app": "Day One", "title": "Journal", "idle": 414, "cat": "idle"}
+{"ts": "12:47", "app": "Day One", "title": "Comics", "idle": 0, "cat": "distraction"}
+{"ts": "12:48", "app": "Day One", "title": "Comics", "idle": 54, "cat": "distraction"}
+{"ts": "12:49", "app": "Day One", "title": "Comics", "idle": 114, "cat": "distraction"}
+{"ts": "12:50", "app": "Day One", "title": "Comics", "idle": 175, "cat": "distraction"}
+{"ts": "12:51", "app": "Day One", "title": "Comics", "idle": 235, "cat": "idle"}
+{"ts": "12:52", "app": "Day One", "title": "Comics", "idle": 295, "cat": "idle"}
+{"ts": "12:53", "app": "Day One", "title": "Comics", "idle": 356, "cat": "idle"}
+{"ts": "12:54", "app": "Day One", "title": "Comics", "idle": 416, "cat": "idle"}
+{"ts": "12:55", "app": "Day One", "title": "すべての項目", "idle": 0, "cat": "distraction"}
+{"ts": "12:56", "app": "Day One", "title": "すべての項目", "idle": 0, "cat": "distraction"}
+{"ts": "12:57", "app": "Day One", "title": "", "idle": 0, "cat": "distraction"}
+{"ts": "12:58", "app": "Day One", "title": "", "idle": 0, "cat": "distraction"}
+{"ts": "12:59", "app": "Day One", "title": "すべての項目", "idle": 0, "cat": "distraction"}
+{"ts": "13:00", "app": "Day One", "title": "すべての項目", "idle": 41, "cat": "distraction"}
+{"ts": "13:01", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 34, "cat": "focus"}
+{"ts": "13:02", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:03", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 2, "cat": "focus"}
+{"ts": "13:04", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:05", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:06", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 9, "cat": "focus"}
+{"ts": "13:07", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 3, "cat": "focus"}
+{"ts": "13:08", "app": "Day One", "title": "すべての項目", "idle": 34, "cat": "distraction"}
+{"ts": "13:09", "app": "Day One", "title": "すべての項目", "idle": 11, "cat": "distraction"}
+{"ts": "13:10", "app": "Obsidian", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "13:11", "app": "Obsidian", "title": "Post by @L_go_mrk on X 2 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:12", "app": "Obsidian", "title": "20260426_note紹介スレッド - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:13", "app": "Claude", "title": "Claude", "idle": 16, "cat": "focus"}
+{"ts": "13:14", "app": "Claude", "title": "Claude", "idle": 1, "cat": "focus"}
+{"ts": "13:15", "app": "Obsidian", "title": "トレンド感度 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:16", "app": "Obsidian", "title": "20260402 - Tsukapon - Obsidian 1.12.7", "idle": 2, "cat": "focus"}
+{"ts": "13:17", "app": "Obsidian", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "13:18", "app": "Obsidian", "title": "プロフィール - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:19", "app": "Obsidian", "title": "プロフィール - Tsukapon - Obsidian 1.12.7", "idle": 29, "cat": "focus"}
+{"ts": "13:20", "app": "Opera", "title": "Xユーザーのぱううさん: 「@chackwill 本当その通りですよね。今、多くのAI系発信者がこういうキャッチーなポストをしてインプを稼いでいるから、初心者はそれに惑わされがちなんです。」 / X", "idle": 0, "cat": "focus"}
+{"ts": "13:21", "app": "Opera", "title": "Xユーザーのぱううさん: 「@chackwill 本当その通りですよね。今、多くのAI系発信者がこういうキャッチーなポストをしてインプを稼いでいるから、初心者はそれに惑わされがちなんです。」 / X", "idle": 0, "cat": "focus"}
+{"ts": "13:22", "app": "Obsidian", "title": "20260426_note紹介スレッド - Tsukapon - Obsidian 1.12.7", "idle": 12, "cat": "focus"}
+{"ts": "13:23", "app": "Google Chrome", "title": "comic - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:24", "app": "Opera", "title": "ホーム • Threads", "idle": 12, "cat": "focus"}
+{"ts": "13:25", "app": "Opera", "title": "ホーム • Threads", "idle": 0, "cat": "focus"}
+{"ts": "13:26", "app": "Opera", "title": "ホーム • Threads", "idle": 1, "cat": "focus"}
+{"ts": "13:27", "app": "Opera", "title": "ホーム • Threads", "idle": 21, "cat": "focus"}
+{"ts": "13:28", "app": "Opera", "title": "", "idle": 4, "cat": "focus"}
+{"ts": "13:30", "app": "Opera", "title": "ホーム • Threads", "idle": 0, "cat": "focus"}
+{"ts": "13:31", "app": "Opera", "title": "ホーム • Threads", "idle": 51, "cat": "focus"}
+{"ts": "13:32", "app": "Day One", "title": "pastime", "idle": 10, "cat": "distraction"}
+{"ts": "13:33", "app": "Opera", "title": "Instapaper", "idle": 0, "cat": "focus"}
+{"ts": "13:34", "app": "Day One", "title": "pastime", "idle": 0, "cat": "distraction"}
+{"ts": "13:35", "app": "Opera", "title": "Instapaper", "idle": 0, "cat": "focus"}
+{"ts": "13:36", "app": "Google Chrome", "title": "_web - Inoreader - 固定済み - Google Chrome - kun", "idle": 23, "cat": "other"}
+{"ts": "13:37", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "13:38", "app": "Google Chrome", "title": "痛いニュース(ﾉ∀`) : 【証拠隠滅】同志社国際Fオルグコースの引率教師、事故被害生徒の撮影動画を消させていた - ライブドアブログ - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "13:39", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "13:40", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "13:41", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 7, "cat": "other"}
+{"ts": "13:42", "app": "Google Chrome", "title": "痛いニュース(ﾉ∀`) : 京都府、同志社国際に校外学習自粛を要請　再発防止策定まで　辺野古事故 - ライブドアブログ - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "13:43", "app": "Opera", "title": "Instapaper", "idle": 0, "cat": "focus"}
+{"ts": "13:44", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:45", "app": "Google Chrome", "title": "意地悪ばあさん「タバコの煙、迷惑なんですけど？」コンビニ喫煙所で文句を言われた男性が反論した結果⇒！！ | 不思議.net - 5ch(2ch)まとめサイト - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:46", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 3, "cat": "other"}
+{"ts": "13:47", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 9, "cat": "other"}
+{"ts": "13:48", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:49", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 23, "cat": "other"}
+{"ts": "13:50", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 28, "cat": "other"}
+{"ts": "13:51", "app": "Obsidian", "title": "20260426_note紹介スレッド - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "13:52", "app": "Opera", "title": "(1) ホーム • Threads", "idle": 0, "cat": "focus"}
+{"ts": "13:53", "app": "Opera", "title": "ホーム / X", "idle": 0, "cat": "focus"}
+{"ts": "13:54", "app": "Opera", "title": "(1) ホーム • Threads", "idle": 2, "cat": "focus"}
+{"ts": "13:55", "app": "Opera", "title": "ホーム • Threads", "idle": 6, "cat": "focus"}
+{"ts": "13:56", "app": "Opera", "title": "ホーム • Threads", "idle": 5, "cat": "focus"}
+{"ts": "13:57", "app": "Opera", "title": "X", "idle": 0, "cat": "focus"}
+{"ts": "13:58", "app": "Opera", "title": "X", "idle": 0, "cat": "focus"}
+{"ts": "13:59", "app": "Opera", "title": "X", "idle": 0, "cat": "focus"}
+{"ts": "14:00", "app": "Opera", "title": "", "idle": 52, "cat": "focus"}
+{"ts": "14:01", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "14:02", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "14:03", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 25, "cat": "focus"}
+{"ts": "14:04", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 7, "cat": "focus"}
+{"ts": "14:05", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:06", "app": "Opera", "title": "通知 / X", "idle": 0, "cat": "focus"}
+{"ts": "14:07", "app": "Opera", "title": "🌚ジャックです。（@SUBARUEV）さん / X", "idle": 3, "cat": "focus"}
+{"ts": "14:08", "app": "Opera", "title": "ホーム / X", "idle": 1, "cat": "focus"}
+{"ts": "14:09", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 38, "cat": "focus"}
+{"ts": "14:10", "app": "Obsidian", "title": "note-20260421_dayone資料 - Tsukapon - Obsidian 1.12.7", "idle": 6, "cat": "focus"}
+{"ts": "14:11", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 0, "cat": "focus"}
+{"ts": "14:12", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 9, "cat": "focus"}
+{"ts": "14:13", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 34, "cat": "focus"}
+{"ts": "14:14", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 95, "cat": "focus"}
+{"ts": "14:15", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 155, "cat": "focus"}
+{"ts": "14:16", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 215, "cat": "idle"}
+{"ts": "14:17", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 276, "cat": "idle"}
+{"ts": "14:18", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 336, "cat": "idle"}
+{"ts": "14:19", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 396, "cat": "idle"}
+{"ts": "14:20", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 457, "cat": "idle"}
+{"ts": "14:21", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 517, "cat": "idle"}
+{"ts": "14:22", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 578, "cat": "idle"}
+{"ts": "14:23", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 638, "cat": "idle"}
+{"ts": "14:24", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 699, "cat": "idle"}
+{"ts": "14:25", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 759, "cat": "idle"}
+{"ts": "14:26", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 819, "cat": "idle"}
+{"ts": "14:27", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 880, "cat": "idle"}
+{"ts": "14:28", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 940, "cat": "idle"}
+{"ts": "14:29", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 1000, "cat": "idle"}
+{"ts": "14:30", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 1061, "cat": "idle"}
+{"ts": "14:31", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 1121, "cat": "idle"}
+{"ts": "14:32", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 1181, "cat": "idle"}
+{"ts": "14:58", "app": "Opera", "title": "", "idle": 18, "cat": "focus"}
+{"ts": "15:16", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 0, "cat": "focus"}
+{"ts": "15:17", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:18", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 28, "cat": "focus"}
+{"ts": "15:19", "app": "Opera", "title": "Notes · Standard Notes", "idle": 1, "cat": "focus"}
+{"ts": "15:20", "app": "Opera", "title": "Notes · Standard Notes", "idle": 4, "cat": "focus"}
+{"ts": "15:21", "app": "Opera", "title": "Notes · Standard Notes", "idle": 42, "cat": "focus"}
+{"ts": "15:22", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "15:23", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 47, "cat": "focus"}
+{"ts": "15:24", "app": "Obsidian", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "15:25", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 56, "cat": "focus"}
+{"ts": "15:26", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:27", "app": "Obsidian", "title": "note-20260421_dayone - Tsukapon - Obsidian 1.12.7", "idle": 43, "cat": "focus"}
+{"ts": "15:28", "app": "Google Chrome", "title": "comic - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:29", "app": "Google Chrome", "title": "【緊急速報】トランプ出席の晩餐会で銃声5発→SPが即強制退避　VIP集結中に発砲で会場パニック　犯人拘束：哲学ニュースnwk - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:30", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 13, "cat": "other"}
+{"ts": "15:31", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:32", "app": "Day One", "title": "", "idle": 0, "cat": "distraction"}
+{"ts": "15:33", "app": "Day One", "title": "pastime", "idle": 36, "cat": "distraction"}
+{"ts": "15:34", "app": "Google Chrome", "title": "note ――つくる、つながる、とどける。 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:35", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 2, "cat": "focus"}
+{"ts": "15:36", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:37", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！ | 記事編集 | note", "idle": 0, "cat": "focus"}
+{"ts": "15:38", "app": "Cursor", "title": "20260426_dayone_promo.md — Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "15:39", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 5, "cat": "focus"}
+{"ts": "15:40", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:41", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 5, "cat": "focus"}
+{"ts": "15:42", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "15:43", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 13, "cat": "focus"}
+{"ts": "15:44", "app": "Opera", "title": "Download Manga Times 2026 zip", "idle": 0, "cat": "focus"}
+{"ts": "15:45", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 7, "cat": "focus"}
+{"ts": "15:46", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 9, "cat": "focus"}
+{"ts": "15:47", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 69, "cat": "focus"}
+{"ts": "15:48", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 129, "cat": "focus"}
+{"ts": "15:49", "app": "Day One", "title": "すべての項目", "idle": 1, "cat": "distraction"}
+{"ts": "15:55", "app": "Opera", "title": "カードローン借入・返済｜イオン銀行ダイレクト", "idle": 0, "cat": "focus"}
+{"ts": "15:56", "app": "Opera", "title": "振込｜イオン銀行ダイレクト", "idle": 0, "cat": "focus"}
+{"ts": "15:57", "app": "Google Chrome", "title": "受信トレイ (2) - umikun@gmail.com - Gmail - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:58", "app": "Google Chrome", "title": "九州VISAカード - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:59", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 0, "cat": "focus"}
+{"ts": "16:00", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 39, "cat": "focus"}
+{"ts": "16:01", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 100, "cat": "focus"}
+{"ts": "16:02", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 160, "cat": "focus"}
+{"ts": "16:03", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 220, "cat": "idle"}
+{"ts": "16:04", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 281, "cat": "idle"}
+{"ts": "16:05", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 341, "cat": "idle"}
+{"ts": "16:06", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 402, "cat": "idle"}
+{"ts": "16:07", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 35, "cat": "focus"}
+{"ts": "16:08", "app": "Opera", "title": "トップ | パワーダイレクト", "idle": 95, "cat": "focus"}
+{"ts": "16:09", "app": "Opera", "title": "振込内容の確認 | パワーダイレクト", "idle": 9, "cat": "focus"}
+{"ts": "16:10", "app": "Opera", "title": "Notes · Standard Notes", "idle": 0, "cat": "focus"}
+{"ts": "16:11", "app": "Opera", "title": "Notes · Standard Notes", "idle": 8, "cat": "focus"}
+{"ts": "16:12", "app": "Opera", "title": "Notes · Standard Notes", "idle": 30, "cat": "focus"}
+{"ts": "16:13", "app": "Opera", "title": "Notes · Standard Notes", "idle": 90, "cat": "focus"}
+{"ts": "16:14", "app": "Opera", "title": "Notes · Standard Notes", "idle": 151, "cat": "focus"}
+{"ts": "16:15", "app": "Opera", "title": "(1) ホーム / X", "idle": 0, "cat": "focus"}
+{"ts": "16:16", "app": "Opera", "title": "", "idle": 4, "cat": "focus"}
+{"ts": "16:17", "app": "Opera", "title": "Xユーザーのいっちー@Xで疲弊しない集客設計師さん: 「Xで伸びない人。 ほぼ全員、ここで自爆してる。 ① ポストを増やす ② 交流を増やす ③ フォロー増えるのを期待 これが間違い。 今のX、そこ見てない。 アルゴが見てるのは 「アカウントの専門性」。 つまりこの4ステップ。 ① テーマが一貫してる ② xAIが「この人＝○○」と理解する ③ ↓」 / X", "idle": 0, "cat": "focus"}
+{"ts": "16:18", "app": "Google Chrome", "title": "Superlist | Tasks - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:19", "app": "Google Chrome", "title": "Superlist | Tasks - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "16:20", "app": "Google Chrome", "title": "Google カレンダー - 予定の詳細 - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:21", "app": "Google Chrome", "title": "GoogleカレンダーとToDoの連携方法 - Google Gemini - 固定済み - Google Chrome - kun", "idle": 11, "cat": "other"}
+{"ts": "16:22", "app": "Opera", "title": "Download Manga Goraku 2026 zip", "idle": 1, "cat": "focus"}
+{"ts": "16:23", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:24", "app": "Google Chrome", "title": "Xユーザーの阿绎 AYiさん: 「兄弟们，DeepSeek V4 Pro在ZenMux上免费放开了，登录就能跑，实测能替掉你80%的Claude活。视频是我早上实测的和Claude opus 4.7同时跑一个昨SaaS产品网站的任务，效果真的炸裂！ https://t.co/4Uq2S5YACX」 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:25", "app": "Google Chrome", "title": "Google Gemini - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:26", "app": "Google Chrome", "title": "XユーザーのErickさん: 「Los SEOs y dueños de webs van a viralizar este repo porque literalmente les ahorra miles de dólares al año [Open-SEO] ✅ Investigación de keywords ✅ Rank tracking ✅ Backlinks ✅ Audits SEO completos ✅ Visibilidad con IA ✅ 100% self-hosted y GRATIS (solo pagas el API de https://t.co/nX6OkkrPKi」 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:27", "app": "Opera", "title": "Instapaper", "idle": 0, "cat": "focus"}
+{"ts": "16:28", "app": "Google Chrome", "title": "AIモデル活用戦略：ZenMuxの利点 - Google Gemini - 固定済み - Google Chrome - kun", "idle": 13, "cat": "other"}
+{"ts": "16:29", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "16:30", "app": "Google Chrome", "title": "XユーザーのNicoさん: 「Esta herramienta hace Claude Code un 90% más barato. Se pone entre tu IA y la terminal, y comprime la salida de los comandos antes de que lleguen al contexto. Funciona con Claude Code, Cursor, Gemini, Codex y Copilot. 100% Open Source. Enlace abajo 👇 https://t.co/aqmCnrv2pw」 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "16:31", "app": "Obsidian", "title": "Post by @ErickSky on X - Tsukapon - Obsidian 1.12.7", "idle": 6, "cat": "focus"}
+{"ts": "16:32", "app": "Obsidian", "title": "Post by @nicos_ai on X - Tsukapon - Obsidian 1.12.7", "idle": 3, "cat": "focus"}
+{"ts": "16:33", "app": "Opera", "title": "Download Young Animal 2026 zip", "idle": 0, "cat": "focus"}
+{"ts": "16:34", "app": "Obsidian", "title": "Post by @nicos_ai on X - Tsukapon - Obsidian 1.12.7", "idle": 6, "cat": "focus"}
+{"ts": "16:35", "app": "Music", "title": "ミュージック", "idle": 0, "cat": "distraction"}
+{"ts": "16:36", "app": "Obsidian", "title": "Post by @nicos_ai on X - Tsukapon - Obsidian 1.12.7", "idle": 41, "cat": "focus"}
+{"ts": "16:37", "app": "Finder", "title": "ダウンロード", "idle": 0, "cat": "other"}
+{"ts": "16:38", "app": "Opera", "title": "Zipadee", "idle": 42, "cat": "focus"}
+{"ts": "16:39", "app": "Opera", "title": "Zipadee", "idle": 102, "cat": "focus"}
+{"ts": "16:40", "app": "Opera", "title": "Zipadee", "idle": 163, "cat": "focus"}
+{"ts": "16:41", "app": "Opera", "title": "Zipadee", "idle": 223, "cat": "idle"}
+{"ts": "16:42", "app": "Opera", "title": "Zipadee", "idle": 283, "cat": "idle"}
+{"ts": "16:43", "app": "Opera", "title": "Zipadee", "idle": 344, "cat": "idle"}
+{"ts": "16:44", "app": "Opera", "title": "Zipadee", "idle": 404, "cat": "idle"}
+{"ts": "16:45", "app": "Opera", "title": "Zipadee", "idle": 465, "cat": "idle"}
+{"ts": "16:46", "app": "Opera", "title": "Zipadee", "idle": 525, "cat": "idle"}
+{"ts": "16:47", "app": "Opera", "title": "Zipadee", "idle": 586, "cat": "idle"}
+{"ts": "16:49", "app": "Opera", "title": "Zipadee", "idle": 646, "cat": "idle"}
+{"ts": "16:50", "app": "Opera", "title": "Zipadee", "idle": 707, "cat": "idle"}
+{"ts": "16:51", "app": "Opera", "title": "Zipadee", "idle": 767, "cat": "idle"}
+{"ts": "16:52", "app": "Opera", "title": "Zipadee", "idle": 828, "cat": "idle"}
+{"ts": "16:53", "app": "Opera", "title": "Zipadee", "idle": 0, "cat": "focus"}
+{"ts": "16:54", "app": "Google Chrome", "title": "平和の国の島崎へ 12巻 - Google 検索 - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "16:55", "app": "Preview", "title": "名称未設定", "idle": 0, "cat": "other"}
+{"ts": "16:56", "app": "Preview", "title": "開く", "idle": 0, "cat": "other"}
+{"ts": "16:57", "app": "Preview", "title": "カラーを調整 - 名称未設定", "idle": 0, "cat": "other"}
+{"ts": "16:58", "app": "Preview", "title": "カラーを調整 - 名称未設定", "idle": 0, "cat": "other"}
+{"ts": "16:59", "app": "Preview", "title": "カラーを調整 - 名称未設定", "idle": 0, "cat": "other"}
+{"ts": "17:00", "app": "Day One", "title": "pastime", "idle": 0, "cat": "distraction"}
+{"ts": "17:01", "app": "Preview", "title": "開く", "idle": 0, "cat": "other"}
+{"ts": "17:02", "app": "Day One", "title": "すべての項目", "idle": 5, "cat": "distraction"}
+{"ts": "17:03", "app": "Opera", "title": "", "idle": 47, "cat": "focus"}
+{"ts": "18:30", "app": "Day One", "title": "history", "idle": 0, "cat": "distraction"}
+{"ts": "18:31", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "18:32", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "18:33", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 49, "cat": "focus"}
+{"ts": "18:34", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 7, "cat": "focus"}
+{"ts": "18:35", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 67, "cat": "focus"}
+{"ts": "18:36", "app": "Claude", "title": "Claude", "idle": 3, "cat": "focus"}
+{"ts": "18:37", "app": "Claude", "title": "Claude", "idle": 1, "cat": "focus"}
+{"ts": "18:38", "app": "Claude", "title": "Claude", "idle": 34, "cat": "focus"}
+{"ts": "18:39", "app": "Claude", "title": "Claude", "idle": 24, "cat": "focus"}
+{"ts": "18:40", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "18:42", "app": "Claude", "title": "Claude", "idle": 1, "cat": "focus"}
+{"ts": "18:43", "app": "Claude", "title": "Claude", "idle": 0, "cat": "focus"}
+{"ts": "18:44", "app": "Finder", "title": "ダウンロード", "idle": 0, "cat": "other"}
+{"ts": "18:45", "app": "Claude", "title": "Claude", "idle": 1, "cat": "focus"}
+{"ts": "18:46", "app": "Claude", "title": "Claude", "idle": 59, "cat": "focus"}
+{"ts": "18:47", "app": "Claude", "title": "Claude", "idle": 119, "cat": "focus"}
+{"ts": "18:48", "app": "Claude", "title": "Claude", "idle": 180, "cat": "idle"}
+{"ts": "18:49", "app": "Claude", "title": "Claude", "idle": 240, "cat": "idle"}
+{"ts": "18:50", "app": "Claude", "title": "Claude", "idle": 301, "cat": "idle"}
+{"ts": "18:51", "app": "Claude", "title": "Claude", "idle": 361, "cat": "idle"}
+{"ts": "18:52", "app": "Claude", "title": "Claude", "idle": 27, "cat": "focus"}
+{"ts": "18:53", "app": "Claude", "title": "Claude", "idle": 87, "cat": "focus"}
+{"ts": "18:54", "app": "Claude", "title": "Claude", "idle": 148, "cat": "focus"}
+{"ts": "18:55", "app": "Claude", "title": "Claude", "idle": 208, "cat": "idle"}
+{"ts": "18:56", "app": "Opera", "title": "Instapaper", "idle": 12, "cat": "focus"}
+{"ts": "18:57", "app": "Opera", "title": "Instapaper", "idle": 72, "cat": "focus"}
+{"ts": "18:58", "app": "Opera", "title": "Instapaper", "idle": 133, "cat": "focus"}
+{"ts": "18:59", "app": "Opera", "title": "Instapaper", "idle": 193, "cat": "idle"}
+{"ts": "19:00", "app": "Opera", "title": "Instapaper", "idle": 254, "cat": "idle"}
+{"ts": "19:01", "app": "Opera", "title": "Instapaper", "idle": 314, "cat": "idle"}
+{"ts": "19:02", "app": "Opera", "title": "Instapaper", "idle": 374, "cat": "idle"}
+{"ts": "19:03", "app": "Opera", "title": "Instapaper", "idle": 435, "cat": "idle"}
+{"ts": "19:04", "app": "Opera", "title": "Instapaper", "idle": 495, "cat": "idle"}
+{"ts": "19:05", "app": "Opera", "title": "Instapaper", "idle": 556, "cat": "idle"}
+{"ts": "19:06", "app": "Opera", "title": "Instapaper", "idle": 616, "cat": "idle"}
+{"ts": "19:07", "app": "Opera", "title": "Instapaper", "idle": 677, "cat": "idle"}
+{"ts": "19:08", "app": "Opera", "title": "Instapaper", "idle": 738, "cat": "idle"}
+{"ts": "19:09", "app": "Opera", "title": "Instapaper", "idle": 798, "cat": "idle"}
+{"ts": "19:10", "app": "Opera", "title": "Instapaper", "idle": 859, "cat": "idle"}
+{"ts": "19:11", "app": "Opera", "title": "Instapaper", "idle": 919, "cat": "idle"}
+{"ts": "19:12", "app": "Opera", "title": "Instapaper", "idle": 980, "cat": "idle"}
+{"ts": "19:13", "app": "Opera", "title": "Instapaper", "idle": 1040, "cat": "idle"}
+{"ts": "19:14", "app": "Opera", "title": "Instapaper", "idle": 1101, "cat": "idle"}
+{"ts": "19:15", "app": "Opera", "title": "Instapaper", "idle": 1161, "cat": "idle"}
+{"ts": "19:31", "app": "Opera", "title": "", "idle": 1222, "cat": "idle"}
+{"ts": "19:47", "app": "Opera", "title": "", "idle": 1282, "cat": "idle"}
+{"ts": "20:28", "app": "Google Chrome", "title": "Claude - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "20:29", "app": "Google Chrome", "title": "痛いニュース(ﾉ∀`) : 辺野古事故が知事選を左右か　与党関係者「オール沖縄に打撃」　共産幹部「ほとんど報道されていない」 - ライブドアブログ - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "20:30", "app": "Google Chrome", "title": "痛いニュース(ﾉ∀`) : 辺野古事故が知事選を左右か　与党関係者「オール沖縄に打撃」　共産幹部「ほとんど報道されていない」 - ライブドアブログ - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "20:31", "app": "Google Chrome", "title": "【悲報】子供連れ「ｷｬｯｷｬｯｗｗｗｗ」サイゼで仕事中ワイ「あのさぁ！うるさくて集中できねぇんだけど！」⇒ | 不思議.net - 5ch(2ch)まとめサイト - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "20:32", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 7, "cat": "other"}
+{"ts": "20:33", "app": "Google Chrome", "title": "【悲報】一児のパパワイ、周りのパパがこんなのばっかりで困惑→ | 不思議.net - 5ch(2ch)まとめサイト - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "20:34", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 4, "cat": "other"}
+{"ts": "20:35", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 6, "cat": "other"}
+{"ts": "20:41", "app": "Opera", "title": "チャック（@chackwill）さんがフォローしているアカウント / X", "idle": 0, "cat": "focus"}
+{"ts": "20:42", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "20:43", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "20:44", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "20:45", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "20:46", "app": "Obsidian", "title": "Post by @heygurisingh on X - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "20:47", "app": "Google Chrome", "title": "チャック | AI×業務効率化の翻訳家｜note - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "20:48", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "20:49", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "20:50", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 3, "cat": "other"}
+{"ts": "20:51", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "20:52", "app": "Obsidian", "title": "Post by @heygurisingh on X - Tsukapon - Obsidian 1.12.7", "idle": 5, "cat": "focus"}
+{"ts": "20:53", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 4, "cat": "other"}
+{"ts": "20:54", "app": "Google Chrome", "title": "XユーザーのRetroChainerさん: 「&gt; most use Claude Code like autocomplete &gt; they don't know repos exist &gt; 100 of the best. all links. &gt; skills. agents. memory. MCP. &gt; Mac Mini. Claude Code. one month. &gt; install just 5-10 of these &gt; already ahead of 95% of users &gt; paying for the same Claude as you https://t.co/blTKtgYNGC」 / X - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "20:55", "app": "Obsidian", "title": "Post by @RetroChainer on X - Tsukapon - Obsidian 1.12.7", "idle": 9, "cat": "focus"}
+{"ts": "20:57", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "20:58", "app": "Opera", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！｜チャック | AI×業務効率化の翻訳家", "idle": 0, "cat": "focus"}
+{"ts": "20:59", "app": "Google Chrome", "title": "チャック | AI×業務効率化の翻訳家｜note - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:00", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:01", "app": "Google Chrome", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！｜チャック | AI×業務効率化の翻訳家 - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "21:02", "app": "Google Chrome", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！｜チャック | AI×業務効率化の翻訳家 - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:03", "app": "Google Chrome", "title": "12年使って残った。Day Oneは「日記アプリ」じゃなく「行動履歴アプリ」として最強だった！｜チャック | AI×業務効率化の翻訳家 - Google Chrome - kun", "idle": 10, "cat": "other"}
+{"ts": "21:04", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 16, "cat": "focus"}
+{"ts": "21:05", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 3, "cat": "focus"}
+{"ts": "21:06", "app": "Opera", "title": "ダッシュボード｜note", "idle": 0, "cat": "focus"}
+{"ts": "21:07", "app": "Opera", "title": "ダッシュボード｜note", "idle": 7, "cat": "focus"}
+{"ts": "21:08", "app": "Opera", "title": "ホーム / X", "idle": 5, "cat": "focus"}
+{"ts": "21:09", "app": "Opera", "title": "ホーム / X", "idle": 1, "cat": "focus"}
+{"ts": "21:10", "app": "Google Chrome", "title": "note ――つくる、つながる、とどける。 - Google Chrome - kun", "idle": 11, "cat": "other"}
+{"ts": "21:11", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 6, "cat": "other"}
+{"ts": "21:12", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "21:13", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 3, "cat": "other"}
+{"ts": "21:14", "app": "Obsidian", "title": "Post by @hasantoxr on X - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:15", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 17, "cat": "other"}
+{"ts": "21:16", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 4, "cat": "other"}
+{"ts": "21:17", "app": "Google Chrome", "title": "Affinityに続きCanvaが買収したアニメーション制作ツール「Cavalry for Mac/Windows」がCanvaアカウントで無料利用可能に。 | AAPL Ch. - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "21:18", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 47, "cat": "other"}
+{"ts": "21:19", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "21:20", "app": "Google Chrome", "title": "ホーム / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:21", "app": "Google Chrome", "title": "XユーザーのGuillermo Casausさん: 「En lugar de ver Netflix este sabado, dedica 1 hora a esto. Un curso completo donde te enseñan a crear tu segundo cerebro con Obsidian + Claude Code. Un sistema que captura ideas, las organiza y piensa contigo. 🔖 Guárdalo, lo agradecerás. https://t.co/VGlWXvYIqv」 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:22", "app": "Opera", "title": "ホーム / X", "idle": 6, "cat": "focus"}
+{"ts": "21:23", "app": "Opera", "title": "", "idle": 2, "cat": "focus"}
+{"ts": "21:24", "app": "Opera", "title": "ホーム / X", "idle": 16, "cat": "focus"}
+{"ts": "21:25", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "21:26", "app": "Opera", "title": "アナリティクス / X", "idle": 0, "cat": "focus"}
+{"ts": "21:27", "app": "Google Chrome", "title": "day one - 検索 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:28", "app": "Google Chrome", "title": "day one - 検索 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "21:29", "app": "Google Chrome", "title": "\"day one\" lang:ja - 検索 / X - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "21:30", "app": "Google Chrome", "title": "\"day one\" lang:ja - 検索 / X - 固定済み - Google Chrome - kun", "idle": 5, "cat": "other"}
+{"ts": "21:31", "app": "Opera", "title": "アナリティクス / X", "idle": 0, "cat": "focus"}
+{"ts": "21:32", "app": "Obsidian", "title": "W17-Claude統合運用フロー - Tsukapon - Obsidian 1.12.7", "idle": 8, "cat": "focus"}
+{"ts": "21:33", "app": "Finder", "title": "ダウンロード", "idle": 1, "cat": "other"}
+{"ts": "21:34", "app": "Finder", "title": "Tsukapon", "idle": 2, "cat": "other"}
+{"ts": "21:35", "app": "Obsidian", "title": "W17戦略メモ - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:37", "app": "Obsidian", "title": "W17戦略メモ - Tsukapon - Obsidian 1.12.7", "idle": 2, "cat": "focus"}
+{"ts": "21:38", "app": "Obsidian", "title": "W17戦略メモ - Tsukapon - Obsidian 1.12.7", "idle": 4, "cat": "focus"}
+{"ts": "21:39", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "21:40", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 15, "cat": "focus"}
+{"ts": "21:41", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 7, "cat": "focus"}
+{"ts": "21:42", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:43", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 54, "cat": "focus"}
+{"ts": "21:44", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 115, "cat": "focus"}
+{"ts": "21:45", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 175, "cat": "focus"}
+{"ts": "21:46", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 236, "cat": "idle"}
+{"ts": "21:47", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 296, "cat": "idle"}
+{"ts": "21:48", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 357, "cat": "idle"}
+{"ts": "21:49", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 417, "cat": "idle"}
+{"ts": "21:50", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 478, "cat": "idle"}
+{"ts": "21:51", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 27, "cat": "focus"}
+{"ts": "21:52", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 88, "cat": "focus"}
+{"ts": "21:53", "app": "Obsidian", "title": "20260427_pin_candidates - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:54", "app": "Obsidian", "title": "20260427_pin_candidates - Tsukapon - Obsidian 1.12.7", "idle": 6, "cat": "focus"}
+{"ts": "21:55", "app": "Obsidian", "title": "20260427_pin_candidates - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:56", "app": "Obsidian", "title": "day61 - Tsukapon - Obsidian 1.12.7", "idle": 21, "cat": "focus"}
+{"ts": "21:57", "app": "Obsidian", "title": "W18戦略メモ - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "21:58", "app": "Obsidian", "title": "W18戦略メモ - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "21:59", "app": "Obsidian", "title": "W18戦略メモ - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "22:00", "app": "Obsidian", "title": "20260426_dayone_promo - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "22:01", "app": "Opera", "title": "検索 • Threads", "idle": 0, "cat": "focus"}
+{"ts": "22:02", "app": "Opera", "title": "検索 • Threads", "idle": 0, "cat": "focus"}
+{"ts": "22:03", "app": "Opera", "title": "", "idle": 6, "cat": "focus"}
+{"ts": "22:04", "app": "Opera", "title": "", "idle": 67, "cat": "focus"}
+{"ts": "22:05", "app": "Opera", "title": "", "idle": 127, "cat": "focus"}
+{"ts": "22:09", "app": "Opera", "title": "", "idle": 188, "cat": "idle"}
+{"ts": "23:38", "app": "Opera", "title": "", "idle": 249, "cat": "idle"}

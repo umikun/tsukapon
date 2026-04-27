@@ -24,63 +24,77 @@
             }
           },
           {
-            "id": "8f9a128e86e6244a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Post by @L_go_mrk on X 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Post by @L_go_mrk on X 2"
-            }
-          },
-          {
             "id": "8aeb6f5bf629fe75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/post/thread/20260426_note紹介スレッド.md",
+                "file": "ディレクトリ構成見直し案.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260426_note紹介スレッド"
+              "title": "ディレクトリ構成見直し案"
             }
           },
           {
-            "id": "fb2b5202d987b30c",
+            "id": "f63e855807e22bf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/OGP画像サイズ一覧.md",
+                "file": "SNS運用/analytics/W17分析レポート.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OGP画像サイズ一覧"
+              "title": "W17分析レポート"
             }
           },
           {
-            "id": "b4ef600c94d2f15b",
+            "id": "d6a7df12285ee480",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Post by @ShaneRobinett on X.md",
-                "mode": "source",
+                "file": "SNS運用/action-20260427.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post by @ShaneRobinett on X"
+              "title": "action-20260427"
+            }
+          },
+          {
+            "id": "01646b6aaee5d6e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260427_critique_series_01_cash-while-sleep"
+            }
+          },
+          {
+            "id": "4652c1708ed2d8e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/note/_有料記事/20260426_dayone_promo.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260426_dayone_promo"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,7 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 746.5
+    "width": 1139.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,54 +271,54 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "d6a7df12285ee480",
   "lastOpenFiles": [
-    "調査/2026-04-26-kawai-claude-md-design-skills.md",
-    "調査/2026-04-26-create-agent-tui-openrouter.md",
-    "SNS運用/note/note-20260426.md",
-    "Clippings/Post by @L_go_mrk on X 2.md",
-    "SNS運用/title/title-20260426.md",
-    "SNS運用/サムネイル作成/~ai-3d2207e3-6cc8-41e6-9b7f-6fa0c369cad1_.tmp",
-    "SNS運用/サムネイル作成/~ai-1d1908db-f5f8-4ffb-85dd-d4dceadc640b_.tmp",
-    "SNS運用/post/thread/20260426_note紹介スレッド.md",
-    "SNS運用/post/thread/20260425_note紹介スレッド.md",
-    "SNS運用/threads/Threads-day61.md",
-    "SNS運用/threads/_fin/Threads-day60.md",
-    "SNS運用/post/day61.md",
-    "SNS運用/サムネイル作成/~ai-83132113-9d50-40a4-a870-4f62f685bc3c_.tmp",
-    "SNS運用/サムネイル作成/Acr8246442105203201398587.tmp",
-    "SNS運用/サムネイル作成/Acr8246442105203201335747.tmp",
-    "SNS運用/サムネイル作成/Acr8246442105203202605330.tmp",
-    "SNS運用/サムネイル作成/Acr8246442105203202845025.tmp",
-    "SNS運用/サムネイル作成/【投稿】X・Threads用サムネイル.ai",
-    "SNS運用/サムネイル作成/【投稿】X・Threads用サムネイル-旧.ai",
-    "SNS運用/title/title-20260425.md",
-    "SNS運用/OGP画像サイズ一覧.md",
-    "SNS運用/post/article/X-20260426.md",
-    "Daily Log/memo/2026-04-25.md",
-    "Daily Log/2026-04-25.md",
-    "Clippings/Post by @ShaneRobinett on X.md",
-    "Clippings/note-20260426間違い.md",
-    "_ kiwami/tools/daily-log/activity/2026-04-26.jsonl",
-    "SNS運用/post/_fin/day60.md",
-    "SNS運用/post/draft/20260425_quote_draft.md",
-    "Daily Log/2026-04-24.md",
-    "Claudian-スキル候補.md",
-    "_ memory/long-term.md",
-    "_ memory/mid-term.md",
-    "_ memory/short-term.md",
-    "調査/2026-04-25-hermes-kanban-obsidian-agent.md",
-    "調査/2026-04-25-threads-affiliate-side-hustle.md",
-    "_ kiwami/tools/daily-log/oclock.svg",
-    "oclock.svg",
-    "oclock (1).svg",
-    "SNS運用/サムネイル作成/_none/見出し背景10.png",
-    "SNS運用/サムネイル作成/_none/見出し背景09.png",
-    "SNS運用/サムネイル作成/_none/見出し背景08.png",
-    "SNS運用/サムネイル作成/_none/見出し背景07.png",
-    "SNS運用/サムネイル作成/_none/見出し背景06.png",
-    "SNS運用/サムネイル作成/_none/見出し背景05.png",
-    "SNS運用/サムネイル作成/_none/見出し背景04.png",
+    "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
+    "SNS運用/action-20260427.md",
+    "SNS運用/note/_有料記事/20260426_dayone_promo.md",
+    "SNS運用/archive/threads/profile.md",
+    "SNS運用/analytics/W17分析レポート.md",
+    "SNS運用/analytics/W17-Claude統合運用フロー.md",
+    "SNS運用/archive/action",
+    "SNS運用/action",
+    "SNS運用/threads/Threads-day62.md",
+    "SNS運用/analytics/W16戦略メモ.md",
+    "SNS運用/analytics/W16分析レポート.md",
+    "ディレクトリ構成見直し案.md",
+    "SNS運用/analytics/source/account_overview_analytics_2026-04-20_2026-04-26.csv",
+    "SNS運用/analytics/source/account_overview_analytics_2026-04-14_2026-04-20.csv",
+    "SNS運用/analytics/source/account_analytics_content_2026-04-20_2026-04-26.csv",
+    "SNS運用/analytics/source/account_analytics_content_2026-04-14_2026-04-20.csv",
+    "SNS運用/analytics/source",
+    "SNS運用/post/day62.md",
+    "SNS運用/サムネイル作成/~ai-4430e289-333c-4e19-90e7-0c06c9640fa5_.tmp",
+    "SNS運用/サムネイル作成/_none/【投稿】X・Threads用サムネイル-旧.ai",
+    "SNS運用/archive/post/day61.md",
+    "SNS運用/pending/instagram/reels/generate_reels.py",
+    "SNS運用/pending/instagram/reels/day11_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day10_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day09_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day08_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day07_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day06_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day05_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day04_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day03_thumbnail.png",
+    "SNS運用/pending/instagram/reels/day02_thumbnail.png",
+    "SNS運用/pending/instagram/comments/day11_comment.md",
+    "SNS運用/pending/instagram/comments/day10_comment.md",
+    "SNS運用/pending/instagram/comments/day09_comment.md",
+    "SNS運用/pending/instagram/comments/day04_comment.md",
+    "SNS運用/pending/instagram/comments/day08_comment.md",
+    "SNS運用/pending/instagram/comments/day07_comment.md",
+    "SNS運用/pending/instagram/comments/day06_comment.md",
+    "SNS運用/pending/instagram/comments/day05_comment.md",
+    "SNS運用/pending/instagram/comments/day03_comment.md",
+    "SNS運用/pending/instagram/comments/day01_comment.md",
+    "SNS運用/pending/instagram/comments/day02_comment.md",
+    "SNS運用/pending/short-movie/fonts.md",
+    "SNS運用/pending/instagram/profile.md",
+    "SNS運用/pending/youtube/day10_youtube.md",
     "無題のファイル.canvas"
   ]
 }

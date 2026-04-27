@@ -2,7 +2,7 @@
 
 > **🔗 関連コンテンツ**
 > - 📋 W17戦略メモ: [[SNS運用/analytics/W17戦略メモ.md]]
-> - 📊 W16分析: [[SNS運用/analytics/2026-W16.md]]
+> - 📊 W16分析: [[SNS運用/analytics/W16分析レポート.md]]
 > - 📋 Claudianスキル一覧: [[Claudian-スキル一覧.md]]
 > - 💰 note戦略: [[SNS運用/noteの今後と収益化戦略.md]]
 
@@ -42,7 +42,7 @@
 | ツール                            | 役割                      | 備考                                                   |
 | ------------------------------ | ----------------------- | ---------------------------------------------------- |
 | **Grok（有料プラン）** ⭐ NEW          | ③A-1: X全体の伸びた投稿データ抽出（インプ数・URL・時系列） | X.com右上の Grok ボタン または [grok.x.com](https://grok.x.com) から利用。Premium+推奨 |
-| **Claude Cowork**（macOSデスクトップ） | スクショ読取・ローカル操作・全体指揮      | [[SNS運用/note/_fin/note-20260324-computer-use.md]] 参照 |
+| **Claude Cowork**（macOSデスクトップ） | スクショ読取・ローカル操作・全体指揮      | [[SNS運用/archive/note/note-20260324-computer-use.md]] 参照 |
 | **Claude in Chrome**           | ③A-2以降: TL分析・下書き生成・vault書き込み | MCP経由で自分のログインセッションを使用                                |
 | **Obsidian（このvault）**          | 分析結果・下書きの保存先            | `SNS運用/analytics/` と `SNS運用/post/` に格納               |
 | **Claude Code（Claudian）**      | /re-daily / /quote-rewrite 実行・vault横断の編集 | 既存運用そのまま                                             |
@@ -61,7 +61,7 @@
 - 言い換えると、① は **"Claude を操縦席に座らせるだけ"** の準備工程。まだ投稿もスクレイピングもしない。
 
 **具体的な操作**
-1. macOSのアプリケーションから **Claude Cowork** を起動(未インストールなら [[SNS運用/note/_fin/note-20260324-computer-use.md]] の手順で導入)
+1. macOSのアプリケーションから **Claude Cowork** を起動(未インストールなら [[SNS運用/archive/note/note-20260324-computer-use.md]] の手順で導入)
 2. 画面収録・アクセシビリティ権限を付与（初回のみ）
 3. 「Claude Code / Claudian」ではなく、**Cowork側のチャット欄**を開く（vault横断操作は Claudian、画面操作は Cowork、の役割分担）
 4. セッションが立ち上がったら、後続の ②（Chrome起動）→ ③（TL分析プロンプト投下）へ進む
@@ -394,6 +394,6 @@ Grok出力の30件リストをClaude in Chromeに貼り付けて実行：
 - [[SNS運用/post/フォロワー改善.md]] — X運用の土台戦略
 - [[SNS運用/Threads運用.md]] — 7つの型（引用RT下書き生成で使用）
 - [[note-20260426間違い]] — 元ネタ（危険部分は取り込まない）
-- [[SNS運用/note/_fin/note-20260324-computer-use.md]] — Claude Coworkの仕様
+- [[SNS運用/archive/note/note-20260324-computer-use.md]] — Claude Coworkの仕様
 - [[Claudian-スキル一覧.md]] — /re-daily / /quote-rewrite / /weekly-analytics などのスキル一覧
 - [grok.x.com](https://grok.x.com) — ③A-1／週次30投稿抽出のデータ取得先（有料プラン推奨）

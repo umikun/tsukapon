@@ -5,7 +5,7 @@
 > - ⬅️ 前日のX投稿: [[SNS運用/post/day91.md]]
 > - ➡️ 翌日のX投稿: [[SNS運用/post/day93.md]]
 > - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
-> - 🧵 Threadsプロフィール: [[SNS運用/threads/_fin/profile]]
+> - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 
 ## 投稿①（朝）
 

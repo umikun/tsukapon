@@ -4,8 +4,8 @@
   "title": "Regenerate daily logs",
   "titleGenerationStatus": "success",
   "createdAt": 1777158796208,
-  "updatedAt": 1777168936118,
-  "lastResponseAt": 1777168936118,
+  "updatedAt": 1777248548068,
+  "lastResponseAt": 1777247918826,
   "sessionId": "75d8f0e4-4f18-472d-a5d9-128e7e1f726f",
   "providerState": {
     "providerSessionId": "75d8f0e4-4f18-472d-a5d9-128e7e1f726f"
@@ -13,11 +13,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 7423,
-    "cacheReadInputTokens": 134872,
+    "cacheCreationInputTokens": 2195,
+    "cacheReadInputTokens": 144631,
     "contextWindow": 200000,
-    "contextTokens": 142296,
-    "percentage": 71,
+    "contextTokens": 146827,
+    "percentage": 73,
     "contextWindowIsAuthoritative": true
   }
 }

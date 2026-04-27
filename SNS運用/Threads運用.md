@@ -1,7 +1,7 @@
 # Threads運用メモ
 
 > **🔗 関連コンテンツ**
-> - 🧵 Threadsプロフィール設定: [[SNS運用/threads/_fin/profile]]
+> - 🧵 Threadsプロフィール設定: [[SNS運用/archive/threads/profile]]
 > - 📌 固定用自己紹介ポスト: [[20260410_自己紹介_固定用]]
 > - 📈 X/Threads増長戦略: [[SNS運用/growth-strategy.md]]
 > - 📋 W17戦略メモ: [[SNS運用/analytics/W17戦略メモ.md]]

@@ -111,7 +111,7 @@ vault全体で守るべき振る舞いを宣言する場所。
 1. **コンテキスト解析**: ファイルパス・親ディレクトリ・ファイル名規則から関連ノート候補を推定
    - 兄弟ファイル（同一ディレクトリ内の連番・日付繋がり）
    - 親ディレクトリの代表ドキュメント（`profile.md`, `*運用.md`, `*戦略*.md` 等）
-   - 命名規則で対応する他メディア版（例: `threads/` ↔ `post/` ↔ `_ 運用待機中/instagram|youtube/`）
+   - 命名規則で対応する他メディア版（例: `threads/` ↔ `post/` ↔ `pending/instagram|youtube/`）
    - ファイル本文内で言及している概念・固有名詞
 2. **リンクブロック挿入**: H1 直下に以下のフォーマットで callout を追加
    ```markdown
@@ -163,7 +163,11 @@ vault全体で守るべき振る舞いを宣言する場所。
 | 日次X投稿 | `SNS運用/post/day*.md` |
 | Xスレッド保存先 | `SNS運用/post/thread/` |
 | XのArticles版 | `SNS運用/post/article/` |
-| 週次分析レポート | `SNS運用/analytics/` |
+| 週次分析レポート（実績の事後分析・`/weekly-analytics` 出力） | `SNS運用/analytics/WNN分析レポート.md` |
+| 週次戦略メモ（翌週方針・手動作成） | `SNS運用/analytics/WNN戦略メモ.md` |
+| 週次分析の生CSV（Xアナリティクスエクスポート） | `SNS運用/analytics/source/` |
+| アーカイブ済みノート集約 | `SNS運用/archive/{post,threads,note}/` |
+| 未稼働プラットフォーム待機所 | `SNS運用/pending/{instagram,youtube,short-movie,note-sub}/` |
 | 外部バックアップ先 | `/Volumes/500GB/GoogleDrive/Tsukapon/` |
 
 ---

@@ -2,10 +2,10 @@ Below is the content of the PDF rendered in markdown.
 
 > **🔗 関連コンテンツ（有料記事・n8nセットアップ編）**
 > - 🧰 日常ツールの全体像（n8n位置づけ）: [[SNS運用/日常的に使っているツール]]
-> - 📝 下書き/待機版: [[SNS運用/_ 運用待機中/note-sub/20260408_n8n_setup]]
+> - 📝 下書き/待機版: [[SNS運用/pending/note-sub/20260408_n8n_setup]]
 > - 🔄 Macでの定期同期・自動化: [[Macで定期的に同期]]
 > - 📝 note運用戦略（有料記事の位置づけ）: [[SNS運用/noteの今後と収益化戦略]]
-> - 🎨 有料記事バナー: [[SNS運用/note/_fin/banner_prompt30_ai_prompt]]
+> - 🎨 有料記事バナー: [[SNS運用/archive/note/banner_prompt30_ai_prompt]]
 > - 💡 Claude Code活用の全体像: [[Claudian-スキル一覧]]
 
 ---

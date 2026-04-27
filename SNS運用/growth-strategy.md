@@ -5,7 +5,7 @@
 > - 🧵 Threads運用全体像: [[SNS運用/Threads運用.md]]
 > - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
 > - 📋 W17戦略メモ: [[SNS運用/analytics/W17戦略メモ.md]]
-> - 📊 W16分析: [[SNS運用/analytics/2026-W16.md]]
+> - 📊 W16分析: [[SNS運用/analytics/W16分析レポート.md]]
 > - 🔁 W17統合運用フロー: [[SNS運用/analytics/W17-Claude統合運用フロー.md]]
 
 > 基準：x-mastery-mentorスキルの方法論 + Xオープンソースアルゴリズムデータ（2026年4月時点）

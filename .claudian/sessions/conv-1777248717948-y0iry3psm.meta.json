@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777248717948-y0iry3psm",
+  "providerId": "claude",
+  "title": "Refactor analytics storage and documentation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777248717957,
+  "updatedAt": 1777252227124,
+  "lastResponseAt": 1777252227124,
+  "sessionId": "90410973-5f37-4d0f-b389-63b0bc8a2f17",
+  "providerState": {
+    "providerSessionId": "90410973-5f37-4d0f-b389-63b0bc8a2f17"
+  },
+  "currentNote": "ディレクトリ構成見直し案.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 818,
+    "cacheReadInputTokens": 111391,
+    "contextWindow": 200000,
+    "contextTokens": 112210,
+    "percentage": 56,
+    "contextWindowIsAuthoritative": true
+  }
+}

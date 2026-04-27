@@ -1,0 +1,24 @@
+# 10日目：情報収集を劇的に効率化する
+
+> **🔗 関連コンテンツ（アーカイブ）**
+> - 🧵 対応するThreads（アーカイブ）: [[SNS運用/archive/threads/day10.md]]
+> - ⬅️ 前日のX投稿: [[SNS運用/archive/post/day09.md]]
+> - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day11.md]]
+> - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day10_comment.md]]
+> - 🎬 YouTube版: [[SNS運用/pending/youtube/day10_youtube.md]]
+> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+
+【今日から使えるAI時短術 9/30】
+「競合他社の情報リサーチ、丸一日かかりそう…」
+そんなリサーチ業務も、PerplexityやChatGPTの検索機能で一蹴できます。
+
+---
+「〇〇業界の主要各社が最近始めているSDGs関連の取り組みを、表形式で比較してリストアップして。情報のソース元URLも必ず併記すること」
+---
+
+Googleで何時間も検索してまとめるのは過去の話。
+今は「AIに見つけさせて、まとめる」がスマートな働き方です。
+
+浮いた時間で、ゆっくりコーヒーでも飲みましょう☕️
+
+#情報収集 #リサーチ #定時退社
