@@ -4,7 +4,7 @@
   "title": "Improve note profile bio",
   "titleGenerationStatus": "success",
   "createdAt": 1777294053279,
-  "updatedAt": 1777295362381,
+  "updatedAt": 1777326498598,
   "lastResponseAt": 1777295362381,
   "sessionId": "02e1741e-d6e1-46f2-81cf-2c9ac1a9549b",
   "providerState": {
@@ -194,7 +194,6 @@
       }
     }
   },
-  "currentNote": "SNS運用/post/draft/20260427_critique_series_02_100-claude-repos.md",
   "usage": {
     "model": "opus",
     "inputTokens": 6,
