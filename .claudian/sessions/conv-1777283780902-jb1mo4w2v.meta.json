@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777283780902-jb1mo4w2v",
+  "providerId": "claude",
+  "title": "スレッドニュース生成プロセス調査",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777283780911,
+  "updatedAt": 1777285533166,
+  "lastResponseAt": 1777285354759,
+  "sessionId": "d7d662b4-78b2-4561-9c6e-8f45e7ea81eb",
+  "providerState": {
+    "providerSessionId": "d7d662b4-78b2-4561-9c6e-8f45e7ea81eb"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 716,
+    "cacheReadInputTokens": 79329,
+    "contextWindow": 1000000,
+    "contextTokens": 80046,
+    "percentage": 8,
+    "contextWindowIsAuthoritative": true
+  }
+}

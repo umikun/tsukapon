@@ -1,7 +1,7 @@
 # 57日目：商品ラダー ── 980円から月額制への道
 
 > **🔗 関連コンテンツ**
-> - ✖️ 対応するX投稿: [[SNS運用/post/day62.md]]
+> - ✖️ 対応するX投稿: [[day62]]
 > - ⬅️ 前日のThreads: [[Threads-day61]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day63.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]

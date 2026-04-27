@@ -45,9 +45,32 @@ def load_repos() -> list[str]:
     return [str(p) for p in repos if isinstance(p, str)]
 
 
+# 認証絡みの典型的なエラーパターン（kind="auth" として分類）
+_AUTH_ERROR_PATTERNS = (
+    "could not read Password",
+    "Device not configured",
+    "Authentication failed",
+    "remote: Invalid username or password",
+    "fatal: Authentication",
+    "Permission denied (publickey)",
+    "fatal: Could not read from remote repository",
+)
+
+
+def classify_error(err: str) -> str:
+    """エラー文字列を 'auth' / 'fail' に分類。"""
+    if not err:
+        return "fail"
+    for pat in _AUTH_ERROR_PATTERNS:
+        if pat in err:
+            return "auth"
+    return "fail"
+
+
 def fetch_one(repo_path_str: str) -> dict:
     repo_path = Path(repo_path_str).expanduser()
-    result: dict = {"path": str(repo_path), "name": repo_path.name, "ok": False, "error": ""}
+    # kind: "ok" | "auth" | "fail"  (auth = 認証要設定で実害なし、fail = 実エラー)
+    result: dict = {"path": str(repo_path), "name": repo_path.name, "ok": False, "kind": "fail", "error": ""}
     if not repo_path.exists():
         result["error"] = "repo not found"
         return result
@@ -61,9 +84,11 @@ def fetch_one(repo_path_str: str) -> dict:
         )
         if proc.returncode == 0:
             result["ok"] = True
+            result["kind"] = "ok"
         else:
             err = (proc.stderr or proc.stdout or "").strip().splitlines()
             result["error"] = err[-1] if err else f"exit {proc.returncode}"
+            result["kind"] = classify_error(result["error"])
     except FileNotFoundError:
         result["error"] = "git not found"
     except subprocess.TimeoutExpired:
@@ -88,8 +113,9 @@ def fetch_all() -> dict:
         "finished_at": finished_at.isoformat(),
         "duration_sec": round((finished_at - started_at).total_seconds(), 2),
         "total": len(results),
-        "ok": sum(1 for r in results if r["ok"]),
-        "failed": sum(1 for r in results if not r["ok"]),
+        "ok": sum(1 for r in results if r["kind"] == "ok"),
+        "auth": sum(1 for r in results if r["kind"] == "auth"),
+        "failed": sum(1 for r in results if r["kind"] == "fail"),
         "results": sorted(results, key=lambda r: r["name"]),
     }
     try:
@@ -109,11 +135,11 @@ def main() -> int:
         sys.stdout.write("\n")
     else:
         print(f"[git-fetcher] {summary['finished_at']} "
-              f"total={summary['total']} ok={summary['ok']} failed={summary['failed']} "
+              f"total={summary['total']} ok={summary['ok']} auth={summary['auth']} failed={summary['failed']} "
               f"({summary['duration_sec']}s)")
         for r in summary["results"]:
-            mark = "✓" if r["ok"] else "✗"
-            extra = "" if r["ok"] else f" ({r['error']})"
+            mark = {"ok": "✓", "auth": "🔑", "fail": "✗"}.get(r["kind"], "?")
+            extra = "" if r["kind"] == "ok" else f" ({r['error']})"
             print(f"  {mark} {r['name']}{extra}")
     return 0
 

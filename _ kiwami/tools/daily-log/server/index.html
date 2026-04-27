@@ -364,6 +364,7 @@
   @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
   .fetch-meta { font-size: 10px; color: var(--muted); margin-right: 4px; }
   .fetch-meta.is-stale { color: #fb923c; }
+  .fetch-meta.is-auth { color: #facc15; }
   .fetch-meta.is-error { color: #f87171; }
   .commits-list { list-style: none; padding: 0; margin: 0; }
   .commits-list li {
@@ -1380,12 +1381,20 @@
       }
       const age = fmtFetchAge(data.finished_at);
       const failed = data.failed || 0;
-      meta.textContent = failed > 0
-        ? `fetch: ${age} (失敗${failed})`
-        : `fetch: ${age}`;
+      const auth = data.auth || 0;
+      // 表示の優先度: 実エラー > 認証要 > 経過時間
+      let parts = [`fetch: ${age}`];
+      if (failed > 0) parts.push(`失敗${failed}`);
+      if (auth > 0) parts.push(`🔑${auth}`);
+      meta.textContent = parts.length > 1 ? `${parts[0]} (${parts.slice(1).join(', ')})` : parts[0];
       const ageMin = (Date.now() - new Date(data.finished_at).getTime()) / 60000;
-      meta.className = 'fetch-meta' + (failed > 0 ? ' is-error' : (ageMin > 30 ? ' is-stale' : ''));
-      meta.title = `${data.ok}/${data.total} OK · ${data.duration_sec}s · ${data.finished_at}`;
+      let cls = 'fetch-meta';
+      if (failed > 0) cls += ' is-error';
+      else if (auth > 0) cls += ' is-auth';
+      else if (ageMin > 30) cls += ' is-stale';
+      meta.className = cls;
+      const detail = `${data.ok} OK / ${auth} 認証要 / ${failed} 失敗 / 全${data.total}件 · ${data.duration_sec}s · ${data.finished_at}`;
+      meta.title = detail;
     } catch (e) {
       meta.textContent = '';
       meta.className = 'fetch-meta';
@@ -1404,7 +1413,11 @@
       if (data.error) {
         btn.textContent = '❌ ' + data.error.slice(0, 30);
       } else {
-        btn.textContent = `✓ ${data.ok}/${data.total}`;
+        const auth = data.auth || 0;
+        const failed = data.failed || 0;
+        let label = `✓ ${data.ok}/${data.total}`;
+        if (auth > 0 || failed > 0) label += ` (🔑${auth} ✗${failed})`;
+        btn.textContent = label;
         await loadCommits();
         await updateFetchMeta();
       }

@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/action-20260427.md",
+                "file": "SNS運用/post/day63.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "action-20260427"
+              "title": "day63"
             }
           },
           {
@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
+                "file": "SNS運用/post/template/news_thread_v2.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260427_critique_series_01_cash-while-sleep"
+              "title": "news_thread_v2"
             }
           },
           {
@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Post by @Techjunkie_Aman on X.md",
+                "file": "SNS運用/archive/threads/Threads-day62.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post by @Techjunkie_Aman on X"
+              "title": "Threads-day62"
             }
           },
           {
@@ -108,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,23 +285,28 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "de7814237d70bed1",
+  "active": "6bb77ac8cef2303c",
   "lastOpenFiles": [
+    "SNS運用/action-20260427.md",
+    "SNS運用/post/無題のフォルダ",
+    "SNS運用/archive/threads/Threads-day62.md",
+    "SNS運用/archive/post/day62.md",
+    "Clippings/Post by @Techjunkie_Aman on X.md",
+    "SNS運用/post/template/news_thread_v2.md",
+    "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
+    "調査/2026-04-24-claude-code-plugin-marketplace.md",
     "SNS運用/archive/confirmed/2026-04-23-oss-saas-alternatives.md",
     "SNS運用/archive/confirmed/2026-04-23-claude-obsidian-llm-wiki.md",
     "SNS運用/ネタ/2026-04-27-brave-containers.md",
     "SNS運用/ネタ",
-    "Clippings/Post by @Techjunkie_Aman on X.md",
     "SNS運用/archive/confirmed",
     "Clippings/Post by @NainsiDwiv50980 on X.md",
-    "SNS運用/action-20260427.md",
     "readable.css",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
     "調査/2026-04-27-socraticode-local-codebase-rag.md",
     "SNS運用/analytics/W17分析レポート.md",
     "SNS運用/analytics/W17戦略メモ.md",
     "SNS運用/analytics/W18戦略メモ.md",
-    "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
     "調査/2026-04-27-09pauai-affiliate-rebuild-plan.md",
     "Clippings/Post by @09pauai on X 2.md",
     "SNS運用/title/title-20260427.md",
@@ -315,12 +320,8 @@
     "SNS運用/analytics/W17-Claude統合運用フロー.md",
     "SNS運用/archive/action",
     "SNS運用/action",
-    "SNS運用/threads/Threads-day62.md",
     "SNS運用/analytics/W16戦略メモ.md",
     "SNS運用/analytics/W16分析レポート.md",
-    "SNS運用/analytics/source/account_overview_analytics_2026-04-20_2026-04-26.csv",
-    "SNS運用/post/day62.md",
-    "SNS運用/archive/post/day61.md",
     "SNS運用/pending/instagram/reels/day11_thumbnail.png",
     "SNS運用/pending/instagram/reels/day10_thumbnail.png",
     "SNS運用/pending/instagram/reels/day09_thumbnail.png",
@@ -331,8 +332,6 @@
     "SNS運用/pending/instagram/reels/day04_thumbnail.png",
     "SNS運用/pending/instagram/reels/day03_thumbnail.png",
     "SNS運用/pending/instagram/reels/day02_thumbnail.png",
-    "SNS運用/pending/instagram/comments/day11_comment.md",
-    "SNS運用/pending/instagram/comments/day10_comment.md",
     "無題のファイル.canvas"
   ]
 }

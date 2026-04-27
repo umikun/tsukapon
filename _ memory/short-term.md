@@ -38,6 +38,28 @@ last_updated: 2026-04-26
 
 - [ ] Threads運用、最低3週は様子見してからno+X連動の是非判断
 - [ ] OpenAuthを実プロジェクトで触るなら Better Auth と比較
+- [ ] **Daily Log: Bitbucket認証情報をosxkeychainにキャッシュ**（2026-04-27 ユーザー実施予定）
+  - **背景**: Daily Logのgit-fetcher が全Bitbucketリポ（37本）でfetch失敗。`could not read Password for 'https://t-ohsumi@bitbucket.org': Device not configured` エラー。原因はSourceTreeが独自にOAuthトークンを管理しており、CLI gitの `git-credential-osxkeychain` からは資格情報が見えないこと。keychainには `t-ohsumi` ユーザー用のCLI git向けエントリが存在しない（`umikun` 用は別途あるが remote URL は `t-ohsumi@bitbucket.org/...` を指定）。
+  - **暫定対応 (2026-04-27 ③ 実装済み)**: git-fetcher 側で auth エラーを `kind="auth"` 分類し、UI側で「失敗」と区別して 🔑バッジ表示。実害なしの状態で運用継続中。
+  - **本対応の手順（① — 推奨1回だけ手動でやればOK）**:
+    1. Bitbucket Web → 個人設定 → **App passwords** → Create app password
+       - 名前例: `cli-fetch-tsukapon-mac`
+       - 権限: **Repositories: Read** のみで十分（write不要）
+    2. ターミナルで任意の1リポジトリへ `cd` して fetch 実行:
+
+       ```bash
+       cd "/Users/fukuokase/__ work/__Gitwork/【dentist】_master"
+       git fetch
+       # Username: t-ohsumi
+       # Password: <生成した app password を貼り付け>
+       ```
+
+    3. 成功すれば `osxkeychain` に永続キャッシュされる → 以降全Bitbucketリポで自動認証
+    4. 検証: Daily Log UIで 🔄 fetch ボタン → `🔑37` が `🔑0` になればOK
+  - **参考**:
+    - 関連スキル: [[Claudian-スキル一覧.md]] の「🔄 Daily Log Git Fetcher」セクション
+    - git-fetcher本体: `_ kiwami/tools/daily-log/git-fetcher.py`
+    - 状態確認: `cat /tmp/daily-log-git-fetcher.json | jq '.ok, .auth, .failed'`
 
 ## 👀 通知トリガー（条件マッチで提案する待機案件）
 

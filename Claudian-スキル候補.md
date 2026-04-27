@@ -1,7 +1,7 @@
 ---
 tags: [claudian, skill-backlog, self-improving]
 created: 2026-04-25
-last_updated: 2026-04-25
+last_updated: 2026-04-27
 ---
 
 # 🪴 Claudian スキル候補（Skill Backlog）
@@ -40,7 +40,13 @@ last_updated: 2026-04-25
 
 > 過去にここから昇格したスキルを記録（スキル一覧との二重管理にしない、ここはあくまで「発生→実装」の系譜のみ）
 
-> ※ 現在エントリなし
+### `/news-thread` — AIニュースv2型5投稿スレッド生成
+
+- **発生 → 実装**: 2026-04-27（観察→候補化を経ず、ユーザー明示依頼で直接🔵→✅）
+- **トリガー**: ユーザーが [[SNS運用/post/template/news_thread_v2.md]] の生成方法を質問。テンプレが完成済みかつ火・金週2回モデル（W18: 5/1初試行 → W19以降は火金で恒常運用）で再現性が高いと判断
+- **既存スキルとの関係**: `/thread`（note→8投稿）と思想が別、`/re-daily` Step 9 とも独立。重複なし
+- **実装**: [[.claude/commands/news-thread.md]] — 9ステップ、入力4パターン、ソース候補3ディレクトリ（`調査/` `SNS運用/note/` `SNS運用/archive/note/`）、自動検証5項目
+- **登録先**: [[Claudian-スキル一覧.md]] の §2-2 に追記済み
 
 ---
 
