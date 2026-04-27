@@ -353,9 +353,21 @@
   }
   .commits-repo-name { font-weight: 600; color: var(--text); font-size: 13px; }
   .commits-repo-meta { font-size: 11px; color: var(--muted); }
+  .btn-fetch {
+    background: var(--card-raised); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: 3px 10px; cursor: pointer;
+    font-size: 11px; font-family: inherit; line-height: 1.4;
+  }
+  .btn-fetch:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .btn-fetch:disabled { opacity: 0.5; cursor: wait; }
+  .btn-fetch.loading { animation: spin 1s linear infinite; display: inline-block; }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .fetch-meta { font-size: 10px; color: var(--muted); margin-right: 4px; }
+  .fetch-meta.is-stale { color: #fb923c; }
+  .fetch-meta.is-error { color: #f87171; }
   .commits-list { list-style: none; padding: 0; margin: 0; }
   .commits-list li {
-    display: grid; grid-template-columns: 70px 60px 1fr; gap: 10px;
+    display: grid; grid-template-columns: 70px 60px minmax(0, max-content) 1fr; gap: 10px;
     padding: 4px 0; font-size: 12px; align-items: baseline;
     border-bottom: 1px solid var(--border-soft);
   }
@@ -364,6 +376,21 @@
   .commit-sha {
     font-family: "SF Mono", Menlo, monospace; color: #22d9f6; font-size: 11px;
   }
+  .commit-branch {
+    font-family: "SF Mono", Menlo, monospace; font-size: 11px;
+    color: #a78bfa; background: rgba(167, 139, 250, 0.10);
+    border: 1px solid rgba(167, 139, 250, 0.25);
+    padding: 1px 6px; border-radius: 4px;
+    max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .commit-branch.is-remote { color: #94a3b8; background: rgba(148, 163, 184, 0.08); border-color: rgba(148, 163, 184, 0.20); }
+  .commit-branch.is-tag { color: #fbbf24; background: rgba(251, 191, 36, 0.10); border-color: rgba(251, 191, 36, 0.25); }
+  .commit-branch.is-merge {
+    color: #fb923c; background: rgba(251, 146, 60, 0.10); border-color: rgba(251, 146, 60, 0.30);
+    max-width: 280px;
+  }
+  .commit-branch:empty { display: none; }
+  .commits-list li.is-merge { background: rgba(251, 146, 60, 0.04); }
   .commit-msg { color: var(--text-dim); word-break: break-word; }
 
   .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
@@ -459,6 +486,8 @@
       📦 コミット
       <span class="badge loading" id="commits-status">読込中</span>
       <span style="flex:1"></span>
+      <span class="fetch-meta" id="fetch-meta" title="最終 git fetch 時刻"></span>
+      <button type="button" class="btn-fetch" id="btn-fetch" title="リモートから最新を取得">🔄 fetch</button>
       <span class="dur" id="commits-total"></span>
     </div>
     <div id="commits-body"></div>
@@ -1052,9 +1081,38 @@
         }
         const items = (r.commits || []).map(c => {
           const t = (c.datetime || '').slice(11, 16);
-          return `<li>
+          const branch = c.branch || '';
+          const isMerge = !!c.is_merge;
+          let branchLabel = branch;
+          let branchClass = 'commit-branch';
+          let branchTitle = branch;
+          if (isMerge) {
+            branchClass += ' is-merge';
+            const from = c.merged_from || '';
+            const into = c.merged_into || branch;
+            if (from && into) {
+              branchLabel = `🔀 ${from} → ${into}`;
+              branchTitle = `merge: ${from} into ${into}`;
+            } else if (from) {
+              branchLabel = `🔀 ${from}`;
+              branchTitle = `merge from ${from}`;
+            } else {
+              branchLabel = `🔀 ${branch || 'merge'}`;
+              branchTitle = 'merge commit';
+            }
+          } else if (branch.startsWith('tag:')) {
+            branchClass += ' is-tag';
+          } else if (branch.includes('/')) {
+            branchClass += ' is-remote';
+          }
+          const branchHtml = branchLabel
+            ? `<span class="${branchClass}" title="${escapeHtml(branchTitle)}">${escapeHtml(branchLabel)}</span>`
+            : `<span class="commit-branch"></span>`;
+          const liClass = isMerge ? ' class="is-merge"' : '';
+          return `<li${liClass}>
             <span class="commit-time">${escapeHtml(t)}</span>
             <span class="commit-sha">${escapeHtml(c.short)}</span>
+            ${branchHtml}
             <span class="commit-msg">${escapeHtml(c.subject)}</span>
           </li>`;
         }).join('');
@@ -1286,6 +1344,76 @@
       loadAllSources();
     }
   }, 60000);
+
+  // --- Git fetch ---
+  function fmtFetchAge(iso) {
+    if (!iso) return '';
+    const t = new Date(iso);
+    if (isNaN(t.getTime())) return '';
+    const diffMs = Date.now() - t.getTime();
+    const m = Math.floor(diffMs / 60000);
+    if (m < 1) return '今';
+    if (m < 60) return `${m}分前`;
+    const h = Math.floor(m / 60);
+    if (h < 24) return `${h}時間前`;
+    return `${Math.floor(h / 24)}日前`;
+  }
+
+  async function updateFetchMeta() {
+    const meta = document.getElementById('fetch-meta');
+    if (!meta) return;
+    try {
+      const res = await fetch('/api/fetch-status');
+      const data = await res.json();
+      if (!data.available) {
+        meta.textContent = '未取得';
+        meta.className = 'fetch-meta is-stale';
+        meta.title = 'まだ git fetch が実行されていません';
+        return;
+      }
+      const age = fmtFetchAge(data.finished_at);
+      const failed = data.failed || 0;
+      meta.textContent = failed > 0
+        ? `fetch: ${age} (失敗${failed})`
+        : `fetch: ${age}`;
+      const ageMin = (Date.now() - new Date(data.finished_at).getTime()) / 60000;
+      meta.className = 'fetch-meta' + (failed > 0 ? ' is-error' : (ageMin > 30 ? ' is-stale' : ''));
+      meta.title = `${data.ok}/${data.total} OK · ${data.duration_sec}s · ${data.finished_at}`;
+    } catch (e) {
+      meta.textContent = '';
+      meta.className = 'fetch-meta';
+    }
+  }
+
+  async function triggerFetch() {
+    const btn = document.getElementById('btn-fetch');
+    if (!btn) return;
+    const orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = '⏳ fetching...';
+    try {
+      const res = await fetch('/api/fetch', { method: 'POST' });
+      const data = await res.json();
+      if (data.error) {
+        btn.textContent = '❌ ' + data.error.slice(0, 30);
+      } else {
+        btn.textContent = `✓ ${data.ok}/${data.total}`;
+        await loadCommits();
+        await updateFetchMeta();
+      }
+    } catch (e) {
+      btn.textContent = '❌ エラー';
+    } finally {
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = orig;
+      }, 2000);
+    }
+  }
+
+  document.getElementById('btn-fetch').addEventListener('click', triggerFetch);
+  setInterval(updateFetchMeta, 60000);
+  updateFetchMeta();
 
   render();
   loadAllSources();

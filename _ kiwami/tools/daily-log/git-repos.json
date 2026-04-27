@@ -2,10 +2,10 @@
   "_comment": "Daily Log で集計するgitリポジトリのローカルパスを repos に追加する。// で行コメント可。author_email は null（各repoのgit config user.emailを自動取得）/ 文字列（共通email）/ 配列（複数emailのいずれかにマッチ）から選べる。",
   "repos": [
     "/Users/fukuokase/__ work/__Gitwork/【dentist】_master",
-    "/Users/fukuokase/__ work/__Gitwork/【dentist】_staging",
+    // "/Users/fukuokase/__ work/__Gitwork/【dentist】_staging",
     "/Users/fukuokase/__ work/__Gitwork/【doctor】master",
-    "/Users/fukuokase/__ work/__Gitwork/【doctor】prepro",
-    "/Users/fukuokase/__ work/__Gitwork/【doctor】staging",
+    // "/Users/fukuokase/__ work/__Gitwork/【doctor】prepro",
+    // "/Users/fukuokase/__ work/__Gitwork/【doctor】staging",
     "/Volumes/500GB/MEGA/__ やりとり箱/__ www/e-doctor-press.com/www/wordpress/wp-content/themes",
     // "/Volumes/500GB/MEGA/__ やりとり箱/__ www/resident.f-toku.jp",
     "/Volumes/500GB/MEGA/__ やりとり箱/__ www/work_cojp",

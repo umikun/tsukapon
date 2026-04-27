@@ -271,8 +271,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d6a7df12285ee480",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
+    "_ kiwami/tools/daily-log/com.user.git-fetcher.plist",
+    "_ kiwami/tools/daily-log/git-fetcher.py",
+    "_ kiwami/tools/daily-log/server/__pycache__/daily-log-server.cpython-313.pyc",
     "SNS運用/post/draft/20260427_critique_series_01_cash-while-sleep.md",
     "SNS運用/action-20260427.md",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
@@ -292,9 +295,7 @@
     "SNS運用/analytics/source",
     "SNS運用/post/day62.md",
     "SNS運用/サムネイル作成/~ai-4430e289-333c-4e19-90e7-0c06c9640fa5_.tmp",
-    "SNS運用/サムネイル作成/_none/【投稿】X・Threads用サムネイル-旧.ai",
     "SNS運用/archive/post/day61.md",
-    "SNS運用/pending/instagram/reels/generate_reels.py",
     "SNS運用/pending/instagram/reels/day11_thumbnail.png",
     "SNS運用/pending/instagram/reels/day10_thumbnail.png",
     "SNS運用/pending/instagram/reels/day09_thumbnail.png",
@@ -318,7 +319,6 @@
     "SNS運用/pending/instagram/comments/day02_comment.md",
     "SNS運用/pending/short-movie/fonts.md",
     "SNS運用/pending/instagram/profile.md",
-    "SNS運用/pending/youtube/day10_youtube.md",
     "無題のファイル.canvas"
   ]
 }

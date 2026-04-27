@@ -43,6 +43,13 @@ REPORTS_DIR = VAULT_ROOT / "Daily Log"
 MEMO_DIR = REPORTS_DIR / "memo"
 FAVICON_PATH = BASE / "oclock.svg"
 GIT_REPOS_CONFIG = BASE / "git-repos.json"
+# 起動コピー側にも置いてあれば優先（launchdが叩く本体）
+GIT_FETCHER_SCRIPT = (
+    HOME / "bin/daily-log/git-fetcher.py"
+    if (HOME / "bin/daily-log/git-fetcher.py").exists()
+    else BASE / "git-fetcher.py"
+)
+GIT_FETCHER_STATE = Path("/tmp/daily-log-git-fetcher.json")
 
 HOST = os.environ.get("DAILY_LOG_HOST", "127.0.0.1")
 PORT = int(os.environ.get("DAILY_LOG_PORT", "8765"))
@@ -89,6 +96,9 @@ class Handler(BaseHTTPRequestHandler):
         if path.startswith("/api/commits/"):
             self._handle_commits(path[len("/api/commits/"):])
             return
+        if path == "/api/fetch-status":
+            self._handle_fetch_status()
+            return
         self.send_error(404, "Not found")
 
     def do_POST(self):  # noqa: N802
@@ -99,6 +109,9 @@ class Handler(BaseHTTPRequestHandler):
             return
         if path.startswith("/api/memo/"):
             self._handle_memo_post(path[len("/api/memo/"):])
+            return
+        if path == "/api/fetch":
+            self._handle_fetch()
             return
         self.send_error(404, "Not found")
 
@@ -265,7 +278,9 @@ class Handler(BaseHTTPRequestHandler):
         # 区切りに NUL を使って改行を含むメッセージにも対応
         sep = "\x1f"
         rec = "\x1e"
-        fmt = sep.join(["%H", "%h", "%cI", "%an", "%ae", "%s"]) + rec
+        # %S: そのコミットを到達した source ref（--source 必須）
+        # %P: 親コミット一覧（マージ判定用、空白区切り）
+        fmt = sep.join(["%H", "%h", "%cI", "%an", "%ae", "%S", "%P", "%s"]) + rec
         author_args: list[str] = []
         for em in emails:
             author_args.append(f"--author={em}")
@@ -275,7 +290,7 @@ class Handler(BaseHTTPRequestHandler):
                     "git", "-C", str(repo_path), "log",
                     *author_args,
                     f"--since={since}", f"--until={until}",
-                    "--all", "--no-merges",
+                    "--all", "--source",
                     f"--pretty=format:{fmt}",
                 ],
                 text=True, stderr=subprocess.PIPE, timeout=10,
@@ -289,25 +304,125 @@ class Handler(BaseHTTPRequestHandler):
             return [], err_msg[-1] if err_msg else "git log 失敗"
 
         commits: list[dict] = []
-        seen: set[str] = set()
+        # SHA → branch 候補集合（重複コミットでもローカル/リモート両方を保持）
+        seen: dict[str, int] = {}
         for raw in out.split(rec):
             raw = raw.strip("\n")
             if not raw:
                 continue
             parts = raw.split(sep)
-            if len(parts) < 6:
+            if len(parts) < 8:
                 continue
-            sha, short, iso, author_name, author_email, subject = parts[:6]
+            sha, short, iso, author_name, author_email, source_ref, parents_str, subject = parts[:8]
+            branch = Handler._normalize_ref(source_ref)
+            parents = parents_str.split() if parents_str else []
+            is_merge = len(parents) >= 2
+            merged_from = ""
+            merged_into = ""
+            if is_merge:
+                merged_from, merged_into = Handler._parse_merge_subject(subject)
+                # サブジェクトから抽出できなければ 2nd parent から逆引き
+                if not merged_from and len(parents) >= 2:
+                    merged_from = Handler._git_name_rev(repo_path, parents[1])
+                # マージ先（current branch）はサブジェクト or branch から
+                if not merged_into:
+                    merged_into = branch
             if sha in seen:
+                # 既出のコミットなら、ローカルブランチの方を優先して上書き
+                idx = seen[sha]
+                existing = commits[idx]["branch"]
+                if Handler._branch_priority(branch) < Handler._branch_priority(existing):
+                    commits[idx]["branch"] = branch
                 continue
-            seen.add(sha)
+            seen[sha] = len(commits)
             commits.append({
                 "sha": sha, "short": short, "datetime": iso,
                 "author_name": author_name, "author_email": author_email,
+                "branch": branch,
+                "is_merge": is_merge,
+                "merged_from": merged_from,
+                "merged_into": merged_into,
                 "subject": subject,
             })
         commits.sort(key=lambda c: c["datetime"])
         return commits, ""
+
+    # マージコミットのサブジェクトから「merged_from」「merged_into」を抽出
+    _MERGE_BRANCH_RE = re.compile(r"^Merge branch ['\"]([^'\"]+)['\"](?:\s+of\s+\S+)?(?:\s+into\s+(\S+))?")
+    _MERGE_PR_RE = re.compile(r"^Merge pull request #(\d+) from ([^\s]+)")
+    _MERGE_REMOTE_RE = re.compile(r"^Merge remote-tracking branch ['\"]([^'\"]+)['\"](?:\s+into\s+(\S+))?")
+    # Bitbucket形式: "Merged in <branch> (pull request #<N>)"
+    _MERGE_BITBUCKET_RE = re.compile(r"^Merged in (\S+)\s*\(pull request #(\d+)\)")
+    # 簡易形式: "Merged <branch> into <branch>"
+    _MERGE_SIMPLE_RE = re.compile(r"^Merged?\s+(\S+)(?:\s+into\s+(\S+))?")
+
+    @staticmethod
+    def _parse_merge_subject(subject: str) -> tuple[str, str]:
+        """マージコミットのサブジェクトから (merged_from, merged_into) を抽出。"""
+        s = (subject or "").strip()
+        m = Handler._MERGE_BITBUCKET_RE.match(s)
+        if m:
+            return f"PR#{m.group(2)}: {m.group(1)}", ""
+        m = Handler._MERGE_PR_RE.match(s)
+        if m:
+            # owner/branch → branch だけ取り出す
+            from_path = m.group(2)
+            from_branch = from_path.split("/", 1)[1] if "/" in from_path else from_path
+            return f"PR#{m.group(1)}: {from_branch}", ""
+        m = Handler._MERGE_REMOTE_RE.match(s)
+        if m:
+            return m.group(1), (m.group(2) or "")
+        m = Handler._MERGE_BRANCH_RE.match(s)
+        if m:
+            return m.group(1), (m.group(2) or "")
+        m = Handler._MERGE_SIMPLE_RE.match(s)
+        if m and m.group(1) not in ("branch", "in", "pull"):
+            return m.group(1), (m.group(2) or "")
+        return "", ""
+
+    @staticmethod
+    def _git_name_rev(repo_path: Path, sha: str) -> str:
+        """SHA から最も近いブランチ名を逆引き（refs/heads/* 限定）。"""
+        try:
+            out = subprocess.check_output(
+                ["git", "-C", str(repo_path), "name-rev", "--name-only",
+                 "--refs=refs/heads/*", "--no-undefined", sha],
+                text=True, stderr=subprocess.DEVNULL, timeout=5,
+            ).strip()
+            # "main~3" のような形式を素のブランチ名に
+            return out.split("~", 1)[0].split("^", 1)[0]
+        except (subprocess.CalledProcessError, FileNotFoundError, subprocess.TimeoutExpired):
+            return ""
+
+    @staticmethod
+    def _normalize_ref(ref: str) -> str:
+        """source ref を表示用ブランチ名に整形。
+
+        例: refs/heads/main → main
+            refs/remotes/origin/feature/x → origin/feature/x
+            refs/tags/v1.0 → tag:v1.0
+        """
+        ref = (ref or "").strip()
+        if not ref:
+            return ""
+        if ref.startswith("refs/heads/"):
+            return ref[len("refs/heads/"):]
+        if ref.startswith("refs/remotes/"):
+            return ref[len("refs/remotes/"):]
+        if ref.startswith("refs/tags/"):
+            return "tag:" + ref[len("refs/tags/"):]
+        return ref
+
+    @staticmethod
+    def _branch_priority(branch: str) -> int:
+        """重複コミットの代表ブランチを選ぶ優先度（小さいほど優先）。"""
+        if not branch:
+            return 99
+        if branch.startswith("tag:"):
+            return 30
+        if "/" in branch:  # origin/main 等のリモート参照
+            return 20
+        return 10  # ローカルブランチ
 
     def _handle_memo_get(self, date_key: str) -> None:
         if not self._validate_date(date_key):
@@ -351,6 +466,40 @@ class Handler(BaseHTTPRequestHandler):
             self._json({"error": f"write failed: {e}"}, status=500)
             return
         self._json({"ok": True, "path": str(target.relative_to(VAULT_ROOT))})
+
+    def _handle_fetch_status(self) -> None:
+        """直近のfetch結果を返す（git-fetcher.pyが書き出す state ファイルを読む）。"""
+        if not GIT_FETCHER_STATE.exists():
+            self._json({"available": False})
+            return
+        try:
+            data = json.loads(GIT_FETCHER_STATE.read_text(encoding="utf-8"))
+            data["available"] = True
+            self._json(data)
+        except (OSError, json.JSONDecodeError):
+            self._json({"available": False})
+
+    def _handle_fetch(self) -> None:
+        """git-fetcher.py を呼び出して結果を返す（同期実行）。"""
+        if not GIT_FETCHER_SCRIPT.exists():
+            self._json({"error": f"git-fetcher.py が見つかりません: {GIT_FETCHER_SCRIPT}"}, status=500)
+            return
+        try:
+            proc = subprocess.run(
+                ["/usr/bin/python3", str(GIT_FETCHER_SCRIPT), "--json"],
+                capture_output=True, text=True, timeout=120,
+            )
+        except subprocess.TimeoutExpired:
+            self._json({"error": "git-fetcher がタイムアウト (120s)"}, status=504)
+            return
+        except Exception as e:
+            self._json({"error": f"git-fetcher 起動失敗: {e}"}, status=500)
+            return
+        try:
+            payload = json.loads(proc.stdout) if proc.stdout.strip() else {}
+        except json.JSONDecodeError:
+            payload = {"error": "invalid json from git-fetcher", "stdout": proc.stdout[:500]}
+        self._json(payload)
 
     def _handle_save_md(self, date_key: str) -> None:
         if not self._validate_date(date_key):

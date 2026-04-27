@@ -30,7 +30,9 @@
       "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT datetime\\(min\\(startedAt\\),'+9 hours'\\), datetime\\(max\\(startedAt\\),'+9 hours'\\) FROM execution_entity WHERE workflowId='TuQn8cgrU8dTl2YP' AND startedAt >= '2026-04-20';\")",
       "Bash(sqlite3 ~/.n8n/database.sqlite \"SELECT name, type, substr\\(data, 1, 200\\) FROM credentials_entity;\")",
       "mcp__claude_ai_Google_Calendar__list_calendars",
-      "mcp__claude_ai_Google_Calendar__list_events"
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "WebSearch",
+      "WebFetch(domain:www.superlist.com)"
     ]
   }
 }

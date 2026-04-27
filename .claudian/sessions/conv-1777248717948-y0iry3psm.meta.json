@@ -4,13 +4,12 @@
   "title": "Refactor analytics storage and documentation",
   "titleGenerationStatus": "success",
   "createdAt": 1777248717957,
-  "updatedAt": 1777252227124,
+  "updatedAt": 1777256064367,
   "lastResponseAt": 1777252227124,
   "sessionId": "90410973-5f37-4d0f-b389-63b0bc8a2f17",
   "providerState": {
     "providerSessionId": "90410973-5f37-4d0f-b389-63b0bc8a2f17"
   },
-  "currentNote": "ディレクトリ構成見直し案.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,
