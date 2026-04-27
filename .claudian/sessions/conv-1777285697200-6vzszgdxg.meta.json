@@ -4,6 +4,21 @@
   "title": "Re-daily投稿パス対象を拡張",
   "titleGenerationStatus": "success",
   "createdAt": 1777285697206,
-  "updatedAt": 1777285716665,
-  "sessionId": null
+  "updatedAt": 1777286043042,
+  "lastResponseAt": 1777286043042,
+  "sessionId": "dedc207b-5537-421f-8d59-bd14ec9d4d8a",
+  "providerState": {
+    "providerSessionId": "dedc207b-5537-421f-8d59-bd14ec9d4d8a"
+  },
+  "currentNote": "SNS運用/post/day63.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 516,
+    "cacheReadInputTokens": 53226,
+    "contextWindow": 1000000,
+    "contextTokens": 53743,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
 }
