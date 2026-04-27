@@ -538,6 +538,13 @@
     const d = new Date();
     return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
   }
+  // ISO文字列(UTC/オフセット問わず)を端末ローカルタイムゾーンの "HH:MM" に変換
+  function fmtLocalTime(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
+    return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  }
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
@@ -1080,7 +1087,7 @@
           </div>`;
         }
         const items = (r.commits || []).map(c => {
-          const t = (c.datetime || '').slice(11, 16);
+          const t = fmtLocalTime(c.datetime);
           const branch = c.branch || '';
           const isMerge = !!c.is_merge;
           let branchLabel = branch;
@@ -1252,7 +1259,7 @@
       for (const r of commitRepos) {
         lines.push(`### ${r.name} (${r.commits.length})`);
         for (const c of r.commits) {
-          const t = (c.datetime || '').slice(11, 16);
+          const t = fmtLocalTime(c.datetime);
           lines.push(`- ${t} \`${c.short}\` ${c.subject}`);
         }
       }
