@@ -4,8 +4,8 @@
   "title": "Learn obsidian-skills overview",
   "titleGenerationStatus": "success",
   "createdAt": 1777376928802,
-  "updatedAt": 1777378387908,
-  "lastResponseAt": 1777378387908,
+  "updatedAt": 1777382989417,
+  "lastResponseAt": 1777382989417,
   "sessionId": "aae8f57f-7acc-4064-b273-cec1891dc6f1",
   "providerState": {
     "providerSessionId": "aae8f57f-7acc-4064-b273-cec1891dc6f1"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 455,
-    "cacheReadInputTokens": 92900,
+    "cacheCreationInputTokens": 338,
+    "cacheReadInputTokens": 109762,
     "contextWindow": 1000000,
-    "contextTokens": 93356,
-    "percentage": 9,
+    "contextTokens": 110101,
+    "percentage": 11,
     "contextWindowIsAuthoritative": true
   }
 }

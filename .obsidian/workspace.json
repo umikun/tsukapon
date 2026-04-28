@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "調査/2026-04-26-obsidian-claude-code-second-brain.md",
+                "file": "SNS運用/pending/threads/Threads-day94.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-26-obsidian-claude-code-second-brain"
+              "title": "Threads-day94"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -255,14 +255,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ae3e62655dc023b3",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
-    "SNS運用/post/posts.base",
-    "SNS運用/全体ダッシュボード.base",
-    "SNS運用/post/article/X-20260417.md",
+    "SNS運用/analytics/screenshots/W18-series02-EOD.png",
+    "SNS運用/pending/threads/Threads-day94.md",
     "SNS運用/action-20260428.md",
-    "Claudian-obsidian-skills活用マップ.md",
     "調査/2026-04-26-obsidian-claude-code-second-brain.md",
+    "SNS運用/全体ダッシュボード.base",
+    "SNS運用/post/posts.base",
+    "SNS運用/post/article/X-20260417.md",
+    "Claudian-obsidian-skills活用マップ.md",
     "SNS運用/archive/trivia/2026-04-26-kawai-claude-md-design-skills.md",
     "SNS運用/archive/trivia/2026-04-26-create-agent-tui-openrouter.md",
     "SNS運用/ネタ/2026-04-26-claude-code-setup-plugin.md",
@@ -284,7 +286,6 @@
     "Clippings/Post by @minchoi on X.md",
     "調査/2026-04-28-claude-code-curated-lists-overlap.md",
     "Clippings/Post by @chackwill on X.md",
-    "Daily Log/memo/2026-04-26.md",
     "SNS運用/analytics/screenshots/W18-series02-60min.png",
     "SNS運用/analytics/screenshots",
     "SNS運用/pending/threads",
@@ -293,7 +294,6 @@
     "CLAUDE.md.bak-20260428",
     "SNS運用/サムネイル作成/~ai-aa059f6d-66ab-44aa-9a79-559915afb604_.tmp",
     "SNS運用/サムネイル作成/~ai-0accd847-f250-4886-a549-6162742c2885_.tmp",
-    "_ kiwami/tools/daily-log/clockify/2026-04-28.json",
     "SNS運用/pending/instagram/reels/day11_thumbnail.png",
     "SNS運用/pending/instagram/reels/day10_thumbnail.png",
     "SNS運用/pending/instagram/reels/day09_thumbnail.png",
