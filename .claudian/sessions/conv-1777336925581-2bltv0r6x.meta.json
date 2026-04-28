@@ -4,8 +4,8 @@
   "title": "Check today's note post file",
   "titleGenerationStatus": "success",
   "createdAt": 1777336925586,
-  "updatedAt": 1777343333276,
-  "lastResponseAt": 1777343333276,
+  "updatedAt": 1777346799354,
+  "lastResponseAt": 1777346799354,
   "sessionId": "63d45794-05a2-451c-be27-865d24534b27",
   "providerState": {
     "providerSessionId": "63d45794-05a2-451c-be27-865d24534b27"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 948,
-    "cacheReadInputTokens": 208646,
+    "cacheCreationInputTokens": 4667,
+    "cacheReadInputTokens": 259340,
     "contextWindow": 1000000,
-    "contextTokens": 209595,
-    "percentage": 21,
+    "contextTokens": 264008,
+    "percentage": 26,
     "contextWindowIsAuthoritative": true
   }
 }
