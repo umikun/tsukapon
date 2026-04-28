@@ -129,5 +129,5 @@ DALL-E 2/3 は **2026-05-12に正式廃止**予定で、ChatGPT・Codex・APIの
   - [[.claude/commands/news-thread.md]] の素材として鉄板。"24時間" "Elo差242点" "DALL-E廃止予告" の3つを軸にすると数字でテンポが作れる
   - スレッド構成案: ①リード「画像AIの世代交代が一晩で起きた」 ②差分「文字99%・推論内蔵・2K・8枚一貫」 ③Elo比較 ④Nano Banana 2との使い分け ⑤副業活用視点（雑誌・絵本・UIモックの自動化）
 - 関連note記事への接続:
-  - [[調査/2026-04-25-claude-code-lovart-image-gen.md]] と並べて、「Claude Code側で画像生成を呼ぶならどのAPIに任せるべきか」を1本の比較記事にできる
+  - [[2026-04-25-claude-code-lovart-image-gen]] と並べて、「Claude Code側で画像生成を呼ぶならどのAPIに任せるべきか」を1本の比較記事にできる
 - 「24時間爆発」型ポストのテンプレート的価値: @minchoi はこのフォーマット（"X dropped Y. People can't stop. N wild examples:" ）で常に伸ばしている。日本語版で再構成可能（例: "ChatGPT Images 2.0が出てまだ24時間。創作の地獄絵図、すでに10例ある。"）

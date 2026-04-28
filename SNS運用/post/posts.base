@@ -1,0 +1,84 @@
+filters:
+  and:
+    - file.inFolder("SNS運用/post")
+    - file.ext == "md"
+    - not:
+        - file.inFolder("SNS運用/post/draft")
+formulas:
+  category: if(file.folder == "SNS運用/post/thread", "🧵 スレッド", if(file.folder == "SNS運用/post/article", "📰 Article", "🐦 デイリー"))
+  size_kb: (file.size / 1024).round(1)
+  age_days: (now() - file.mtime).days
+properties:
+  formula.category:
+    displayName: 種別
+  formula.size_kb:
+    displayName: サイズ(KB)
+  formula.age_days:
+    displayName: 経過日
+  file.name:
+    displayName: ファイル
+  file.mtime:
+    displayName: 更新日
+  file.ctime:
+    displayName: 作成日
+  file.folder:
+    displayName: フォルダ
+views:
+  - type: table
+    name: 🌐 全投稿（更新順）
+    order:
+      - file.name
+      - formula.category
+      - file.mtime
+      - formula.size_kb
+      - formula.age_days
+    limit: 80
+  - type: table
+    name: 🐦 デイリーX投稿（day*.md）
+    filters:
+      and:
+        - file.folder == "SNS運用/post"
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+      - formula.size_kb
+      - formula.age_days
+    limit: 50
+  - type: table
+    name: 🧵 note紹介スレッド
+    filters:
+      and:
+        - file.folder == "SNS運用/post/thread"
+    order:
+      - file.name
+      - file.mtime
+      - formula.size_kb
+    limit: 50
+  - type: table
+    name: 📰 X Articles
+    filters:
+      and:
+        - file.folder == "SNS運用/post/article"
+    order:
+      - file.name
+      - file.mtime
+      - formula.size_kb
+    limit: 50
+  - type: cards
+    name: 🖼 ギャラリー（最新30件）
+    order:
+      - file.name
+      - formula.category
+      - file.mtime
+      - formula.size_kb
+    limit: 30
+  - type: list
+    name: 📅 最近7日以内の更新
+    filters:
+      and:
+        - formula.age_days <= 7
+    order:
+      - file.name
+      - formula.category
+      - file.mtime

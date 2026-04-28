@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777376152042-1chjtjwp0",
+  "providerId": "claude",
+  "title": "re-daily Threads指針への記事統合価値判定",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777376152046,
+  "updatedAt": 1777376904060,
+  "lastResponseAt": 1777376754711,
+  "sessionId": "6cc2d846-3069-456d-b381-826a424f2b52",
+  "providerState": {
+    "providerSessionId": "6cc2d846-3069-456d-b381-826a424f2b52"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 6,
+    "cacheCreationInputTokens": 184,
+    "cacheReadInputTokens": 57470,
+    "contextWindow": 1000000,
+    "contextTokens": 57660,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -90,7 +90,7 @@ X（旧Twitter）の英語AI界隈では2025年後半あたりから「**Top N G
 
 - **コンテキスト圧縮プロキシ**: ClawRouter/context-mode と RTK は同じカテゴリ。AIコーディング代金の最大支出ポイントを叩く道具で、2026年に一気に10k★級が複数出てきた — [[調査/2026-04-26-rtk-token-killer-cli-proxy.md]]
 - **OSS-as-SaaS-代替**: Open-Generative-AI / agentic-inbox / context-mode はいずれも「有料SaaSをセルフホスト版で撃つ」型。同じ系譜で Open-SEOがいる — [[調査/2026-04-26-open-seo-self-hosted-stack.md]]
-- **Claude Code Skill 経済圏**: claude-ads / toprank はどちらも Skill単位での配布。Skill marketplace まわりは別途調査済 — [[調査/2026-04-24-claude-code-plugin-marketplace.md]]
+- **Claude Code Skill 経済圏**: claude-ads / toprank はどちらも Skill単位での配布。Skill marketplace まわりは別途調査済 — [[2026-04-24-claude-code-plugin-marketplace]]
 - **Stealth Browser/スクレイピング**: camofox-browser は Camoufox（Firefox派生）/Patchright/undetected-chromedriver と同枠。受託・データプロバイダの足回り
 - **Agent + Email**: agentic-inbox は Cloudflare Email Workers + Durable Objects の組み合わせ事例で、SaaS発射台として濃い
 

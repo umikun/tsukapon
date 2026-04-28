@@ -94,7 +94,7 @@ source: "[[Clippings/Post by @NainsiDwiv50980 on X.md]]"
 - **codebase-RAG vs grep**: 従来はAIエージェントがripgrepでファイルを探し読み → トークン爆発。RAGに置き換えると **「読まずに検索」** が可能。SocratiCodeのベンチ「31ステップ→5ステップ」がこれを示す
 - **Ollama 経由のローカル埋め込み**: `nomic-embed-text` (768次元) は2024年以降のローカル埋め込みのデファクト。CPU実行可・GPU加速で爆速
 - **AGPL-3.0 と商用利用**: ライブラリと違いSaaS提供時にもソース開示義務が発生する強コピーレフト。**Altaire Limited が商用ライセンスを別売**しているのはこの構造のため
-- **Tree-sitter ベースのチャンク分割**: 単純なテキスト分割より遥かに意味的に綺麗。CocoIndex が前面に出している差別化軸。SocratiCode は AST ベースのチャンクと "ハイブリッド意味検索" を併用 — [[調査/2026-04-26-claude-code-100-best-repos.md]] でも類似ツールに触れている
+- **Tree-sitter ベースのチャンク分割**: 単純なテキスト分割より遥かに意味的に綺麗。CocoIndex が前面に出している差別化軸。SocratiCode は AST ベースのチャンクと "ハイブリッド意味検索" を併用 — [[2026-04-26-claude-code-100-best-repos]] でも類似ツールに触れている
 
 ---
 

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777376928800-srch7nzxs",
+  "providerId": "claude",
+  "title": "Learn obsidian-skills overview",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777376928802,
+  "updatedAt": 1777378387908,
+  "lastResponseAt": 1777378387908,
+  "sessionId": "aae8f57f-7acc-4064-b273-cec1891dc6f1",
+  "providerState": {
+    "providerSessionId": "aae8f57f-7acc-4064-b273-cec1891dc6f1"
+  },
+  "currentNote": "SNS運用/action-20260428.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 455,
+    "cacheReadInputTokens": 92900,
+    "contextWindow": 1000000,
+    "contextTokens": 93356,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}

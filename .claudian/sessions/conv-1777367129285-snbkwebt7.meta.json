@@ -4,13 +4,12 @@
   "title": "Initiate deep-dive research",
   "titleGenerationStatus": "success",
   "createdAt": 1777367129285,
-  "updatedAt": 1777373843747,
+  "updatedAt": 1777376050285,
   "lastResponseAt": 1777373843747,
   "sessionId": "656a3b76-9750-42e6-a9ae-06437e3d55ea",
   "providerState": {
     "providerSessionId": "656a3b76-9750-42e6-a9ae-06437e3d55ea"
   },
-  "currentNote": "Clippings/Post by @ryo_Oto1 on X.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,

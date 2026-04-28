@@ -1,7 +1,7 @@
 # 批評型X連投シリーズ③ 「使うのやめろ」煽り解剖
 
 > **🔗 関連コンテンツ**
-> - 🧠 元調査: [[調査/2026-04-26-claude-code-setup-plugin.md]]
+> - 🧠 元調査: [[2026-04-26-claude-code-setup-plugin]]
 > - 📊 W18戦略メモ: [[SNS運用/analytics/W18戦略メモ.md]]
 > - 🎯 投下予定: Wed 4/29 12:30頃
 

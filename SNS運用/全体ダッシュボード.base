@@ -1,0 +1,129 @@
+# SNS運用/ 配下を横断する Base
+# 作成: 2026-04-28
+# 関連: [[Claudian-obsidian-skills活用マップ.md]] / [[SNS運用/post/posts.base]]
+#
+# 設計方針:
+# - 376本の.md を「プラットフォーム × ステータス」の2軸で自動分類
+# - file.inFolder() ベースの formula で判別（frontmatter 不要で動く）
+# - 7ビューで「全体俯瞰／アクティブ／アーカイブ／待機中／戦略／最近更新／ギャラリー」を切り替え
+
+filters:
+  and:
+    - file.inFolder("SNS運用")
+    - 'file.ext == "md"'
+
+formulas:
+  # プラットフォーム判別（深い階層から先に判定する点に注意）
+  platform: 'if(file.inFolder("SNS運用/post"), "🐦 X", if(file.inFolder("SNS運用/threads"), "💬 Threads", if(file.inFolder("SNS運用/note"), "📔 note", if(file.inFolder("SNS運用/pending/instagram"), "📸 Instagram(待)", if(file.inFolder("SNS運用/pending/youtube"), "📺 YouTube(待)", if(file.inFolder("SNS運用/pending/short-movie"), "🎬 Short(待)", if(file.inFolder("SNS運用/pending/threads"), "💬 Threads(待)", if(file.inFolder("SNS運用/pending/post"), "🐦 X(待)", if(file.inFolder("SNS運用/pending/note-sub"), "📔 note(待)", if(file.inFolder("SNS運用/archive/post"), "🐦 X(過)", if(file.inFolder("SNS運用/archive/threads"), "💬 Threads(過)", if(file.inFolder("SNS運用/archive/note"), "📔 note(過)", if(file.inFolder("SNS運用/archive/action"), "🛠 アクション(過)", if(file.inFolder("SNS運用/archive"), "🗄 アーカイブ", if(file.inFolder("SNS運用/analytics"), "📊 分析", if(file.inFolder("SNS運用/action"), "🛠 アクション", if(file.inFolder("SNS運用/research"), "🔬 リサーチ", if(file.inFolder("SNS運用/ネタ"), "💡 ネタ", if(file.inFolder("SNS運用/title"), "🎯 タイトル", if(file.inFolder("SNS運用/サムネイル作成"), "🖼 サムネ", "📄 戦略/その他"))))))))))))))))))))'
+
+  # サブカテゴリ（X系のみ細分化）
+  sub: 'if(file.inFolder("SNS運用/post/draft"), "draft", if(file.inFolder("SNS運用/post/thread"), "thread", if(file.inFolder("SNS運用/post/article"), "article", if(file.folder == "SNS運用/post", "daily", if(file.inFolder("SNS運用/note/_有料記事"), "paid", "")))))'
+
+  # ステータス（アクティブ / 待機 / 過去 / 下書き）
+  status: 'if(file.inFolder("SNS運用/archive"), "🗄 archived", if(file.inFolder("SNS運用/pending"), "⏳ pending", if(file.inFolder("SNS運用/post/draft"), "📝 draft", "✅ active")))'
+
+  size_kb: '(file.size / 1024).round(1)'
+  age_days: '(now() - file.mtime).days'
+
+properties:
+  formula.platform:
+    displayName: "プラットフォーム"
+  formula.sub:
+    displayName: "種別"
+  formula.status:
+    displayName: "状態"
+  formula.size_kb:
+    displayName: "KB"
+  formula.age_days:
+    displayName: "経過日"
+  file.name:
+    displayName: "ファイル"
+  file.folder:
+    displayName: "フォルダ"
+  file.mtime:
+    displayName: "更新日"
+  file.ctime:
+    displayName: "作成日"
+
+views:
+  - type: table
+    name: "🌐 全体（プラットフォーム別）"
+    groupBy:
+      property: formula.platform
+      direction: ASC
+    order:
+      - file.name
+      - formula.status
+      - formula.sub
+      - file.mtime
+      - formula.age_days
+    limit: 200
+
+  - type: table
+    name: "✅ アクティブ運用中（更新順）"
+    filters:
+      and:
+        - 'formula.status == "✅ active"'
+    order:
+      - file.name
+      - formula.platform
+      - formula.sub
+      - file.mtime
+      - formula.size_kb
+    limit: 100
+
+  - type: list
+    name: "📅 最近7日以内の更新"
+    filters:
+      and:
+        - 'formula.age_days <= 7'
+    order:
+      - file.name
+      - formula.platform
+      - formula.status
+      - file.mtime
+
+  - type: table
+    name: "🗄 アーカイブ（過去ノート）"
+    filters:
+      and:
+        - 'formula.status == "🗄 archived"'
+    order:
+      - file.name
+      - formula.platform
+      - file.ctime
+      - formula.size_kb
+    limit: 200
+
+  - type: table
+    name: "⏳ 待機中プラットフォーム"
+    filters:
+      and:
+        - 'formula.status == "⏳ pending"'
+    order:
+      - file.name
+      - formula.platform
+      - file.mtime
+    limit: 100
+
+  - type: table
+    name: "📊 戦略・分析・アクション"
+    filters:
+      or:
+        - file.inFolder("SNS運用/analytics")
+        - file.inFolder("SNS運用/action")
+        - 'file.folder == "SNS運用"'
+    order:
+      - file.name
+      - formula.platform
+      - file.mtime
+      - formula.size_kb
+
+  - type: cards
+    name: "🖼 ギャラリー（最新40件）"
+    order:
+      - file.name
+      - formula.platform
+      - formula.status
+      - file.mtime
+    limit: 40
