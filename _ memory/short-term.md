@@ -1,7 +1,7 @@
 ---
 tags: [memory, short-term]
 scope: 「今週〜今月」レンジ。揮発しやすい・上書きされてOKな作業記憶
-last_updated: 2026-04-26
+last_updated: 2026-04-28
 ---
 
 # 🟢 Short-Term Memory（短期記憶）
@@ -28,6 +28,12 @@ last_updated: 2026-04-26
 - **2026-04-25**: X 2026-01改定により「リプ欄インプ稼ぎ」は収益化対象外 → @09pauai 流の戦略は古い
 - **2026-04-25**: OpenAuthはAuth0/Clerk互換ではない（user管理なし）。代替は Stack Auth / Logto / SuperTokens / Better Auth
 - **2026-04-26**: 人格データ [[_ kiwami/my-clone/brain/プロフィール.md]] 確定 → **収益化活動は2026年3月開始、4月時点で実績なし**。SNS発言・返信・記事の口調は「実績語り」ではなく「**観察・試行錯誤・駆け出し2ヶ月目の生身**」ベースで書く。"X年やってきた"系の架空キャリア表現はNG。
+- **2026-04-28**: **obsidian-skills 5本導入完了**（kepano公式 / 配置: vault内 `.claude/skills/`）。`obsidian-markdown` `obsidian-bases` `defuddle` `json-canvas` `obsidian-cli` の5スキル。
+  - **CLAUDE.md スリム化の現実**: 234行/11,764byte → 253行/12,934byte（**+19行/+1,170byte**）。sutero記事の「半分以下」削減はObsidian記法説明が大量にあるCLAUDE.md向けで、Tsukapon は既に行動ルール100%構成のため不適用。今回は**スキル責務の明示化**（外部スキル参照ルール section追加）が主成果
+  - **環境整備**: `~/.zshenv` に nodebrew PATH を追記（Claude Code非対話シェルから node を見えるようにするため）。バックアップは `~/.zshenv.bak-20260428`
+  - **既知の症状**: ① Obsidianインストーラ古い（v1.5.11）→ `obsidian` 小文字バイナリ無し → `~/.local/bin/obsidian` シンボリックリンクで対応（インストーラ更新時は削除）／② `defuddle-cli@0.7.0` deprecated警告だが実体は `defuddle@0.1.0` 入っていて動作問題なし
+  - **バックアップ管理**: `CLAUDE.md.bak-20260428` を1週間（〜2026-05-05）保持予定。問題なければ `/Volumes/500GB/_trash/_ claude/` へ退避
+  - **詳細記録**: [[Claudian-スキル一覧.md]] の「## 🧩 外部スキル（obsidian-skills）」セクション参照
 
 ## 🔧 試行中の運用変更
 

@@ -197,6 +197,25 @@ vault全体で守るべき振る舞いを宣言する場所。
 
 ---
 
+## 🧩 外部スキル参照ルール（obsidian-skills）
+
+以下の領域は CLAUDE.md に書かず、Agent Skills を必ず参照する（2026-04-28 導入）:
+
+| 領域 | スキル | 場所 |
+|---|---|---|
+| Obsidian記法（Wikiリンク／コールアウト／frontmatter／embed／タグ） | `obsidian-markdown` | `.claude/skills/obsidian-markdown/` |
+| 外部URL取得・要約（クリーンMarkdown化） | `defuddle` | `.claude/skills/defuddle/` |
+| `.base` ファイル操作（DB的ビュー・フィルター・式） | `obsidian-bases` | `.claude/skills/obsidian-bases/` |
+| `.canvas` ファイル操作 | `json-canvas` | `.claude/skills/json-canvas/` |
+| Obsidian CLI操作（vault読書き・検索） | `obsidian-cli` | `.claude/skills/obsidian-cli/` |
+
+**注意事項:**
+- スキルは「必要時のみ参照される」設計のため、入れておくだけではトークン消費しない
+- Sonnet/Haiku モデルでは自動でスキルを選ばないことがあるので、上記領域の作業時は**スキル名を明示**して呼ぶ
+- `.md` で終わるURLは defuddle ではなく WebFetch を使う（既にMarkdownなので）
+
+---
+
 ## 🎨 文体・トーンのデフォルト
 
 - **SNS投稿・note記事**: `_ kiwami/my-clone/` の人格データを参照
