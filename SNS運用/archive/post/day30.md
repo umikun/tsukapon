@@ -4,7 +4,7 @@
 > - 🧵 対応するThreads（アーカイブ）: [[SNS運用/archive/threads/day30.md]]
 > - ⬅️ 前日のX投稿: [[SNS運用/archive/post/day29.md]]
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day31.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 集大成！】
 

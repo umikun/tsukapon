@@ -5,7 +5,7 @@
 > - 📊 note収益化戦略: [[SNS運用/noteの今後と収益化戦略]]
 > - 🎯 W17戦略メモ（7つの型）: [[SNS運用/analytics/W17戦略メモ.md]]
 > - 🧵 Threads運用: [[SNS運用/Threads運用.md]]
-> - 📈 フォロワー改善: [[SNS運用/post/フォロワー改善.md]]
+> - 📈 フォロワー改善: [[SNS運用/analytics/フォロワー改善.md]]
 
 ---
 

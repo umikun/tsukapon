@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day11.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day10_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day10_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 9/30】
 「競合他社の情報リサーチ、丸一日かかりそう…」

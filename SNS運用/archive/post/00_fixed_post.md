@@ -3,7 +3,7 @@
 > **🔗 関連コンテンツ**
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 > - 📸 Instagramプロフィール: [[SNS運用/pending/instagram/profile.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 > - 🧠 人格データ: [[_ kiwami/my-clone]]
 
 【🚨毎日残業で消耗しているあなたへ🚨】

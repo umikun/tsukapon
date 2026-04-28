@@ -36,23 +36,9 @@
               "icon": "lucide-file",
               "title": "action-20260428"
             }
-          },
-          {
-            "id": "da53cb85deca3acc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/draft/20260427_critique_series_02_100-claude-repos.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260427_critique_series_02_100-claude-repos"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,34 +215,34 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "01646b6aaee5d6e7",
   "lastOpenFiles": [
-    "SNS運用/threads/Threads-day95.md",
-    "SNS運用/post/day95.md",
+    "SNS運用/analytics/news_thread_v2.md",
+    "SNS運用/pending/post/day45.md",
+    "SNS運用/analytics/Xへ記事転載.md",
     "SNS運用/action-20260428.md",
-    "SNS運用/pending/threads/Threads-day95.md",
-    "SNS運用/pending/threads/Threads-day94.md",
-    "SNS運用/pending/threads/Threads-day93.md",
-    "SNS運用/pending/threads/Threads-day92.md",
-    "SNS運用/pending/threads/Threads-day91.md",
-    "SNS運用/pending/threads/Threads-day90.md",
-    "SNS運用/pending/threads/Threads-day89.md",
-    "SNS運用/pending/threads/Threads-day88.md",
-    "SNS運用/pending/threads/Threads-day87.md",
-    "SNS運用/pending/threads/Threads-day86.md",
-    "SNS運用/pending/threads/Threads-day85.md",
-    "SNS運用/pending/threads/Threads-day84.md",
-    "SNS運用/pending/threads/Threads-day83.md",
-    "SNS運用/pending/threads/Threads-day82.md",
-    "SNS運用/pending/threads/Threads-day81.md",
-    "SNS運用/pending/threads/Threads-day80.md",
-    "SNS運用/pending/threads/Threads-day79.md",
-    "SNS運用/pending/threads/Threads-day78.md",
-    "SNS運用/pending/threads/Threads-day77.md",
-    "SNS運用/pending/threads/Threads-day76.md",
-    "SNS運用/pending/threads/Threads-day75.md",
-    "SNS運用/pending/threads/Threads-day74.md",
-    "SNS運用/pending/threads/Threads-day73.md",
+    "SNS運用/analytics/W18戦略メモ.md",
+    "SNS運用/post/draft/20260427_critique_series_02_100-claude-repos.md",
+    "SNS運用/threads/Threads-day105.md",
+    "SNS運用/post/day105.md",
+    "SNS運用/threads/Threads-day104.md",
+    "SNS運用/post/day104.md",
+    "SNS運用/threads/Threads-day103.md",
+    "SNS運用/post/day103.md",
+    "SNS運用/threads/Threads-day102.md",
+    "SNS運用/post/day102.md",
+    "SNS運用/threads/Threads-day101.md",
+    "SNS運用/post/day101.md",
+    "SNS運用/threads/Threads-day100.md",
+    "SNS運用/post/day100.md",
+    "SNS運用/threads/Threads-day99.md",
+    "SNS運用/post/day99.md",
+    "SNS運用/threads/Threads-day98.md",
+    "SNS運用/post/day98.md",
+    "SNS運用/threads/Threads-day97.md",
+    "SNS運用/post/day97.md",
+    "SNS運用/threads/Threads-day96.md",
+    "SNS運用/post/day96.md",
     "SNS運用/pending/threads",
     "SNS運用/pending/post",
     "SNS運用/サムネイル作成/~ai-4430e289-333c-4e19-90e7-0c06c9640fa5_.tmp",

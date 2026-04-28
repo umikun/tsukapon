@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day05.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day04_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day04_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 3/30】
 「企画のアイデアが出ない…」と唸りながらネットサーフィンしてる時間、勿体無くないですか？

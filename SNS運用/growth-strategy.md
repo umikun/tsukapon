@@ -3,7 +3,7 @@
 > **🔗 関連コンテンツ**
 > - 💰 noteの今後と収益化戦略: [[SNS運用/noteの今後と収益化戦略.md]]
 > - 🧵 Threads運用全体像: [[SNS運用/Threads運用.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
 > - 📋 W17戦略メモ: [[SNS運用/analytics/W17戦略メモ.md]]
 > - 📊 W16分析: [[SNS運用/analytics/W16分析レポート.md]]
 > - 🔁 W17統合運用フロー: [[SNS運用/analytics/W17-Claude統合運用フロー.md]]

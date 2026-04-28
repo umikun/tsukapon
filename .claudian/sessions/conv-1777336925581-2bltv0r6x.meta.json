@@ -4,21 +4,20 @@
   "title": "Check today's note post file",
   "titleGenerationStatus": "success",
   "createdAt": 1777336925586,
-  "updatedAt": 1777346799354,
-  "lastResponseAt": 1777346799354,
+  "updatedAt": 1777349828960,
+  "lastResponseAt": 1777349828960,
   "sessionId": "63d45794-05a2-451c-be27-865d24534b27",
   "providerState": {
     "providerSessionId": "63d45794-05a2-451c-be27-865d24534b27"
   },
-  "currentNote": "SNS運用/action-20260428.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 4667,
-    "cacheReadInputTokens": 259340,
+    "cacheCreationInputTokens": 4258,
+    "cacheReadInputTokens": 340675,
     "contextWindow": 1000000,
-    "contextTokens": 264008,
-    "percentage": 26,
+    "contextTokens": 344934,
+    "percentage": 34,
     "contextWindowIsAuthoritative": true
   }
 }

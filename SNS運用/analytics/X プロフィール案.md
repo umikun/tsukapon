@@ -1,7 +1,7 @@
 # ピン留め投稿候補 3案（@chackwill / 20260424）
 
 > **🔗 関連コンテンツ**
-> - 👥 フォロワー改善メモ（KPI設計の前提）: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ（KPI設計の前提）: [[SNS運用/analytics/フォロワー改善.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 > - 📌 Threads固定用自己紹介: [[20260410_自己紹介_固定用]]
 > - 📸 Instagramプロフィール: [[SNS運用/pending/instagram/profile.md]]

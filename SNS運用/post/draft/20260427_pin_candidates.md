@@ -3,7 +3,7 @@
 > **🔗 関連コンテンツ**
 > - 📊 W18戦略メモ: [[SNS運用/analytics/W18戦略メモ.md]]
 > - 💰 並走中のDay Oneプロモ: [[SNS運用/note/_有料記事/20260426_dayone_promo.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
 > - 🧠 4/26 大爆発リプの起点: [[SNS運用/analytics/source/account_analytics_content_2026-04-20_2026-04-26.csv]] 内 `2048218209812427122`
 
 > ⚠️ **2026-04-26 改訂**: Day Oneプロモ期間（4/26〜5/3）はピンをDay One有料記事誘導に固定。

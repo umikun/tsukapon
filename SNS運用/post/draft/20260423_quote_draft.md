@@ -3,8 +3,8 @@
 > **🔗 関連コンテンツ（Quote下書き）**
 > - 📝 同日のnote記事: [[SNS運用/note/note-20260423.md]]
 > - 🧵 同日のXスレッド: [[SNS運用/post/thread/20260423_note紹介スレッド.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
-> - ✖️ X転載戦略: [[SNS運用/post/Xへ記事転載.md]]
+> - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
+> - ✖️ X転載戦略: [[SNS運用/analytics/Xへ記事転載.md]]
 
 > W17テーマ「対比型」／ 冒頭1行に関係性トリガーでRT率0.05%+狙い
 > 運用ルール: [[SNS運用/analytics/W17-Claude統合運用フロー.md]]

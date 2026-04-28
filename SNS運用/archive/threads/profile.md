@@ -4,7 +4,7 @@
 > - 🧵 Threads運用全体戦略: [[SNS運用/Threads運用.md]]
 > - 📌 固定用自己紹介ポスト: [[20260410_自己紹介_固定用]]
 > - 📸 Instagram側プロフィール: [[SNS運用/pending/instagram/profile.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 > - 🧠 人格データ（トーン調整）: [[_ kiwami/my-clone]]
 
 ## アカウント情報

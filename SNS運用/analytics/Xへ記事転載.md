@@ -4,7 +4,7 @@
 > - ✖️ X Articles版の保存先: [[SNS運用/post/article]]
 > - 🧵 Xスレッド保存先: [[SNS運用/post/thread]]
 > - 📝 note原稿: [[SNS運用/note]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
 > - 📋 Claudianスキル一覧: [[Claudian-スキル一覧.md]]
 
 > **結論：今（2026年4月）こそXの「Articles」にnote記事を全力で転載すべきタイミング。**

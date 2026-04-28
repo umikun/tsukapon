@@ -132,4 +132,4 @@ Anthropicが Claude Code に Skill / MCP プラグイン機構を整備。`~/.cl
 - note記事タイトル候補:「Claude Codeで画像生成は無理」は半分ウソ：Lovart Skillと ChatGPT Images 2.0 でつくる実用ワークフロー
 - X短尺投稿候補: ①セットアップ3行（git clone / env / `/lovart`）/ ②Lovart vs gpt-image-2直叩きのコスト感 / ③APIキー流出を防ぐ `~/.zshrc` パターン
 - セキュリティ観点：Skill導入はコード実行を伴うので、信頼できる配布元（公式GitHub Org）からのみ入れる方針を CLAUDE.md に追記しておくと安全
-- 関連: [[_ kiwami/my-clone]] / Webデザイン業務との接続用に [[SNS運用/post/フォロワー改善.md]] でクリエイティブ活用例を補強
+- 関連: [[_ kiwami/my-clone]] / Webデザイン業務との接続用に [[SNS運用/analytics/フォロワー改善.md]] でクリエイティブ活用例を補強

@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day06.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day05_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day05_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 4/30】
 「この50ページのPDF、明日までに読んどいて」

@@ -4,7 +4,7 @@
 > - 📝 Web Clipperで情報収集: [[Obsidian Web Clipper活用]]
 > - 📈 X/Threads増長戦略: [[SNS運用/growth-strategy.md]]
 > - 🧵 Threads運用全体像: [[SNS運用/Threads運用.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
 > - 📋 Claudianスキル一覧: [[Claudian-スキル一覧.md]]
 
 > 出典：さとちん (@satotin_yusuke) — 2026年4月11日投稿

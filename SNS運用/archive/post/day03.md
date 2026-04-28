@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day04.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day03_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day03_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 2/30】
 「会議の議事録作成で1時間潰れる…」

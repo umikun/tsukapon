@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day07.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day06_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day06_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 5/30】
 「休日は疲れて1日寝て終わる…副業なんて無理」

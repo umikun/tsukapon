@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day03.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day02_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day02_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 1/30】
 「角が立たないメールの返信、考えるの面倒…」

@@ -4,7 +4,7 @@
 > - 🧵 対応するThreads: [[Threads-day59]]
 > - ⬅️ 前日のX投稿（アーカイブ）: [[SNS運用/archive/post/day58.md]]
 > - ➡️ 翌日のX投稿: [[day60]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 
 ## 投稿①（朝）

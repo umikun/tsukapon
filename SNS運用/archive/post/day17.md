@@ -4,7 +4,7 @@
 > - 🧵 対応するThreads（アーカイブ）: [[SNS運用/archive/threads/day17.md]]
 > - ⬅️ 前日のX投稿: [[SNS運用/archive/post/day16.md]]
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day18.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 16/30】
 「Aさんは火曜午後休、Bさんは午前のみ、Cさんは水曜出張で…」

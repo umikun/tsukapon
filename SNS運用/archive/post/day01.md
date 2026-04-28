@@ -5,7 +5,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day02.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day01_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day01_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 「毎日残業してるのに終わらない…」
 それ、あなたの能力が低いわけじゃありません。

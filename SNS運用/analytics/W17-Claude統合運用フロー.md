@@ -391,7 +391,7 @@ Grok出力の30件リストをClaude in Chromeに貼り付けて実行：
 ## 🔗 関連ドキュメント
 
 - [[SNS運用/analytics/W17戦略メモ.md]] — W17全体方針（このドキュメントの親）
-- [[SNS運用/post/フォロワー改善.md]] — X運用の土台戦略
+- [[SNS運用/analytics/フォロワー改善.md]] — X運用の土台戦略
 - [[SNS運用/Threads運用.md]] — 7つの型（引用RT下書き生成で使用）
 - [[note-20260426間違い]] — 元ネタ（危険部分は取り込まない）
 - [[SNS運用/archive/note/note-20260324-computer-use.md]] — Claude Coworkの仕様

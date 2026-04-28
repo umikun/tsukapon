@@ -4,7 +4,7 @@
 > - 🧵 対応するThreads（アーカイブ）: [[SNS運用/archive/threads/day27.md]]
 > - ⬅️ 前日のX投稿: [[SNS運用/archive/post/day26.md]]
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day28.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 昨日は体調不良で寝込んでしまって、投稿サボっちゃいました。😅
 

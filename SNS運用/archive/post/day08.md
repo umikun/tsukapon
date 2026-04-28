@@ -6,7 +6,7 @@
 > - ➡️ 翌日のX投稿: [[SNS運用/archive/post/day09.md]]
 > - 📸 Instagramコメント版: [[SNS運用/pending/instagram/comments/day08_comment.md]]
 > - 🎬 YouTube版: [[SNS運用/pending/youtube/day08_youtube.md]]
-> - 👥 フォロワー改善メモ: [[SNS運用/post/フォロワー改善.md]]
+> - 👥 フォロワー改善メモ: [[フォロワー改善]]
 
 【今日から使えるAI時短術 7/30】
 「なんか日本語がおかしい…でも自分じゃ直せない」
