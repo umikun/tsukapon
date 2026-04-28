@@ -3,7 +3,7 @@
 > **🔗 関連コンテンツ**
 > - 📋 全スキル一覧: [[Claudian-スキル一覧.md]]
 > - 📜 vault運用ルール: [[CLAUDE.md]]
-> - 🛠 導入アクション（2026-04-28）: [[SNS運用/action-20260428.md]]
+> - 🛠 導入アクション（2026-04-28）: [[action-20260428]]
 > - 📰 導入記事（出典）: [[Clippings/ObsidianでClaudeCodeを使い始めたら、次に入れるべき「obsidian-skills」｜sutero（ステロ）.md]]
 > - 💾 配置先: `.claude/skills/`（vault内・当vault専用）
 
@@ -201,5 +201,5 @@ obsidian property file="day28.md" key="status" value="published"
 - [[Claudian-スキル一覧.md]] — vault内の全スキル一覧
 - [[Claudian-スキル候補.md]] — 自己改善ループの候補置き場
 - [[CLAUDE.md]] — vault運用ルールブック（外部スキル参照ルールを参照）
-- [[SNS運用/action-20260428.md]] — 導入時のアクションプラン全文
+- [[action-20260428]] — 導入時のアクションプラン全文
 - [[Clippings/ObsidianでClaudeCodeを使い始めたら、次に入れるべき「obsidian-skills」｜sutero（ステロ）.md]] — 出典記事

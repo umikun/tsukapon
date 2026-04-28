@@ -1,7 +1,7 @@
 # screenshots — 投稿初動スクショ保管庫
 
 > **🔗 関連コンテンツ**
-> - 🗓 当日アクション例: [[SNS運用/action-20260428.md]]
+> - 🗓 当日アクション例: [[action-20260428]]
 > - 📊 週次戦略メモ（数値の最終転記先）: [[SNS運用/analytics/W18戦略メモ.md]]
 > - 📁 週次CSV元データ: [[SNS運用/analytics/source]]
 > - 📋 運用ルール: [[CLAUDE.md]]
