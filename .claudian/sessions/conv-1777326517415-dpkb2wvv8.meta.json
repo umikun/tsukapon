@@ -4,8 +4,8 @@
   "title": "Review daily note article",
   "titleGenerationStatus": "success",
   "createdAt": 1777326517418,
-  "updatedAt": 1777327232706,
-  "lastResponseAt": 1777327232706,
+  "updatedAt": 1777334663016,
+  "lastResponseAt": 1777333832685,
   "sessionId": "ac99951b-f40a-4a7c-ac5f-7f7b57362d02",
   "providerState": {
     "providerSessionId": "ac99951b-f40a-4a7c-ac5f-7f7b57362d02"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 498,
-    "cacheReadInputTokens": 124802,
+    "cacheCreationInputTokens": 179,
+    "cacheReadInputTokens": 159533,
     "contextWindow": 1000000,
-    "contextTokens": 125301,
-    "percentage": 13,
+    "contextTokens": 159713,
+    "percentage": 16,
     "contextWindowIsAuthoritative": true
   }
 }

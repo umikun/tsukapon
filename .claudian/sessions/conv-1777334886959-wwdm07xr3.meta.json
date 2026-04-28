@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777334886959-wwdm07xr3",
+  "providerId": "claude",
+  "title": "Audit SNS posts for policy changes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777334886964,
+  "updatedAt": 1777336162076,
+  "lastResponseAt": 1777336162076,
+  "sessionId": "180ceb24-b40c-412b-be56-76cb05ebb6e5",
+  "providerState": {
+    "providerSessionId": "180ceb24-b40c-412b-be56-76cb05ebb6e5"
+  },
+  "currentNote": "SNS運用/post/day63.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 448,
+    "cacheReadInputTokens": 182764,
+    "contextWindow": 1000000,
+    "contextTokens": 183213,
+    "percentage": 18,
+    "contextWindowIsAuthoritative": true
+  }
+}
