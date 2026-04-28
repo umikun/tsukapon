@@ -8,6 +8,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ae3e62655dc023b3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "SNS運用/全体ダッシュボード.base",
+                "viewName": "🌐 全体（プラットフォーム別）"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "全体ダッシュボード"
+            }
+          },
+          {
             "id": "d8aa9309dd3d0433",
             "type": "leaf",
             "pinned": true,
@@ -24,30 +39,45 @@
             }
           },
           {
-            "id": "ae3e62655dc023b3",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "SNS運用/全体ダッシュボード.base",
-                "viewName": "🌐 全体（プラットフォーム別）"
-              },
-              "icon": "lucide-table",
-              "title": "全体ダッシュボード"
-            }
-          },
-          {
-            "id": "d2c4da552c7c8121",
+            "id": "2f1d24d5bf6ae639",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/growth-strategy.md",
+                "file": "SNS運用/action-20260429.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "action-20260429"
+            }
+          },
+          {
+            "id": "421a2c2b22920fbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/title/title-20260429.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "title-20260429"
+            }
+          },
+          {
+            "id": "06f2ce9f5376062c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "調査/2026-04-29-neutts-air-on-device-voice-cloning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "growth-strategy"
+              "title": "2026-04-29-neutts-air-on-device-voice-cloning"
             }
           }
         ],
@@ -228,13 +258,25 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d2c4da552c7c8121",
+  "active": "2f1d24d5bf6ae639",
   "lastOpenFiles": [
-    "_ kiwami/tools/daily-log/clockify/2026-04-29.json",
+    "SNS運用/サムネイル作成/~ai-4430e289-333c-4e19-90e7-0c06c9640fa5_.tmp",
+    "調査/2026-04-29-neutts-air-on-device-voice-cloning.md",
     "SNS運用/note/note-20260429.md",
+    "SNS運用/action-20260429.md",
+    "SNS運用/title/title-20260429.md",
+    "SNS運用/threads/Threads-day95.md",
+    "Clippings/Post by @L_go_mrk on X 3.md",
+    "SNS運用/post/article/X-20260429.md",
+    "SNS運用/post/thread/20260429_note紹介スレッド.md",
+    "SNS運用/サムネイル作成/~ai-aa059f6d-66ab-44aa-9a79-559915afb604_.tmp",
+    "SNS運用/サムネイル作成/~ai-0accd847-f250-4886-a549-6162742c2885_.tmp",
     "Claudian-スキル一覧.md",
-    "_ kiwami/tools/daily-log/activity/2026-04-29.jsonl",
     "SNS運用/全体ダッシュボード.base",
+    "Clippings/Post by @Techjunkie_Aman on X.md",
+    "SNS運用/growth-strategy.md",
+    "_ kiwami/tools/daily-log/clockify/2026-04-29.json",
+    "_ kiwami/tools/daily-log/activity/2026-04-29.jsonl",
     "SNS運用/analytics/W18戦略メモ.md",
     "SNS運用/archive/action/action-20260428.md",
     "SNS運用/pending/threads/Threads-day94.md",
@@ -251,23 +293,11 @@
     "SNS運用/archive/trivia/2026-04-25-x-reply-impression-strategy.md",
     "調査/2026-04-25-threads-affiliate-side-hustle.md",
     "SNS運用/archive/trivia/2026-04-25-openauth-clerk-auth0-alternative.md",
-    "SNS運用/archive/trivia/2026-04-25-hermes-kanban-obsidian-agent.md",
-    "SNS運用/archive/trivia/2026-04-25-claude-code-lovart-image-gen.md",
-    "調査/2026-04-24-openchronicle-mac-ai-memory.md",
-    "SNS運用/archive/trivia/2026-04-24-claude-code-plugin-marketplace.md",
-    "SNS運用/archive/trivia/2026-04-28-chatgpt-images-2-launch.md",
     "SNS運用/archive/trivia",
-    "Clippings/Post by @ryo_Oto1 on X.md",
-    "SNS運用/ネタ/2026-04-28-multi-platform-content-monetization.md",
-    "調査/2026-04-28-multi-platform-content-monetization.md",
-    "Clippings/Post by @minchoi on X.md",
     "SNS運用/analytics/screenshots/W18-series02-60min.png",
     "SNS運用/analytics/screenshots",
     "SNS運用/pending/threads",
     "SNS運用/pending/post",
-    "SNS運用/サムネイル作成/~ai-4430e289-333c-4e19-90e7-0c06c9640fa5_.tmp",
-    "CLAUDE.md.bak-20260428",
-    "SNS運用/サムネイル作成/~ai-aa059f6d-66ab-44aa-9a79-559915afb604_.tmp",
     "SNS運用/pending/instagram/reels/day11_thumbnail.png",
     "SNS運用/pending/instagram/reels/day10_thumbnail.png",
     "SNS運用/pending/instagram/reels/day09_thumbnail.png",

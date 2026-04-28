@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777409079301-7eqcpdovd",
+  "providerId": "claude",
+  "title": "Execute daily action plan",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777409079307,
+  "updatedAt": 1777410691972,
+  "lastResponseAt": 1777410182207,
+  "sessionId": "a958940a-48f5-48ab-855c-3c15228d46d9",
+  "providerState": {
+    "providerSessionId": "a958940a-48f5-48ab-855c-3c15228d46d9"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 7659,
+    "cacheReadInputTokens": 159762,
+    "contextWindow": 1000000,
+    "contextTokens": 167422,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}
