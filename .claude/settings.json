@@ -24,7 +24,24 @@
       "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/reflect.md)",
       "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/archive.md)",
       "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/reflect.md)",
-      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/news-thread.md)"
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/news-thread.md)",
+      "Bash(curl -s http://127.0.0.1:*)",
+      "Bash(curl -sS http://127.0.0.1:*)",
+      "Bash(curl -s http://localhost:*)",
+      "Bash(curl -sS http://localhost:*)",
+      "Bash(curl -s \"http://127.0.0.1:*)",
+      "Bash(curl -s \"http://localhost:*)",
+      "Bash(curl -sS \"http://127.0.0.1:*)",
+      "mcp__plugin_claude-mem_mem-search__search",
+      "mcp__plugin_claude-mem_mem-search__get_observation",
+      "mcp__plugin_claude-mem_mem-search__get_observations",
+      "mcp__plugin_claude-mem_mem-search__get_recent_context",
+      "mcp__plugin_claude-mem_mem-search__timeline",
+      "mcp__plugin_claude-mem_mem-search__get_context_timeline",
+      "mcp__plugin_claude-mem_mem-search__get_session",
+      "mcp__plugin_claude-mem_mem-search__get_prompt",
+      "mcp__plugin_claude-mem_mem-search__get_schema",
+      "mcp__plugin_claude-mem_mem-search__help"
     ]
   },
   "hooks": {

@@ -32,7 +32,9 @@
       "mcp__claude_ai_Google_Calendar__list_calendars",
       "mcp__claude_ai_Google_Calendar__list_events",
       "WebSearch",
-      "WebFetch(domain:www.superlist.com)"
+      "WebFetch(domain:www.superlist.com)",
+      "Bash(python3 /tmp/extract2.py)",
+      "Bash(python3 *)"
     ]
   }
 }
