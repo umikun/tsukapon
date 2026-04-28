@@ -6,7 +6,7 @@
 > 🤖 **自動更新**: このファイルは [[CLAUDE.md]] のルール＋ `.claude/hooks/remind-skills-list.sh` により、
 > スキル・自動化ファイルが変更されるたびに更新するように運用されている。
 
-最終更新: 2026-04-28（**`/re-daily` Step 11-3 のタイムラインに「早見表」を必須化＋ CLAUDE.md に絶対ルール追加**。`SNS運用/action-YYYYMMDD.md` の `## 🗓 タイムライン（時間軸順）` 直下に時刻×種別×内容のテーブルを必ず挿入する。種別アイコンは 🛠/📝/🐦/🧵/🔄/💰/👥 を使い分け、固定枠/最重要枠は太字。**9時前の投稿アクションは禁止**（運用制約）。リスケ時は早見表・個別セクション・翌日予定の3点を同時更新する整合性ルールも明文化。CLAUDE.md には「📅 絶対ルール: アクションプランファイルには必ず『タイムライン早見表』を冒頭に挿入する」セクションを新設。本日 `action-20260428.md` をテンプレートとして適用済み） / 2026-04-27（**`/re-daily` Step 11-1 を拡張**。本日アクションプラン生成時に `SNS運用/post/day*.md` 直下のX用日次投稿と `SNS運用/threads/Threads-day*.md` 直下のThreads用日次投稿を**必須読込**として追加。両者とも通し番号制（X側 `dayNN.md` ／ Threads側 `Threads-dayNN.md` で同番号対応）で、`ls -t` により直近ファイルを特定し、本文・投下時刻・連投構成をタイムラインに必ず反映する。`SNS運用/post/draft/` 配下しか拾われていなかったため、当日の日次X/Threads投稿が action ファイルに載らない事故を防ぐ） / 2026-04-27（**`/news-thread` スキル新設**。AIニュース「今週の1本」を v2型5投稿スレッド（要約→見解→不安→アクション→誘導）に落とし込む専用スキル。火・金の週2回モデル（[[SNS運用/analytics/news_thread_v2.md]]）の実行装置。入力4パターン対応（直書き／調査ノート起点／note記事起点／対話）、ソース候補は `調査/` `SNS運用/note/` `SNS運用/archive/note/` の3ディレクトリ。9ステップで生成→検証→保存し `SNS運用/post/thread/YYYYMMDD_news_v2_*.md` に出力。テンプレ全ルールを自動検証（140字／関係性キーワード／3アクション15分以内／ハッシュタグ禁止）。連携: `/thread`(note→8投稿)とは別系統で二重実行しない、`/re-daily` Step 9 とも独立） / 2026-04-27（**Daily Log Git Fetcher を新設（launchd 10分ごと） + Daily Log サーバーに `/api/fetch` `/api/fetch-status` 追加 + コミット表示にブランチ名・マージコミット情報を追加**。`git log --source` の `%S` でコミットの所属ブランチ、`%P` でマージ親判定 → サブジェクト解析（GitHub/Bitbucket/通常マージの3形式に対応）＋ 抽出失敗時は `git name-rev` で第2親から逆引き。UIにブランチバッジ4色（紫=ローカル/グレー=リモート/黄=タグ/オレンジ🔀=マージ）＋ 🔄 fetchボタン＋最終fetch時刻表示を追加。fetch本体は `_ kiwami/tools/daily-log/git-fetcher.py`（並列4・タイムアウト15秒）と `~/Library/LaunchAgents/com.user.git-fetcher.plist`（StartInterval=600 + RunAtLoad）の構成。Bitbucket等でWeb上から行ったマージが Daily Log に反映されない問題を解消） / 2026-04-27（**GitHub自動プッシュ plist のスケジュールを元に戻した**。直前の「火・金のみ」変更はユーザー意図の取り違えによる誤操作だったため、`StartCalendarInterval` を再び `Minute=30` 単一辞書（毎日毎時 :30）に戻して `launchctl unload/load`。`plutil -lint` 検証OK） / 2026-04-27（**Tsukapon vault → GitHub 自動プッシュ launchd を追加**。`~/Library/LaunchAgents/com.user.git-push-tsukapon.plist` ＋ `~/bin/git-push-tsukapon.sh` を新設し、毎時 :30 に未コミット変更を `auto: YYYY-MM-DD HH:MM hourly sync` 形式で commit → `origin/main` に push。osxkeychain 認証を流用、ネットワーク到達確認後のみ実行、変更ゼロ＋未push commit ゼロなら no-op で抜ける安全設計。ログ: `/tmp/git-push-tsukapon.log` ／ `/tmp/git-push-tsukapon-error.log`。初回手動キックで commit `5db46f0` の push を確認済み） / 2026-04-27（**`/re-daily` に Step 11「本日アクションプラン生成」を追加**。`SNS運用/analytics/` の WNN戦略メモ・WNN分析レポート・統合運用フロー・当日関連ドラフト（連投シリーズ・Day Oneプロモ・ピン候補等）を読み込み、本日の予定を時系列で1ファイルにまとめて `SNS運用/action-YYYYMMDD.md` に保存。実行手順・コピペ用本文・完了チェックを各アクションごとに詳述し、末尾に翌日予定を簡素に追記。出力ファイルが 4本 → **5本** に増加（note本体／サムネ文言／Article版／Thread版／本日アクション）。Step 10 の検証も5ファイルに更新。完了後ユーザーが手動で `SNS運用/archive/action/` に移動する運用。連動: ① `archive/action/` ディレクトリ作成 ② 本日分 `SNS運用/action-20260427.md` を W18戦略メモのカレンダーから生成（7:30 Day One X案B / 12:30 連投①/ 21:30 Threads案B / 夜 批評リプ + 翌4/28予定）） / 2026-04-27（**週次ファイル命名規則を整理: 「分析レポート」と「戦略メモ」を分離**。① `2026-W16.md` を `W16分析レポート.md` にリネーム（中身は週次分析レポートなので意味を反映）。② `/weekly-analytics` の出力先を `SNS運用/analytics/YYYY-WNN.md` → `SNS運用/analytics/WNN分析レポート.md` に変更。③ 命名規則を明確化: `WNN分析レポート.md` = `/weekly-analytics` 出力（実績の事後分析）／ `WNN戦略メモ.md` = 翌週方針メモ（手動作成）。同週でこの2本がペアになる想定。④ 連動更新: 4ファイルのwikilink書き換え（`W17戦略メモ.md` / `W17-Claude統合運用フロー.md` / `フォロワー改善.md` / `growth-strategy.md`）） / 2026-04-27（**`SNS運用/analytics/source/` を新設して生CSVを集約**。Xアナリティクスからエクスポートした `account_analytics_content_*.csv` ／ `account_overview_analytics_*.csv` の4本を `analytics/` 直下から `analytics/source/` に移動。レポート本文（`WNN分析レポート.md` / `WNN戦略メモ.md`）はwikilinkで `source/` 配下を参照する形に統一。連動更新: ① [[CLAUDE.md]] の「重要なファイル・フォルダ」表に `analytics/source/` 行を追加 ② `.claude/commands/weekly-analytics.md` の入力パターンBにCSV保存場所の注記を追加 ③ 既存ノート3件のCSV参照を新パスに書き換え（`W18戦略メモ.md` / `W16分析レポート.md`(旧 `2026-W16.md`) / `20260427_pin_candidates.md`）) / 2026-04-27（**Daily Log webサーバー の iCloud同期待ち wrapper 導入**。Mac起動直後に launchd が daily-log-server を起動した際、iCloud Drive がまだ index.html をローカル同期しておらず `Operation not permitted` で全リクエスト 500 となる問題を観測。`com.user.daily-log-server.plist` の `ProgramArguments` を bash wrapper に変更し、index.html が読めるまで 5秒×最大24回リトライ → 読めたら本体 Python を exec する方式に。プロセス再起動済み・HTTP 200 復旧確認済み） / 2026-04-27（**ディレクトリ再編 A1+A2 実施**。① ゴミ掃除: `.DS_Store`×8 / `__pycache__` / 重複ファイル `note-20260418 2.md` を `/Volumes/500GB/_trash/_ claude/A1_cleanup_20260427_*` へ退避。② アーカイブ命名統一: `SNS運用/{post,threads,note}/_fin/` → `SNS運用/archive/{post,threads,note}/` に集約（126ファイル移動）。③ 未稼働プラットフォーム集約: `SNS運用/_ 運用待機中/` → `SNS運用/pending/` リネーム。④ 関連スキル更新: `.claude/commands/archive.md`（5箇所）/`reflect.md`（3箇所）/`CLAUDE.md`（1箇所）の旧パス参照を新パスに書き換え。⑤ 全mdファイルの旧パスwikilinkを sed 一括置換（202ファイル / 残存ゼロ確認済み）。`/archive` スキルの移動先決定ロジックを「`SNS運用/{post,threads,note}` 配下なら `SNS運用/archive/{post,threads,note}/`」に変更） / 2026-04-26（`/re-daily` と `/thread` のXスレッド最終投稿の仮URLを `[noteのURL]` プレースホルダーから実URL風の `https://note.com/chackwill/n/abc` に変更。これによりnote公開後の手動差し替え時に視覚的にも"仮URLっぽさ"が出てミスが減る） / 2026-04-25（⭐ NEW: **Hermesエージェントの思想を3点取り込み**。① `/archive` スキル新設（完了ノートを `_fin/` または `_archive/YYYY-MM/` に自動仕分け＋ `archive.md` で時系列ログ化）、② **多階層メモリ** `_ memory/short-term.md` `mid-term.md` `long-term.md` 新設＋ `/remember` スキルで適切な層へ振り分け、③ **自己改善ループ** [[Claudian-スキル候補.md]] バックログ＋ `/reflect` でパターン検出。CLAUDE.md にも「セッション冒頭で多階層メモリを読む」「3回以上のパターンは候補化」の絶対ルール追加） / 2026-04-25（Daily Log スタンドアロン版を大型刷新：横幅フル幅化／カテゴリ・プロジェクト円グラフ／メモ自動保存欄（vault `Daily Log/memo/YYYY-MM-DD.md`）／`oclock.svg` をファビコン化／手動記録機能を削除。サーバには `GET/POST /api/memo/...` と `GET /favicon.svg` を追加） / 2026-04-25（`POST /api/save-md/YYYY-MM-DD` を追加） / 2026-04-24（⭐ NEW: **新規/追加ファイルの自動リンク設置ルール** を [[CLAUDE.md]] に追加。vault内への新規作成・外部コピーに対し、関連ファイルを推定して `🔗 関連コンテンツ` callout を H1 直下に自動挿入。対象外は `.obsidian/` `Clippings/` `調査/` `_ kiwami/tools/daily-log/` `.claude/` 等。Daily Log 一式も引き続き運用中: `_ kiwami/tools/daily-log/` にClockify同期（15分毎）・アクティビティトラッカー（60秒毎）・ローカルWebサーバー（常駐、<http://127.0.0.1:8765>））
+最終更新: 2026-04-28（**`/news-thread` セクションに「実行方法」ブロックを追記**。チャット欄でのスラッシュコマンド呼び出し方を、A: ニュース直書き／B: 調査ノート起点／C: note記事起点／D: 対話モードの4パターン分、コピペ即実行可能な形で明記。曜日自動判定や火金以外の警告挙動などの呼び出し時のコツも追加） / 2026-04-28（**「Daily Log（Cowork artifact）」項目を削除**。Coworkサイドバーで開く artifact 版は使わなくなったため、クイックリファレンス1行・専用セクションを削除し、Clockify同期セクションの参照先を「Daily Log スタンドアロンWebサーバー（<http://127.0.0.1:8765>）」に書き換え。スタンドアロン版本体・launchd 4ジョブ（clockify-sync / activity-tracker / daily-log-server / git-fetcher）・データファイルは無変更で従来どおり稼働） / 2026-04-28（**`/re-daily` Step 11-3 のタイムラインに「早見表」を必須化＋ CLAUDE.md に絶対ルール追加**。`SNS運用/action-YYYYMMDD.md` の `## 🗓 タイムライン（時間軸順）` 直下に時刻×種別×内容のテーブルを必ず挿入する。種別アイコンは 🛠/📝/🐦/🧵/🔄/💰/👥 を使い分け、固定枠/最重要枠は太字。**9時前の投稿アクションは禁止**（運用制約）。リスケ時は早見表・個別セクション・翌日予定の3点を同時更新する整合性ルールも明文化。CLAUDE.md には「📅 絶対ルール: アクションプランファイルには必ず『タイムライン早見表』を冒頭に挿入する」セクションを新設。本日 `action-20260428.md` をテンプレートとして適用済み） / 2026-04-27（**`/re-daily` Step 11-1 を拡張**。本日アクションプラン生成時に `SNS運用/post/day*.md` 直下のX用日次投稿と `SNS運用/threads/Threads-day*.md` 直下のThreads用日次投稿を**必須読込**として追加。両者とも通し番号制（X側 `dayNN.md` ／ Threads側 `Threads-dayNN.md` で同番号対応）で、`ls -t` により直近ファイルを特定し、本文・投下時刻・連投構成をタイムラインに必ず反映する。`SNS運用/post/draft/` 配下しか拾われていなかったため、当日の日次X/Threads投稿が action ファイルに載らない事故を防ぐ） / 2026-04-27（**`/news-thread` スキル新設**。AIニュース「今週の1本」を v2型5投稿スレッド（要約→見解→不安→アクション→誘導）に落とし込む専用スキル。火・金の週2回モデル（[[SNS運用/analytics/news_thread_v2.md]]）の実行装置。入力4パターン対応（直書き／調査ノート起点／note記事起点／対話）、ソース候補は `調査/` `SNS運用/note/` `SNS運用/archive/note/` の3ディレクトリ。9ステップで生成→検証→保存し `SNS運用/post/thread/YYYYMMDD_news_v2_*.md` に出力。テンプレ全ルールを自動検証（140字／関係性キーワード／3アクション15分以内／ハッシュタグ禁止）。連携: `/thread`(note→8投稿)とは別系統で二重実行しない、`/re-daily` Step 9 とも独立） / 2026-04-27（**Daily Log Git Fetcher を新設（launchd 10分ごと） + Daily Log サーバーに `/api/fetch` `/api/fetch-status` 追加 + コミット表示にブランチ名・マージコミット情報を追加**。`git log --source` の `%S` でコミットの所属ブランチ、`%P` でマージ親判定 → サブジェクト解析（GitHub/Bitbucket/通常マージの3形式に対応）＋ 抽出失敗時は `git name-rev` で第2親から逆引き。UIにブランチバッジ4色（紫=ローカル/グレー=リモート/黄=タグ/オレンジ🔀=マージ）＋ 🔄 fetchボタン＋最終fetch時刻表示を追加。fetch本体は `_ kiwami/tools/daily-log/git-fetcher.py`（並列4・タイムアウト15秒）と `~/Library/LaunchAgents/com.user.git-fetcher.plist`（StartInterval=600 + RunAtLoad）の構成。Bitbucket等でWeb上から行ったマージが Daily Log に反映されない問題を解消） / 2026-04-27（**GitHub自動プッシュ plist のスケジュールを元に戻した**。直前の「火・金のみ」変更はユーザー意図の取り違えによる誤操作だったため、`StartCalendarInterval` を再び `Minute=30` 単一辞書（毎日毎時 :30）に戻して `launchctl unload/load`。`plutil -lint` 検証OK） / 2026-04-27（**Tsukapon vault → GitHub 自動プッシュ launchd を追加**。`~/Library/LaunchAgents/com.user.git-push-tsukapon.plist` ＋ `~/bin/git-push-tsukapon.sh` を新設し、毎時 :30 に未コミット変更を `auto: YYYY-MM-DD HH:MM hourly sync` 形式で commit → `origin/main` に push。osxkeychain 認証を流用、ネットワーク到達確認後のみ実行、変更ゼロ＋未push commit ゼロなら no-op で抜ける安全設計。ログ: `/tmp/git-push-tsukapon.log` ／ `/tmp/git-push-tsukapon-error.log`。初回手動キックで commit `5db46f0` の push を確認済み） / 2026-04-27（**`/re-daily` に Step 11「本日アクションプラン生成」を追加**。`SNS運用/analytics/` の WNN戦略メモ・WNN分析レポート・統合運用フロー・当日関連ドラフト（連投シリーズ・Day Oneプロモ・ピン候補等）を読み込み、本日の予定を時系列で1ファイルにまとめて `SNS運用/action-YYYYMMDD.md` に保存。実行手順・コピペ用本文・完了チェックを各アクションごとに詳述し、末尾に翌日予定を簡素に追記。出力ファイルが 4本 → **5本** に増加（note本体／サムネ文言／Article版／Thread版／本日アクション）。Step 10 の検証も5ファイルに更新。完了後ユーザーが手動で `SNS運用/archive/action/` に移動する運用。連動: ① `archive/action/` ディレクトリ作成 ② 本日分 `SNS運用/action-20260427.md` を W18戦略メモのカレンダーから生成（7:30 Day One X案B / 12:30 連投①/ 21:30 Threads案B / 夜 批評リプ + 翌4/28予定）） / 2026-04-27（**週次ファイル命名規則を整理: 「分析レポート」と「戦略メモ」を分離**。① `2026-W16.md` を `W16分析レポート.md` にリネーム（中身は週次分析レポートなので意味を反映）。② `/weekly-analytics` の出力先を `SNS運用/analytics/YYYY-WNN.md` → `SNS運用/analytics/WNN分析レポート.md` に変更。③ 命名規則を明確化: `WNN分析レポート.md` = `/weekly-analytics` 出力（実績の事後分析）／ `WNN戦略メモ.md` = 翌週方針メモ（手動作成）。同週でこの2本がペアになる想定。④ 連動更新: 4ファイルのwikilink書き換え（`W17戦略メモ.md` / `W17-Claude統合運用フロー.md` / `フォロワー改善.md` / `growth-strategy.md`）） / 2026-04-27（**`SNS運用/analytics/source/` を新設して生CSVを集約**。Xアナリティクスからエクスポートした `account_analytics_content_*.csv` ／ `account_overview_analytics_*.csv` の4本を `analytics/` 直下から `analytics/source/` に移動。レポート本文（`WNN分析レポート.md` / `WNN戦略メモ.md`）はwikilinkで `source/` 配下を参照する形に統一。連動更新: ① [[CLAUDE.md]] の「重要なファイル・フォルダ」表に `analytics/source/` 行を追加 ② `.claude/commands/weekly-analytics.md` の入力パターンBにCSV保存場所の注記を追加 ③ 既存ノート3件のCSV参照を新パスに書き換え（`W18戦略メモ.md` / `W16分析レポート.md`(旧 `2026-W16.md`) / `20260427_pin_candidates.md`）) / 2026-04-27（**Daily Log webサーバー の iCloud同期待ち wrapper 導入**。Mac起動直後に launchd が daily-log-server を起動した際、iCloud Drive がまだ index.html をローカル同期しておらず `Operation not permitted` で全リクエスト 500 となる問題を観測。`com.user.daily-log-server.plist` の `ProgramArguments` を bash wrapper に変更し、index.html が読めるまで 5秒×最大24回リトライ → 読めたら本体 Python を exec する方式に。プロセス再起動済み・HTTP 200 復旧確認済み） / 2026-04-27（**ディレクトリ再編 A1+A2 実施**。① ゴミ掃除: `.DS_Store`×8 / `__pycache__` / 重複ファイル `note-20260418 2.md` を `/Volumes/500GB/_trash/_ claude/A1_cleanup_20260427_*` へ退避。② アーカイブ命名統一: `SNS運用/{post,threads,note}/_fin/` → `SNS運用/archive/{post,threads,note}/` に集約（126ファイル移動）。③ 未稼働プラットフォーム集約: `SNS運用/_ 運用待機中/` → `SNS運用/pending/` リネーム。④ 関連スキル更新: `.claude/commands/archive.md`（5箇所）/`reflect.md`（3箇所）/`CLAUDE.md`（1箇所）の旧パス参照を新パスに書き換え。⑤ 全mdファイルの旧パスwikilinkを sed 一括置換（202ファイル / 残存ゼロ確認済み）。`/archive` スキルの移動先決定ロジックを「`SNS運用/{post,threads,note}` 配下なら `SNS運用/archive/{post,threads,note}/`」に変更） / 2026-04-26（`/re-daily` と `/thread` のXスレッド最終投稿の仮URLを `[noteのURL]` プレースホルダーから実URL風の `https://note.com/chackwill/n/abc` に変更。これによりnote公開後の手動差し替え時に視覚的にも"仮URLっぽさ"が出てミスが減る） / 2026-04-25（⭐ NEW: **Hermesエージェントの思想を3点取り込み**。① `/archive` スキル新設（完了ノートを `_fin/` または `_archive/YYYY-MM/` に自動仕分け＋ `archive.md` で時系列ログ化）、② **多階層メモリ** `_ memory/short-term.md` `mid-term.md` `long-term.md` 新設＋ `/remember` スキルで適切な層へ振り分け、③ **自己改善ループ** [[Claudian-スキル候補.md]] バックログ＋ `/reflect` でパターン検出。CLAUDE.md にも「セッション冒頭で多階層メモリを読む」「3回以上のパターンは候補化」の絶対ルール追加） / 2026-04-25（Daily Log スタンドアロン版を大型刷新：横幅フル幅化／カテゴリ・プロジェクト円グラフ／メモ自動保存欄（vault `Daily Log/memo/YYYY-MM-DD.md`）／`oclock.svg` をファビコン化／手動記録機能を削除。サーバには `GET/POST /api/memo/...` と `GET /favicon.svg` を追加） / 2026-04-25（`POST /api/save-md/YYYY-MM-DD` を追加） / 2026-04-24（⭐ NEW: **新規/追加ファイルの自動リンク設置ルール** を [[CLAUDE.md]] に追加。vault内への新規作成・外部コピーに対し、関連ファイルを推定して `🔗 関連コンテンツ` callout を H1 直下に自動挿入。対象外は `.obsidian/` `Clippings/` `調査/` `_ kiwami/tools/daily-log/` `.claude/` 等。Daily Log 一式も引き続き運用中: `_ kiwami/tools/daily-log/` にClockify同期（15分毎）・アクティビティトラッカー（60秒毎）・ローカルWebサーバー（常駐、<http://127.0.0.1:8765>））
 
 ---
 
@@ -25,7 +25,7 @@
 | 完了ノートを `SNS運用/archive/` `_archive/` へ仕分け＋時系列ログ化 | `archive` | `/archive フォルダパス` または `/archive`（対話） |
 | 重要な気づき・決定を多階層メモリの適切な層に記録 | `remember` | `/remember short/mid/long 本文` または `/remember 本文`（自動振り分け） |
 | 最近の作業を振り返って繰り返しパターンをスキル候補化 | `reflect` | `/reflect` または `/reflect today` |
-| 1日の作業内容を自動集計して業務日報を出力 | Daily Log（artifact） | Coworkサイドバーの「Daily Log」を開く |
+| 1日の作業内容を自動集計して業務日報を出力 | Daily Log アプリ（スタンドアロン） | <http://127.0.0.1:8765> をブラウザで開く |
 
 ---
 
@@ -101,7 +101,46 @@
 
 **用途**: AIニュースを「今週の1本」に絞り、X/Threads向けの **v2型5投稿スレッド**（要約 → 一般論じゃない見解 → 不安喚起 → 具体アクション → note誘導）に落とし込む。火・金の週2回モデル（[[SNS運用/analytics/news_thread_v2.md]]）の実行装置。
 
-**入力**（4パターン対応）:
+**実行方法**:
+
+Claudianのチャット欄で `/news-thread` をスラッシュコマンドとして呼び出し、続く本文として下記4パターンのいずれかを貼り付ける（同じメッセージ内に書く）。
+
+```
+# パターンA: ニュース直書き（最頻 — 火金朝の通常運用）
+/news-thread
+【今週の1本】OpenAI が o4-mini を発表
+【ソース】https://openai.com/blog/...
+【自分の現場】社内でo3 → o4-mini に切替検証始まってる
+【曜日】fri          ← 任意。省略時は date +%u で自動判定
+【テーマslug】o4-mini ← 任意。ファイル名用。省略時は自動生成
+```
+
+```
+# パターンB: 調査ノート起点（/deep-dive の出力を使う）
+/news-thread
+【ソース】調査/2026-04-26-claude-code-100-best-repos.md
+【自分の現場】煽りに引きずられた人を週3で見てる
+```
+
+```
+# パターンC: note記事/アーカイブ起点（過去ネタの再構成）
+/news-thread
+【ソース】SNS運用/note/note-20260427.md
+# または SNS運用/archive/note/ 配下のパス
+```
+
+```
+# パターンD: 引数なし（対話モード）
+/news-thread
+```
+→ 直近1週間の `調査/` `SNS運用/note/` `SNS運用/archive/note/` を `ls -t` で列挙してくれるので、番号で選択する。
+
+**呼び出し時のコツ**:
+- スレッド本体だけ欲しい時は `/news-thread` 単体で完結（note記事は不要）
+- 火・金以外に実行すると「本来は火金運用」と警告が出るが、続行可能
+- コマンドは1回の送信で完結する。Step 1〜9 はノンストップで走り切る設計
+
+**入力フォーマット（4パターンの仕様まとめ）**:
 ```
 A: ニュース直書き（最頻）
    【今週の1本】〇〇発表 ／ 【ソース】URL ／ 【自分の現場】〜
@@ -628,7 +667,7 @@ launchctl unload ~/Library/LaunchAgents/com.user.rsync-sync.plist
 
 ### ⏱ Clockify 時間エントリ同期（launchd）⭐ NEW 2026-04-24
 
-**内容**: Clockifyの時間エントリを15分ごとにAPI経由で取得し、`_ kiwami/tools/daily-log/clockify/YYYY-MM-DD.json` に日付別保存。**Daily Log ダッシュボード（Cowork artifact）** が参照するデータソース。
+**内容**: Clockifyの時間エントリを15分ごとにAPI経由で取得し、`_ kiwami/tools/daily-log/clockify/YYYY-MM-DD.json` に日付別保存。**Daily Log スタンドアロンWebサーバー（<http://127.0.0.1:8765>）** が参照するデータソース。
 
 | ファイル | 役割 |
 |---|---|
@@ -775,30 +814,6 @@ launchctl kickstart -k gui/$(id -u)/com.user.git-fetcher  # 即時実行
 launchctl unload ~/Library/LaunchAgents/com.user.git-fetcher.plist
 launchctl load   ~/Library/LaunchAgents/com.user.git-fetcher.plist
 ```
-
----
-
-### 📊 Daily Log（Cowork artifact）⭐ NEW 2026-04-24
-
-**artifact ID**: `daily-log`（Coworkサイドバーの「Daily Log」）
-
-**統合ソース（1日分のデータを5つのソースから自動取得）**:
-
-| ソース | 取得元 | 表示 |
-|---|---|---|
-| 📊 Activity | `_ kiwami/tools/daily-log/activity/YYYY-MM-DD.jsonl`（launchd 60秒） | 24h活動タイムライン・集中/脱線時間・アプリランキング・15分以上の脱線アラート |
-| ⏱ Clockify | `_ kiwami/tools/daily-log/clockify/YYYY-MM-DD.json`（launchd 15分） | 時間エントリ・合計稼働時間・進行中マーク |
-| 📅 Google Calendar | MCP connector (OAuth) | 選択日の会議・予定 |
-| ✉ Gmail | MCP connector (OAuth) | `from:me` でその日送信したスレッド |
-| 📝 Markdown | `Tsukapon/` 配下を workspace bash で find | その日に編集した `.md` ファイル |
-
-**機能**:
-- 前日・翌日・今日ボタンで日付切替 → 4ソースすべて連動再取得
-- 手動記録フォーム（時刻・カテゴリ・内容）で任意の作業ログを追加可能（ブラウザlocalStorageに保存）
-- 「AIで一日のサマリーを生成」ボタン → `window.cowork.sample()` で3セクション構成の業務報告を生成
-- Markdown形式で全ソース統合出力 → クリップボードにコピーしてそのまま提出可能
-
-**参考**: セットアップ全体像は [[_ kiwami/tools/daily-log/README.md]]
 
 ---
 

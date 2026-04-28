@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777351626470-y05bu2604",
+  "providerId": "claude",
+  "title": "Verify screenshot file requirement",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777351626476,
+  "updatedAt": 1777351873042,
+  "lastResponseAt": 1777351731903,
+  "sessionId": "11c45ae0-9656-453a-838c-b7848ddc87fa",
+  "providerState": {
+    "providerSessionId": "11c45ae0-9656-453a-838c-b7848ddc87fa"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1024,
+    "cacheReadInputTokens": 30266,
+    "contextWindow": 1000000,
+    "contextTokens": 31291,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

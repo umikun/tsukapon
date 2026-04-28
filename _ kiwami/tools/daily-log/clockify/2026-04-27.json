@@ -1,7 +1,22 @@
 {
   "date": "2026-04-27",
-  "synced_at": "2026-04-27T22:10:06+09:00",
+  "synced_at": "2026-04-28T14:28:02+09:00",
   "workspace_id": "684043134d7e18788e95a3d5",
   "user_id": "684043134d7e18788e95a3d4",
-  "entries": []
+  "entries": [
+    {
+      "id": "69f03f27044cf67584165e4a",
+      "description": "SNS運用",
+      "start": "2026-04-27T08:00:00+09:00",
+      "end": "2026-04-27T12:00:00+09:00",
+      "duration_iso": "PT4H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    }
+  ]
 }

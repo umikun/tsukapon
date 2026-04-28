@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777351005795-rez2nh4v2",
+  "providerId": "claude",
+  "title": "Daily Log（artifact）スキルを削除",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777351005803,
+  "updatedAt": 1777351602193,
+  "lastResponseAt": 1777351427921,
+  "sessionId": "44adc841-c8cd-4ece-9cf7-f7f6e22589ca",
+  "providerState": {
+    "providerSessionId": "44adc841-c8cd-4ece-9cf7-f7f6e22589ca"
+  },
+  "currentNote": "Claudian-スキル一覧.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 527,
+    "cacheReadInputTokens": 53359,
+    "contextWindow": 1000000,
+    "contextTokens": 53887,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

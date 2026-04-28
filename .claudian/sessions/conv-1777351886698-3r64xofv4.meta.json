@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777351886698-3r64xofv4",
+  "providerId": "claude",
+  "title": "Format Markdown",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777351886704,
+  "updatedAt": 1777352161493,
+  "lastResponseAt": 1777352161493,
+  "sessionId": "7f0d10ec-d024-4268-96a0-f43d575c6059",
+  "providerState": {
+    "providerSessionId": "7f0d10ec-d024-4268-96a0-f43d575c6059"
+  },
+  "currentNote": "Clippings/Post by @chackwill on X.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 6316,
+    "cacheReadInputTokens": 52473,
+    "contextWindow": 1000000,
+    "contextTokens": 58790,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}
