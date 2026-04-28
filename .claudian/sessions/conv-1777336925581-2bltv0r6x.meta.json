@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777336925581-2bltv0r6x",
+  "providerId": "claude",
+  "title": "Check today's note post file",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777336925586,
+  "updatedAt": 1777339710352,
+  "lastResponseAt": 1777339710352,
+  "sessionId": "63d45794-05a2-451c-be27-865d24534b27",
+  "providerState": {
+    "providerSessionId": "63d45794-05a2-451c-be27-865d24534b27"
+  },
+  "currentNote": "SNS運用/action-20260428.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 937,
+    "cacheReadInputTokens": 108114,
+    "contextWindow": 1000000,
+    "contextTokens": 109052,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

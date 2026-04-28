@@ -85,3 +85,11 @@ last_updated: 2026-04-26
 - 日付つきで時系列に積む
 - 1ヶ月以上前の項目は `mid-term.md` に格上げ or 落とす
 - 「これ恒久ルールだな」と思ったら `long-term.md` に昇格
+
+## CLAUDE.md の現状サイズ
+【before】234   11764 CLAUDE.md
+
+ls -la .claude/skills/ 2>/dev/null || echo "NOT EXIST（新規作成必要）"
+total 0
+drwxr-xr-x@ 2 fukuokase  staff   64 Apr 15 13:21 .
+drwxr-xr-x@ 9 fukuokase  staff  288 Apr 28 09:56 ..
