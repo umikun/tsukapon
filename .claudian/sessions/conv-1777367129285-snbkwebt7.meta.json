@@ -4,8 +4,8 @@
   "title": "Initiate deep-dive research",
   "titleGenerationStatus": "success",
   "createdAt": 1777367129285,
-  "updatedAt": 1777367166803,
-  "lastResponseAt": 1777367166803,
+  "updatedAt": 1777373843747,
+  "lastResponseAt": 1777373843747,
   "sessionId": "656a3b76-9750-42e6-a9ae-06437e3d55ea",
   "providerState": {
     "providerSessionId": "656a3b76-9750-42e6-a9ae-06437e3d55ea"
@@ -13,11 +13,12 @@
   "currentNote": "Clippings/Post by @ryo_Oto1 on X.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 6,
-    "cacheCreationInputTokens": 18524,
-    "cacheReadInputTokens": 16516,
-    "contextWindow": 200000,
-    "contextTokens": 35046,
-    "percentage": 18
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 491,
+    "cacheReadInputTokens": 61159,
+    "contextWindow": 1000000,
+    "contextTokens": 61651,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
   }
 }
