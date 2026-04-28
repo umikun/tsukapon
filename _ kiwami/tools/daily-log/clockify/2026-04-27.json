@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "synced_at": "2026-04-28T14:28:02+09:00",
+  "synced_at": "2026-04-28T15:28:10+09:00",
   "workspace_id": "684043134d7e18788e95a3d5",
   "user_id": "684043134d7e18788e95a3d4",
   "entries": [
@@ -10,6 +10,62 @@
       "start": "2026-04-27T08:00:00+09:00",
       "end": "2026-04-27T12:00:00+09:00",
       "duration_iso": "PT4H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f0497916e22b8aca8202f4",
+      "description": "「新卒採用」ページ 合格者発表 4/30分 公開対応",
+      "start": "2026-04-27T12:00:00+09:00",
+      "end": "2026-04-27T13:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "サイト運営",
+      "project_color": "#039BE5",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f04990ee3ed6a1d210c4c0",
+      "description": "「医療法人 田園会」修正対応",
+      "start": "2026-04-27T13:00:00+09:00",
+      "end": "2026-04-27T14:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "ピックアップページ対応",
+      "project_color": "#1976D2",
+      "tags": [
+        "e-dentist"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f049b0044cf67584178ce9",
+      "description": "5月分 制作・仮掲載対応",
+      "start": "2026-04-27T14:00:00+09:00",
+      "end": "2026-04-27T16:00:00+09:00",
+      "duration_iso": "PT2H",
+      "project": "神津先生コンテンツ",
+      "project_color": "#8D6E63",
+      "tags": [
+        "e-doctor"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f049d1a4155fee707e6c9c",
+      "description": "SNS運用",
+      "start": "2026-04-27T17:00:00+09:00",
+      "end": "2026-04-27T22:00:00+09:00",
+      "duration_iso": "PT5H",
       "project": "SNS対応",
       "project_color": "#039BE5",
       "tags": [
