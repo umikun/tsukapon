@@ -4,21 +4,20 @@
   "title": "Format Markdown",
   "titleGenerationStatus": "success",
   "createdAt": 1777351886704,
-  "updatedAt": 1777358919582,
-  "lastResponseAt": 1777358919582,
+  "updatedAt": 1777367118473,
+  "lastResponseAt": 1777365580437,
   "sessionId": "7f0d10ec-d024-4268-96a0-f43d575c6059",
   "providerState": {
     "providerSessionId": "7f0d10ec-d024-4268-96a0-f43d575c6059"
   },
-  "currentNote": "Clippings/Post by @chackwill on X.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 520,
-    "cacheReadInputTokens": 60103,
+    "cacheCreationInputTokens": 4791,
+    "cacheReadInputTokens": 64049,
     "contextWindow": 1000000,
-    "contextTokens": 60624,
-    "percentage": 6,
+    "contextTokens": 68841,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }
