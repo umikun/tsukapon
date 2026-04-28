@@ -4,8 +4,8 @@
   "title": "Format Markdown",
   "titleGenerationStatus": "success",
   "createdAt": 1777351886704,
-  "updatedAt": 1777352161493,
-  "lastResponseAt": 1777352161493,
+  "updatedAt": 1777358919582,
+  "lastResponseAt": 1777358919582,
   "sessionId": "7f0d10ec-d024-4268-96a0-f43d575c6059",
   "providerState": {
     "providerSessionId": "7f0d10ec-d024-4268-96a0-f43d575c6059"
@@ -14,10 +14,10 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 6316,
-    "cacheReadInputTokens": 52473,
+    "cacheCreationInputTokens": 520,
+    "cacheReadInputTokens": 60103,
     "contextWindow": 1000000,
-    "contextTokens": 58790,
+    "contextTokens": 60624,
     "percentage": 6,
     "contextWindowIsAuthoritative": true
   }
