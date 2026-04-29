@@ -72,12 +72,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Post by @so_ainsight on X.md",
+                "file": "調査/2026-04-29-postiz-sns-automation-overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post by @so_ainsight on X"
+              "title": "2026-04-29-postiz-sns-automation-overview"
             }
           }
         ],
@@ -258,10 +258,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "06f2ce9f5376062c",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
-    "SNS運用/ネタ/2026-04-29-neutts-air-on-device-voice-cloning.md",
+    "調査/2026-04-29-sns-automation-implementation-plan.md",
     "Clippings/Post by @so_ainsight on X.md",
+    "調査/2026-04-29-postiz-sns-automation-overview.md",
+    "SNS運用/ネタ/2026-04-29-neutts-air-on-device-voice-cloning.md",
     "SNS運用/action-20260429.md",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
     "SNS運用/title/title-20260429.md",
@@ -292,8 +294,6 @@
     "SNS運用/ネタ/2026-04-26-claude-code-setup-plugin.md",
     "SNS運用/archive/trivia/2026-04-26-claude-code-100-best-repos.md",
     "SNS運用/archive/trivia/2026-04-26-cash-while-you-sleep-10-repos.md",
-    "SNS運用/archive/trivia/2026-04-25-x-reply-impression-strategy.md",
-    "調査/2026-04-25-threads-affiliate-side-hustle.md",
     "SNS運用/archive/trivia",
     "SNS運用/analytics/screenshots/W18-series02-60min.png",
     "SNS運用/analytics/screenshots",
