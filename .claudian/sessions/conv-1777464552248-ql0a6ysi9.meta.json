@@ -4,8 +4,8 @@
   "title": "Locate reply skill cowork directory",
   "titleGenerationStatus": "success",
   "createdAt": 1777464552254,
-  "updatedAt": 1777465694481,
-  "lastResponseAt": 1777465694481,
+  "updatedAt": 1777467256142,
+  "lastResponseAt": 1777467256142,
   "sessionId": "922a845e-9105-4a03-824d-346ca5ae614d",
   "providerState": {
     "providerSessionId": "922a845e-9105-4a03-824d-346ca5ae614d"
@@ -13,12 +13,12 @@
   "currentNote": "SNS運用/action-20260429.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 6409,
-    "cacheReadInputTokens": 54407,
+    "inputTokens": 5,
+    "cacheCreationInputTokens": 2063,
+    "cacheReadInputTokens": 81261,
     "contextWindow": 1000000,
-    "contextTokens": 60817,
-    "percentage": 6,
+    "contextTokens": 83329,
+    "percentage": 8,
     "contextWindowIsAuthoritative": true
   }
 }

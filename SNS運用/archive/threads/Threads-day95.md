@@ -1,7 +1,7 @@
 # Day 95：「やめろ」を通り過ぎる練習
 
 > **🔗 関連コンテンツ**
-> - ✖️ 対応するX投稿: [[SNS運用/post/day95.md]]
+> - ✖️ 対応するX投稿: [[SNS運用/archive/post/day95]]
 > - ⬅️ 前日のThreads: [[SNS運用/pending/threads/Threads-day94.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day96.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]

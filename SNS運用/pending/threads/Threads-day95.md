@@ -1,7 +1,7 @@
 # 90日目：90日間の記録 ── やった／やめた／やらないと決めた
 
 > **🔗 関連コンテンツ**
-> - ✖️ 対応するX投稿: [[SNS運用/post/day95.md]]
+> - ✖️ 対応するX投稿: [[SNS運用/archive/post/day95]]
 > - ⬅️ 前日のThreads: [[SNS運用/threads/Threads-day94.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 > - 📋 Threads運用戦略: [[SNS運用/Threads運用.md]]
