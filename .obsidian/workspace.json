@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1304.5
+    "width": 1119.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,11 +258,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "2f1d24d5bf6ae639",
   "lastOpenFiles": [
+    "調査/2026-04-29-postiz-sns-automation-overview.md",
     "調査/2026-04-29-sns-automation-implementation-plan.md",
     "Clippings/Post by @so_ainsight on X.md",
-    "調査/2026-04-29-postiz-sns-automation-overview.md",
     "SNS運用/ネタ/2026-04-29-neutts-air-on-device-voice-cloning.md",
     "SNS運用/action-20260429.md",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
