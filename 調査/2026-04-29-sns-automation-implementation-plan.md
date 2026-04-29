@@ -7,7 +7,7 @@ source: "調査/2026-04-29-postiz-sns-automation-overview.md"
 # n8n × Bluesky/X/Threads 自動投稿 実装計画書（Phase 1〜3）
 
 > **🔗 関連コンテンツ**
-> - 📋 出発点となる調査ノート: [[調査/2026-04-29-postiz-sns-automation-overview]]
+> - 📋 出発点となる調査ノート: [[2026-04-29-postiz-sns-automation-overview]]
 > - ⚙️ ローカルn8n環境: [[_ kiwami/README/n8n.md]]
 > - 🛠 既存n8nワークフロー参考: [[_ kiwami/tools/n8n-cybozu-chatwork-setup.md]]
 > - 🐦 入力対象X日次: [[SNS運用/post/day95.md]]
@@ -628,29 +628,48 @@ LIMIT 30
 
 ## 📝 学習メモ（Phase 1 を進めながら埋める）
 
-- [ ] n8n の Variables の使い方
-- [ ] HTTP Request ノードの Authentication パターン（Header Auth, Bearer, OAuth2）
-- [ ] Code Node 内での `$('NodeName').item.json` 参照の書き方
-- [ ] Schedule Trigger と Wait until の使い分け
-- [ ] LaunchAgent の StartCalendarInterval 配列指定（複数時刻）
-- [ ] Bluesky AT Protocol の DID/PLC の概念
-- [ ] iCloud `brctl` コマンドの動き
+### ✅ 2026-04-29 セッション1で学んだこと
 
-埋めながらこのファイルを更新する。Phase 1 完走時にはこのセクションが「自分のn8n知識インデックス」になる予定。
+- **`process.env` ではなく `$env` を使う**: n8n の Code Node では Node.js 標準の `process.env` ではなく、n8n 専用の `$env.VARIABLE_NAME` を使う。`process` オブジェクトはサンドボックスで隠されている
+- **環境変数の渡し方**: LaunchAgent の plist 内 `EnvironmentVariables` dict に追加 → `launchctl unload && load` で n8n 再起動 → `$env` 経由で参照可能
+- **`plutil -insert` の冪等化**: 既存キーがあるとエラーになるので `plutil -remove ... 2>/dev/null` を先に走らせる
+- **HTTP Request ノードの Expression モード**: JSON Body や Header Value で `{{ }}` を使うときは Expression モードに切り替える必要あり（Fixed モードだと文字列扱い）
+- **ノード間データ参照**: `{{ $('NodeName').item.json.fieldName }}` 形式で前のノードの出力を参照
+- **`$now.toUTC().toISO()`**: n8n 標準の Luxon DateTime オブジェクト。Bluesky API の `createdAt` 用に UTC ISO8601 を返す
+- **JSON Body 内の改行問題**: 改行を含む文字列を JSON Body に直接埋めると壊れる → Code Node 内で `JSON.stringify(text).slice(1, -1)` でエスケープ済み版（`textForJson`）を作っておくと安全
+- **`fs.readFileSync` 直接利用**: LaunchAgent の `NODE_FUNCTION_ALLOW_BUILTIN=child_process,fs` のおかげで `require('fs')` が使える
+- **iCloud `.icloud` プレースホルダ検出**: `fs.readdirSync` で `.Threads-day95.md.icloud` のような隠しファイルが返る → 正規表現で別途検出
+- **graphemes の正確な数え方**: `Intl.Segmenter('ja', { granularity: 'grapheme' })` を使う（絵文字や合成文字を1文字として数える）
+- **zsh の `read` 構文**: `read -p` は bash 専用、zsh では `read "VAR?prompt"` 形式
+- **`heredoc + 変数展開` の挙動**: `<< EOF` で `${VAR}` を含むと、シェル履歴には `${VAR}` が記録され、ファイルには展開後の値が書かれる（パスワードを履歴に残さずファイルに渡せるイディオム）
+- **AT Protocol の認証フロー**: createSession で `accessJwt` 取得 → createRecord で `Authorization: Bearer {accessJwt}` ヘッダ付きで叩く2段階
+
+### ⬜ 次セッションで学ぶ予定
+
+- [ ] Schedule Trigger（複数時刻）の設定、Active化
+- [ ] LaunchAgent の StartCalendarInterval 配列指定（複数時刻）
+- [ ] caffeinate コマンドの活用
+- [ ] iCloud `brctl download` コマンド
+- [ ] n8n の Error Workflow 機能
+- [ ] Code Node からの `fs.appendFileSync` でログ追記
 
 ---
 
 ## ✅ Phase 1 完了の定義
 
-- [ ] 旧Blueskyアカウント削除完了
-- [ ] 新Blueskyアカウント `chackwill.bsky.social` 作成、プライバシー設定完了
-- [ ] App password 発行、n8n Variables 登録
-- [ ] n8n ワークフロー `sns-bluesky-daily-poster` 作成、Active化
-- [ ] iCloud事前ダウンロード LaunchAgent 設置
-- [ ] caffeinate evening LaunchAgent 設置
-- [ ] テスト投稿成功（手動削除済み）
-- [ ] 翌日12:00と22:15の自動投稿が成功
-- [ ] ログファイル `_ kiwami/tools/daily-log/sns-posts/2026-04-30.jsonl` に2件記録
+- [x] 旧Blueskyアカウント削除完了 ✅ 2026-04-29
+- [x] 新Blueskyアカウント `chackwill.bsky.social` 作成、プライバシー設定完了 ✅ 2026-04-29
+- [x] App password 発行、n8n LaunchAgent環境変数 登録 ✅ 2026-04-29
+- [x] curl で createSession + createRecord 動作確認 ✅ 2026-04-29
+- [x] n8n から `$env` 経由で BLUESKY_HANDLE / BLUESKY_APP_PASSWORD 取得確認 ✅ 2026-04-29
+- [x] n8n ワークフロー `sns-bluesky-daily-poster` の基本パイプライン作成（Manual Trigger → createSession → createRecord）、テスト投稿成功 ✅ 2026-04-29
+- [x] ファイル読み込み + 本文抽出（最新Threads-day*.md → 朝/夜セクション抽出） ✅ 2026-04-29
+- [x] 抽出本文での投稿テスト成功（Threads-day105.md 朝枠 → Bluesky実投稿確認 → 削除） ✅ 2026-04-29
+- [ ] ログ書き出し機能追加（jsonl）
+- [ ] Manual Trigger → Schedule Trigger（朝12:00 / 夜22:15）置換
+- [ ] iCloud事前ダウンロード LaunchAgent 設置（11:30 / 21:45）
+- [ ] caffeinate evening LaunchAgent 設置（21:00〜23:00）
+- [ ] Active化、翌日12:00と22:15の自動投稿が成功
 - [ ] エラー時のChatwork通知が動く（強制エラーで確認）
 - [ ] X/note プロフィールに新Blueskyリンク追加
 

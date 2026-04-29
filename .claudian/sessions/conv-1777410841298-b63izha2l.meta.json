@@ -4,8 +4,8 @@
   "title": "Fix action plan generation URL bug",
   "titleGenerationStatus": "success",
   "createdAt": 1777410841305,
-  "updatedAt": 1777429076913,
-  "lastResponseAt": 1777429076913,
+  "updatedAt": 1777432761101,
+  "lastResponseAt": 1777432761101,
   "sessionId": "1c193510-c47a-4bc5-b410-add363700953",
   "providerState": {
     "providerSessionId": "1c193510-c47a-4bc5-b410-add363700953"
@@ -13,12 +13,12 @@
   "currentNote": "SNS運用/action-20260429.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 6,
-    "cacheCreationInputTokens": 4814,
-    "cacheReadInputTokens": 202591,
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1748,
+    "cacheReadInputTokens": 248516,
     "contextWindow": 1000000,
-    "contextTokens": 207411,
-    "percentage": 21,
+    "contextTokens": 250265,
+    "percentage": 25,
     "contextWindowIsAuthoritative": true
   }
 }
