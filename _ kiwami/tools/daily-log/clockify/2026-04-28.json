@@ -1,7 +1,78 @@
 {
   "date": "2026-04-28",
-  "synced_at": "2026-04-28T23:22:43+09:00",
+  "synced_at": "2026-04-29T16:26:48+09:00",
   "workspace_id": "684043134d7e18788e95a3d5",
   "user_id": "684043134d7e18788e95a3d4",
-  "entries": []
+  "entries": [
+    {
+      "id": "69f1a56ba4155fee70b85c1f",
+      "description": "SNS運用",
+      "start": "2026-04-28T09:00:00+09:00",
+      "end": "2026-04-28T12:00:00+09:00",
+      "duration_iso": "PT3H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f1a5a68a8ec12dbf26b836",
+      "description": "永田さんPC gulp環境不具合調査",
+      "start": "2026-04-28T12:00:00+09:00",
+      "end": "2026-04-28T12:30:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "環境",
+      "project_color": "#AB47BC",
+      "tags": [
+        "LinkStaff"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f1a5b78a8ec12dbf26bad8",
+      "description": "「医療法人 田園会」ピックアップページ 修正分 本番反映",
+      "start": "2026-04-28T12:30:00+09:00",
+      "end": "2026-04-28T13:00:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "ピックアップページ対応",
+      "project_color": "#1976D2",
+      "tags": [
+        "e-dentist"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f1a67a3b2d1cbc26c81043",
+      "description": "「中国コラム」5月分 制作・公開予約対応",
+      "start": "2026-04-28T13:00:00+09:00",
+      "end": "2026-04-28T14:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "コラム関連",
+      "project_color": "#039BE5",
+      "tags": [
+        "PRESS"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f1a6cf70cb4c70862765f0",
+      "description": "「目白校」学費表 修正・仮掲載対応",
+      "start": "2026-04-28T17:00:00+09:00",
+      "end": "2026-04-28T19:00:00+09:00",
+      "duration_iso": "PT2H",
+      "project": "運営対応",
+      "project_color": "#689F38",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    }
+  ]
 }

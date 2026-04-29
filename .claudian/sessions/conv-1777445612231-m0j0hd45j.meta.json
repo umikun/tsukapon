@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777445612231-m0j0hd45j",
+  "providerId": "claude",
+  "title": "Explore Daily Log data",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777445612240,
+  "updatedAt": 1777447194251,
+  "lastResponseAt": 1777447194251,
+  "sessionId": "56534529-e393-4eb0-b49a-c0d4d7b81871",
+  "providerState": {
+    "providerSessionId": "56534529-e393-4eb0-b49a-c0d4d7b81871"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 6,
+    "cacheCreationInputTokens": 109137,
+    "cacheReadInputTokens": 16516,
+    "contextWindow": 1000000,
+    "contextTokens": 125659,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}

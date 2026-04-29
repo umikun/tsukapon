@@ -12,6 +12,7 @@
 ```
 _ kiwami/tools/daily-log/
 ├── README.md                           … このファイル
+├── analytics.py                        … 分析エンジン（activity集計、CLI＋Pythonモジュール）⭐ NEW 2026-04-29
 ├── clockify-sync.py                    … Clockify APIから時間エントリを取得
 ├── com.user.clockify-sync.plist        … 15分ごとの同期用launchd
 ├── clockify/                           … Clockify同期データ
@@ -27,6 +28,63 @@ _ kiwami/tools/daily-log/
     ├── daily-log-server.py             … 127.0.0.1:8765 で提供
     └── index.html                      … ブラウザ版ダッシュボード
 ```
+
+---
+
+## 🧠 analytics.py — 分析エンジン ⭐ NEW 2026-04-29
+
+`activity/*.jsonl` のデータ（1分粒度）を集計し、日次・週次のサマリーや集中ピーク・脱線パターン等を JSON で返す CLI ツール兼 Python モジュール。
+
+**重要**: Clockify データは実時間との乖離があるため**使わない**（2026-04-29 ユーザー判断）。activity tracker のみが信頼できる作業時間データソース。
+
+### CLI サブコマンド
+
+```bash
+# 日次サマリー（カテゴリ別時間 / アプリ別 / ファイル別 / 集中ピーク / 時間帯ヒートマップ）
+/usr/bin/python3 analytics.py daily 2026-04-29
+/usr/bin/python3 analytics.py daily today
+
+# 週次サマリー（曜日別 / 集計値 / 曜日×時間帯ヒートマップ）
+/usr/bin/python3 analytics.py weekly 2026-W18
+/usr/bin/python3 analytics.py weekly current
+
+# 集中ピーク時間帯（連続focus N分以上、デフォルト30分）
+/usr/bin/python3 analytics.py focus-peaks 2026-04-29 --min-minutes 30
+
+# ファイル別時間（Obsidian/Cursorのウィンドウタイトルから抽出）
+/usr/bin/python3 analytics.py file-times 2026-04-29
+
+# note記事の執筆時間（titleに 'note-YYYYMMDD' を含む focus 時間を集計）
+/usr/bin/python3 analytics.py note-time 2026-W18
+
+# 時間帯別ヒートマップ（曜日×時間帯）
+/usr/bin/python3 analytics.py hourly-heatmap 2026-W18
+
+# 脱線パターン検出（同じ (hour, app) が複数日に出現したら検出）
+/usr/bin/python3 analytics.py distraction-patterns --days 7 --min-occurrences 3
+```
+
+### Python モジュールとして使う
+
+```python
+import sys
+sys.path.insert(0, "_ kiwami/tools/daily-log")
+import importlib.util
+spec = importlib.util.spec_from_file_location("analytics", "_ kiwami/tools/daily-log/analytics.py")
+analytics = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(analytics)
+
+s = analytics.summarize_day("2026-04-29")
+w = analytics.summarize_week("2026-W18")
+peaks = analytics.find_focus_peaks(analytics.load_day("today"))
+patterns = analytics.detect_distraction_patterns(days=7)
+```
+
+### 利用しているスキル
+
+- `/daily-summary` — 日次業務日報の生成
+- `/focus-report` — 週次集中レポート＋脱線パターン検出（自己改善ループ連動）
+- `/weekly-analytics` — Step 6.5「Daily Log データ統合」で note記事ROI・投稿時刻×集中度・集中ピーク時間帯を取得
 
 ---
 
