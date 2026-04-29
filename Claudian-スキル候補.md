@@ -1,7 +1,7 @@
 ---
 tags: [claudian, skill-backlog, self-improving]
 created: 2026-04-25
-last_updated: 2026-04-27
+last_updated: 2026-04-29
 ---
 
 # 🪴 Claudian スキル候補（Skill Backlog）
@@ -32,7 +32,35 @@ last_updated: 2026-04-27
 
 ## 🟡 観察中（1〜2回検出）
 
-> ※ 現在エントリなし
+### `/weekly-generate-posts`（仮称）— 翌週1週間分の日次投稿ファイル一括生成
+
+- **発生**: 2026-04-29、ユーザー言及（n8n × Bluesky 自動投稿の入力データ問題から派生）
+- **観察回数**: 1回
+- **背景**:
+  - ユーザーは「`/weekly-analytics` 後に翌週1週間分の day*.md / Threads-day*.md が自動生成される」と想定していたが、現実は分析レポート1本のみで未実装
+  - 現状の day*.md / Threads-day*.md は実質**毎日手動**で作成されている
+  - n8n × Bluesky 自動投稿（[[2026-04-29-sns-automation-implementation-plan]]）の入力データ問題（**「最新ファイル探し」がアーカイブ運用と相性悪い**）の本質的解決にも繋がる
+- **想定されるフロー**:
+  ```
+  日曜夜:
+    /weekly-analytics → WNN分析レポート + アクション3つ（既存）
+       ↓
+    新スキル → 翌週7日分を一括生成:
+      ├→ SNS運用/post/day{N+1〜N+7}.md（X日次）
+      ├→ SNS運用/threads/Threads-day{N+1〜N+7}.md（Threads日次）
+      └→ SNS運用/bluesky/Bluesky-day{N+1〜N+7}.md（Bluesky日次・新規）★
+  ```
+- **設計選択肢**:
+  - 案A: `/weekly-analytics` 拡張（1コマンド完結だが責務肥大）
+  - 案B: 新規スキル `/weekly-generate-posts` 新設（推奨：責務分離）
+- **実装上の懸念**:
+  - 7日 × 3媒体 = 21ファイル一括生成は LLM 出力量が膨大。**3日分ずつ × 3回の分割実行**を組み込むと品質キープしやすい
+  - 各日の連投シリーズ・Day Oneプロモ・ニュース連動を踏まえた本文生成 = 1ファイルずつ思考が必要
+- **依存関係**:
+  - n8n × Bluesky Phase 1 完走後がベター（[[2026-04-29-sns-automation-implementation-plan]]）
+  - Bluesky アーカイブ受領後のシナリオB検討（[[2026-04-29-birdclaw-x-archive-tool]]）と前後する
+- **実装優先度**: 中〜高（n8n自動投稿の入力データ問題を本質解決するため、Phase 1 安定後の最有力候補）
+- **次の観察ポイント**: ユーザーが類似の運用要望を再度言及するか、Phase 1 安定運用後に「やはり週次生成が欲しい」と再認識するか
 
 ---
 
