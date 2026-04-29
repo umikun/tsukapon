@@ -58,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/archive/trivia/2026-04-29-claude-code-english-prompt-debate.md",
-                "mode": "source",
+                "file": "SNS運用/note/note-20260430.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-29-claude-code-english-prompt-debate"
+              "title": "note-20260430"
             }
           },
           {
@@ -77,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -254,8 +254,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2f1d24d5bf6ae639",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
+    "SNS運用/archive/trivia/2026-04-29-claude-code-english-prompt-debate.md",
+    "Claudian-スキル一覧.md",
+    "SNS運用/action-20260429.md",
     "SNS運用/note/note-20260430.md",
     "_ kiwami/tools/daily-log/clockify/2026-04-30.json",
     "_ kiwami/tools/daily-log/activity/2026-04-30.jsonl",
@@ -266,10 +269,8 @@
     "SNS運用/analytics/screenshots/W18-series03-EOD-3of4.png",
     "SNS運用/analytics/screenshots/W18-series03-EOD-2of4.png",
     "SNS運用/analytics/screenshots/W18-series03-EOD-1of4.png",
-    "SNS運用/archive/trivia/2026-04-29-claude-code-english-prompt-debate.md",
     "調査/2026-04-29-rakuten-passive-affiliate.md",
     "SNS運用/ネタ/2026-04-29-obsidian-llm-wiki-pattern.md",
-    "SNS運用/action-20260429.md",
     "SNS運用/analytics/focus",
     "_ memory/daily",
     "_ kiwami/tools/daily-log/analytics.py",
@@ -277,7 +278,6 @@
     "Daily Log/memo/2026-04-28.md",
     "Daily Log/2026-04-27.md",
     "Daily Log/memo/2026-04-27.md",
-    "Claudian-スキル一覧.md",
     "Clippings/Post by @obsidianstudio9 on X.md",
     "調査/2026-04-29-birdclaw-x-archive-tool.md",
     "Clippings/Post by @L_go_mrk on X 5.md",
