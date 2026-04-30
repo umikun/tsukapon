@@ -35,7 +35,7 @@
       "label": "脱線",
       "color": "#ef4444",
       "apps": [
-        "Day One",
+        // "Day One",
         "cooViewer",
         "Music"
       ]
