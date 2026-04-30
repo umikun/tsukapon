@@ -4,13 +4,12 @@
   "title": "Refactor CLAUDE.md bold instructions",
   "titleGenerationStatus": "success",
   "createdAt": 1777508190878,
-  "updatedAt": 1777508545213,
+  "updatedAt": 1777511641981,
   "lastResponseAt": 1777508545213,
   "sessionId": "8475c385-a549-4429-88a5-836c647618b0",
   "providerState": {
     "providerSessionId": "8475c385-a549-4429-88a5-836c647618b0"
   },
-  "currentNote": "SNS運用/note/note-20260430.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,

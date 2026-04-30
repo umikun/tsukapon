@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777511746670-1ph9apboi",
+  "providerId": "claude",
+  "title": "今日のアクションファイルの中にXとThreadsの記事投稿分が反映されていません。「obsidian...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777511746674,
+  "updatedAt": 1777512435870,
+  "lastResponseAt": 1777512122059,
+  "sessionId": "f4603c95-d25a-42ac-809b-cc83b54197cc",
+  "providerState": {
+    "providerSessionId": "f4603c95-d25a-42ac-809b-cc83b54197cc"
+  },
+  "currentNote": "SNS運用/action-20260430.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

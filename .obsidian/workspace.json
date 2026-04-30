@@ -100,12 +100,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/title/title-20260430.md",
+                "file": "SNS運用/post/day96.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "title-20260430"
+              "title": "day96"
             }
           }
         ],
@@ -288,12 +288,14 @@
   },
   "active": "2f1d24d5bf6ae639",
   "lastOpenFiles": [
-    "SNS運用/post/draft/20260427_critique_series_04_obsidian-second-brain.md",
+    "SNS運用/post/day96.md",
     "SNS運用/action-20260430.md",
-    "SNS運用/post/thread/20260430_note紹介スレッド.md",
     "SNS運用/note/note-20260430.md",
-    "SNS運用/archive/action/action-20260429.md",
+    "SNS運用/サムネイル作成/~ai-14f69f0c-8f26-4009-9723-de2ddd003b57_.tmp",
     "SNS運用/title/title-20260430.md",
+    "SNS運用/post/draft/20260427_critique_series_04_obsidian-second-brain.md",
+    "SNS運用/post/thread/20260430_note紹介スレッド.md",
+    "SNS運用/archive/action/action-20260429.md",
     "SNS運用/サムネイル作成/~ai-f9e55b66-60dc-44ac-8439-a2ea4f89cd43_.tmp",
     "SNS運用/サムネイル作成/~ai-6714f384-2beb-4386-bba5-8d0ad740241b_.tmp",
     "SNS運用/サムネイル作成/~ai-55064165-b846-44bf-91e0-eee4690eebf0_.tmp",
@@ -317,7 +319,6 @@
     "SNS運用/ネタ/2026-04-29-obsidian-llm-wiki-pattern.md",
     "SNS運用/analytics/focus",
     "_ memory/daily",
-    "_ kiwami/tools/daily-log/analytics.py",
     "Daily Log/2026-04-28.md",
     "Daily Log/memo/2026-04-28.md",
     "Daily Log/2026-04-27.md",
@@ -333,7 +334,6 @@
     "SNS運用/analytics/screenshots/W18-series03-60min-3of4.png",
     "SNS運用/analytics/screenshots/W18-series03-60min-2of4.png",
     "Clippings/Post by @precisox on X.md",
-    "SNS運用/ネタ/2026-04-29-postiz-sns-automation-overview.md",
     "無題のファイル.canvas"
   ]
 }
