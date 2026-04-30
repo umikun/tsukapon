@@ -4,19 +4,20 @@
   "title": "Locate reply skill cowork directory",
   "titleGenerationStatus": "success",
   "createdAt": 1777464552254,
-  "updatedAt": 1777503830591,
-  "lastResponseAt": 1777503830591,
+  "updatedAt": 1777508135818,
+  "lastResponseAt": 1777507983355,
   "sessionId": "922a845e-9105-4a03-824d-346ca5ae614d",
   "providerState": {
     "providerSessionId": "922a845e-9105-4a03-824d-346ca5ae614d"
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 17268,
-    "cacheReadInputTokens": 135319,
-    "contextWindow": 200000,
-    "contextTokens": 152588,
-    "percentage": 76
+    "inputTokens": 5,
+    "cacheCreationInputTokens": 3161,
+    "cacheReadInputTokens": 231875,
+    "contextWindow": 1000000,
+    "contextTokens": 235041,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
   }
 }

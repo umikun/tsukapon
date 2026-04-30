@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777508190874-yksc447ud",
+  "providerId": "claude",
+  "title": "Refactor CLAUDE.md bold instructions",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777508190878,
+  "updatedAt": 1777508545213,
+  "lastResponseAt": 1777508545213,
+  "sessionId": "8475c385-a549-4429-88a5-836c647618b0",
+  "providerState": {
+    "providerSessionId": "8475c385-a549-4429-88a5-836c647618b0"
+  },
+  "currentNote": "SNS運用/note/note-20260430.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1307,
+    "cacheReadInputTokens": 69016,
+    "contextWindow": 1000000,
+    "contextTokens": 70324,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}

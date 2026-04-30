@@ -12,7 +12,7 @@ source: "調査/2026-04-29-postiz-sns-automation-overview.md"
 > - 🛠 既存n8nワークフロー参考: [[_ kiwami/tools/n8n-cybozu-chatwork-setup.md]]
 > - 🐦 入力対象X日次: [[SNS運用/archive/post/day95]]
 > - 🧵 入力対象Threads日次: [[SNS運用/archive/threads/Threads-day95]]
-> - 📅 入力対象アクションプラン: [[SNS運用/action-20260429.md]]
+> - 📅 入力対象アクションプラン: [[action-20260429]]
 
 ## 🎯 ゴール
 
