@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777515459800-p5pznl813",
+  "providerId": "claude",
+  "title": "Start deep-dive research",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777515459805,
+  "updatedAt": 1777515624674,
+  "lastResponseAt": 1777515624674,
+  "sessionId": "22120460-943e-4ec5-adda-44865bcb78b4",
+  "providerState": {
+    "providerSessionId": "22120460-943e-4ec5-adda-44865bcb78b4"
+  },
+  "currentNote": "Clippings/tududi - Organize Life and Work, Self-Hosted or Hosted.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 5768,
+    "cacheReadInputTokens": 45881,
+    "contextWindow": 1000000,
+    "contextTokens": 51650,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

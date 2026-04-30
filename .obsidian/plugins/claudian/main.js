@@ -72117,6 +72117,7 @@ function getAcpMethodCandidates(logicalMethod, overrides) {
 }
 
 // src/providers/acp/AcpClientConnection.ts
+var ACP_PROMPT_TURN_TIMEOUT_MS = 0;
 var AcpClientConnection = class {
   constructor(options) {
     this.options = options;
@@ -72182,7 +72183,9 @@ var AcpClientConnection = class {
     return this.requestWithFallback("listSessions", request);
   }
   prompt(request) {
-    return this.requestWithFallback("prompt", request);
+    return this.requestWithFallback("prompt", request, {
+      timeoutMs: ACP_PROMPT_TURN_TIMEOUT_MS
+    });
   }
   cancel(notification) {
     this.notifyLogicalMethod("cancel", notification, { sendAllCandidatesIfUncached: true });
@@ -72284,16 +72287,16 @@ var AcpClientConnection = class {
   }
   // -32601 (Method not found) is the only error we absorb; agents that advertise legacy
   // method names only reject unknown candidates with it, so every other code is real.
-  async requestWithFallback(logicalMethod, params) {
+  async requestWithFallback(logicalMethod, params, requestOptions) {
     const cachedMethod = this.methodCache.get(logicalMethod);
     if (cachedMethod) {
-      return this.options.transport.request(cachedMethod, params);
+      return this.options.transport.request(cachedMethod, params, requestOptions);
     }
     const candidates = getAcpMethodCandidates(logicalMethod, this.options.methodOverrides);
     let lastError = null;
     for (const methodName of candidates) {
       try {
-        const result = await this.options.transport.request(methodName, params);
+        const result = await this.options.transport.request(methodName, params, requestOptions);
         this.methodCache.set(logicalMethod, methodName);
         return result;
       } catch (error48) {

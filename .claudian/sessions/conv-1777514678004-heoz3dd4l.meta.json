@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777514678004-heoz3dd4l",
+  "providerId": "claude",
+  "title": "Execute deep-dive research",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777514678009,
+  "updatedAt": 1777515451505,
+  "lastResponseAt": 1777514868005,
+  "sessionId": "77c81153-3814-47a3-b286-8fcede13b56a",
+  "providerState": {
+    "providerSessionId": "77c81153-3814-47a3-b286-8fcede13b56a"
+  },
+  "currentNote": "Clippings/Post by @L_go_mrk on X 6.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 7042,
+    "cacheReadInputTokens": 45443,
+    "contextWindow": 1000000,
+    "contextTokens": 52486,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

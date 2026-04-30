@@ -4,8 +4,8 @@
   "title": "Fix missing X/Threads posts in action plans",
   "titleGenerationStatus": "success",
   "createdAt": 1777512446267,
-  "updatedAt": 1777512560627,
-  "lastResponseAt": 1777512461941,
+  "updatedAt": 1777513617338,
+  "lastResponseAt": 1777513466084,
   "sessionId": "41ab3fa9-2af9-4095-9be1-2b592a029446",
   "providerState": {
     "providerSessionId": "41ab3fa9-2af9-4095-9be1-2b592a029446"
@@ -13,11 +13,11 @@
   "currentNote": "SNS運用/action-20260430.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 0,
-    "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 2561,
+    "cacheReadInputTokens": 40066,
     "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0
+    "contextTokens": 42628,
+    "percentage": 21
   }
 }
