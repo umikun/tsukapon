@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777524797925-ntadytmnb",
+  "providerId": "claude",
+  "title": "X投稿アーカイブを処理する",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777524797928,
+  "updatedAt": 1777525689291,
+  "lastResponseAt": 1777525689290,
+  "sessionId": "2b4caa94-baf3-426a-a51f-4c23db574946",
+  "providerState": {
+    "providerSessionId": "2b4caa94-baf3-426a-a51f-4c23db574946"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 596,
+    "cacheReadInputTokens": 92237,
+    "contextWindow": 1000000,
+    "contextTokens": 92834,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}
