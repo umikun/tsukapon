@@ -3,7 +3,7 @@
 > **🔗 関連コンテンツ**
 > - 🧵 対応するThreads: [[SNS運用/archive/threads/Threads-day95]]
 > - ⬅️ 前日のX投稿: [[SNS運用/pending/post/day94.md]]
-> - ➡️ 翌日のX投稿: [[SNS運用/post/day96.md]]
+> - ➡️ 翌日のX投稿: [[day96]]
 > - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 > - 🐦 同日連投シリーズ③: [[SNS運用/post/draft/20260427_critique_series_03_claude-code-setup.md]]

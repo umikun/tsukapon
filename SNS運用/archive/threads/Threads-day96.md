@@ -1,7 +1,7 @@
 # Day 96：型ができると迷う時間が減る
 
 > **🔗 関連コンテンツ**
-> - ✖️ 対応するX投稿: [[SNS運用/post/day96.md]]
+> - ✖️ 対応するX投稿: [[day96]]
 > - ⬅️ 前日のThreads: [[SNS運用/archive/threads/Threads-day95]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day97.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]

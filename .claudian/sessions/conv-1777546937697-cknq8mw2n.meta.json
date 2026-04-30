@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777546937697-cknq8mw2n",
+  "providerId": "claude",
+  "title": "Reschedule W18 series④ posting to tomorrow",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777546937702,
+  "updatedAt": 1777547076902,
+  "lastResponseAt": 1777547076902,
+  "sessionId": "0c3edc1f-7978-44d7-b99d-0717c478ea31",
+  "providerState": {
+    "providerSessionId": "0c3edc1f-7978-44d7-b99d-0717c478ea31"
+  },
+  "currentNote": "SNS運用/action-20260430.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1332,
+    "cacheReadInputTokens": 42241,
+    "contextWindow": 1000000,
+    "contextTokens": 43574,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
