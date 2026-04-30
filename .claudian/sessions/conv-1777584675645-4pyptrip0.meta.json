@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777584675645-4pyptrip0",
+  "providerId": "claude",
+  "title": "Generate daily SNS action plan",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777584675651,
+  "updatedAt": 1777585568564,
+  "lastResponseAt": 1777585568564,
+  "sessionId": "d82baacc-7c2b-4c89-a26b-7ddecd26c264",
+  "providerState": {
+    "providerSessionId": "d82baacc-7c2b-4c89-a26b-7ddecd26c264"
+  },
+  "currentNote": "SNS運用/note/note-20260501.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1264,
+    "cacheReadInputTokens": 139083,
+    "contextWindow": 1000000,
+    "contextTokens": 140348,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}
