@@ -1,7 +1,120 @@
 {
   "date": "2026-04-30",
-  "synced_at": "2026-04-30T18:26:16+09:00",
+  "synced_at": "2026-04-30T19:26:23+09:00",
   "workspace_id": "684043134d7e18788e95a3d5",
   "user_id": "684043134d7e18788e95a3d4",
-  "entries": []
+  "entries": [
+    {
+      "id": "69f328cad059006c391a3e03",
+      "description": "SNS運用",
+      "start": "2026-04-30T08:00:00+09:00",
+      "end": "2026-04-30T12:00:00+09:00",
+      "duration_iso": "PT4H",
+      "project": "SNS対応",
+      "project_color": "#039BE5",
+      "tags": [
+        "private"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f3290951886e4b18993ccd",
+      "description": "「新卒採用」ページ 合格者発表 4/30分 公開対応",
+      "start": "2026-04-30T12:00:00+09:00",
+      "end": "2026-04-30T12:30:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "サイト運営",
+      "project_color": "#039BE5",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f3293d31dba151d2e8b7eb",
+      "description": "「新卒採用」ページ 合格者発表 5/8分 公開準備対応",
+      "start": "2026-04-30T12:30:00+09:00",
+      "end": "2026-04-30T13:00:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "サイト運営",
+      "project_color": "#039BE5",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f329a6a2ad2d480b73543e",
+      "description": "明日の本番公開処理 内容確認",
+      "start": "2026-04-30T13:00:00+09:00",
+      "end": "2026-04-30T15:00:00+09:00",
+      "duration_iso": "PT2H",
+      "project": "サイト運営",
+      "project_color": "#FF5722",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f329e331dba151d2e8e48d",
+      "description": "ミーティング対応（藤田さん）",
+      "start": "2026-04-30T15:00:00+09:00",
+      "end": "2026-04-30T16:00:00+09:00",
+      "duration_iso": "PT1H",
+      "project": "社内業務",
+      "project_color": "#039BE5",
+      "tags": [
+        "LinkStaff"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f32a32a2ad2d480b7374f3",
+      "description": "「まつえだより」5月分 掲載対応",
+      "start": "2026-04-30T16:00:00+09:00",
+      "end": "2026-04-30T16:30:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "サイト運営",
+      "project_color": "#8D6E63",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f32a5931dba151d2e8feed",
+      "description": "「目白校」学費表 修正 本番公開対応",
+      "start": "2026-04-30T16:30:00+09:00",
+      "end": "2026-04-30T17:00:00+09:00",
+      "duration_iso": "PT30M",
+      "project": "運営対応",
+      "project_color": "#689F38",
+      "tags": [
+        "Clients"
+      ],
+      "billable": true,
+      "is_running": false
+    },
+    {
+      "id": "69f32a7aa2ad2d480b73843d",
+      "description": "各種コラム類 公開対応",
+      "start": "2026-04-30T17:00:00+09:00",
+      "end": "2026-04-30T19:00:00+09:00",
+      "duration_iso": "PT2H",
+      "project": "",
+      "project_color": "",
+      "tags": [
+        "LinkStaff"
+      ],
+      "billable": true,
+      "is_running": false
+    }
+  ]
 }

@@ -46,7 +46,8 @@
       "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/_ kiwami/tools/daily-log/.claude/commands/focus-report.md)",
       "Bash(mkdir -p ~/.claude/commands && ls -la ~/.claude/commands/)",
       "Write(/Users/fukuokase/.claude/commands/reply.md)",
-      "Write(/Users/fukuokase/.claude/commands/deep-dive.md)"
+      "Write(/Users/fukuokase/.claude/commands/deep-dive.md)",
+      "Bash(last reboot *)"
     ]
   },
   "hooks": {

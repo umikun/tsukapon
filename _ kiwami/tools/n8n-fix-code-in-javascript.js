@@ -1,6 +1,9 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
-const stateFile = "/tmp/n8n_clockify_last_id.txt";
+const path = require("path");
+const os = require("os");
+const stateDir = path.join(os.homedir(), ".n8n-state");
+const stateFile = path.join(stateDir, "clockify_last_id.txt");
 
 // Filter Newの出力（Clockifyデータ）を直接参照
 const clockifyItems = $("Filter New").all();
@@ -48,6 +51,7 @@ for (const item of clockifyItems) {
 // Google Calendar + Day One 両方への登録が全件成功した時点で
 // last_id を最新IDに更新する（Clockify APIは新しい順で返るため [0] が最新）
 if (clockifyItems.length > 0) {
+  try { fs.mkdirSync(stateDir, { recursive: true }); } catch (e) {}
   fs.writeFileSync(stateFile, clockifyItems[0].json.id);
 }
 
