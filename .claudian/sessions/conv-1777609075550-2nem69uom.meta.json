@@ -4,21 +4,20 @@
   "title": "Start deep-dive research",
   "titleGenerationStatus": "success",
   "createdAt": 1777609075559,
-  "updatedAt": 1777609613647,
-  "lastResponseAt": 1777609613647,
+  "updatedAt": 1777610268353,
+  "lastResponseAt": 1777609899428,
   "sessionId": "2cd67816-d65f-4ba6-87a8-ae0a2fb0abee",
   "providerState": {
     "providerSessionId": "2cd67816-d65f-4ba6-87a8-ae0a2fb0abee"
   },
-  "currentNote": "Clippings/Claude Codeに似てきた？【最新アップデート】Gemini CLI〜v0.40で何が変わったか〜.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 11371,
-    "cacheReadInputTokens": 77914,
+    "cacheCreationInputTokens": 8875,
+    "cacheReadInputTokens": 101779,
     "contextWindow": 1000000,
-    "contextTokens": 89286,
-    "percentage": 9,
+    "contextTokens": 110655,
+    "percentage": 11,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777610293486-newmd60ix",
+  "providerId": "claude",
+  "title": "アクション生成時の投稿スケジュール変更",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777610293492,
+  "updatedAt": 1777611348013,
+  "lastResponseAt": 1777611348013,
+  "sessionId": "fc1a467e-f385-4058-b207-2678956cb760",
+  "providerState": {
+    "providerSessionId": "fc1a467e-f385-4058-b207-2678956cb760"
+  },
+  "currentNote": "SNS運用/action-20260501.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1992,
+    "cacheReadInputTokens": 102522,
+    "contextWindow": 1000000,
+    "contextTokens": 104515,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}
