@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777598804532-jj688b904",
+  "providerId": "claude",
+  "title": "解説: 第1リプ呼び水",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777598804537,
+  "updatedAt": 1777598832298,
+  "lastResponseAt": 1777598832298,
+  "sessionId": "030f7665-b124-4d4f-a9c2-8647650386ec",
+  "providerState": {
+    "providerSessionId": "030f7665-b124-4d4f-a9c2-8647650386ec"
+  },
+  "currentNote": "SNS運用/action-20260501.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 10764,
+    "cacheReadInputTokens": 28416,
+    "contextWindow": 1000000,
+    "contextTokens": 39181,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
