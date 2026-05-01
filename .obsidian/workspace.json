@@ -72,16 +72,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Post by @ihtesham2005 on X.md",
+                "file": "SNS運用/ネタ/2026-05-01-vaultwarden-self-hosted-bitwarden.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post by @ihtesham2005 on X"
+              "title": "2026-05-01-vaultwarden-self-hosted-bitwarden"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,11 +258,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "2f1d24d5bf6ae639",
   "lastOpenFiles": [
-    "調査/2026-05-01-vaultwarden-self-hosted-bitwarden.md",
-    "Clippings/Post by @Oluwaphilemon1 on X.md",
+    "Daily Log/memo/2026-05-01.md",
+    "SNS運用/analytics/screenshots/Xプロフ訪問率の本日値メモ.png",
+    "SNS運用/analytics/screenshots/Threadsプロフィール訪問数の本日値メモ.png",
+    "SNS運用/analytics/screenshots/W18-Threads-day97-pm-60min.png",
+    "SNS運用/analytics/screenshots/W18-dayone-threadsC-60min.png",
+    "SNS運用/analytics/screenshots/W18-day97-pm-60min.png",
+    "SNS運用/ネタ/2026-05-01-vaultwarden-self-hosted-bitwarden.md",
     "Clippings/Post by @ihtesham2005 on X.md",
+    "Clippings/Post by @Oluwaphilemon1 on X.md",
     "SNS運用/action-20260501.md",
     "SNS運用/note/_有料記事/20260426_dayone_promo.md",
     "SNS運用/analytics/screenshots/W18-series04-180min.JPG",
@@ -291,7 +297,6 @@
     "Clippings/Post by @masahirochaen on X.md",
     "調査/2026-04-29-birdclaw-x-archive-tool.md",
     "SNS運用/サムネイル作成/~ai-14f69f0c-8f26-4009-9723-de2ddd003b57_.tmp",
-    "SNS運用/title/title-20260501.md",
     "SNS運用/サムネイル作成/~ai-f9e55b66-60dc-44ac-8439-a2ea4f89cd43_.tmp",
     "SNS運用/サムネイル作成/~ai-6714f384-2beb-4386-bba5-8d0ad740241b_.tmp",
     "_ kiwami/tools/daily-log/clockify/2026-05-01.json",
@@ -301,11 +306,6 @@
     "SNS運用/archive/x-history/social/followers.jsonl",
     "SNS運用/archive/x-history/likes/likes.jsonl",
     "SNS運用/analytics/screenshots/W18-dayone-x-c-EOD..png",
-    "SNS運用/analytics/screenshots/W18-note-thread-20260429-EOD.png",
-    "SNS運用/analytics/screenshots/W18-pin-dayE1-day3-EOD.png",
-    "SNS運用/analytics/screenshots/W18-series03-EOD-4of4.png",
-    "SNS運用/analytics/screenshots/W18-series03-EOD-3of4.png",
-    "SNS運用/analytics/screenshots/W18-series03-EOD-2of4.png",
     "無題のファイル.canvas"
   ]
 }
