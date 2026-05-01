@@ -117,7 +117,17 @@ done
 
 ※ 逆順で complete しないとインデックスがずれる場合があるため `sort -rn` で逆順処理する
 
-### Step 6. 完了報告
+### Step 6. Daily Log ダッシュボード用スナップショット書き出し
+
+書き込み（add/complete）が終わったら、Daily Log ダッシュボードの `⏰ リマインダー` カードが読むスナップショットファイルを更新する。
+
+```bash
+~/bin/daily-log/reminders-snapshot.sh
+```
+
+スナップショット出力先: `_ kiwami/tools/daily-log/reminders-snapshot.json`。失敗しても Step 7 へ進む（best-effort）。
+
+### Step 7. 完了報告
 
 チャットへ以下を返す:
 
@@ -127,6 +137,7 @@ done
 | 追加件数 | N件（時刻順リスト付き） |
 | スキップ件数 | M件（重複） |
 | 失敗件数 | 0件（あれば内訳） |
+| Daily Log 同期 | スナップショット更新 ✓ or 失敗（理由） |
 
 iPhone/Apple Watch を見れば、本日の予定が時刻通り通知されることを1行で添える。
 

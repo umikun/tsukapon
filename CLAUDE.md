@@ -126,8 +126,44 @@ reminders show-all --format json 2>/dev/null
 
 - 新規タスク追加は `/sync-reminders` を経由する（直接 `reminders add` を多用しない）
 - 完了マークは原則ユーザーの iPhone・Apple Watch・Mac での操作を尊重。Claudianが勝手に complete しない
-- `--clear`（一括完了）は **`Tsukapon` リスト固定**。スコープを他リストに拡大しない
+- `--clear`（一括完了）は **`Tsukapon` リスト固定`。スコープを他リストに拡大しない
 - 個人リストの内容を vault内ファイルに**コピペ転記しない**（プライバシー配慮。ログ・コミットへの混入防止）
+
+**Daily Log ダッシュボード連携（スナップショット方式）:**
+
+Daily Log dashboard（`http://127.0.0.1:8765`）の「⏰ リマインダー」カードは launchd 起動の TCC 制約で reminders DB を直接読めないため、Terminal context（Claudian の Bash ツール経由 or 手動 cli）で書き出すスナップショットファイルを介して連携する：
+
+| ファイル | 役割 |
+|---|---|
+| `~/bin/daily-log/reminders-snapshot.sh` | 全リスト未完了を取得して JSON に書き出すスクリプト |
+| `_ kiwami/tools/daily-log/reminders-snapshot.json` | スナップショット出力先（dashboard が読む） |
+
+**スナップショット更新タイミング:**
+
+- `/show-reminders` 実行時 → Step 6 で自動更新（読み取り後の副次効果）
+- `/sync-reminders` 実行時 → Step 6 で自動更新（書き込み後の整合性維持）
+- ユーザーが手動で `~/bin/daily-log/reminders-snapshot.sh` 実行（dashboard だけ更新したい時）
+
+dashboard 上の `🔄` ボタンは API を叩くだけで JSON ファイルは更新しない（TCC で fetch できないため）。最新化したい時は Claudian で `/show-reminders` を1回叩く運用。
+
+**`Tsukapon` リストのタイトル命名コンベンション:**
+
+`Tsukapon` リストは vault系の自動同期タスクと一般業務TODOが混在するため、**先頭の絵文字プレフィックス**で出自と種別を識別する：
+
+| 種別 | プレフィックス | 形式 | 例 |
+|---|---|---|---|
+| 自動同期（vault系・時刻あり） | `HH:MM` ＋ 種別アイコン | `HH:MM {🧵/🐦/📝/🛠/🔄/💰/👥} 内容` | `09:00 🧵 ニューススレッドv2 初試行` |
+| 一般業務TODO（手動追加） | `📋` | `📋 内容` | `📋 アブニール 請求書ドラフト確認` |
+| 個人用買い物・雑事 | `🛒` | `🛒 内容` | `🛒 バッテリー処分` |
+| 緊急・重要 | `🚨` | `🚨 内容` | `🚨 umikun.net移管` |
+| 学習・読書 | `📚` | `📚 内容` | `📚 obsidian-bases ドキュメント読む` |
+
+**運用ルール:**
+
+- 一般業務TODOを手動で `add` する時は **`📋` を必ず先頭に付ける**
+- 緊急度を変えたい時は `📋` → `🚨` への edit を `/sync-reminders` 等の安全なフローで（直接 `reminders edit` は CLAUDE.md ルール「edit は明示指示時のみ」準拠）
+- vault系の自動同期タイトル形式（`HH:MM 種別アイコン 内容`）は `/re-daily` Step 11-6 の生成ロジックで固定。手動でこのフォーマットを真似てadd しない（衝突防止）
+- 絵文字プレフィックスを付け忘れた既存リマインダーは無理に整形しない（ユーザー操作を尊重）
 
 ---
 

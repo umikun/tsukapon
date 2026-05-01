@@ -1,0 +1,7 @@
+{
+  "fetched_at": "2026-05-01T04:10:05Z",
+  "lists": {
+    "\u5168\u3066": [{"dueDate": "2026-07-10T02:00:00Z", "externalId": "0C07EF41-6A44-43E1-BBB7-A5C19231B260", "isCompleted": false, "list": "全て", "notes": "", "priority": 1, "title": "アブニール ハーティ 請求書準備"}, {"externalId": "DE59192D-8F30-4F83-A648-B1E6E7EBE29A", "isCompleted": false, "list": "全て", "location": "33.54651270116733, 130.4957763", "locationTitle": "乙金3丁目21-1", "priority": 0, "title": "バッテリー処分"}, {"dueDate": "2026-05-07T02:00:00Z", "externalId": "102A81B4-633C-4729-9671-E808B58229B0", "isCompleted": false, "list": "全て", "priority": 0, "title": "umikun.netの移管"}, {"dueDate": "2026-09-15T02:00:00Z", "externalId": "C3E2B0F6-E686-44E7-BEAD-693C48682F22", "isCompleted": false, "list": "全て", "priority": 0, "title": "umikun.xyzの移管"}, {"externalId": "A2A837B5-853F-4022-92AD-4D475001716C", "isCompleted": false, "list": "全て", "priority": 0, "title": "SE報告書 作成（木）"}],
+    "Tsukapon": [{"dueDate": "2026-05-01T06:00:00Z", "externalId": "62A3D151-31F1-4E83-9469-42E178727EEA", "isCompleted": false, "list": "Tsukapon", "priority": 1, "startDate": "2026-05-01T06:00:00Z", "title": "📋 ICA学費表カスタマイズ"}]
+  }
+}

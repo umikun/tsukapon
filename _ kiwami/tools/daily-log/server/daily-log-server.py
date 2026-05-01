@@ -15,6 +15,7 @@ Cowork を介さずに、ローカルに保存されている activity / clockif
   GET  /api/memo/YYYY-MM-DD        → vault/Daily Log/memo/YYYY-MM-DD.md の本文を返す
   POST /api/memo/YYYY-MM-DD        → vault/Daily Log/memo/YYYY-MM-DD.md に上書き保存
   POST /api/save-md/YYYY-MM-DD     → 本文を vault/Daily Log/YYYY-MM-DD.md に上書き保存
+  GET  /api/reminders              → reminders-cli で macOS Reminders を取得（全リスト読み取り）
 
 Carrier: stdlib only (http.server, json, pathlib, datetime)
 """
@@ -98,6 +99,9 @@ class Handler(BaseHTTPRequestHandler):
             return
         if path == "/api/fetch-status":
             self._handle_fetch_status()
+            return
+        if path == "/api/reminders":
+            self._handle_reminders()
             return
         self.send_error(404, "Not found")
 
@@ -500,6 +504,112 @@ class Handler(BaseHTTPRequestHandler):
         except json.JSONDecodeError:
             payload = {"error": "invalid json from git-fetcher", "stdout": proc.stdout[:500]}
         self._json(payload)
+
+    def _handle_reminders(self) -> None:
+        """スナップショットファイル `_ kiwami/tools/daily-log/reminders-snapshot.json` を読む。
+
+        macOS の TCC（プライバシー制御）の制約で、launchd-spawned daily-log-server から
+        直接 reminders-cli / osascript を呼んでも Reminders DB へのアクセスが silently
+        拒否される。回避策として、Terminal context（Claudian の Bash ツール経由 or 手動 cli）
+        から定期的にスナップショットを書き出し、本サーバーはそれを読むだけにする。
+
+        スナップショット書き込み元: `~/bin/daily-log/reminders-snapshot.sh`
+        書き込みタイミング:
+          - Claudian の `/show-reminders` 実行時（自動）
+          - Claudian の `/sync-reminders` 実行時（自動）
+          - ユーザーが Terminal から `~/bin/daily-log/reminders-snapshot.sh` を手動実行
+          - launchd の com.user.reminders-snapshot エージェント（10分ごと、Aqua TCC を持つbashで実行）
+        CLAUDE.md「⏰ 絶対ルール」読み取り権限に準拠（add/complete/delete/edit は呼ばない）。
+        """
+        snapshot_path = BASE / "reminders-snapshot.json"
+
+        if not snapshot_path.exists():
+            self._json({
+                "available": False,
+                "error": (
+                    "リマインダーのスナップショットがまだありません。"
+                    "Claudian で `/show-reminders` を一度実行するか、ターミナルから "
+                    "`~/bin/daily-log/reminders-snapshot.sh` を実行してください。"
+                ),
+            })
+            return
+
+        try:
+            with snapshot_path.open(encoding="utf-8") as f:
+                snapshot = json.load(f)
+        except (OSError, json.JSONDecodeError) as e:
+            self._json({"available": False, "error": f"スナップショット読み込み失敗: {e}"}, status=500)
+            return
+
+        # スナップショットの鮮度チェック
+        try:
+            mtime = datetime.fromtimestamp(snapshot_path.stat().st_mtime).astimezone()
+        except OSError:
+            mtime = None
+
+        # スナップショットフォーマットを期待する形に整形
+        # スナップショット形式: { "fetched_at": ISO, "lists": { "<list>": [reminders...] } }
+        reminders_by_list: dict[str, list[dict]] = snapshot.get("lists", {}) or {}
+        for ln in reminders_by_list:
+            for r in reminders_by_list[ln]:
+                r.setdefault("list", ln)
+                r.setdefault("isCompleted", False)
+
+        # 期限3日以内（緊急枠）を抽出
+        now = datetime.now().astimezone()
+        urgent_cutoff = now + timedelta(days=3)
+        urgent: list[dict] = []
+        for list_name, items in reminders_by_list.items():
+            for r in items:
+                due_str = r.get("dueDate")
+                if not due_str:
+                    continue
+                try:
+                    due = datetime.fromisoformat(due_str.replace("Z", "+00:00"))
+                    if due <= urgent_cutoff:
+                        urgent.append({**r, "list": list_name})
+                except (ValueError, AttributeError):
+                    continue
+
+        # 期限順ソート（期限なしは後ろ）
+        def due_key(r: dict) -> tuple[int, str]:
+            d = r.get("dueDate")
+            return (0, d) if d else (1, "")
+
+        for ln in reminders_by_list:
+            reminders_by_list[ln].sort(key=due_key)
+        urgent.sort(key=due_key)
+
+        # 集計
+        total_pending = sum(len(items) for items in reminders_by_list.values())
+        overdue = sum(
+            1 for items in reminders_by_list.values() for r in items
+            if r.get("dueDate") and datetime.fromisoformat(
+                r["dueDate"].replace("Z", "+00:00")
+            ) < now
+        )
+
+        # 鮮度判定（30分以上前なら "stale" 表示）
+        snapshot_fetched_at = snapshot.get("fetched_at") or (mtime.isoformat() if mtime else now.isoformat())
+        stale_threshold = timedelta(minutes=30)
+        is_stale = False
+        if mtime is not None:
+            is_stale = (now - mtime) > stale_threshold
+
+        self._json({
+            "available": True,
+            "fetched_at": snapshot_fetched_at,
+            "served_at": now.isoformat(),
+            "stale": is_stale,
+            "lists": reminders_by_list,
+            "urgent": urgent,  # 期限3日以内（リスト横断）
+            "summary": {
+                "total_pending": total_pending,
+                "overdue": overdue,
+                "urgent": len(urgent),
+                "list_count": len(reminders_by_list),
+            },
+        })
 
     def _handle_save_md(self, date_key: str) -> None:
         if not self._validate_date(date_key):

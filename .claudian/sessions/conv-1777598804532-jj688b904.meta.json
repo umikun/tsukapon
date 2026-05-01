@@ -4,8 +4,8 @@
   "title": "解説: 第1リプ呼び水",
   "titleGenerationStatus": "success",
   "createdAt": 1777598804537,
-  "updatedAt": 1777605359297,
-  "lastResponseAt": 1777605359297,
+  "updatedAt": 1777609067798,
+  "lastResponseAt": 1777608770969,
   "sessionId": "030f7665-b124-4d4f-a9c2-8647650386ec",
   "providerState": {
     "providerSessionId": "030f7665-b124-4d4f-a9c2-8647650386ec",
@@ -88,12 +88,12 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 6,
-    "cacheCreationInputTokens": 7961,
-    "cacheReadInputTokens": 223699,
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 380,
+    "cacheReadInputTokens": 347194,
     "contextWindow": 1000000,
-    "contextTokens": 231666,
-    "percentage": 23,
+    "contextTokens": 347575,
+    "percentage": 35,
     "contextWindowIsAuthoritative": true
   }
 }

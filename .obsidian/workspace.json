@@ -114,30 +114,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/note/note-20260501.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "note-20260501"
-            }
-          },
-          {
-            "id": "7620454961919424",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/archive/confirmed/2026-05-01-manus-cloud-computer.md",
+                "file": "Clippings/Post by @Fluyeporlaweb on X.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-01-manus-cloud-computer"
+              "title": "Post by @Fluyeporlaweb on X"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -314,26 +300,34 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2f1d24d5bf6ae639",
+  "active": "06f2ce9f5376062c",
   "lastOpenFiles": [
-    "SNS運用/post/draft/20260427_critique_series_04_obsidian-second-brain.md",
+    "SNS運用/archive/confirmed/2026-05-01-pi-hole-network-ad-blocker.md",
+    "Clippings/Post by @Fluyeporlaweb on X.md",
+    "Clippings/pi-holepi-hole A black hole for Internet advertisements.md",
+    "SNS運用/ネタ/2026-05-01-gemini-cli-v0-40-update.md",
+    "Clippings/Claude Codeに似てきた？【最新アップデート】Gemini CLI〜v0.40で何が変わったか〜.md",
+    "Daily Log/2026-04-30.md",
+    "Daily Log/memo/2026-04-30.md",
+    "SNS運用/note/note-20260501.md",
+    "_ kiwami/tools/daily-log/reminders-snapshot.json",
+    "SNS運用/archive/confirmed/2026-05-01-manus-cloud-computer.md",
     "SNS運用/action-20260501.md",
+    "SNS運用/archive/action/action-20260430.md",
+    "SNS運用/post/draft/20260427_critique_series_04_obsidian-second-brain.md",
     "SNS運用/analytics/screenshots/W18-Threads-day97-am-60min.png",
     "SNS運用/analytics/screenshots/W18-day97-am-60min.png",
     "SNS運用/threads/Threads-day97.md",
-    "SNS運用/note/note-20260501.md",
     "SNS運用/post/thread/20260501_note紹介スレッド.md",
     "SNS運用/analytics/news_thread_v2.md",
     "SNS運用/post/draft/20260501_threads_profile_candidates.md",
     "SNS運用/post/day97.md",
-    "SNS運用/archive/confirmed/2026-05-01-manus-cloud-computer.md",
     "Clippings/Post by @masahirochaen on X.md",
     "調査/2026-04-29-birdclaw-x-archive-tool.md",
     "SNS運用/サムネイル作成/~ai-14f69f0c-8f26-4009-9723-de2ddd003b57_.tmp",
     "SNS運用/title/title-20260501.md",
     "SNS運用/サムネイル作成/~ai-f9e55b66-60dc-44ac-8439-a2ea4f89cd43_.tmp",
     "SNS運用/サムネイル作成/~ai-6714f384-2beb-4386-bba5-8d0ad740241b_.tmp",
-    "SNS運用/archive/action/action-20260430.md",
     "SNS運用/post/article/X-20260501.md",
     "_ kiwami/tools/daily-log/clockify/2026-05-01.json",
     "SNS運用/note/note-20260430.md",
@@ -343,16 +337,9 @@
     "SNS運用/analytics/source/twitter-2026-04-30-db699524b3e1fd4186ad3150284c7b266801e1c67040b00018dbef6aad99687a.zip",
     "SNS運用/archive/x-history/README.md",
     "SNS運用/archive/x-history/articles/_index.md",
-    "SNS運用/archive/x-history/articles/2048265188747722752_上司が_AI部署_を作る日。3兆ドルIPO×エンジニア消滅5選.md",
-    "SNS運用/archive/x-history/articles/2046797935917330432_AI勝負は_電力_で決まる時代へ。上司が来週振る_物理戦_対応4選【保存版】.md",
-    "SNS運用/archive/x-history/articles/2046078936887808000_Meta8000人切り、次はあなたの職場。AIで消える仕事の最前線【AI5選】.md",
-    "SNS運用/archive/x-history/articles/2044951754723471360_AI業界の「王座」が今日入れ替わった！.md",
-    "SNS運用/archive/x-history/articles/2034107873756909570_【2026_03_18 最新AIニュースまとめ】OS×AIエージェントの時代到来！Gemini最強更新 & EU規制が動.md",
-    "SNS運用/archive/x-history/articles/2033748192341463042_【2026_03_17 最新AIニュースまとめ】NVIDIA新アーキテクチャ発表と「エージェントAI」の本格化！.md",
     "SNS運用/archive/x-history/social/following.jsonl",
     "SNS運用/archive/x-history/social/followers.jsonl",
     "SNS運用/archive/x-history/likes/likes.jsonl",
-    "SNS運用/archive/x-history/tweets/tweets.jsonl",
     "SNS運用/analytics/screenshots/W18-dayone-x-c-EOD..png",
     "SNS運用/analytics/screenshots/W18-note-thread-20260429-EOD.png",
     "SNS運用/analytics/screenshots/W18-pin-dayE1-day3-EOD.png",

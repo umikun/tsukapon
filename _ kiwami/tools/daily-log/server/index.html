@@ -419,6 +419,74 @@
   ::-webkit-scrollbar-thumb { background: var(--card-raised); border-radius: 6px; }
   ::-webkit-scrollbar-thumb:hover { background: var(--border); }
 
+  /* === リマインダー === */
+  .reminders-card .reminders-section { margin-top: 12px; }
+  .reminders-card .reminders-section:first-child { margin-top: 8px; }
+  .reminders-card .reminders-section.urgent .subsection-title {
+    color: #ff7b54;
+  }
+  .reminders-card .subsection-title {
+    font-size: 12px; font-weight: 600; color: var(--text-dim);
+    margin: 0 0 6px 0; padding: 4px 0; text-transform: none;
+    letter-spacing: 0; border-bottom: 1px solid var(--border);
+  }
+  .reminders-card .reminder-list {
+    list-style: none; padding: 0; margin: 0;
+  }
+  .reminders-card .reminder-item {
+    display: grid;
+    grid-template-columns: 16px 1fr auto auto;
+    gap: 10px; align-items: center;
+    padding: 8px 6px; border-radius: 6px;
+    font-size: 13px; line-height: 1.4;
+  }
+  .reminders-card .reminder-item:hover {
+    background: var(--card-raised);
+  }
+  .reminders-card .reminder-item + .reminder-item {
+    border-top: 1px solid var(--border);
+  }
+  .reminders-card .reminder-priority {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: transparent;
+  }
+  .reminders-card .reminder-priority.high { background: #ff5555; }
+  .reminders-card .reminder-priority.medium { background: #f1c40f; }
+  .reminders-card .reminder-priority.low { background: #54a0ff; }
+  .reminders-card .reminder-title {
+    color: var(--text);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .reminders-card .reminder-due {
+    font-size: 11px; color: var(--text-dim);
+    font-family: "SF Mono", Menlo, monospace;
+    white-space: nowrap;
+  }
+  .reminders-card .reminder-due.overdue { color: #ff5555; font-weight: 600; }
+  .reminders-card .reminder-due.today { color: #ffaa44; font-weight: 600; }
+  .reminders-card .reminder-due.soon { color: #ffd166; }
+  .reminders-card .reminder-list-tag {
+    font-size: 10px; padding: 2px 6px;
+    background: var(--card-raised); border-radius: 3px;
+    color: var(--text-dim);
+  }
+  .reminders-card .reminders-empty {
+    color: var(--text-dim); font-size: 13px; padding: 8px 0;
+  }
+  .reminders-card .reminders-summary {
+    font-size: 11px; color: var(--text-dim);
+    margin-top: 12px; padding-top: 8px;
+    border-top: 1px solid var(--border);
+    display: flex; gap: 16px; flex-wrap: wrap;
+  }
+  .reminders-card .reminders-summary .stat {
+    display: inline-flex; gap: 4px; align-items: center;
+  }
+  .reminders-card .reminders-summary .stat .num {
+    font-weight: 600; color: var(--text);
+    font-family: "SF Mono", Menlo, monospace;
+  }
+
   @media (max-width: 600px) {
     body { padding: 16px; }
     .clockify-list li { grid-template-columns: 60px 50px 1fr; }
@@ -480,6 +548,17 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="card reminders-card">
+    <div class="section-title">
+      ⏰ リマインダー
+      <span class="badge loading" id="reminders-status">読込中</span>
+      <span style="flex:1"></span>
+      <span class="dur" id="reminders-fetched-at"></span>
+      <button type="button" class="btn-fetch" id="btn-reminders-refresh" title="リマインダーを再読込">🔄</button>
+    </div>
+    <div id="reminders-body"></div>
   </div>
 
   <div class="card">
@@ -1043,7 +1122,144 @@
   }
 
   async function loadAllSources() {
-    await Promise.all([loadActivity(), loadClockify(), loadFiles(), loadMemo(), loadCommits()]);
+    await Promise.all([loadActivity(), loadClockify(), loadFiles(), loadMemo(), loadCommits(), loadReminders()]);
+  }
+
+  // === リマインダー ===
+  function fmtReminderDue(iso) {
+    if (!iso) return { text: '—', cls: '' };
+    const due = new Date(iso);
+    if (Number.isNaN(due.getTime())) return { text: '—', cls: '' };
+    const now = new Date();
+    const todayStr = now.toLocaleDateString('ja-JP');
+    const dueDateStr = due.toLocaleDateString('ja-JP');
+    const diffMs = due.getTime() - now.getTime();
+    const diffDays = Math.floor(diffMs / (24 * 60 * 60 * 1000));
+    const hh = String(due.getHours()).padStart(2, '0');
+    const mm = String(due.getMinutes()).padStart(2, '0');
+    const time = (hh === '00' && mm === '00') ? '' : ` ${hh}:${mm}`;
+    if (diffMs < 0) {
+      return { text: `🔴 ${due.getMonth() + 1}/${due.getDate()}${time} 過ぎ`, cls: 'overdue' };
+    }
+    if (todayStr === dueDateStr) {
+      return { text: `今日${time}`, cls: 'today' };
+    }
+    const tomorrow = new Date(now); tomorrow.setDate(tomorrow.getDate() + 1);
+    if (tomorrow.toLocaleDateString('ja-JP') === dueDateStr) {
+      return { text: `明日${time}`, cls: 'soon' };
+    }
+    if (diffDays <= 7) {
+      const wd = ['日','月','火','水','木','金','土'][due.getDay()];
+      return { text: `${due.getMonth() + 1}/${due.getDate()} (${wd})${time}`, cls: 'soon' };
+    }
+    return { text: `${due.getMonth() + 1}/${due.getDate()}${time}`, cls: '' };
+  }
+
+  function priorityClass(p) {
+    if (p === 1) return 'high';
+    if (p === 5) return 'medium';
+    if (p === 9) return 'low';
+    return '';
+  }
+
+  function renderReminderItems(items, showListTag = false) {
+    if (!items.length) {
+      return `<div class="reminders-empty">なし</div>`;
+    }
+    return `
+      <ul class="reminder-list">
+        ${items.map(r => {
+          const due = fmtReminderDue(r.dueDate);
+          const pCls = priorityClass(r.priority);
+          const tag = showListTag ? `<span class="reminder-list-tag">${escapeHtml(r.list || '')}</span>` : '';
+          return `
+            <li class="reminder-item">
+              <span class="reminder-priority ${pCls}" title="${pCls || 'priority none'}"></span>
+              <span class="reminder-title" title="${escapeHtml(r.title || '')}">${escapeHtml(r.title || '')}</span>
+              ${tag}
+              <span class="reminder-due ${due.cls}">${escapeHtml(due.text)}</span>
+            </li>
+          `;
+        }).join('')}
+      </ul>
+    `;
+  }
+
+  async function loadReminders() {
+    const body = document.getElementById('reminders-body');
+    const fetchedEl = document.getElementById('reminders-fetched-at');
+    setStatus('reminders-status', 'loading', '読込中');
+    fetchedEl.textContent = '';
+    try {
+      const res = await fetch('/api/reminders');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!data.available) {
+        setStatus('reminders-status', 'error', '利用不可');
+        body.innerHTML = `<div class="warning">${escapeHtml(data.error || 'reminders-cli が利用できません')}</div>`;
+        return;
+      }
+
+      const summary = data.summary || {};
+      const lists = data.lists || {};
+      const urgent = data.urgent || [];
+      const sections = [];
+
+      // 緊急枠（期限3日以内・全リスト横断）
+      if (urgent.length) {
+        sections.push(`
+          <div class="reminders-section urgent">
+            <div class="subsection-title">🚨 期限3日以内（${urgent.length}件）</div>
+            ${renderReminderItems(urgent, true)}
+          </div>
+        `);
+      }
+
+      // Tsukapon リスト
+      const tsukapon = lists['Tsukapon'] || [];
+      sections.push(`
+        <div class="reminders-section">
+          <div class="subsection-title">📋 Tsukapon（${tsukapon.length}件）</div>
+          ${renderReminderItems(tsukapon, false)}
+        </div>
+      `);
+
+      // 個人リスト（Tsukapon以外）
+      const personalLists = Object.keys(lists).filter(n => n !== 'Tsukapon');
+      for (const ln of personalLists) {
+        const items = lists[ln];
+        if (!items.length) continue;
+        sections.push(`
+          <div class="reminders-section">
+            <div class="subsection-title">📂 ${escapeHtml(ln)}（${items.length}件）</div>
+            ${renderReminderItems(items, false)}
+          </div>
+        `);
+      }
+
+      sections.push(`
+        <div class="reminders-summary">
+          <span class="stat">未完了 <span class="num">${summary.total_pending || 0}</span></span>
+          <span class="stat">期限超過 <span class="num">${summary.overdue || 0}</span></span>
+          <span class="stat">3日以内 <span class="num">${summary.urgent || 0}</span></span>
+          <span class="stat">リスト数 <span class="num">${summary.list_count || 0}</span></span>
+        </div>
+      `);
+
+      body.innerHTML = sections.join('');
+      setStatus('reminders-status', 'ok', `${summary.total_pending || 0}件`);
+
+      // 取得時刻の表示
+      if (data.fetched_at) {
+        const t = new Date(data.fetched_at);
+        const hh = String(t.getHours()).padStart(2, '0');
+        const mm = String(t.getMinutes()).padStart(2, '0');
+        fetchedEl.textContent = `更新 ${hh}:${mm}`;
+      }
+    } catch (e) {
+      setStatus('reminders-status', 'error', 'エラー');
+      body.innerHTML = `<div class="warning"><strong>取得失敗:</strong> ${escapeHtml(e.message)}</div>`;
+    }
   }
 
   async function loadCommits() {
@@ -1434,6 +1650,10 @@
   document.getElementById('btn-fetch').addEventListener('click', triggerFetch);
   setInterval(updateFetchMeta, 60000);
   updateFetchMeta();
+
+  document.getElementById('btn-reminders-refresh').addEventListener('click', () => {
+    loadReminders();
+  });
 
   render();
   loadAllSources();
