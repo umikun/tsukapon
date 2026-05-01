@@ -4,8 +4,8 @@
   "title": "アクション生成時の投稿スケジュール変更",
   "titleGenerationStatus": "success",
   "createdAt": 1777610293492,
-  "updatedAt": 1777611348013,
-  "lastResponseAt": 1777611348013,
+  "updatedAt": 1777622608958,
+  "lastResponseAt": 1777622608958,
   "sessionId": "fc1a467e-f385-4058-b207-2678956cb760",
   "providerState": {
     "providerSessionId": "fc1a467e-f385-4058-b207-2678956cb760"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 1992,
-    "cacheReadInputTokens": 102522,
+    "cacheCreationInputTokens": 7311,
+    "cacheReadInputTokens": 123016,
     "contextWindow": 1000000,
-    "contextTokens": 104515,
-    "percentage": 10,
+    "contextTokens": 130328,
+    "percentage": 13,
     "contextWindowIsAuthoritative": true
   }
 }
