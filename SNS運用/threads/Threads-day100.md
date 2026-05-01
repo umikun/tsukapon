@@ -5,6 +5,7 @@
 > - ⬅️ 前日のThreads: [[SNS運用/threads/Threads-day99.md]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day101.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
+> - 🆕 同日Threadsプロフ改装案（⭐ NEW 2026-05-01）: [[SNS運用/post/draft/20260501_threads_profile_candidates.md]]
 > - 📋 Threads運用戦略: [[SNS運用/Threads運用.md]]
 
 ## 投稿①（朝）

@@ -4,8 +4,8 @@
   "title": "Generate daily SNS action plan",
   "titleGenerationStatus": "success",
   "createdAt": 1777584675651,
-  "updatedAt": 1777591779383,
-  "lastResponseAt": 1777591779383,
+  "updatedAt": 1777594062355,
+  "lastResponseAt": 1777594062355,
   "sessionId": "d82baacc-7c2b-4c89-a26b-7ddecd26c264",
   "providerState": {
     "providerSessionId": "d82baacc-7c2b-4c89-a26b-7ddecd26c264"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 7781,
-    "cacheReadInputTokens": 216530,
+    "cacheCreationInputTokens": 882,
+    "cacheReadInputTokens": 244740,
     "contextWindow": 1000000,
-    "contextTokens": 224312,
-    "percentage": 22,
+    "contextTokens": 245623,
+    "percentage": 25,
     "contextWindowIsAuthoritative": true
   }
 }
