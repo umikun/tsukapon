@@ -47,7 +47,9 @@
       "Bash(mkdir -p ~/.claude/commands && ls -la ~/.claude/commands/)",
       "Write(/Users/fukuokase/.claude/commands/reply.md)",
       "Write(/Users/fukuokase/.claude/commands/deep-dive.md)",
-      "Bash(last reboot *)"
+      "Bash(last reboot *)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/news-thread.md)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/quote-rewrite.md)"
     ]
   },
   "hooks": {
