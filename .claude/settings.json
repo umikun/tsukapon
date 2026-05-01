@@ -49,7 +49,9 @@
       "Write(/Users/fukuokase/.claude/commands/deep-dive.md)",
       "Bash(last reboot *)",
       "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/news-thread.md)",
-      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/quote-rewrite.md)"
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/quote-rewrite.md)",
+      "Write(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/sync-reminders.md)",
+      "Edit(/Users/fukuokase/Library/Mobile Documents/iCloud~md~obsidian/Documents/Tsukapon/.claude/commands/sync-reminders.md)"
     ]
   },
   "hooks": {

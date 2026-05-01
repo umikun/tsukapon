@@ -637,6 +637,42 @@ grep -E "day{X番号}\.md|Threads-day{番号}\.md" "SNS運用/action-YYYYMMDD.md
 - **抽象的なアクションは禁止**（「頑張る」「改善する」NG）。必ず実行可能な手順とコピペ本文を含める
 - **AIっぽい硬い文章にしない**。チェックリストと短文で「すぐ動ける」状態にする
 
+#### 11-6. Apple Reminders への自動同期 ⭐ NEW 2026-05-01
+
+`SNS運用/action-YYYYMMDD.md` の保存・検証完了直後に、`/sync-reminders` スキルの処理を**自動で呼び出す**。タイムライン早見表の各エントリを macOS Reminders の `Tsukapon` リストに登録し、iPhone・Apple Watch でも時刻通りに通知を受けられる状態を作る。
+
+**実行コマンド（Bashツールで実行）:**
+
+```bash
+# 1. リスト存在確認
+reminders show-lists | grep -q "^Tsukapon$" || reminders new-list "Tsukapon"
+
+# 2. 既存の同タイトルを取得して重複防止
+existing=$(reminders show Tsukapon --format json 2>/dev/null | python3 -c 'import json,sys; data=json.load(sys.stdin); [print(r["title"]) for r in data]' 2>/dev/null)
+
+# 3. 早見表の各行を抽出して登録
+#    タイトル形式: "HH:MM {アイコン} {内容}"
+#    --due-date は "YYYY-MM-DD HH:MM" 形式
+reminders add Tsukapon "HH:MM 🧵 内容" --due-date "YYYY-MM-DD HH:MM"
+```
+
+**スキップ条件:**
+
+- 同タイトルが既に `Tsukapon` リストに存在する → スキップ（重複防止）
+- 9時前の時刻枠（運用制約・CLAUDE.md「📅 タイムライン早見表」ルール準拠）→ スキップ
+- `reminders` コマンドが見つからない（未インストール）→ 警告のみで続行
+
+**完了報告（Step 10 の追加項目）:**
+
+- 「⏰ Apple Reminders 同期: N件追加 / M件スキップ（重複）」を完了報告に1行入れる
+- 失敗時は「⏰ Apple Reminders 同期失敗（理由: ○○）」と理由を1行報告
+
+**禁止事項:**
+
+- `Tsukapon` 以外のリストには絶対に書き込まない
+- 既存リマインダーのタイトル変更や削除はしない（ユーザー操作を尊重）
+- Step 11 全体の処理を Reminders 同期の失敗で止めない（best-effort）
+
 ---
 
 ## 制約事項
