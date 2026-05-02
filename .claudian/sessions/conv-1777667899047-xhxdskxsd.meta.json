@@ -4,8 +4,8 @@
   "title": "Generate daily action plan",
   "titleGenerationStatus": "success",
   "createdAt": 1777667899047,
-  "updatedAt": 1777668779725,
-  "lastResponseAt": 1777668779725,
+  "updatedAt": 1777682239347,
+  "lastResponseAt": 1777682239347,
   "sessionId": "0685c069-59aa-4ecb-8a8f-5a5a6aac3094",
   "providerState": {
     "providerSessionId": "0685c069-59aa-4ecb-8a8f-5a5a6aac3094"
@@ -13,11 +13,11 @@
   "currentNote": "SNS運用/note/note-20260502.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 215,
-    "cacheReadInputTokens": 146502,
+    "inputTokens": 6,
+    "cacheCreationInputTokens": 1176,
+    "cacheReadInputTokens": 152232,
     "contextWindow": 1000000,
-    "contextTokens": 146718,
+    "contextTokens": 153414,
     "percentage": 15,
     "contextWindowIsAuthoritative": true
   }

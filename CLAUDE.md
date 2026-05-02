@@ -38,7 +38,7 @@ vault全体で守るべき振る舞いを宣言する場所。
 
 - **パス**: vault内の操作は相対パス。外部（`/Volumes/`、`~/` など）は絶対パス
 - **削除**: `rm` は禁止。削除は `mv "対象" "/Volumes/500GB/_trash/_ claude/"` を使う
-- **バックアップ**: 1時間ごとに launchd が Google Drive へ同期しているため、作業の消失リスクは低い
+- **バックアップ**: 1時間ごとに launchd が MEGA へ同期しているため、作業の消失リスクは低い
 
 ---
 
@@ -440,7 +440,7 @@ W{週番号}-{施策名}-{タイミング}-{連番/任意}.png
 | 週次分析の生CSV（Xアナリティクスエクスポート） | `SNS運用/analytics/source/` |
 | アーカイブ済みノート集約 | `SNS運用/archive/{post,threads,note}/` |
 | 未稼働プラットフォーム待機所 | `SNS運用/pending/{instagram,youtube,short-movie,note-sub}/` |
-| 外部バックアップ先 | `/Volumes/500GB/GoogleDrive/Tsukapon/` |
+| 外部バックアップ先 | `/Volumes/500GB/MEGA/Tsukapon/` |
 
 ---
 

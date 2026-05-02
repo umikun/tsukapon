@@ -41,7 +41,13 @@
       "Bash(/usr/bin/python3 \"_ kiwami/tools/daily-log/analytics.py\" daily 2026-04-29)",
       "Bash(grep -v \"^$\")",
       "Bash(/usr/bin/python3 \"_ kiwami/tools/daily-log/analytics.py\" daily 2026-04-30)",
-      "Bash(/usr/bin/python3 \"_ kiwami/tools/daily-log/analytics.py\" daily 2026-05-01)"
+      "Bash(/usr/bin/python3 \"_ kiwami/tools/daily-log/analytics.py\" daily 2026-05-01)",
+      "Bash(command -v reminders)",
+      "Bash(reminders show *)",
+      "Bash(bash ~/bin/daily-log/reminders-snapshot.sh)",
+      "Bash(bash -x ~/bin/daily-log/reminders-snapshot.sh)",
+      "Bash(sips *)",
+      "Bash(grep *)"
     ]
   }
 }
