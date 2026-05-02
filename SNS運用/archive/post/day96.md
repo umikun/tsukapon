@@ -3,7 +3,7 @@
 > **🔗 関連コンテンツ**
 > - 🧵 対応するThreads: [[Threads-day96]]
 > - ⬅️ 前日のX投稿: [[SNS運用/archive/post/day95]]
-> - ➡️ 翌日のX投稿: [[SNS運用/post/day97.md]]
+> - ➡️ 翌日のX投稿: [[day97]]
 > - 👥 フォロワー改善メモ: [[SNS運用/analytics/フォロワー改善.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 > - 🐦 同日連投シリーズ④: [[SNS運用/post/draft/20260427_critique_series_04_obsidian-second-brain.md]]

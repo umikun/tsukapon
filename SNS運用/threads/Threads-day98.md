@@ -2,7 +2,7 @@
 
 > **🔗 関連コンテンツ**
 > - ✖️ 対応するX投稿: [[SNS運用/post/day98.md]]
-> - ⬅️ 前日のThreads: [[SNS運用/threads/Threads-day97.md]]
+> - ⬅️ 前日のThreads: [[Threads-day97]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day99.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]
 > - 📋 Threads運用戦略: [[SNS運用/Threads運用.md]]

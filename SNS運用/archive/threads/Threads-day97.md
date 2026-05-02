@@ -1,7 +1,7 @@
 # Day 97：4月できなかったことを3つ書く
 
 > **🔗 関連コンテンツ**
-> - ✖️ 対応するX投稿: [[SNS運用/post/day97.md]]
+> - ✖️ 対応するX投稿: [[day97]]
 > - ⬅️ 前日のThreads: [[Threads-day96]]
 > - ➡️ 翌日のThreads: [[SNS運用/threads/Threads-day98.md]]
 > - 🧵 Threadsプロフィール: [[SNS運用/archive/threads/profile]]

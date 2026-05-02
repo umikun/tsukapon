@@ -58,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/note/_有料記事/20260426_dayone_promo.md",
+                "file": "SNS運用/post/day98.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260426_dayone_promo"
+              "title": "day98"
             }
           },
           {
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -258,15 +258,20 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "9759c2444dfbeca2",
   "lastOpenFiles": [
+    "SNS運用/サムネイル作成/~ai-14f69f0c-8f26-4009-9723-de2ddd003b57_.tmp",
+    "SNS運用/archive/post/day97.md",
+    "SNS運用/title/title-20260502.md",
+    "SNS運用/サムネイル作成/~ai-f9e55b66-60dc-44ac-8439-a2ea4f89cd43_.tmp",
+    "SNS運用/サムネイル作成/~ai-6714f384-2beb-4386-bba5-8d0ad740241b_.tmp",
+    "SNS運用/note/_有料記事/20260426_dayone_promo.md",
+    "SNS運用/note/note-20260502.md",
     "SNS運用/action-20260502.md",
     "SNS運用/post/thread/20260502_note紹介スレッド.md",
     "SNS運用/post/article/X-20260502.md",
-    "SNS運用/title/title-20260502.md",
     "_ kiwami/tools/daily-log/clockify/2026-05-02.json",
     "SNS運用/action-20260501.md",
-    "SNS運用/note/note-20260502.md",
     "Daily Log/memo/2026-05-01.md",
     "SNS運用/analytics/screenshots/Xプロフ訪問率の本日値メモ.png",
     "SNS運用/analytics/screenshots/Threadsプロフィール訪問数の本日値メモ.png",
@@ -276,12 +281,11 @@
     "SNS運用/ネタ/2026-05-01-vaultwarden-self-hosted-bitwarden.md",
     "Clippings/Post by @ihtesham2005 on X.md",
     "Clippings/Post by @Oluwaphilemon1 on X.md",
-    "SNS運用/note/_有料記事/20260426_dayone_promo.md",
     "SNS運用/analytics/screenshots/W18-series04-180min.JPG",
     "調査/2026-05-01-claude-design-mcp-anti-ai-slop.md",
     "SNS運用/archive/confirmed/2026-05-01-rustyseo-technical-seo-toolkit.md",
     "SNS運用/post/thread/20260501_note紹介スレッド.md",
-    "SNS運用/threads/Threads-day97.md",
+    "SNS運用/archive/threads/Threads-day97.md",
     "SNS運用/post/draft/20260427_critique_series_04_obsidian-second-brain.md",
     "SNS運用/analytics/screenshots/W18-news-thread-v2-180min.JPG",
     "Clippings/Post by @Fluyeporlaweb on X.md",
@@ -293,13 +297,8 @@
     "Daily Log/memo/2026-04-30.md",
     "SNS運用/note/note-20260501.md",
     "_ kiwami/tools/daily-log/reminders-snapshot.json",
-    "SNS運用/archive/confirmed/2026-05-01-manus-cloud-computer.md",
-    "SNS運用/archive/action/action-20260430.md",
     "SNS運用/analytics/screenshots/W18-Threads-day97-am-60min.png",
     "SNS運用/analytics/screenshots/W18-day97-am-60min.png",
-    "SNS運用/サムネイル作成/~ai-14f69f0c-8f26-4009-9723-de2ddd003b57_.tmp",
-    "SNS運用/サムネイル作成/~ai-f9e55b66-60dc-44ac-8439-a2ea4f89cd43_.tmp",
-    "SNS運用/サムネイル作成/~ai-6714f384-2beb-4386-bba5-8d0ad740241b_.tmp",
     "_ kiwami/tools/daily-log/clockify/2026-05-01.json",
     "_ kiwami/tools/daily-log/activity/2026-05-01.jsonl",
     "SNS運用/analytics/source/twitter-2026-04-30-db699524b3e1fd4186ad3150284c7b266801e1c67040b00018dbef6aad99687a.zip",
