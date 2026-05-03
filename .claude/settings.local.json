@@ -47,7 +47,27 @@
       "Bash(bash ~/bin/daily-log/reminders-snapshot.sh)",
       "Bash(bash -x ~/bin/daily-log/reminders-snapshot.sh)",
       "Bash(sips *)",
-      "Bash(grep *)"
+      "Bash(grep *)",
+      "Bash(/usr/bin/python3 /Users/fukuokase/bin/daily-log/activity-tracker.py)",
+      "Bash(sudo pmset *)",
+      "Bash(pmset -g)",
+      "Bash(pmset -g custom)",
+      "Bash(sudo -n true)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(defaults read *)",
+      "Bash(sudo grep *)",
+      "Bash(crontab -l)",
+      "Bash(mv \"/Volumes/500GB/GoogleDrive/antigravity\" \"/Volumes/500GB/antigravity\")",
+      "Read(//Volumes/500GB/**)",
+      "Bash(git -C \"/Volumes/500GB/antigravity/rss-reader\" remote -v)",
+      "Bash(git -C \"/Volumes/500GB/antigravity/rss-reader\" remote get-url origin)",
+      "Bash(git -C \"/Volumes/500GB/antigravity/rss-reader\" remote set-url origin \"https://github.com/umikun/rss-reader.git\")",
+      "Bash(open *)",
+      "Bash(mv /Volumes/500GB/GoogleDrive/_personal-information /Volumes/500GB/_personal-information)",
+      "Bash(mv /Volumes/500GB/GoogleDrive/.DS_Store '/Volumes/500GB/_trash/_ claude/GoogleDrive-DS_Store-20260503')",
+      "Bash(mv /Volumes/500GB/GoogleDrive/.claude '/Volumes/500GB/_trash/_ claude/GoogleDrive-claude設定-20260503')",
+      "Bash(mv /Volumes/500GB/GoogleDrive/.tmp.driveupload '/Volumes/500GB/_trash/_ claude/GoogleDrive-tmp.driveupload-20260503')",
+      "Bash(mv /Volumes/500GB/GoogleDrive/note-chack '/Volumes/500GB/_trash/_ claude/GoogleDrive-note-chack-20260503')"
     ]
   }
 }

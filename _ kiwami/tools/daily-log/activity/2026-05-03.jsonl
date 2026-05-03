@@ -1,0 +1,808 @@
+{"ts": "00:00", "app": "stable", "title": "", "idle": 5533, "cat": "idle"}
+{"ts": "00:01", "app": "stable", "title": "", "idle": 5594, "cat": "idle"}
+{"ts": "00:02", "app": "stable", "title": "", "idle": 5654, "cat": "idle"}
+{"ts": "00:03", "app": "stable", "title": "", "idle": 5715, "cat": "idle"}
+{"ts": "00:04", "app": "stable", "title": "", "idle": 5775, "cat": "idle"}
+{"ts": "00:05", "app": "stable", "title": "", "idle": 5836, "cat": "idle"}
+{"ts": "00:06", "app": "stable", "title": "", "idle": 5896, "cat": "idle"}
+{"ts": "00:07", "app": "stable", "title": "", "idle": 5957, "cat": "idle"}
+{"ts": "00:08", "app": "stable", "title": "", "idle": 6017, "cat": "idle"}
+{"ts": "00:09", "app": "stable", "title": "", "idle": 6077, "cat": "idle"}
+{"ts": "00:10", "app": "stable", "title": "", "idle": 6138, "cat": "idle"}
+{"ts": "00:11", "app": "stable", "title": "", "idle": 6198, "cat": "idle"}
+{"ts": "00:12", "app": "stable", "title": "", "idle": 6259, "cat": "idle"}
+{"ts": "00:13", "app": "stable", "title": "", "idle": 6319, "cat": "idle"}
+{"ts": "00:15", "app": "stable", "title": "", "idle": 6440, "cat": "idle"}
+{"ts": "00:16", "app": "stable", "title": "", "idle": 6501, "cat": "idle"}
+{"ts": "00:19", "app": "stable", "title": "", "idle": 6682, "cat": "idle"}
+{"ts": "00:20", "app": "stable", "title": "", "idle": 6742, "cat": "idle"}
+{"ts": "00:21", "app": "stable", "title": "", "idle": 6803, "cat": "idle"}
+{"ts": "00:22", "app": "stable", "title": "", "idle": 6864, "cat": "idle"}
+{"ts": "00:23", "app": "stable", "title": "", "idle": 6925, "cat": "idle"}
+{"ts": "00:24", "app": "stable", "title": "", "idle": 6985, "cat": "idle"}
+{"ts": "00:25", "app": "stable", "title": "", "idle": 7046, "cat": "idle"}
+{"ts": "00:26", "app": "stable", "title": "", "idle": 7106, "cat": "idle"}
+{"ts": "00:27", "app": "stable", "title": "", "idle": 7167, "cat": "idle"}
+{"ts": "00:28", "app": "stable", "title": "", "idle": 7227, "cat": "idle"}
+{"ts": "00:29", "app": "stable", "title": "", "idle": 7288, "cat": "idle"}
+{"ts": "00:30", "app": "stable", "title": "", "idle": 7348, "cat": "idle"}
+{"ts": "00:31", "app": "stable", "title": "", "idle": 7409, "cat": "idle"}
+{"ts": "00:32", "app": "stable", "title": "", "idle": 7470, "cat": "idle"}
+{"ts": "00:33", "app": "stable", "title": "", "idle": 7530, "cat": "idle"}
+{"ts": "01:53", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 63, "cat": "focus"}
+{"ts": "01:54", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 131, "cat": "focus"}
+{"ts": "01:55", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 194, "cat": "idle"}
+{"ts": "01:56", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 255, "cat": "idle"}
+{"ts": "01:57", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 315, "cat": "idle"}
+{"ts": "01:58", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 0, "cat": "focus"}
+{"ts": "01:59", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 55, "cat": "focus"}
+{"ts": "02:00", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 115, "cat": "focus"}
+{"ts": "02:01", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 175, "cat": "focus"}
+{"ts": "02:02", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 236, "cat": "idle"}
+{"ts": "02:03", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 296, "cat": "idle"}
+{"ts": "02:04", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 357, "cat": "idle"}
+{"ts": "02:05", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 417, "cat": "idle"}
+{"ts": "02:06", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 478, "cat": "idle"}
+{"ts": "02:07", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 538, "cat": "idle"}
+{"ts": "02:08", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 599, "cat": "idle"}
+{"ts": "02:09", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 659, "cat": "idle"}
+{"ts": "02:10", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 719, "cat": "idle"}
+{"ts": "02:11", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 780, "cat": "idle"}
+{"ts": "02:12", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 840, "cat": "idle"}
+{"ts": "02:13", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 901, "cat": "idle"}
+{"ts": "02:14", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 961, "cat": "idle"}
+{"ts": "02:15", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 1022, "cat": "idle"}
+{"ts": "02:16", "app": "Cursor", "title": "activity-config.json — Tsukapon", "idle": 1082, "cat": "idle"}
+{"ts": "02:22", "app": "Cursor", "title": "", "idle": 1443, "cat": "idle"}
+{"ts": "02:23", "app": "Cursor", "title": "", "idle": 1504, "cat": "idle"}
+{"ts": "02:25", "app": "Cursor", "title": "", "idle": 1565, "cat": "idle"}
+{"ts": "02:26", "app": "Cursor", "title": "", "idle": 1625, "cat": "idle"}
+{"ts": "02:27", "app": "Cursor", "title": "", "idle": 1685, "cat": "idle"}
+{"ts": "02:28", "app": "Cursor", "title": "", "idle": 1746, "cat": "idle"}
+{"ts": "02:29", "app": "Cursor", "title": "", "idle": 1806, "cat": "idle"}
+{"ts": "02:30", "app": "Cursor", "title": "", "idle": 1867, "cat": "idle"}
+{"ts": "02:31", "app": "Cursor", "title": "", "idle": 1927, "cat": "idle"}
+{"ts": "02:32", "app": "Cursor", "title": "", "idle": 1988, "cat": "idle"}
+{"ts": "02:33", "app": "Cursor", "title": "", "idle": 2048, "cat": "idle"}
+{"ts": "02:34", "app": "Cursor", "title": "", "idle": 2109, "cat": "idle"}
+{"ts": "02:35", "app": "Cursor", "title": "", "idle": 2169, "cat": "idle"}
+{"ts": "02:36", "app": "Cursor", "title": "", "idle": 2230, "cat": "idle"}
+{"ts": "02:37", "app": "Cursor", "title": "", "idle": 2290, "cat": "idle"}
+{"ts": "02:38", "app": "Cursor", "title": "", "idle": 2351, "cat": "idle"}
+{"ts": "02:39", "app": "Cursor", "title": "", "idle": 2411, "cat": "idle"}
+{"ts": "02:40", "app": "Cursor", "title": "", "idle": 2472, "cat": "idle"}
+{"ts": "02:41", "app": "Cursor", "title": "", "idle": 2532, "cat": "idle"}
+{"ts": "02:42", "app": "Cursor", "title": "", "idle": 2593, "cat": "idle"}
+{"ts": "02:43", "app": "Cursor", "title": "", "idle": 2653, "cat": "idle"}
+{"ts": "02:44", "app": "Cursor", "title": "", "idle": 2714, "cat": "idle"}
+{"ts": "02:45", "app": "Cursor", "title": "", "idle": 2774, "cat": "idle"}
+{"ts": "02:46", "app": "Cursor", "title": "", "idle": 2835, "cat": "idle"}
+{"ts": "02:47", "app": "Cursor", "title": "", "idle": 2895, "cat": "idle"}
+{"ts": "02:48", "app": "Cursor", "title": "", "idle": 2956, "cat": "idle"}
+{"ts": "02:49", "app": "Cursor", "title": "", "idle": 3016, "cat": "idle"}
+{"ts": "02:50", "app": "Cursor", "title": "", "idle": 3077, "cat": "idle"}
+{"ts": "02:51", "app": "Cursor", "title": "", "idle": 3137, "cat": "idle"}
+{"ts": "02:52", "app": "Cursor", "title": "", "idle": 3197, "cat": "idle"}
+{"ts": "02:53", "app": "Cursor", "title": "", "idle": 3258, "cat": "idle"}
+{"ts": "02:54", "app": "Cursor", "title": "", "idle": 3318, "cat": "idle"}
+{"ts": "02:55", "app": "Cursor", "title": "", "idle": 3379, "cat": "idle"}
+{"ts": "02:56", "app": "Cursor", "title": "", "idle": 3439, "cat": "idle"}
+{"ts": "02:57", "app": "Cursor", "title": "", "idle": 3499, "cat": "idle"}
+{"ts": "02:58", "app": "Cursor", "title": "", "idle": 3560, "cat": "idle"}
+{"ts": "02:59", "app": "Cursor", "title": "", "idle": 3620, "cat": "idle"}
+{"ts": "03:00", "app": "Cursor", "title": "", "idle": 3681, "cat": "idle"}
+{"ts": "03:01", "app": "Cursor", "title": "", "idle": 3741, "cat": "idle"}
+{"ts": "03:02", "app": "Cursor", "title": "", "idle": 3802, "cat": "idle"}
+{"ts": "03:03", "app": "Cursor", "title": "", "idle": 3862, "cat": "idle"}
+{"ts": "03:04", "app": "Cursor", "title": "", "idle": 3922, "cat": "idle"}
+{"ts": "03:05", "app": "Cursor", "title": "", "idle": 3983, "cat": "idle"}
+{"ts": "03:06", "app": "Cursor", "title": "", "idle": 4043, "cat": "idle"}
+{"ts": "03:07", "app": "Cursor", "title": "", "idle": 4104, "cat": "idle"}
+{"ts": "03:08", "app": "Cursor", "title": "", "idle": 4164, "cat": "idle"}
+{"ts": "03:09", "app": "Cursor", "title": "", "idle": 4225, "cat": "idle"}
+{"ts": "03:10", "app": "Cursor", "title": "", "idle": 4285, "cat": "idle"}
+{"ts": "03:11", "app": "Cursor", "title": "", "idle": 4345, "cat": "idle"}
+{"ts": "03:12", "app": "Cursor", "title": "", "idle": 4406, "cat": "idle"}
+{"ts": "03:13", "app": "Cursor", "title": "", "idle": 4466, "cat": "idle"}
+{"ts": "03:14", "app": "Cursor", "title": "", "idle": 4527, "cat": "idle"}
+{"ts": "03:15", "app": "Cursor", "title": "", "idle": 4587, "cat": "idle"}
+{"ts": "03:16", "app": "Cursor", "title": "", "idle": 4648, "cat": "idle"}
+{"ts": "03:17", "app": "Cursor", "title": "", "idle": 4708, "cat": "idle"}
+{"ts": "03:18", "app": "Cursor", "title": "", "idle": 4768, "cat": "idle"}
+{"ts": "03:19", "app": "Cursor", "title": "", "idle": 4829, "cat": "idle"}
+{"ts": "03:20", "app": "Cursor", "title": "", "idle": 4889, "cat": "idle"}
+{"ts": "03:21", "app": "Cursor", "title": "", "idle": 4950, "cat": "idle"}
+{"ts": "03:22", "app": "Cursor", "title": "", "idle": 5010, "cat": "idle"}
+{"ts": "03:23", "app": "Cursor", "title": "", "idle": 5071, "cat": "idle"}
+{"ts": "03:24", "app": "Cursor", "title": "", "idle": 5131, "cat": "idle"}
+{"ts": "03:25", "app": "Cursor", "title": "", "idle": 5191, "cat": "idle"}
+{"ts": "03:26", "app": "Cursor", "title": "", "idle": 5252, "cat": "idle"}
+{"ts": "03:27", "app": "Cursor", "title": "", "idle": 5312, "cat": "idle"}
+{"ts": "03:28", "app": "Cursor", "title": "", "idle": 5373, "cat": "idle"}
+{"ts": "03:29", "app": "Cursor", "title": "", "idle": 5433, "cat": "idle"}
+{"ts": "03:30", "app": "Cursor", "title": "", "idle": 5494, "cat": "idle"}
+{"ts": "03:31", "app": "Cursor", "title": "", "idle": 5554, "cat": "idle"}
+{"ts": "03:32", "app": "Cursor", "title": "", "idle": 5614, "cat": "idle"}
+{"ts": "03:33", "app": "Cursor", "title": "", "idle": 5675, "cat": "idle"}
+{"ts": "03:34", "app": "Cursor", "title": "", "idle": 5735, "cat": "idle"}
+{"ts": "03:35", "app": "Cursor", "title": "", "idle": 5796, "cat": "idle"}
+{"ts": "03:36", "app": "Cursor", "title": "", "idle": 5856, "cat": "idle"}
+{"ts": "03:37", "app": "Cursor", "title": "", "idle": 5917, "cat": "idle"}
+{"ts": "03:38", "app": "Cursor", "title": "", "idle": 5977, "cat": "idle"}
+{"ts": "03:39", "app": "Cursor", "title": "", "idle": 6038, "cat": "idle"}
+{"ts": "03:40", "app": "Cursor", "title": "", "idle": 6098, "cat": "idle"}
+{"ts": "03:41", "app": "Cursor", "title": "", "idle": 6158, "cat": "idle"}
+{"ts": "03:42", "app": "Cursor", "title": "", "idle": 6219, "cat": "idle"}
+{"ts": "03:43", "app": "Cursor", "title": "", "idle": 6279, "cat": "idle"}
+{"ts": "03:44", "app": "Cursor", "title": "", "idle": 6340, "cat": "idle"}
+{"ts": "03:45", "app": "Cursor", "title": "", "idle": 6400, "cat": "idle"}
+{"ts": "03:46", "app": "Cursor", "title": "", "idle": 6460, "cat": "idle"}
+{"ts": "03:47", "app": "Cursor", "title": "", "idle": 6521, "cat": "idle"}
+{"ts": "03:48", "app": "Cursor", "title": "", "idle": 6581, "cat": "idle"}
+{"ts": "03:49", "app": "Cursor", "title": "", "idle": 6642, "cat": "idle"}
+{"ts": "03:50", "app": "Cursor", "title": "", "idle": 6702, "cat": "idle"}
+{"ts": "03:51", "app": "Cursor", "title": "", "idle": 6762, "cat": "idle"}
+{"ts": "03:52", "app": "Cursor", "title": "", "idle": 6823, "cat": "idle"}
+{"ts": "03:53", "app": "Cursor", "title": "", "idle": 6883, "cat": "idle"}
+{"ts": "03:54", "app": "Cursor", "title": "", "idle": 6944, "cat": "idle"}
+{"ts": "03:55", "app": "Cursor", "title": "", "idle": 7004, "cat": "idle"}
+{"ts": "03:56", "app": "Cursor", "title": "", "idle": 7065, "cat": "idle"}
+{"ts": "03:57", "app": "Cursor", "title": "", "idle": 7125, "cat": "idle"}
+{"ts": "03:59", "app": "Cursor", "title": "", "idle": 7246, "cat": "idle"}
+{"ts": "04:00", "app": "Cursor", "title": "", "idle": 7306, "cat": "idle"}
+{"ts": "04:01", "app": "Cursor", "title": "", "idle": 7367, "cat": "idle"}
+{"ts": "04:02", "app": "Cursor", "title": "", "idle": 7427, "cat": "idle"}
+{"ts": "04:03", "app": "Cursor", "title": "", "idle": 7487, "cat": "idle"}
+{"ts": "04:04", "app": "Cursor", "title": "", "idle": 7548, "cat": "idle"}
+{"ts": "04:05", "app": "Cursor", "title": "", "idle": 7608, "cat": "idle"}
+{"ts": "04:06", "app": "Cursor", "title": "", "idle": 7669, "cat": "idle"}
+{"ts": "04:07", "app": "Cursor", "title": "", "idle": 7729, "cat": "idle"}
+{"ts": "04:08", "app": "Cursor", "title": "", "idle": 7789, "cat": "idle"}
+{"ts": "04:09", "app": "Cursor", "title": "", "idle": 7850, "cat": "idle"}
+{"ts": "04:10", "app": "Cursor", "title": "", "idle": 7910, "cat": "idle"}
+{"ts": "04:11", "app": "Cursor", "title": "", "idle": 7971, "cat": "idle"}
+{"ts": "04:12", "app": "Cursor", "title": "", "idle": 8031, "cat": "idle"}
+{"ts": "04:13", "app": "Cursor", "title": "", "idle": 8092, "cat": "idle"}
+{"ts": "04:14", "app": "Cursor", "title": "", "idle": 8152, "cat": "idle"}
+{"ts": "04:15", "app": "Cursor", "title": "", "idle": 8212, "cat": "idle"}
+{"ts": "04:16", "app": "Cursor", "title": "", "idle": 8273, "cat": "idle"}
+{"ts": "04:17", "app": "Cursor", "title": "", "idle": 8333, "cat": "idle"}
+{"ts": "04:18", "app": "Cursor", "title": "", "idle": 8394, "cat": "idle"}
+{"ts": "04:19", "app": "Cursor", "title": "", "idle": 8454, "cat": "idle"}
+{"ts": "04:20", "app": "Cursor", "title": "", "idle": 8515, "cat": "idle"}
+{"ts": "04:21", "app": "Cursor", "title": "", "idle": 8575, "cat": "idle"}
+{"ts": "04:22", "app": "Cursor", "title": "", "idle": 8635, "cat": "idle"}
+{"ts": "04:23", "app": "Cursor", "title": "", "idle": 8696, "cat": "idle"}
+{"ts": "04:24", "app": "Cursor", "title": "", "idle": 8756, "cat": "idle"}
+{"ts": "04:25", "app": "Cursor", "title": "", "idle": 8817, "cat": "idle"}
+{"ts": "04:26", "app": "Cursor", "title": "", "idle": 8877, "cat": "idle"}
+{"ts": "04:27", "app": "Cursor", "title": "", "idle": 8938, "cat": "idle"}
+{"ts": "04:28", "app": "Cursor", "title": "", "idle": 8998, "cat": "idle"}
+{"ts": "04:29", "app": "Cursor", "title": "", "idle": 9058, "cat": "idle"}
+{"ts": "04:30", "app": "Cursor", "title": "", "idle": 9119, "cat": "idle"}
+{"ts": "04:31", "app": "Cursor", "title": "", "idle": 9179, "cat": "idle"}
+{"ts": "04:32", "app": "Cursor", "title": "", "idle": 9240, "cat": "idle"}
+{"ts": "04:33", "app": "Cursor", "title": "", "idle": 9300, "cat": "idle"}
+{"ts": "04:34", "app": "Cursor", "title": "", "idle": 9361, "cat": "idle"}
+{"ts": "04:35", "app": "Cursor", "title": "", "idle": 9421, "cat": "idle"}
+{"ts": "04:36", "app": "Cursor", "title": "", "idle": 9482, "cat": "idle"}
+{"ts": "04:37", "app": "Cursor", "title": "", "idle": 9542, "cat": "idle"}
+{"ts": "04:43", "app": "Cursor", "title": "", "idle": 9903, "cat": "idle"}
+{"ts": "04:44", "app": "Cursor", "title": "", "idle": 9964, "cat": "idle"}
+{"ts": "04:46", "app": "Cursor", "title": "", "idle": 10024, "cat": "idle"}
+{"ts": "04:47", "app": "Cursor", "title": "", "idle": 10085, "cat": "idle"}
+{"ts": "04:48", "app": "Cursor", "title": "", "idle": 10145, "cat": "idle"}
+{"ts": "04:49", "app": "Cursor", "title": "", "idle": 10206, "cat": "idle"}
+{"ts": "04:50", "app": "Cursor", "title": "", "idle": 10266, "cat": "idle"}
+{"ts": "04:51", "app": "Cursor", "title": "", "idle": 10327, "cat": "idle"}
+{"ts": "04:52", "app": "Cursor", "title": "", "idle": 10387, "cat": "idle"}
+{"ts": "04:53", "app": "Cursor", "title": "", "idle": 10447, "cat": "idle"}
+{"ts": "04:54", "app": "Cursor", "title": "", "idle": 10508, "cat": "idle"}
+{"ts": "04:55", "app": "Cursor", "title": "", "idle": 10568, "cat": "idle"}
+{"ts": "04:56", "app": "Cursor", "title": "", "idle": 10629, "cat": "idle"}
+{"ts": "04:57", "app": "Cursor", "title": "", "idle": 10689, "cat": "idle"}
+{"ts": "04:58", "app": "Cursor", "title": "", "idle": 10750, "cat": "idle"}
+{"ts": "04:59", "app": "Cursor", "title": "", "idle": 10810, "cat": "idle"}
+{"ts": "05:00", "app": "Cursor", "title": "", "idle": 10870, "cat": "idle"}
+{"ts": "05:01", "app": "Cursor", "title": "", "idle": 10931, "cat": "idle"}
+{"ts": "05:02", "app": "Cursor", "title": "", "idle": 10991, "cat": "idle"}
+{"ts": "05:03", "app": "Cursor", "title": "", "idle": 11052, "cat": "idle"}
+{"ts": "05:04", "app": "Cursor", "title": "", "idle": 11112, "cat": "idle"}
+{"ts": "05:05", "app": "Cursor", "title": "", "idle": 11173, "cat": "idle"}
+{"ts": "05:06", "app": "Cursor", "title": "", "idle": 11233, "cat": "idle"}
+{"ts": "05:07", "app": "Cursor", "title": "", "idle": 11294, "cat": "idle"}
+{"ts": "05:08", "app": "Cursor", "title": "", "idle": 11354, "cat": "idle"}
+{"ts": "05:09", "app": "Cursor", "title": "", "idle": 11414, "cat": "idle"}
+{"ts": "05:10", "app": "Cursor", "title": "", "idle": 11475, "cat": "idle"}
+{"ts": "05:11", "app": "Cursor", "title": "", "idle": 11535, "cat": "idle"}
+{"ts": "05:12", "app": "Cursor", "title": "", "idle": 11596, "cat": "idle"}
+{"ts": "05:13", "app": "Cursor", "title": "", "idle": 11656, "cat": "idle"}
+{"ts": "05:14", "app": "Cursor", "title": "", "idle": 11716, "cat": "idle"}
+{"ts": "05:15", "app": "Cursor", "title": "", "idle": 11777, "cat": "idle"}
+{"ts": "05:16", "app": "Cursor", "title": "", "idle": 11837, "cat": "idle"}
+{"ts": "05:17", "app": "Cursor", "title": "", "idle": 11898, "cat": "idle"}
+{"ts": "05:18", "app": "Cursor", "title": "", "idle": 11958, "cat": "idle"}
+{"ts": "05:19", "app": "Cursor", "title": "", "idle": 12019, "cat": "idle"}
+{"ts": "05:20", "app": "Cursor", "title": "", "idle": 12079, "cat": "idle"}
+{"ts": "05:21", "app": "Cursor", "title": "", "idle": 12140, "cat": "idle"}
+{"ts": "05:22", "app": "Cursor", "title": "", "idle": 12200, "cat": "idle"}
+{"ts": "05:23", "app": "Cursor", "title": "", "idle": 12260, "cat": "idle"}
+{"ts": "05:24", "app": "Cursor", "title": "", "idle": 12322, "cat": "idle"}
+{"ts": "05:25", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "05:26", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 42, "cat": "focus"}
+{"ts": "05:27", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 103, "cat": "focus"}
+{"ts": "05:28", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 163, "cat": "focus"}
+{"ts": "05:29", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 224, "cat": "idle"}
+{"ts": "05:30", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 284, "cat": "idle"}
+{"ts": "05:31", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 344, "cat": "idle"}
+{"ts": "05:32", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 405, "cat": "idle"}
+{"ts": "05:33", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 465, "cat": "idle"}
+{"ts": "05:34", "app": "Obsidian", "title": "", "idle": 526, "cat": "idle"}
+{"ts": "05:35", "app": "Obsidian", "title": "", "idle": 586, "cat": "idle"}
+{"ts": "05:36", "app": "Obsidian", "title": "", "idle": 647, "cat": "idle"}
+{"ts": "05:37", "app": "Obsidian", "title": "", "idle": 707, "cat": "idle"}
+{"ts": "05:38", "app": "Obsidian", "title": "", "idle": 768, "cat": "idle"}
+{"ts": "05:39", "app": "Obsidian", "title": "", "idle": 828, "cat": "idle"}
+{"ts": "05:40", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 888, "cat": "idle"}
+{"ts": "05:41", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 949, "cat": "idle"}
+{"ts": "05:42", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 1009, "cat": "idle"}
+{"ts": "05:43", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 1070, "cat": "idle"}
+{"ts": "05:44", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 1130, "cat": "idle"}
+{"ts": "05:45", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 1191, "cat": "idle"}
+{"ts": "05:46", "app": "Obsidian", "title": "", "idle": 1251, "cat": "idle"}
+{"ts": "05:47", "app": "Obsidian", "title": "", "idle": 1312, "cat": "idle"}
+{"ts": "05:48", "app": "Obsidian", "title": "", "idle": 1372, "cat": "idle"}
+{"ts": "05:50", "app": "Obsidian", "title": "", "idle": 1493, "cat": "idle"}
+{"ts": "05:51", "app": "Obsidian", "title": "", "idle": 1553, "cat": "idle"}
+{"ts": "05:52", "app": "Obsidian", "title": "", "idle": 1613, "cat": "idle"}
+{"ts": "05:53", "app": "Obsidian", "title": "", "idle": 1674, "cat": "idle"}
+{"ts": "05:54", "app": "Obsidian", "title": "", "idle": 1734, "cat": "idle"}
+{"ts": "05:55", "app": "Obsidian", "title": "", "idle": 1795, "cat": "idle"}
+{"ts": "05:56", "app": "Obsidian", "title": "", "idle": 1855, "cat": "idle"}
+{"ts": "05:57", "app": "Obsidian", "title": "", "idle": 1916, "cat": "idle"}
+{"ts": "05:58", "app": "Obsidian", "title": "", "idle": 1976, "cat": "idle"}
+{"ts": "05:59", "app": "Obsidian", "title": "", "idle": 2036, "cat": "idle"}
+{"ts": "06:00", "app": "Obsidian", "title": "", "idle": 2097, "cat": "idle"}
+{"ts": "06:01", "app": "Obsidian", "title": "", "idle": 2157, "cat": "idle"}
+{"ts": "06:02", "app": "Obsidian", "title": "", "idle": 2218, "cat": "idle"}
+{"ts": "06:03", "app": "Obsidian", "title": "", "idle": 2278, "cat": "idle"}
+{"ts": "06:04", "app": "Obsidian", "title": "", "idle": 2339, "cat": "idle"}
+{"ts": "06:05", "app": "Obsidian", "title": "", "idle": 2399, "cat": "idle"}
+{"ts": "06:06", "app": "Obsidian", "title": "", "idle": 2459, "cat": "idle"}
+{"ts": "06:07", "app": "Obsidian", "title": "", "idle": 2520, "cat": "idle"}
+{"ts": "06:08", "app": "Obsidian", "title": "", "idle": 2580, "cat": "idle"}
+{"ts": "06:09", "app": "Obsidian", "title": "", "idle": 2640, "cat": "idle"}
+{"ts": "06:10", "app": "Obsidian", "title": "", "idle": 2701, "cat": "idle"}
+{"ts": "06:11", "app": "Obsidian", "title": "", "idle": 2761, "cat": "idle"}
+{"ts": "06:12", "app": "Obsidian", "title": "", "idle": 2822, "cat": "idle"}
+{"ts": "06:13", "app": "Obsidian", "title": "", "idle": 2882, "cat": "idle"}
+{"ts": "06:14", "app": "Obsidian", "title": "", "idle": 2943, "cat": "idle"}
+{"ts": "06:15", "app": "Obsidian", "title": "", "idle": 3003, "cat": "idle"}
+{"ts": "06:16", "app": "Obsidian", "title": "", "idle": 3063, "cat": "idle"}
+{"ts": "06:17", "app": "Obsidian", "title": "", "idle": 3124, "cat": "idle"}
+{"ts": "06:18", "app": "Obsidian", "title": "", "idle": 3184, "cat": "idle"}
+{"ts": "06:19", "app": "Obsidian", "title": "", "idle": 3244, "cat": "idle"}
+{"ts": "06:20", "app": "Obsidian", "title": "", "idle": 3305, "cat": "idle"}
+{"ts": "06:21", "app": "Obsidian", "title": "", "idle": 3365, "cat": "idle"}
+{"ts": "06:22", "app": "Obsidian", "title": "", "idle": 3425, "cat": "idle"}
+{"ts": "06:23", "app": "Obsidian", "title": "", "idle": 3486, "cat": "idle"}
+{"ts": "06:24", "app": "Obsidian", "title": "", "idle": 3546, "cat": "idle"}
+{"ts": "06:25", "app": "Obsidian", "title": "", "idle": 3607, "cat": "idle"}
+{"ts": "06:26", "app": "Obsidian", "title": "", "idle": 3667, "cat": "idle"}
+{"ts": "06:27", "app": "Obsidian", "title": "", "idle": 3728, "cat": "idle"}
+{"ts": "06:28", "app": "Obsidian", "title": "", "idle": 3788, "cat": "idle"}
+{"ts": "06:29", "app": "Obsidian", "title": "", "idle": 3849, "cat": "idle"}
+{"ts": "06:30", "app": "Obsidian", "title": "", "idle": 3909, "cat": "idle"}
+{"ts": "06:31", "app": "Obsidian", "title": "", "idle": 3969, "cat": "idle"}
+{"ts": "06:32", "app": "Obsidian", "title": "", "idle": 4030, "cat": "idle"}
+{"ts": "06:33", "app": "Obsidian", "title": "", "idle": 4090, "cat": "idle"}
+{"ts": "06:34", "app": "Obsidian", "title": "", "idle": 4151, "cat": "idle"}
+{"ts": "06:35", "app": "Obsidian", "title": "", "idle": 4211, "cat": "idle"}
+{"ts": "06:36", "app": "Obsidian", "title": "", "idle": 4272, "cat": "idle"}
+{"ts": "06:37", "app": "Obsidian", "title": "", "idle": 4332, "cat": "idle"}
+{"ts": "06:38", "app": "Obsidian", "title": "", "idle": 4392, "cat": "idle"}
+{"ts": "06:39", "app": "Obsidian", "title": "", "idle": 4453, "cat": "idle"}
+{"ts": "06:40", "app": "Obsidian", "title": "", "idle": 4513, "cat": "idle"}
+{"ts": "06:41", "app": "Obsidian", "title": "", "idle": 4574, "cat": "idle"}
+{"ts": "06:42", "app": "Obsidian", "title": "", "idle": 4634, "cat": "idle"}
+{"ts": "06:43", "app": "Obsidian", "title": "", "idle": 4694, "cat": "idle"}
+{"ts": "06:44", "app": "Obsidian", "title": "", "idle": 4755, "cat": "idle"}
+{"ts": "06:45", "app": "Obsidian", "title": "", "idle": 4815, "cat": "idle"}
+{"ts": "06:46", "app": "Obsidian", "title": "", "idle": 4876, "cat": "idle"}
+{"ts": "06:47", "app": "Obsidian", "title": "", "idle": 4936, "cat": "idle"}
+{"ts": "06:48", "app": "Obsidian", "title": "", "idle": 4997, "cat": "idle"}
+{"ts": "06:49", "app": "Obsidian", "title": "", "idle": 5057, "cat": "idle"}
+{"ts": "06:50", "app": "Obsidian", "title": "", "idle": 5118, "cat": "idle"}
+{"ts": "06:51", "app": "Obsidian", "title": "", "idle": 5178, "cat": "idle"}
+{"ts": "06:52", "app": "Obsidian", "title": "", "idle": 5238, "cat": "idle"}
+{"ts": "06:53", "app": "Obsidian", "title": "", "idle": 5299, "cat": "idle"}
+{"ts": "06:54", "app": "Obsidian", "title": "note-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 3, "cat": "focus"}
+{"ts": "06:55", "app": "System Settings", "title": "共有", "idle": 0, "cat": "other"}
+{"ts": "06:56", "app": "System Settings", "title": "共有", "idle": 51, "cat": "other"}
+{"ts": "06:57", "app": "System Settings", "title": "共有", "idle": 112, "cat": "other"}
+{"ts": "06:58", "app": "Finder", "title": "keiei", "idle": 0, "cat": "other"}
+{"ts": "06:59", "app": "Finder", "title": "", "idle": 0, "cat": "other"}
+{"ts": "07:04", "app": "stable", "title": "..ian/Documents/Tsukapon", "idle": 1, "cat": "other"}
+{"ts": "07:05", "app": "stable", "title": "✳ Claude Code", "idle": 55, "cat": "other"}
+{"ts": "07:07", "app": "stable", "title": "✳ Claude Code", "idle": 116, "cat": "other"}
+{"ts": "07:08", "app": "stable", "title": "✳ Claude Code", "idle": 176, "cat": "other"}
+{"ts": "07:09", "app": "stable", "title": "✳ Claude Code", "idle": 236, "cat": "idle"}
+{"ts": "07:10", "app": "stable", "title": "✳ Claude Code", "idle": 297, "cat": "idle"}
+{"ts": "07:11", "app": "stable", "title": "✳ Claude Code", "idle": 357, "cat": "idle"}
+{"ts": "07:12", "app": "stable", "title": "✳ Claude Code", "idle": 418, "cat": "idle"}
+{"ts": "07:13", "app": "stable", "title": "✳ Claude Code", "idle": 478, "cat": "idle"}
+{"ts": "07:14", "app": "stable", "title": "", "idle": 539, "cat": "idle"}
+{"ts": "07:15", "app": "stable", "title": "", "idle": 599, "cat": "idle"}
+{"ts": "07:16", "app": "stable", "title": "", "idle": 660, "cat": "idle"}
+{"ts": "07:17", "app": "stable", "title": "", "idle": 720, "cat": "idle"}
+{"ts": "07:18", "app": "stable", "title": "", "idle": 780, "cat": "idle"}
+{"ts": "07:19", "app": "stable", "title": "", "idle": 841, "cat": "idle"}
+{"ts": "07:20", "app": "stable", "title": "", "idle": 48, "cat": "other"}
+{"ts": "07:21", "app": "stable", "title": "", "idle": 109, "cat": "other"}
+{"ts": "07:22", "app": "stable", "title": "", "idle": 169, "cat": "other"}
+{"ts": "07:23", "app": "stable", "title": "", "idle": 230, "cat": "idle"}
+{"ts": "07:24", "app": "stable", "title": "", "idle": 290, "cat": "idle"}
+{"ts": "07:25", "app": "stable", "title": "", "idle": 351, "cat": "idle"}
+{"ts": "07:26", "app": "stable", "title": "", "idle": 412, "cat": "idle"}
+{"ts": "07:27", "app": "stable", "title": "", "idle": 472, "cat": "idle"}
+{"ts": "07:28", "app": "stable", "title": "", "idle": 533, "cat": "idle"}
+{"ts": "07:29", "app": "stable", "title": "", "idle": 593, "cat": "idle"}
+{"ts": "07:30", "app": "stable", "title": "", "idle": 653, "cat": "idle"}
+{"ts": "07:31", "app": "stable", "title": "", "idle": 714, "cat": "idle"}
+{"ts": "07:32", "app": "stable", "title": "", "idle": 774, "cat": "idle"}
+{"ts": "07:33", "app": "stable", "title": "", "idle": 835, "cat": "idle"}
+{"ts": "07:34", "app": "stable", "title": "", "idle": 895, "cat": "idle"}
+{"ts": "07:35", "app": "stable", "title": "", "idle": 956, "cat": "idle"}
+{"ts": "07:36", "app": "stable", "title": "", "idle": 1016, "cat": "idle"}
+{"ts": "07:37", "app": "stable", "title": "", "idle": 1076, "cat": "idle"}
+{"ts": "07:38", "app": "stable", "title": "", "idle": 1137, "cat": "idle"}
+{"ts": "07:39", "app": "stable", "title": "", "idle": 1197, "cat": "idle"}
+{"ts": "07:40", "app": "stable", "title": "", "idle": 1258, "cat": "idle"}
+{"ts": "07:41", "app": "stable", "title": "", "idle": 1318, "cat": "idle"}
+{"ts": "07:42", "app": "stable", "title": "", "idle": 1379, "cat": "idle"}
+{"ts": "07:43", "app": "stable", "title": "", "idle": 1439, "cat": "idle"}
+{"ts": "07:44", "app": "stable", "title": "", "idle": 1500, "cat": "idle"}
+{"ts": "07:45", "app": "stable", "title": "✳ Claude Code", "idle": 3, "cat": "other"}
+{"ts": "07:46", "app": "stable", "title": "✳ Claude Code", "idle": 32, "cat": "other"}
+{"ts": "07:47", "app": "stable", "title": "✳ Claude Code", "idle": 2, "cat": "other"}
+{"ts": "07:48", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 55, "cat": "other"}
+{"ts": "07:49", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 116, "cat": "other"}
+{"ts": "07:50", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 176, "cat": "other"}
+{"ts": "07:51", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 237, "cat": "idle"}
+{"ts": "07:52", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 297, "cat": "idle"}
+{"ts": "07:53", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 357, "cat": "idle"}
+{"ts": "07:54", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 418, "cat": "idle"}
+{"ts": "07:55", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 478, "cat": "idle"}
+{"ts": "07:56", "app": "stable", "title": "", "idle": 539, "cat": "idle"}
+{"ts": "07:57", "app": "stable", "title": "", "idle": 599, "cat": "idle"}
+{"ts": "07:58", "app": "stable", "title": "", "idle": 660, "cat": "idle"}
+{"ts": "07:59", "app": "stable", "title": "", "idle": 720, "cat": "idle"}
+{"ts": "08:00", "app": "stable", "title": "", "idle": 781, "cat": "idle"}
+{"ts": "08:02", "app": "stable", "title": "", "idle": 901, "cat": "idle"}
+{"ts": "08:03", "app": "stable", "title": "", "idle": 962, "cat": "idle"}
+{"ts": "08:04", "app": "stable", "title": "", "idle": 1022, "cat": "idle"}
+{"ts": "08:05", "app": "stable", "title": "", "idle": 1083, "cat": "idle"}
+{"ts": "08:06", "app": "stable", "title": "", "idle": 1143, "cat": "idle"}
+{"ts": "08:07", "app": "stable", "title": "", "idle": 1204, "cat": "idle"}
+{"ts": "08:08", "app": "stable", "title": "", "idle": 1264, "cat": "idle"}
+{"ts": "08:09", "app": "stable", "title": "", "idle": 1325, "cat": "idle"}
+{"ts": "08:10", "app": "stable", "title": "", "idle": 1385, "cat": "idle"}
+{"ts": "08:11", "app": "stable", "title": "", "idle": 1446, "cat": "idle"}
+{"ts": "08:12", "app": "stable", "title": "", "idle": 1506, "cat": "idle"}
+{"ts": "08:13", "app": "stable", "title": "", "idle": 1567, "cat": "idle"}
+{"ts": "08:14", "app": "stable", "title": "", "idle": 1627, "cat": "idle"}
+{"ts": "08:15", "app": "stable", "title": "", "idle": 1687, "cat": "idle"}
+{"ts": "08:16", "app": "stable", "title": "", "idle": 1748, "cat": "idle"}
+{"ts": "08:17", "app": "stable", "title": "", "idle": 1808, "cat": "idle"}
+{"ts": "08:18", "app": "stable", "title": "", "idle": 1869, "cat": "idle"}
+{"ts": "08:19", "app": "stable", "title": "", "idle": 1929, "cat": "idle"}
+{"ts": "08:20", "app": "stable", "title": "", "idle": 1990, "cat": "idle"}
+{"ts": "08:21", "app": "stable", "title": "", "idle": 2050, "cat": "idle"}
+{"ts": "08:22", "app": "stable", "title": "", "idle": 2110, "cat": "idle"}
+{"ts": "08:23", "app": "stable", "title": "", "idle": 2171, "cat": "idle"}
+{"ts": "08:24", "app": "stable", "title": "", "idle": 2232, "cat": "idle"}
+{"ts": "08:25", "app": "stable", "title": "", "idle": 2292, "cat": "idle"}
+{"ts": "08:26", "app": "stable", "title": "", "idle": 2353, "cat": "idle"}
+{"ts": "08:27", "app": "stable", "title": "", "idle": 2413, "cat": "idle"}
+{"ts": "08:28", "app": "stable", "title": "", "idle": 2473, "cat": "idle"}
+{"ts": "08:29", "app": "stable", "title": "", "idle": 2534, "cat": "idle"}
+{"ts": "08:30", "app": "stable", "title": "", "idle": 2594, "cat": "idle"}
+{"ts": "08:31", "app": "stable", "title": "", "idle": 2655, "cat": "idle"}
+{"ts": "08:32", "app": "stable", "title": "", "idle": 2715, "cat": "idle"}
+{"ts": "08:33", "app": "stable", "title": "", "idle": 2776, "cat": "idle"}
+{"ts": "08:34", "app": "stable", "title": "", "idle": 2836, "cat": "idle"}
+{"ts": "08:35", "app": "stable", "title": "", "idle": 2897, "cat": "idle"}
+{"ts": "08:36", "app": "stable", "title": "", "idle": 2957, "cat": "idle"}
+{"ts": "08:37", "app": "stable", "title": "", "idle": 3018, "cat": "idle"}
+{"ts": "08:38", "app": "stable", "title": "", "idle": 3078, "cat": "idle"}
+{"ts": "08:39", "app": "stable", "title": "", "idle": 3138, "cat": "idle"}
+{"ts": "08:40", "app": "stable", "title": "", "idle": 3199, "cat": "idle"}
+{"ts": "08:41", "app": "stable", "title": "", "idle": 3259, "cat": "idle"}
+{"ts": "08:42", "app": "stable", "title": "", "idle": 3320, "cat": "idle"}
+{"ts": "08:43", "app": "stable", "title": "", "idle": 3380, "cat": "idle"}
+{"ts": "08:44", "app": "stable", "title": "", "idle": 3441, "cat": "idle"}
+{"ts": "08:45", "app": "stable", "title": "", "idle": 3501, "cat": "idle"}
+{"ts": "08:46", "app": "stable", "title": "", "idle": 3561, "cat": "idle"}
+{"ts": "08:47", "app": "stable", "title": "", "idle": 3622, "cat": "idle"}
+{"ts": "08:48", "app": "stable", "title": "", "idle": 3682, "cat": "idle"}
+{"ts": "08:49", "app": "stable", "title": "", "idle": 3743, "cat": "idle"}
+{"ts": "08:50", "app": "stable", "title": "", "idle": 3803, "cat": "idle"}
+{"ts": "08:51", "app": "stable", "title": "", "idle": 3864, "cat": "idle"}
+{"ts": "08:52", "app": "stable", "title": "", "idle": 3924, "cat": "idle"}
+{"ts": "08:53", "app": "stable", "title": "", "idle": 3984, "cat": "idle"}
+{"ts": "08:54", "app": "stable", "title": "", "idle": 4045, "cat": "idle"}
+{"ts": "08:55", "app": "stable", "title": "", "idle": 4105, "cat": "idle"}
+{"ts": "08:56", "app": "stable", "title": "", "idle": 4166, "cat": "idle"}
+{"ts": "08:57", "app": "stable", "title": "", "idle": 4226, "cat": "idle"}
+{"ts": "08:58", "app": "stable", "title": "", "idle": 4287, "cat": "idle"}
+{"ts": "08:59", "app": "stable", "title": "", "idle": 4347, "cat": "idle"}
+{"ts": "09:00", "app": "stable", "title": "", "idle": 4408, "cat": "idle"}
+{"ts": "09:01", "app": "stable", "title": "", "idle": 4468, "cat": "idle"}
+{"ts": "09:02", "app": "stable", "title": "", "idle": 4529, "cat": "idle"}
+{"ts": "09:03", "app": "stable", "title": "", "idle": 4589, "cat": "idle"}
+{"ts": "09:04", "app": "stable", "title": "", "idle": 4649, "cat": "idle"}
+{"ts": "09:05", "app": "stable", "title": "", "idle": 4710, "cat": "idle"}
+{"ts": "09:06", "app": "stable", "title": "", "idle": 4770, "cat": "idle"}
+{"ts": "09:07", "app": "stable", "title": "", "idle": 4831, "cat": "idle"}
+{"ts": "09:08", "app": "stable", "title": "", "idle": 4891, "cat": "idle"}
+{"ts": "09:09", "app": "stable", "title": "", "idle": 4952, "cat": "idle"}
+{"ts": "09:10", "app": "stable", "title": "", "idle": 5012, "cat": "idle"}
+{"ts": "09:11", "app": "stable", "title": "", "idle": 5073, "cat": "idle"}
+{"ts": "09:12", "app": "stable", "title": "", "idle": 5133, "cat": "idle"}
+{"ts": "09:13", "app": "stable", "title": "", "idle": 5193, "cat": "idle"}
+{"ts": "09:14", "app": "stable", "title": "", "idle": 5254, "cat": "idle"}
+{"ts": "09:15", "app": "stable", "title": "", "idle": 5314, "cat": "idle"}
+{"ts": "09:20", "app": "stable", "title": "", "idle": 5615, "cat": "idle"}
+{"ts": "09:21", "app": "stable", "title": "", "idle": 5676, "cat": "idle"}
+{"ts": "09:23", "app": "stable", "title": "", "idle": 5736, "cat": "idle"}
+{"ts": "09:24", "app": "stable", "title": "", "idle": 5797, "cat": "idle"}
+{"ts": "09:25", "app": "stable", "title": "", "idle": 5857, "cat": "idle"}
+{"ts": "09:26", "app": "stable", "title": "", "idle": 5918, "cat": "idle"}
+{"ts": "09:27", "app": "stable", "title": "", "idle": 5978, "cat": "idle"}
+{"ts": "09:28", "app": "stable", "title": "", "idle": 6039, "cat": "idle"}
+{"ts": "09:29", "app": "stable", "title": "", "idle": 6099, "cat": "idle"}
+{"ts": "09:30", "app": "stable", "title": "", "idle": 6160, "cat": "idle"}
+{"ts": "09:31", "app": "stable", "title": "", "idle": 6220, "cat": "idle"}
+{"ts": "09:32", "app": "stable", "title": "", "idle": 6281, "cat": "idle"}
+{"ts": "09:33", "app": "stable", "title": "", "idle": 6341, "cat": "idle"}
+{"ts": "09:34", "app": "stable", "title": "", "idle": 6402, "cat": "idle"}
+{"ts": "09:35", "app": "stable", "title": "", "idle": 6462, "cat": "idle"}
+{"ts": "09:36", "app": "stable", "title": "", "idle": 6523, "cat": "idle"}
+{"ts": "09:37", "app": "stable", "title": "", "idle": 6583, "cat": "idle"}
+{"ts": "09:38", "app": "stable", "title": "", "idle": 6644, "cat": "idle"}
+{"ts": "09:39", "app": "stable", "title": "", "idle": 6704, "cat": "idle"}
+{"ts": "09:40", "app": "stable", "title": "", "idle": 6765, "cat": "idle"}
+{"ts": "09:41", "app": "stable", "title": "", "idle": 6825, "cat": "idle"}
+{"ts": "09:42", "app": "stable", "title": "", "idle": 6886, "cat": "idle"}
+{"ts": "09:43", "app": "stable", "title": "", "idle": 6946, "cat": "idle"}
+{"ts": "09:44", "app": "stable", "title": "", "idle": 7006, "cat": "idle"}
+{"ts": "09:45", "app": "stable", "title": "", "idle": 7067, "cat": "idle"}
+{"ts": "09:46", "app": "stable", "title": "", "idle": 7127, "cat": "idle"}
+{"ts": "09:47", "app": "stable", "title": "", "idle": 7188, "cat": "idle"}
+{"ts": "09:48", "app": "stable", "title": "", "idle": 7248, "cat": "idle"}
+{"ts": "09:49", "app": "stable", "title": "", "idle": 7309, "cat": "idle"}
+{"ts": "09:50", "app": "stable", "title": "", "idle": 7369, "cat": "idle"}
+{"ts": "09:51", "app": "stable", "title": "", "idle": 7430, "cat": "idle"}
+{"ts": "09:52", "app": "stable", "title": "", "idle": 7490, "cat": "idle"}
+{"ts": "09:53", "app": "stable", "title": "", "idle": 7551, "cat": "idle"}
+{"ts": "09:54", "app": "stable", "title": "", "idle": 7611, "cat": "idle"}
+{"ts": "09:55", "app": "stable", "title": "", "idle": 7671, "cat": "idle"}
+{"ts": "09:56", "app": "stable", "title": "", "idle": 7732, "cat": "idle"}
+{"ts": "09:57", "app": "stable", "title": "", "idle": 7792, "cat": "idle"}
+{"ts": "09:58", "app": "stable", "title": "", "idle": 7853, "cat": "idle"}
+{"ts": "09:59", "app": "stable", "title": "", "idle": 7913, "cat": "idle"}
+{"ts": "10:00", "app": "stable", "title": "", "idle": 7974, "cat": "idle"}
+{"ts": "10:01", "app": "stable", "title": "", "idle": 8034, "cat": "idle"}
+{"ts": "10:02", "app": "stable", "title": "", "idle": 8095, "cat": "idle"}
+{"ts": "10:03", "app": "stable", "title": "", "idle": 8155, "cat": "idle"}
+{"ts": "10:04", "app": "stable", "title": "", "idle": 8216, "cat": "idle"}
+{"ts": "10:05", "app": "stable", "title": "", "idle": 8276, "cat": "idle"}
+{"ts": "10:06", "app": "stable", "title": "", "idle": 8337, "cat": "idle"}
+{"ts": "10:07", "app": "stable", "title": "", "idle": 8397, "cat": "idle"}
+{"ts": "10:08", "app": "stable", "title": "", "idle": 8458, "cat": "idle"}
+{"ts": "10:09", "app": "stable", "title": "", "idle": 8518, "cat": "idle"}
+{"ts": "10:10", "app": "stable", "title": "", "idle": 8578, "cat": "idle"}
+{"ts": "10:11", "app": "stable", "title": "", "idle": 8639, "cat": "idle"}
+{"ts": "10:12", "app": "stable", "title": "", "idle": 8699, "cat": "idle"}
+{"ts": "10:13", "app": "stable", "title": "", "idle": 8760, "cat": "idle"}
+{"ts": "10:14", "app": "stable", "title": "", "idle": 8820, "cat": "idle"}
+{"ts": "10:15", "app": "stable", "title": "", "idle": 8881, "cat": "idle"}
+{"ts": "10:16", "app": "stable", "title": "", "idle": 8941, "cat": "idle"}
+{"ts": "10:17", "app": "stable", "title": "", "idle": 9002, "cat": "idle"}
+{"ts": "10:18", "app": "stable", "title": "", "idle": 9062, "cat": "idle"}
+{"ts": "10:19", "app": "stable", "title": "", "idle": 9122, "cat": "idle"}
+{"ts": "10:20", "app": "stable", "title": "", "idle": 9183, "cat": "idle"}
+{"ts": "10:21", "app": "stable", "title": "", "idle": 9243, "cat": "idle"}
+{"ts": "10:22", "app": "stable", "title": "", "idle": 9304, "cat": "idle"}
+{"ts": "10:23", "app": "stable", "title": "", "idle": 9364, "cat": "idle"}
+{"ts": "10:24", "app": "stable", "title": "", "idle": 9425, "cat": "idle"}
+{"ts": "10:25", "app": "stable", "title": "", "idle": 9485, "cat": "idle"}
+{"ts": "10:26", "app": "stable", "title": "", "idle": 9546, "cat": "idle"}
+{"ts": "10:27", "app": "stable", "title": "", "idle": 9606, "cat": "idle"}
+{"ts": "10:28", "app": "stable", "title": "", "idle": 9666, "cat": "idle"}
+{"ts": "10:29", "app": "stable", "title": "", "idle": 9727, "cat": "idle"}
+{"ts": "10:30", "app": "stable", "title": "", "idle": 9787, "cat": "idle"}
+{"ts": "10:31", "app": "stable", "title": "", "idle": 9848, "cat": "idle"}
+{"ts": "10:32", "app": "stable", "title": "", "idle": 9908, "cat": "idle"}
+{"ts": "10:33", "app": "stable", "title": "", "idle": 9969, "cat": "idle"}
+{"ts": "10:34", "app": "stable", "title": "", "idle": 10029, "cat": "idle"}
+{"ts": "10:36", "app": "stable", "title": "", "idle": 10150, "cat": "idle"}
+{"ts": "10:37", "app": "stable", "title": "", "idle": 10210, "cat": "idle"}
+{"ts": "10:38", "app": "stable", "title": "", "idle": 10271, "cat": "idle"}
+{"ts": "10:39", "app": "stable", "title": "", "idle": 10331, "cat": "idle"}
+{"ts": "10:40", "app": "stable", "title": "", "idle": 10392, "cat": "idle"}
+{"ts": "10:41", "app": "stable", "title": "", "idle": 10452, "cat": "idle"}
+{"ts": "10:42", "app": "stable", "title": "", "idle": 10513, "cat": "idle"}
+{"ts": "10:43", "app": "stable", "title": "", "idle": 10573, "cat": "idle"}
+{"ts": "10:44", "app": "stable", "title": "", "idle": 10634, "cat": "idle"}
+{"ts": "10:45", "app": "stable", "title": "", "idle": 10694, "cat": "idle"}
+{"ts": "10:46", "app": "stable", "title": "", "idle": 10754, "cat": "idle"}
+{"ts": "10:47", "app": "stable", "title": "", "idle": 10815, "cat": "idle"}
+{"ts": "10:48", "app": "stable", "title": "", "idle": 10875, "cat": "idle"}
+{"ts": "10:49", "app": "stable", "title": "", "idle": 10936, "cat": "idle"}
+{"ts": "10:50", "app": "stable", "title": "", "idle": 10996, "cat": "idle"}
+{"ts": "10:51", "app": "stable", "title": "", "idle": 11057, "cat": "idle"}
+{"ts": "10:52", "app": "stable", "title": "", "idle": 11117, "cat": "idle"}
+{"ts": "10:53", "app": "stable", "title": "", "idle": 11177, "cat": "idle"}
+{"ts": "10:54", "app": "stable", "title": "", "idle": 11238, "cat": "idle"}
+{"ts": "10:55", "app": "stable", "title": "", "idle": 11298, "cat": "idle"}
+{"ts": "10:56", "app": "stable", "title": "", "idle": 11359, "cat": "idle"}
+{"ts": "10:57", "app": "stable", "title": "", "idle": 11419, "cat": "idle"}
+{"ts": "10:58", "app": "stable", "title": "", "idle": 11480, "cat": "idle"}
+{"ts": "10:59", "app": "stable", "title": "", "idle": 11540, "cat": "idle"}
+{"ts": "11:00", "app": "stable", "title": "", "idle": 11601, "cat": "idle"}
+{"ts": "11:01", "app": "stable", "title": "", "idle": 11661, "cat": "idle"}
+{"ts": "11:02", "app": "stable", "title": "", "idle": 11721, "cat": "idle"}
+{"ts": "11:03", "app": "stable", "title": "", "idle": 11782, "cat": "idle"}
+{"ts": "11:04", "app": "stable", "title": "", "idle": 11842, "cat": "idle"}
+{"ts": "11:05", "app": "stable", "title": "", "idle": 11903, "cat": "idle"}
+{"ts": "11:06", "app": "stable", "title": "", "idle": 11963, "cat": "idle"}
+{"ts": "11:07", "app": "stable", "title": "", "idle": 12023, "cat": "idle"}
+{"ts": "11:08", "app": "stable", "title": "", "idle": 12084, "cat": "idle"}
+{"ts": "11:09", "app": "stable", "title": "", "idle": 12144, "cat": "idle"}
+{"ts": "11:10", "app": "stable", "title": "", "idle": 12205, "cat": "idle"}
+{"ts": "11:11", "app": "stable", "title": "", "idle": 12265, "cat": "idle"}
+{"ts": "11:12", "app": "stable", "title": "", "idle": 12326, "cat": "idle"}
+{"ts": "11:13", "app": "stable", "title": "", "idle": 12386, "cat": "idle"}
+{"ts": "11:14", "app": "stable", "title": "", "idle": 12447, "cat": "idle"}
+{"ts": "11:15", "app": "stable", "title": "", "idle": 12507, "cat": "idle"}
+{"ts": "11:16", "app": "stable", "title": "", "idle": 12568, "cat": "idle"}
+{"ts": "11:17", "app": "stable", "title": "", "idle": 12628, "cat": "idle"}
+{"ts": "11:18", "app": "stable", "title": "", "idle": 12689, "cat": "idle"}
+{"ts": "11:19", "app": "stable", "title": "", "idle": 12749, "cat": "idle"}
+{"ts": "11:20", "app": "stable", "title": "", "idle": 12810, "cat": "idle"}
+{"ts": "11:21", "app": "stable", "title": "", "idle": 12870, "cat": "idle"}
+{"ts": "11:22", "app": "stable", "title": "", "idle": 12930, "cat": "idle"}
+{"ts": "11:23", "app": "stable", "title": "", "idle": 12991, "cat": "idle"}
+{"ts": "11:24", "app": "stable", "title": "", "idle": 13051, "cat": "idle"}
+{"ts": "11:25", "app": "stable", "title": "", "idle": 13112, "cat": "idle"}
+{"ts": "11:26", "app": "stable", "title": "", "idle": 13172, "cat": "idle"}
+{"ts": "11:27", "app": "stable", "title": "", "idle": 13233, "cat": "idle"}
+{"ts": "11:28", "app": "stable", "title": "", "idle": 13293, "cat": "idle"}
+{"ts": "11:29", "app": "stable", "title": "", "idle": 13354, "cat": "idle"}
+{"ts": "11:30", "app": "stable", "title": "", "idle": 13414, "cat": "idle"}
+{"ts": "11:31", "app": "stable", "title": "", "idle": 13474, "cat": "idle"}
+{"ts": "11:36", "app": "stable", "title": "", "idle": 13775, "cat": "idle"}
+{"ts": "11:37", "app": "stable", "title": "", "idle": 13836, "cat": "idle"}
+{"ts": "11:39", "app": "stable", "title": "", "idle": 13897, "cat": "idle"}
+{"ts": "11:40", "app": "stable", "title": "", "idle": 13957, "cat": "idle"}
+{"ts": "11:41", "app": "stable", "title": "", "idle": 14017, "cat": "idle"}
+{"ts": "11:42", "app": "stable", "title": "", "idle": 14078, "cat": "idle"}
+{"ts": "11:43", "app": "stable", "title": "", "idle": 14138, "cat": "idle"}
+{"ts": "11:44", "app": "stable", "title": "", "idle": 14199, "cat": "idle"}
+{"ts": "11:45", "app": "stable", "title": "", "idle": 14259, "cat": "idle"}
+{"ts": "11:46", "app": "stable", "title": "", "idle": 14320, "cat": "idle"}
+{"ts": "11:47", "app": "stable", "title": "", "idle": 14380, "cat": "idle"}
+{"ts": "11:48", "app": "stable", "title": "", "idle": 14441, "cat": "idle"}
+{"ts": "11:49", "app": "stable", "title": "", "idle": 14501, "cat": "idle"}
+{"ts": "11:50", "app": "stable", "title": "", "idle": 14562, "cat": "idle"}
+{"ts": "11:51", "app": "stable", "title": "", "idle": 14622, "cat": "idle"}
+{"ts": "11:52", "app": "stable", "title": "", "idle": 14682, "cat": "idle"}
+{"ts": "11:53", "app": "stable", "title": "", "idle": 14743, "cat": "idle"}
+{"ts": "11:54", "app": "stable", "title": "", "idle": 14803, "cat": "idle"}
+{"ts": "11:55", "app": "stable", "title": "", "idle": 14864, "cat": "idle"}
+{"ts": "11:56", "app": "stable", "title": "", "idle": 14924, "cat": "idle"}
+{"ts": "11:57", "app": "stable", "title": "", "idle": 14985, "cat": "idle"}
+{"ts": "11:58", "app": "stable", "title": "", "idle": 15045, "cat": "idle"}
+{"ts": "11:59", "app": "stable", "title": "", "idle": 15105, "cat": "idle"}
+{"ts": "12:00", "app": "stable", "title": "", "idle": 15166, "cat": "idle"}
+{"ts": "12:01", "app": "stable", "title": "", "idle": 15226, "cat": "idle"}
+{"ts": "12:02", "app": "stable", "title": "", "idle": 15287, "cat": "idle"}
+{"ts": "12:03", "app": "stable", "title": "", "idle": 15347, "cat": "idle"}
+{"ts": "12:04", "app": "stable", "title": "", "idle": 15408, "cat": "idle"}
+{"ts": "12:05", "app": "stable", "title": "", "idle": 15468, "cat": "idle"}
+{"ts": "12:06", "app": "stable", "title": "", "idle": 15528, "cat": "idle"}
+{"ts": "12:07", "app": "stable", "title": "", "idle": 15589, "cat": "idle"}
+{"ts": "12:08", "app": "stable", "title": "", "idle": 15649, "cat": "idle"}
+{"ts": "12:09", "app": "stable", "title": "", "idle": 15710, "cat": "idle"}
+{"ts": "12:10", "app": "stable", "title": "", "idle": 15770, "cat": "idle"}
+{"ts": "12:11", "app": "stable", "title": "", "idle": 15831, "cat": "idle"}
+{"ts": "12:12", "app": "stable", "title": "", "idle": 15891, "cat": "idle"}
+{"ts": "12:13", "app": "stable", "title": "", "idle": 15952, "cat": "idle"}
+{"ts": "12:14", "app": "stable", "title": "", "idle": 16012, "cat": "idle"}
+{"ts": "12:15", "app": "stable", "title": "", "idle": 16072, "cat": "idle"}
+{"ts": "12:16", "app": "stable", "title": "", "idle": 16133, "cat": "idle"}
+{"ts": "12:17", "app": "stable", "title": "", "idle": 16193, "cat": "idle"}
+{"ts": "12:18", "app": "stable", "title": "", "idle": 16254, "cat": "idle"}
+{"ts": "12:19", "app": "stable", "title": "", "idle": 16314, "cat": "idle"}
+{"ts": "12:20", "app": "stable", "title": "", "idle": 16375, "cat": "idle"}
+{"ts": "12:21", "app": "stable", "title": "", "idle": 16435, "cat": "idle"}
+{"ts": "12:22", "app": "stable", "title": "", "idle": 16496, "cat": "idle"}
+{"ts": "12:23", "app": "stable", "title": "", "idle": 16556, "cat": "idle"}
+{"ts": "12:24", "app": "stable", "title": "", "idle": 16617, "cat": "idle"}
+{"ts": "12:25", "app": "stable", "title": "", "idle": 16677, "cat": "idle"}
+{"ts": "12:26", "app": "stable", "title": "", "idle": 16737, "cat": "idle"}
+{"ts": "12:27", "app": "stable", "title": "", "idle": 16798, "cat": "idle"}
+{"ts": "12:28", "app": "stable", "title": "", "idle": 16858, "cat": "idle"}
+{"ts": "12:29", "app": "stable", "title": "", "idle": 16919, "cat": "idle"}
+{"ts": "12:30", "app": "stable", "title": "", "idle": 16979, "cat": "idle"}
+{"ts": "12:31", "app": "stable", "title": "", "idle": 17040, "cat": "idle"}
+{"ts": "12:32", "app": "stable", "title": "", "idle": 17100, "cat": "idle"}
+{"ts": "12:33", "app": "stable", "title": "", "idle": 17161, "cat": "idle"}
+{"ts": "12:34", "app": "stable", "title": "", "idle": 17221, "cat": "idle"}
+{"ts": "12:35", "app": "stable", "title": "", "idle": 17281, "cat": "idle"}
+{"ts": "12:36", "app": "stable", "title": "", "idle": 17342, "cat": "idle"}
+{"ts": "12:37", "app": "stable", "title": "", "idle": 17402, "cat": "idle"}
+{"ts": "12:38", "app": "stable", "title": "", "idle": 17463, "cat": "idle"}
+{"ts": "12:39", "app": "stable", "title": "", "idle": 17523, "cat": "idle"}
+{"ts": "12:40", "app": "stable", "title": "", "idle": 17584, "cat": "idle"}
+{"ts": "12:41", "app": "stable", "title": "", "idle": 17644, "cat": "idle"}
+{"ts": "12:42", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 30, "cat": "other"}
+{"ts": "12:43", "app": "Obsidian", "title": "title-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:44", "app": "Obsidian", "title": "action-20260502 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:45", "app": "Obsidian", "title": "action-20260502 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:46", "app": "Opera", "title": "アナリティクス / X", "idle": 1, "cat": "focus"}
+{"ts": "12:47", "app": "Obsidian", "title": "action-20260502 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:48", "app": "Opera", "title": "Xユーザーのチャックさん: 「米軍はAnthropicを切った──上司に「うち大丈夫？」と問われる前のGW 5本」 / X", "idle": 0, "cat": "focus"}
+{"ts": "12:49", "app": "Opera", "title": "Xユーザーのチャックさん: 「米軍はAnthropicを切った──上司に「うち大丈夫？」と問われる前のGW 5本」 / X", "idle": 1, "cat": "focus"}
+{"ts": "12:50", "app": "Finder", "title": "ダウンロード", "idle": 0, "cat": "other"}
+{"ts": "12:51", "app": "Finder", "title": "ダウンロード", "idle": 41, "cat": "other"}
+{"ts": "12:52", "app": "Finder", "title": "", "idle": 0, "cat": "other"}
+{"ts": "12:53", "app": "Obsidian", "title": "action-20260429 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:54", "app": "Obsidian", "title": "action-20260501 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:55", "app": "Obsidian", "title": "action-20260502 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "12:56", "app": "Obsidian", "title": "20260503_note紹介スレッド - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "12:57", "app": "Obsidian", "title": "action-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 2, "cat": "focus"}
+{"ts": "12:58", "app": "Google Chrome", "title": "通知 / X - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "12:59", "app": "Google Chrome", "title": "トレンド - Inoreader - 固定済み - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "13:00", "app": "Google Chrome", "title": "_web - Inoreader - 固定済み - Google Chrome - kun", "idle": 21, "cat": "other"}
+{"ts": "13:01", "app": "Finder", "title": "screenshots", "idle": 0, "cat": "other"}
+{"ts": "13:02", "app": "Google Chrome", "title": "_web - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:03", "app": "Google Chrome", "title": "_web - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:04", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 55, "cat": "other"}
+{"ts": "13:05", "app": "Opera", "title": "Start Page", "idle": 0, "cat": "focus"}
+{"ts": "13:06", "app": "Opera", "title": "Geminiの有料プラン解約方法 - Claude", "idle": 0, "cat": "focus"}
+{"ts": "13:07", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 0, "cat": "other"}
+{"ts": "13:08", "app": "stable", "title": "⠐ Execute re-daily skill on iPad from remote Mac", "idle": 11, "cat": "other"}
+{"ts": "13:09", "app": "stable", "title": "", "idle": 0, "cat": "other"}
+{"ts": "13:10", "app": "Google Chrome", "title": "Gemini Gems - Google ドライブ - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:11", "app": "Google Chrome", "title": "_kiwami - Google ドライブ - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "13:12", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 2, "cat": "other"}
+{"ts": "13:13", "app": "Finder", "title": "GoogleDrive", "idle": 0, "cat": "other"}
+{"ts": "13:14", "app": "stable", "title": "⠂ Execute re-daily skill on iPad from remote Mac", "idle": 1, "cat": "other"}
+{"ts": "13:15", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 43, "cat": "other"}
+{"ts": "13:16", "app": "stable", "title": "⠐ Execute re-daily skill on iPad from remote Mac", "idle": 27, "cat": "other"}
+{"ts": "13:17", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 40, "cat": "other"}
+{"ts": "13:18", "app": "stable", "title": "⠂ Execute re-daily skill on iPad from remote Mac", "idle": 20, "cat": "other"}
+{"ts": "13:19", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 41, "cat": "other"}
+{"ts": "13:20", "app": "stable", "title": "⠂ Execute re-daily skill on iPad from remote Mac", "idle": 1, "cat": "other"}
+{"ts": "13:21", "app": "stable", "title": "", "idle": 0, "cat": "other"}
+{"ts": "13:22", "app": "stable", "title": "⠂ Execute re-daily skill on iPad from remote Mac", "idle": 28, "cat": "other"}
+{"ts": "13:23", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 89, "cat": "other"}
+{"ts": "13:24", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 149, "cat": "other"}
+{"ts": "13:25", "app": "Finder", "title": "500GB", "idle": 0, "cat": "other"}
+{"ts": "13:26", "app": "Finder", "title": "500GB", "idle": 0, "cat": "other"}
+{"ts": "13:27", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 4, "cat": "other"}
+{"ts": "13:28", "app": "Finder", "title": "500GB", "idle": 1, "cat": "other"}
+{"ts": "13:29", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 11, "cat": "other"}
+{"ts": "13:30", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 29, "cat": "other"}
+{"ts": "13:31", "app": "stable", "title": "⠐ Execute re-daily skill on iPad from remote Mac", "idle": 3, "cat": "other"}
+{"ts": "13:32", "app": "stable", "title": "⠂ Execute re-daily skill on iPad from remote Mac", "idle": 15, "cat": "other"}
+{"ts": "13:33", "app": "Google Chrome", "title": "Personal Access Tokens (Classic) - Google Chrome - kun", "idle": 2, "cat": "other"}
+{"ts": "13:34", "app": "Google Chrome", "title": "Confirm access - Google Chrome - kun", "idle": 34, "cat": "other"}
+{"ts": "13:35", "app": "Google Chrome", "title": "Personal Access Tokens (Classic) - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:36", "app": "Google Chrome", "title": "Fine-grained Personal Access Tokens - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:37", "app": "Google Chrome", "title": "Fine-grained Personal Access Tokens - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:38", "app": "Google Chrome", "title": "Fine-grained Personal Access Tokens - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "13:39", "app": "Google Chrome", "title": "Fine-grained Personal Access Tokens - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:40", "app": "Opera", "title": "Notes · Standard Notes", "idle": 0, "cat": "focus"}
+{"ts": "13:41", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 0, "cat": "other"}
+{"ts": "13:42", "app": "stable", "title": "⠐ Execute re-daily skill on iPad from remote Mac", "idle": 14, "cat": "other"}
+{"ts": "13:43", "app": "Opera", "title": "Notes · Standard Notes", "idle": 0, "cat": "focus"}
+{"ts": "13:44", "app": "stable", "title": "⠂ Execute re-daily skill on iPad from remote Mac", "idle": 9, "cat": "other"}
+{"ts": "13:45", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:46", "app": "Google Chrome", "title": "痛いニュース(ﾉ∀`) : 【悲報】米問屋、ガチギレ「米が売れないから値下げしないと次の仕入れができない！」 - ライブドアブログ - Google Chrome - kun", "idle": 12, "cat": "other"}
+{"ts": "13:47", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 27, "cat": "other"}
+{"ts": "13:48", "app": "stable", "title": "✳ Execute re-daily skill on iPad from remote Mac", "idle": 8, "cat": "other"}
+{"ts": "13:49", "app": "Google Chrome", "title": "マイドライブ - Google ドライブ - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:50", "app": "Finder", "title": "500GB", "idle": 0, "cat": "other"}
+{"ts": "13:51", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "13:52", "app": "Google Chrome", "title": "_all - Inoreader - 固定済み - Google Chrome - kun", "idle": 6, "cat": "other"}
+{"ts": "14:00", "app": "Codex", "title": "Codex", "idle": 37, "cat": "focus"}
+{"ts": "14:02", "app": "Codex", "title": "Codex", "idle": 98, "cat": "focus"}
+{"ts": "14:03", "app": "Codex", "title": "Codex", "idle": 158, "cat": "focus"}
+{"ts": "14:04", "app": "Codex", "title": "Codex", "idle": 0, "cat": "focus"}
+{"ts": "14:05", "app": "Opera", "title": "Notes · Standard Notes", "idle": 0, "cat": "focus"}
+{"ts": "14:06", "app": "Codex", "title": "Codex", "idle": 16, "cat": "focus"}
+{"ts": "14:07", "app": "Codex", "title": "Codex", "idle": 0, "cat": "focus"}
+{"ts": "14:08", "app": "Codex", "title": "Codex", "idle": 23, "cat": "focus"}
+{"ts": "14:09", "app": "Finder", "title": "iCloud Drive", "idle": 18, "cat": "other"}
+{"ts": "14:10", "app": "Finder", "title": "iCloud Drive", "idle": 78, "cat": "other"}
+{"ts": "14:11", "app": "Finder", "title": "iCloud Drive", "idle": 138, "cat": "other"}
+{"ts": "14:12", "app": "Finder", "title": "iCloud Drive", "idle": 199, "cat": "idle"}
+{"ts": "14:13", "app": "Finder", "title": "iCloud Drive", "idle": 259, "cat": "idle"}
+{"ts": "14:14", "app": "Finder", "title": "iCloud Drive", "idle": 320, "cat": "idle"}
+{"ts": "14:15", "app": "Finder", "title": "iCloud Drive", "idle": 380, "cat": "idle"}
+{"ts": "14:16", "app": "Finder", "title": "iCloud Drive", "idle": 2, "cat": "other"}
+{"ts": "14:17", "app": "Codex", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "14:18", "app": "Codex", "title": "Codex", "idle": 3, "cat": "focus"}
+{"ts": "14:19", "app": "Codex", "title": "Codex", "idle": 36, "cat": "focus"}
+{"ts": "14:20", "app": "Codex", "title": "Codex", "idle": 1, "cat": "focus"}
+{"ts": "14:21", "app": "Codex", "title": "Codex", "idle": 1, "cat": "focus"}
+{"ts": "14:22", "app": "Obsidian", "title": "新規タブ - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:23", "app": "Obsidian", "title": "サムネイル画像 生成手順 - Tsukapon - Obsidian 1.12.7", "idle": 3, "cat": "focus"}
+{"ts": "14:24", "app": "Obsidian", "title": "サムネイル画像 生成手順 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:25", "app": "Obsidian", "title": "サムネイル画像 生成手順 - Tsukapon - Obsidian 1.12.7", "idle": 29, "cat": "focus"}
+{"ts": "14:26", "app": "Obsidian", "title": "サムネイル画像 生成手順 - Tsukapon - Obsidian 1.12.7", "idle": 45, "cat": "focus"}
+{"ts": "14:27", "app": "Finder", "title": "iCloud Drive", "idle": 0, "cat": "other"}
+{"ts": "14:28", "app": "Finder", "title": "", "idle": 0, "cat": "other"}
+{"ts": "14:29", "app": "Finder", "title": "iCloud Drive", "idle": 31, "cat": "other"}
+{"ts": "14:30", "app": "Finder", "title": "iCloud Drive", "idle": 92, "cat": "other"}
+{"ts": "14:31", "app": "Finder", "title": "500GB", "idle": 1, "cat": "other"}
+{"ts": "14:32", "app": "Google Chrome", "title": "GoogleDrive - Google ドライブ - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "14:33", "app": "Finder", "title": "MEGA", "idle": 0, "cat": "other"}
+{"ts": "14:34", "app": "Obsidian", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "14:35", "app": "Obsidian", "title": "サムネイル画像 生成手順 - Tsukapon - Obsidian 1.12.7", "idle": 56, "cat": "focus"}
+{"ts": "14:36", "app": "Obsidian", "title": "サムネイル画像 生成手順 - Tsukapon - Obsidian 1.12.7", "idle": 116, "cat": "focus"}
+{"ts": "14:37", "app": "Opera", "title": "ホーム / X", "idle": 6, "cat": "focus"}
+{"ts": "14:38", "app": "Opera", "title": "ホーム / X", "idle": 1, "cat": "focus"}
+{"ts": "14:39", "app": "Opera", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "14:41", "app": "Opera", "title": "Notes · Standard Notes", "idle": 0, "cat": "focus"}
+{"ts": "14:42", "app": "Finder", "title": "Tsukapon", "idle": 0, "cat": "other"}
+{"ts": "14:43", "app": "Google Chrome", "title": "Google Gemini - 固定済み - Google Chrome - kun", "idle": 13, "cat": "other"}
+{"ts": "14:44", "app": "Google Chrome", "title": "バナー画像生成プロンプト作成 - Google Gemini - 固定済み - Google Chrome - kun", "idle": 13, "cat": "other"}
+{"ts": "14:45", "app": "Google Chrome", "title": "バナー画像生成プロンプト作成 - Google Gemini - 固定済み - Google Chrome - kun", "idle": 43, "cat": "other"}
+{"ts": "14:46", "app": "Codex", "title": "Codex", "idle": 0, "cat": "focus"}
+{"ts": "14:47", "app": "Codex", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "14:48", "app": "Google Chrome", "title": "バナー画像生成プロンプト作成 - Google Gemini - 固定済み - Google Chrome - kun", "idle": 4, "cat": "other"}
+{"ts": "14:49", "app": "Obsidian", "title": "無題のファイル - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:50", "app": "Obsidian", "title": "サムネイル生成プロンプト - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:51", "app": "Obsidian", "title": "サムネイル生成プロンプト - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "14:52", "app": "Code", "title": "サムネイル生成プロンプト.md — design", "idle": 0, "cat": "focus"}
+{"ts": "14:53", "app": "Adobe Illustrator", "title": "", "idle": 0, "cat": "focus"}
+{"ts": "14:54", "app": "Obsidian", "title": "サムネイル生成プロンプト - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:55", "app": "Code", "title": "サムネイル生成プロンプト.md — design", "idle": 0, "cat": "focus"}
+{"ts": "14:56", "app": "Obsidian", "title": "サムネイル生成プロンプト - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "14:57", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 52, "cat": "other"}
+{"ts": "14:58", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 112, "cat": "other"}
+{"ts": "14:59", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 9, "cat": "other"}
+{"ts": "15:00", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:01", "app": "Obsidian", "title": "サムネイル生成プロンプト - Tsukapon - Obsidian 1.12.7", "idle": 14, "cat": "focus"}
+{"ts": "15:02", "app": "Opera", "title": "Notes · Standard Notes", "idle": 10, "cat": "focus"}
+{"ts": "15:03", "app": "Opera", "title": "Notes · Standard Notes", "idle": 0, "cat": "focus"}
+{"ts": "15:04", "app": "Codex", "title": "Codex", "idle": 1, "cat": "focus"}
+{"ts": "15:05", "app": "Codex", "title": "Codex", "idle": 5, "cat": "focus"}
+{"ts": "15:06", "app": "Codex", "title": "Codex", "idle": 13, "cat": "focus"}
+{"ts": "15:07", "app": "Obsidian", "title": "サムネイル生成プロンプト（） - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:08", "app": "Codex", "title": "Codex", "idle": 0, "cat": "focus"}
+{"ts": "15:09", "app": "Obsidian", "title": "title-20260503 - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:10", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 2, "cat": "focus"}
+{"ts": "15:11", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 28, "cat": "focus"}
+{"ts": "15:12", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:13", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 1, "cat": "focus"}
+{"ts": "15:14", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:15", "app": "Codex", "title": "Codex", "idle": 0, "cat": "focus"}
+{"ts": "15:16", "app": "Codex", "title": "Codex", "idle": 8, "cat": "focus"}
+{"ts": "15:17", "app": "Codex", "title": "Codex", "idle": 3, "cat": "focus"}
+{"ts": "15:18", "app": "Finder", "title": "クイックルック", "idle": 9, "cat": "other"}
+{"ts": "15:19", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:20", "app": "Codex", "title": "Codex", "idle": 0, "cat": "focus"}
+{"ts": "15:21", "app": "Codex", "title": "Codex", "idle": 44, "cat": "focus"}
+{"ts": "15:22", "app": "Finder", "title": "クイックルック", "idle": 13, "cat": "other"}
+{"ts": "15:23", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 0, "cat": "other"}
+{"ts": "15:24", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 38, "cat": "other"}
+{"ts": "15:25", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 1, "cat": "other"}
+{"ts": "15:26", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 61, "cat": "other"}
+{"ts": "15:27", "app": "Google Chrome", "title": "クリーンでモダンなデジタルニュースバナー（16:9）を作成します。全体の構成、テキストの位置、およびスタイルは添付画像を忠実に再現してください。 背景: ダークブルーからブラックのグラデーション。元のゴールデンネットワークに代わる、洗練された、流れるようなゴールデンとブルーの光ファイバーとデータストリームの抽象的な波のパターン。 テキスト（左上）: 「daily AI news」のテキスト。白、サンセリフフォント、下線付き。元の画像と同じ位置とスタイル。 テキスト（中央、特大）: 新しいメインタイトル「AI生成画像の著作権：新たな法的解釈。」。白、サンセリフフォント、中央揃え。元の画像のように「著作権」の部分をゴールデンで強調。 テキスト（中央、中）: 新しいサブタイトル「クリエイター向けに新たなライセンスモデル。生成AIの商業利用が加速。」。白、サンセリフフォント、中央揃え、下線付き。元の画像と同じ位置とスタイル。 テキスト（右下）: 新しい著者クレジット「チャック | https://note.com/chackwill」。白、サンセリフフォント、右揃え、元の画像と同じ位置。 全体: 高コントラストで、プレミアム、クリーン、プロフェッショナルな雰囲気。 このプロンプトを実行すると、元の画像のブランド「daily AI news」とクリーンなレイアウトを維持したまま、新しい日本語テキストと新しい背景パターンを持つ、完全に異なるが同等の品質のバナーが生成されます。 新しいテキストの詳細: メインタイトル: MS-OpenAI、独占を解いた日。 (「独占」をゴールド強調) サブタイトル: 上司が連休明けに「うちのAI戦略は？」と問う前の、GW最終AI 5本。 (下線付き) URL: [https://note.com/chackwill](https://note.com/chackwill) - Google Gemini - 固定済み - Google Chrome - kun", "idle": 6, "cat": "other"}
+{"ts": "15:28", "app": "Obsidian", "title": "サムネイル生成プロンプト（GPT-Image-2） - Tsukapon - Obsidian 1.12.7", "idle": 0, "cat": "focus"}
+{"ts": "15:29", "app": "Obsidian", "title": "", "idle": 20, "cat": "focus"}

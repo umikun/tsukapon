@@ -9,6 +9,8 @@
       "apps": [
         "Opera",
         "Cursor",
+        "Code",
+        "Visual Studio Code",
         "Antigravity",
         "Obsidian",
         "Claude",
@@ -35,7 +37,6 @@
       "label": "脱線",
       "color": "#ef4444",
       "apps": [
-        // "Day One",
         "cooViewer",
         "Music"
       ]

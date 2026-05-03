@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777686535439-srl48exyp",
+  "providerId": "claude",
+  "title": "Generate first reply with note creator URL",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777686535447,
+  "updatedAt": 1777753526807,
+  "lastResponseAt": 1777696911181,
+  "sessionId": "01340214-78f6-4c71-8baf-9b6ae9d804b7",
+  "providerState": {
+    "providerSessionId": "01340214-78f6-4c71-8baf-9b6ae9d804b7"
+  },
+  "currentNote": "SNS運用/action-20260502.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 8003,
+    "cacheReadInputTokens": 102372,
+    "contextWindow": 1000000,
+    "contextTokens": 110376,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
