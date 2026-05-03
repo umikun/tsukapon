@@ -4,8 +4,8 @@
   "title": "Add memory entry",
   "titleGenerationStatus": "success",
   "createdAt": 1777794391124,
-  "updatedAt": 1777794610824,
-  "lastResponseAt": 1777794610824,
+  "updatedAt": 1777800594045,
+  "lastResponseAt": 1777800594045,
   "sessionId": "d65b4ad4-0247-4f22-90ce-0f8b6661315f",
   "providerState": {
     "providerSessionId": "d65b4ad4-0247-4f22-90ce-0f8b6661315f"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 1655,
-    "cacheReadInputTokens": 58429,
+    "cacheCreationInputTokens": 1273,
+    "cacheReadInputTokens": 71546,
     "contextWindow": 1000000,
-    "contextTokens": 60085,
-    "percentage": 6,
+    "contextTokens": 72820,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }
