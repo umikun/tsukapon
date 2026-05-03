@@ -7,7 +7,7 @@ source: 直接貼付（キーワード「楽天の放置アフィ」）
 # 楽天「放置アフィ」の実態 — 仕組み・上限・本当に放置で稼げるのかを2026年4月時点で棚卸し
 
 > **🔗 関連コンテンツ**
-> - 🧵 関連調査: [[調査/2026-04-25-threads-affiliate-side-hustle.md]]
+> - 🧵 関連調査: [[2026-04-25-threads-affiliate-side-hustle]]
 > - 📊 SNS運用戦略: [[SNS運用/analytics/フォロワー改善.md]]
 
 > **TL;DR**

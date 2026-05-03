@@ -7,7 +7,7 @@ source: twitter-archive-202604
 # X 過去投稿アーカイブ（2026-04-30 取り込み）
 
 > **🔗 関連コンテンツ**
-> - 🔬 取り込み判断の根拠: [[調査/2026-04-29-birdclaw-x-archive-tool.md]]
+> - 🔬 取り込み判断の根拠: [[2026-04-29-birdclaw-x-archive-tool]]
 > - 📋 SNS運用全体像: [[Claudian-スキル一覧.md]]
 > - 📊 週次分析（実績ベース）: [[SNS運用/analytics/フォロワー改善.md]]
 > - 🎭 人格データ（過去投稿の発掘先）: `_ kiwami/my-clone/`
@@ -97,12 +97,12 @@ jq 'select(.favorite_count >= 5)' SNS運用/archive/x-history/tweets/tweets.json
 ## 🚪 次回更新時の手順
 
 ZIP配置 → このREADMEと同じ Python 変換スクリプト再実行で全ファイル上書き再生成。
-スクリプト本体は [[調査/2026-04-29-birdclaw-x-archive-tool.md]] の Phase B 完了記録に集約予定。
+スクリプト本体は [[2026-04-29-birdclaw-x-archive-tool]] の Phase B 完了記録に集約予定。
 
 ## 📝 取り込み履歴
 
 - **2026-04-30**: 初回取り込み（このバッチ）
   - 申請: 2026-04-29 / 到着: 2026-04-30 13:51（約24時間）
-  - 取り込み判断: Birdclaw撤退・vault直接統合（[[調査/2026-04-29-birdclaw-x-archive-tool.md]] Phase B 再々設計）
+  - 取り込み判断: Birdclaw撤退・vault直接統合（[[2026-04-29-birdclaw-x-archive-tool]] Phase B 再々設計）
   - ZIP元: `~/Downloads/twitter-2026-04-30-db699524b3e1fd4186ad3150284c7b266801e1c67040b00018dbef6aad99687a.zip`
   - ZIPバックアップ先: `/Volumes/500GB/GoogleDrive/Tsukapon/x-archive/`

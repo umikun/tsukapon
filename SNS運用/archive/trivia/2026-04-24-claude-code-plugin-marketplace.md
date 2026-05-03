@@ -77,7 +77,7 @@ source: "[[Clippings/Post by @HowToAI_ on X.md]]"
 
 ## 🧩 関連概念・隣接分野
 
-- **[[調査/2026-04-24-openchronicle-mac-ai-memory.md]]（OpenChronicle）**: Mac作業文脈をClaude Desktopに渡すMCPサーバ。**プラグインではなく"独立MCPサーバ"**なので、プラグインマーケット経由で入れられる日は近い。
+- **[[2026-04-24-openchronicle-mac-ai-memory]]（OpenChronicle）**: Mac作業文脈をClaude Desktopに渡すMCPサーバ。**プラグインではなく"独立MCPサーバ"**なので、プラグインマーケット経由で入れられる日は近い。
 - **[[2026-04-23-claude-obsidian-llm-wiki]]（claude-obsidian）**: 似た位置取り。Obsidian vaultをClaude Codeから扱うためのpluginだが、まだ公式マーケットには未登録っぽい。
 - **MCPサーバの"公式 vs 野良"の境界**: `claude-plugins-official` に同梱されるMCP（GitHub/Linear/Slack等）はAnthropicが動作保証する一方、サードパーティMCPは完全に自己責任。**同じMCPでも"どのマーケット経由で入れたか"で信頼度が変わる**。
 - **ccpi（`@intentsolutionsio/ccpi`）**: Claude Code専用のnpmベースパッケージマネージャ。pnpm/npmと同じ感覚で扱える**"Claude Code界のhomebrew"**的ポジション。

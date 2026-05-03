@@ -1,7 +1,7 @@
 # 批評型X連投シリーズ④ 「完全なコース」の実態
 
 > **🔗 関連コンテンツ**
-> - 🧠 元調査: [[調査/2026-04-26-obsidian-claude-code-second-brain.md]]
+> - 🧠 元調査: [[2026-04-26-obsidian-claude-code-second-brain]]
 > - 📊 W18戦略メモ: [[SNS運用/analytics/W18戦略メモ.md]]
 > - 🎯 投下予定: Thu 4/30 12:30頃
 

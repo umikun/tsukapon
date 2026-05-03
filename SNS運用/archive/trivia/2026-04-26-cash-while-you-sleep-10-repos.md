@@ -79,7 +79,7 @@ X（旧Twitter）の英語AI界隈では2025年後半あたりから「**Top N G
 
 - **AutoHedge** が Solana特化で push 続いてる（最終 push 2026-04-13）。バックテスト数字 +12-18% は伸びてるが live track recordなし — [SourcePulse](https://www.sourcepulse.org/projects/2315995), 2026-04
 - **Vibe-Trading v0.1.5** がリリース済（.env bootstrap, runtime data-source fallback, 12 LLM provider対応）。HKUのもう1つ `HKUDS/AI-Trader` が同系統で派生中 — [GitHub HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading), 2026-04
-- **mksglu/context-mode（=ClawRouter）★10k超え**は2026-04-26時点で当日 push、コンテキスト圧縮系の本命候補に上昇。RTK（[[調査/2026-04-26-rtk-token-killer-cli-proxy.md]]）と並べて検討する価値あり — [GitHub mksglu/context-mode](https://github.com/mksglu/context-mode), 2026-04
+- **mksglu/context-mode（=ClawRouter）★10k超え**は2026-04-26時点で当日 push、コンテキスト圧縮系の本命候補に上昇。RTK（[[2026-04-26-rtk-token-killer-cli-proxy]]）と並べて検討する価値あり — [GitHub mksglu/context-mode](https://github.com/mksglu/context-mode), 2026-04
 - **HeyGen Hyperframes** は2026年Q1ローンチ後一気に★11k突破。HTML→Videoの教育キット（`nateherkai/hyperframes-student-kit`★231）や `agno-agi/vibe-video` のような派生も生まれている — [GitHub heygen-com/hyperframes](https://github.com/heygen-com/hyperframes), 2026-04
 - **Cloudflare agentic-inbox** はEmail Workers + AI agentの公式実装例。セルフホスト型 Superhuman/HEY代替を目指すSaaSプロジェクトが派生しはじめている — [GitHub cloudflare/agentic-inbox](https://github.com/cloudflare/agentic-inbox), 2026-04
 - **Anil-matcha のリポ改名**（Open-Higgsfield-AI → Open-Generative-AI）はSora/Veo/Klingまで対応モデルを拡張したから、というのが推測。Higgsfieldだけ追従してる人はリンク切れ注意 — [GitHub Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI), 2026-04
@@ -88,8 +88,8 @@ X（旧Twitter）の英語AI界隈では2025年後半あたりから「**Top N G
 
 ## 🧩 関連概念・隣接分野
 
-- **コンテキスト圧縮プロキシ**: ClawRouter/context-mode と RTK は同じカテゴリ。AIコーディング代金の最大支出ポイントを叩く道具で、2026年に一気に10k★級が複数出てきた — [[調査/2026-04-26-rtk-token-killer-cli-proxy.md]]
-- **OSS-as-SaaS-代替**: Open-Generative-AI / agentic-inbox / context-mode はいずれも「有料SaaSをセルフホスト版で撃つ」型。同じ系譜で Open-SEOがいる — [[調査/2026-04-26-open-seo-self-hosted-stack.md]]
+- **コンテキスト圧縮プロキシ**: ClawRouter/context-mode と RTK は同じカテゴリ。AIコーディング代金の最大支出ポイントを叩く道具で、2026年に一気に10k★級が複数出てきた — [[2026-04-26-rtk-token-killer-cli-proxy]]
+- **OSS-as-SaaS-代替**: Open-Generative-AI / agentic-inbox / context-mode はいずれも「有料SaaSをセルフホスト版で撃つ」型。同じ系譜で Open-SEOがいる — [[2026-04-26-open-seo-self-hosted-stack]]
 - **Claude Code Skill 経済圏**: claude-ads / toprank はどちらも Skill単位での配布。Skill marketplace まわりは別途調査済 — [[2026-04-24-claude-code-plugin-marketplace]]
 - **Stealth Browser/スクレイピング**: camofox-browser は Camoufox（Firefox派生）/Patchright/undetected-chromedriver と同枠。受託・データプロバイダの足回り
 - **Agent + Email**: agentic-inbox は Cloudflare Email Workers + Durable Objects の組み合わせ事例で、SaaS発射台として濃い

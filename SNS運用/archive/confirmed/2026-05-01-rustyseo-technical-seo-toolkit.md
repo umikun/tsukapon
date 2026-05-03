@@ -50,7 +50,7 @@ source: "[[Clippings/Post by @Fluyeporlaweb on X.md]]"
 
 並行して2025〜2026年は **GEO（Generative Engine Optimization）** がSEO業界の最大のバズワード化。Gartner予測の「**生成AIで従来検索が25%減**」を背景に、ChatGPT/Perplexity/Claude/Geminiから引用されるための最適化が独立スキルになりつつある。RustySEOが「**SEO+GEO同居**」を売りにしているのは、この時流に乗った設計判断と読める。
 
-なお、本vaultにも[[調査/2026-04-26-open-seo-self-hosted-stack.md]]（every-app/open-seo＝キーワードリサーチ寄り）の調査メモがあり、**「商用SEOツールをOSSで剥がす」流れは2026年に明確に来ている**。
+なお、本vaultにも[[2026-04-26-open-seo-self-hosted-stack]]（every-app/open-seo＝キーワードリサーチ寄り）の調査メモがあり、**「商用SEOツールをOSSで剥がす」流れは2026年に明確に来ている**。
 
 ---
 
@@ -86,7 +86,7 @@ source: "[[Clippings/Post by @Fluyeporlaweb on X.md]]"
 - **Core Web Vitals (LCP/INP/CLS)**: 体感速度の3指標。RustySEOがPageSpeed Insights APIを叩いて取得・レポート化する
 - **Tauriエコシステム**: Rust+Webviewのデスクトップアプリ基盤。RustySEOのほか、最近のOSSデスクトップ系（音楽プレイヤー・ノートアプリ等）が雪崩を打って採用中
 - **GPL-3.0ライセンスの含意**: SaaS化や閉源製品への組み込みは原則NG（コピーレフト）。**代理店内製ツールに改造する場合、改造ソースの公開義務が発生する点は要注意**
-- **本vault関連**: [[調査/2026-04-26-open-seo-self-hosted-stack.md]] のevery-app/open-seoはキーワード/競合リサーチ寄り、RustySEOはテクニカル/ログ寄り、と**カバー範囲が補完関係**
+- **本vault関連**: [[2026-04-26-open-seo-self-hosted-stack]] のevery-app/open-seoはキーワード/競合リサーチ寄り、RustySEOはテクニカル/ログ寄り、と**カバー範囲が補完関係**
 
 ---
 
@@ -110,7 +110,7 @@ source: "[[Clippings/Post by @Fluyeporlaweb on X.md]]"
 - [ ] RustySEOのログ解析機能は、巨大ログ（GB級）でもパースできるか／メモリ効率はどうか（実測ベンチが見当たらない）
 - [ ] GEO機能の中身が「AIに見つけられやすいFAQ schemaの提案」程度なのか、Perplexity citation実測まで踏み込むのか（要触ってみる）
 - [ ] Tauri製クロスプラットフォームアプリの、macOSコード署名警告・Windows SmartScreen警告の現実的な顧客説明コスト
-- [ ] [[調査/2026-04-26-open-seo-self-hosted-stack.md]] の every-app/open-seo（キーワード/競合）と RustySEO（テクニカル/ログ）を組み合わせた**自前SEOスタック**の構築コスト
+- [ ] [[2026-04-26-open-seo-self-hosted-stack]] の every-app/open-seo（キーワード/競合）と RustySEO（テクニカル/ログ）を組み合わせた**自前SEOスタック**の構築コスト
 - [ ] 国内代理店業務で**Screaming Frogから移行可能かのギャップ分析**（プラグイン・GA4連携・カスタム抽出ルール等）
 - [ ] AI生成と思しき"水増しレビュー記事"を見抜くチェックリスト化（OSSバージョン番号と上流GitHub releasesの突き合わせは有力指標）
 
@@ -140,4 +140,4 @@ source: "[[Clippings/Post by @Fluyeporlaweb on X.md]]"
 1. **note記事化**: 「**Screaming Frog 代替を本気でOSSにできるか 2026版**——RustySEO・LibreCrawl・SiteOne Crawler・SEO Reporterを全部触ってみた」系の比較レビュー。検索流入が見込める領域
 2. **X投稿ネタ**: 「**SEOツール紹介ポストの『vX.X』表記、上流GitHubと食い違ってない？AI生成水増しレビューの見抜き方**」というメタな啓発スレッド（2〜3ポスト）
 3. **代理店向け業務提案**: クライアントのNginxアクセスログをローカルRustySEOで分析→クロールバジェット改善提案、というワークフロー検証。ローカル動作なのでログ持ち出し不要なのが営業面の強み
-4. **本vault内連携**: [[調査/2026-04-26-open-seo-self-hosted-stack.md]] と組み合わせて「**自前SEOスタック構築マップ 2026**」をDataview的に作っておくと将来役立つ
+4. **本vault内連携**: [[2026-04-26-open-seo-self-hosted-stack]] と組み合わせて「**自前SEOスタック構築マップ 2026**」をDataview的に作っておくと将来役立つ

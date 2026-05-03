@@ -117,7 +117,7 @@ source: "[[Clippings/Post by @NainsiDwiv50980 on X.md]]"
   - **個人開発の検証用** には「`npx -y socraticode` 手軽さ ＞ Docker前提のもやもや」で採用OK
   - **エンタープライズ用途**は **GitNexus (依存グラフ) / Code Context (Milvus公式)** と並べて性能と運用面で比較するべき
   - **「セットアップ本当にゼロが欲しい」** なら mcp-local-rag が最適解
-  - **投稿者 @NainsiDwiv50980 のハンドル名・口調・画像のみ** は典型的なAIツール紹介bot/インプレ垢パターン。**ツールの良し悪しと投稿者の信頼性は分けて評価する** — [[調査/2026-04-27-09pauai-affiliate-rebuild-plan.md]] で扱った @09pauai 流の煽りムーブと同種の構造
+  - **投稿者 @NainsiDwiv50980 のハンドル名・口調・画像のみ** は典型的なAIツール紹介bot/インプレ垢パターン。**ツールの良し悪しと投稿者の信頼性は分けて評価する** — [[2026-04-27-09pauai-affiliate-rebuild-plan]] で扱った @09pauai 流の煽りムーブと同種の構造
 
 ---
 
@@ -149,7 +149,7 @@ source: "[[Clippings/Post by @NainsiDwiv50980 on X.md]]"
 
 ## 🗒 メモ
 
-- このノートは [[調査/2026-04-27-09pauai-affiliate-rebuild-plan.md]] と並べて読むと**「2026年春にXで観測される煽り型紹介投稿パターン」の二例目**として機能する
+- このノートは [[2026-04-27-09pauai-affiliate-rebuild-plan]] と並べて読むと**「2026年春にXで観測される煽り型紹介投稿パターン」の二例目**として機能する
 - ツール自体は **Claudian / Tsukapon vault 自体に組み込めるかも検討する価値あり**:
   - vault配下 `_ kiwami/tools/daily-log/` のpython/jsを **SocratiCode でindex** すれば、ClaudianがCLAUDE.md直読みなしで該当箇所を抽出できる可能性
   - ただしAGPL-3.0なので、**社外提供する成果物に同梱する場合は商用ライセンス要検討**

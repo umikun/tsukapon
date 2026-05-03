@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777794391119-6caqprq2g",
+  "providerId": "claude",
+  "title": "Add memory entry",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777794391124,
+  "updatedAt": 1777794610824,
+  "lastResponseAt": 1777794610824,
+  "sessionId": "d65b4ad4-0247-4f22-90ce-0f8b6661315f",
+  "providerState": {
+    "providerSessionId": "d65b4ad4-0247-4f22-90ce-0f8b6661315f"
+  },
+  "currentNote": "Claudian-スキル一覧.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 1655,
+    "cacheReadInputTokens": 58429,
+    "contextWindow": 1000000,
+    "contextTokens": 60085,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}

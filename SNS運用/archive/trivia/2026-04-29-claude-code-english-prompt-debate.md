@@ -7,8 +7,8 @@ source: 直接貼付（X風の意見投稿）
 # Claude Code / Codex には英語プロンプト一択？ — 「日本語は曖昧で性能が落ちる」論を2026年4月時点で検証する
 
 > **🔗 関連コンテンツ**
-> - 🧰 関連調査: [[調査/2026-04-26-obsidian-claude-code-second-brain.md]]
-> - 🧰 Claude Code関連: [[調査/2026-04-28-claude-code-curated-lists-overlap.md]]
+> - 🧰 関連調査: [[2026-04-26-obsidian-claude-code-second-brain]]
+> - 🧰 Claude Code関連: [[2026-04-28-claude-code-curated-lists-overlap]]
 > - 🧠 vault運用ルール: [[CLAUDE.md]]
 
 > **TL;DR**
