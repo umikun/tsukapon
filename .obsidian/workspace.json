@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/archive/action/action-20260502.md",
+                "file": "SNS運用/action-20260503.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "action-20260502"
+              "title": "action-20260503"
             }
           },
           {
@@ -58,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/title/title-20260503.md",
+                "file": "SNS運用/post/day101.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "title-20260503"
+              "title": "day101"
             }
           },
           {
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,13 +272,26 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d8aa9309dd3d0433",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
+    "_ memory/daily/2026-05-02.md",
+    "_ memory/daily/2026-05-01.md",
+    "_ memory/daily/2026-04-30.md",
+    "_ memory/daily/2026-04-29.md",
+    "_ memory/daily/2026-04-26.md",
+    "_ memory/daily/2026-04-26.md.tmp.72024.1777801261534",
+    "SNS運用/post/day101.md",
+    "SNS運用/note/note-20260503.md",
+    "SNS運用/action-20260503.md",
+    "SNS運用/archive/action/action-20260502.md",
+    "SNS運用/post/day100.md",
+    "SNS運用/post/day99.md",
+    "SNS運用/post/day98.md",
+    "SNS運用/title/title-20260503.md",
+    "Claudian-スキル一覧.md",
     "_ memory/daily/2026-04-27.md",
     "_ memory/daily/2026-04-28.md",
     "SNS運用/全体ダッシュボード.base",
-    "SNS運用/archive/action/action-20260502.md",
-    "SNS運用/action-20260503.md",
     "調査/2026-05-01-claude-design-mcp-anti-ai-slop.md",
     "SNS運用/ネタ/2026-04-30-telegram-drive-cloud-storage.md",
     "SNS運用/ネタ/2026-04-30-openvpn-overview.md",
@@ -289,19 +302,7 @@
     "SNS運用/archive/confirmed/2026-04-27-socraticode-local-codebase-rag.md",
     "SNS運用/archive/confirmed/2026-04-27-09pauai-affiliate-rebuild-plan.md",
     "SNS運用/archive/confirmed/2026-04-26-rtk-token-killer-cli-proxy.md",
-    "SNS運用/archive/confirmed/2026-04-26-open-seo-self-hosted-stack.md",
-    "SNS運用/ネタ/2026-04-26-obsidian-claude-code-second-brain.md",
-    "SNS運用/ネタ/2026-04-25-threads-affiliate-side-hustle.md",
-    "SNS運用/ネタ/2026-04-24-openchronicle-mac-ai-memory.md",
-    "SNS運用/ネタ/2026-05-03-substack-2026-momentum-japan.md",
-    "Clippings/Post by @rushiagames on X.md",
-    "SNS運用/サムネイル作成/サムネイル生成プロンプト.md",
-    "SNS運用/サムネイル作成/サムネイル生成プロンプト（GPT-Image-2）.md",
-    "SNS運用/title/title-20260503.md",
     "SNS運用/サムネイル作成/~ai-af2f7de6-d7cc-4496-8312-bfe800753dfc_.tmp",
-    "SNS運用/archive/trivia/サムネイル画像 生成手順.md",
-    "SNS運用/archive/trivia/note記事用サムネイルのデザインシステム仕様書.md",
-    "SNS運用/post/thread/20260503_note紹介スレッド.md",
     "SNS運用/archive/post/article",
     "SNS運用/archive/post/名称未設定フォルダ",
     "SNS運用/archive/post/thread",
@@ -316,7 +317,6 @@
     "_ kiwami/tools/daily-log/activity/2026-05-02.jsonl",
     "SNS運用/analytics/screenshots/W18-routineB-day6-am-60min.png",
     "SNS運用/サムネイル作成/~ai-14f69f0c-8f26-4009-9723-de2ddd003b57_.tmp",
-    "SNS運用/サムネイル作成/~ai-f9e55b66-60dc-44ac-8439-a2ea4f89cd43_.tmp",
     "SNS運用/analytics/screenshots/Xプロフ訪問率の本日値メモ.png",
     "SNS運用/analytics/screenshots/Threadsプロフィール訪問数の本日値メモ.png",
     "SNS運用/analytics/screenshots/W18-Threads-day97-pm-60min.png",

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777801187777-hzpp2tddl",
+  "providerId": "claude",
+  "title": "Fix re-daily to exclude critical replies",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777801187783,
+  "updatedAt": 1777801703720,
+  "lastResponseAt": 1777801703720,
+  "sessionId": "edd29e3b-67ec-4926-a749-2e91127b4ca4",
+  "providerState": {
+    "providerSessionId": "edd29e3b-67ec-4926-a749-2e91127b4ca4"
+  },
+  "currentNote": "SNS運用/action-20260503.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 427,
+    "cacheReadInputTokens": 108718,
+    "contextWindow": 1000000,
+    "contextTokens": 109146,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
