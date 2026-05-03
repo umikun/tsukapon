@@ -4,8 +4,8 @@
   "title": "Fix re-daily to exclude critical replies",
   "titleGenerationStatus": "success",
   "createdAt": 1777801187783,
-  "updatedAt": 1777801703720,
-  "lastResponseAt": 1777801703720,
+  "updatedAt": 1777809123810,
+  "lastResponseAt": 1777808379266,
   "sessionId": "edd29e3b-67ec-4926-a749-2e91127b4ca4",
   "providerState": {
     "providerSessionId": "edd29e3b-67ec-4926-a749-2e91127b4ca4"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 427,
-    "cacheReadInputTokens": 108718,
+    "cacheCreationInputTokens": 1837,
+    "cacheReadInputTokens": 121512,
     "contextWindow": 1000000,
-    "contextTokens": 109146,
-    "percentage": 11,
+    "contextTokens": 123350,
+    "percentage": 12,
     "contextWindowIsAuthoritative": true
   }
 }

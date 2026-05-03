@@ -40,6 +40,7 @@
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
+      "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
@@ -59,6 +60,9 @@
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
     "claude": "medium"
+  },
+  "savedProviderPermissionMode": {
+    "claude": "yolo"
   },
   "lastCustomModel": "",
   "maxTabs": 3,
