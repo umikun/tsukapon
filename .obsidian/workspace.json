@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/action-20260503.md",
+                "file": "SNS運用/action-20260504.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "action-20260503"
+              "title": "action-20260504"
             }
           },
           {
@@ -58,12 +58,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/note/note-20260503.md",
+                "file": "SNS運用/note/note-20260504.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note-20260503"
+              "title": "note-20260504"
+            }
+          },
+          {
+            "id": "b18bbcfe0b12edaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/post/article/X-20260504.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "X-20260504"
             }
           },
           {
@@ -81,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,12 +272,19 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "71b13f29172198c0",
+  "active": "9759c2444dfbeca2",
   "lastOpenFiles": [
+    "SNS運用/post/article/X-20260504.md",
+    "SNS運用/post/thread/20260504_note紹介スレッド.md",
+    "SNS運用/action-20260504.md",
+    "SNS運用/note/note-20260504.md",
+    "SNS運用/archive/action/action-20260503.md",
+    "SNS運用/title/title-20260504.md",
+    "SNS運用/note/note-20260503.md",
+    "SNS運用/ネタ/2026-05-03-lazyweb-ui-mcp-design-agent.md",
     "_ kiwami/tools/daily-log/clockify/2026-05-04.json",
     "_ kiwami/tools/daily-log/activity/2026-05-04.jsonl",
     "Clippings/Post by @ClaudeCode_love on X 1.md",
-    "SNS運用/ネタ/2026-05-03-lazyweb-ui-mcp-design-agent.md",
     "SNS運用/ネタ/2026-05-03-codex-plugin-cc-adversarial-review.md",
     "Clippings/Post by @nicos_ai on X 1.md",
     "SNS運用/ネタ/2026-05-03-syswatch-rust-tui-monitor.md",
@@ -281,12 +302,6 @@
     "SNS運用/ネタ/2026-05-03-claude-token-reduction-10-repos.md",
     "Clippings/Post by @RodmanAi on X.md",
     "SNS運用/ネタ/2026-05-03-tailscale-anywhere-mesh-vpn.md",
-    "Clippings/Post by @combatsheep on X.md",
-    "調査/2026-05-01-claude-design-mcp-anti-ai-slop.md",
-    "SNS運用/note/_メンバーシップ準備ロードマップ.md",
-    "SNS運用/action-20260503.md",
-    "_ memory/daily/2026-05-02.md",
-    "_ memory/daily/2026-05-01.md",
     "_ memory/daily/2026-04-26.md.tmp.72024.1777801261534",
     "SNS運用/全体ダッシュボード.base",
     "SNS運用/サムネイル作成/~ai-af2f7de6-d7cc-4496-8312-bfe800753dfc_.tmp",
@@ -301,7 +316,6 @@
     "SNS運用/analytics/screenshots/W18-series01-day6-EOD.png",
     "SNS運用/analytics/screenshots/W18-series02-EOD-2of4.png",
     "SNS運用/analytics/screenshots/W18-series01-EOD-1of4.png",
-    "_ kiwami/tools/daily-log/activity/2026-05-02.jsonl",
     "SNS運用/analytics/screenshots/W18-routineB-day6-am-60min.png",
     "SNS運用/analytics/screenshots/Xプロフ訪問率の本日値メモ.png",
     "SNS運用/analytics/screenshots/Threadsプロフィール訪問数の本日値メモ.png",
