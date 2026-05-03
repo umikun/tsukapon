@@ -4,21 +4,21 @@
   "title": "Assess Tsukapon×note メンバーシップ運営",
   "titleGenerationStatus": "success",
   "createdAt": 1777809271515,
-  "updatedAt": 1777811223237,
-  "lastResponseAt": 1777811223237,
+  "updatedAt": 1777813976349,
+  "lastResponseAt": 1777813976349,
   "sessionId": "bf4701ae-b231-4526-9100-3c73d1d1762e",
   "providerState": {
     "providerSessionId": "bf4701ae-b231-4526-9100-3c73d1d1762e"
   },
   "currentNote": "調査/2026-05-01-claude-design-mcp-anti-ai-slop.md",
   "usage": {
-    "model": "opus",
+    "model": "sonnet",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 9542,
-    "cacheReadInputTokens": 161473,
-    "contextWindow": 1000000,
-    "contextTokens": 171016,
-    "percentage": 17,
+    "cacheCreationInputTokens": 5760,
+    "cacheReadInputTokens": 66538,
+    "contextWindow": 200000,
+    "contextTokens": 72299,
+    "percentage": 36,
     "contextWindowIsAuthoritative": true
   }
 }
