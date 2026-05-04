@@ -1,7 +1,13 @@
 ---
 created: 2026-04-29
-tags: [調査, sns自動化, n8n, bluesky, 実装計画]
-source: "調査/2026-04-29-postiz-sns-automation-overview.md"
+tags:
+  - 調査
+  - sns自動化
+  - n8n
+  - bluesky
+  - 実装計画
+source: 調査/2026-04-29-postiz-sns-automation-overview.md
+embed: 要検討
 ---
 
 # n8n × Bluesky/X/Threads 自動投稿 実装計画書（Phase 1〜3）

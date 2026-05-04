@@ -4,21 +4,20 @@
   "title": "Generate daily note action plan",
   "titleGenerationStatus": "success",
   "createdAt": 1777848430634,
-  "updatedAt": 1777849708489,
-  "lastResponseAt": 1777849708489,
+  "updatedAt": 1777853074209,
+  "lastResponseAt": 1777853074209,
   "sessionId": "82339f4d-ef6f-4583-9628-ac0afc6d5f8f",
   "providerState": {
     "providerSessionId": "82339f4d-ef6f-4583-9628-ac0afc6d5f8f"
   },
-  "currentNote": "SNS運用/note/note-20260504.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 1446,
-    "cacheReadInputTokens": 152687,
+    "cacheCreationInputTokens": 5675,
+    "cacheReadInputTokens": 84084,
     "contextWindow": 200000,
-    "contextTokens": 154134,
-    "percentage": 77,
+    "contextTokens": 89760,
+    "percentage": 45,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -1,7 +1,15 @@
 ---
 created: 2026-05-01
-tags: [調査, Claude Code, MCP, Design System, Impeccable, Anthropic, AI Slop]
+tags:
+  - 調査
+  - Claude Code
+  - MCP
+  - Design System
+  - Impeccable
+  - Anthropic
+  - AI Slop
 source: "[[Clippings/Post by @Oluwaphilemon1 on X.md]]"
+embed: 要検討
 ---
 
 # Claude Code の "AI slop UI" を殺す — デザインMCP / スキル / コネクタ 2026年版マップ
