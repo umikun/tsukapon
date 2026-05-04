@@ -4,8 +4,8 @@
   "title": "Clarify analytics metric extraction",
   "titleGenerationStatus": "success",
   "createdAt": 1777857730354,
-  "updatedAt": 1777897655973,
-  "lastResponseAt": 1777897655973,
+  "updatedAt": 1777898177555,
+  "lastResponseAt": 1777898177555,
   "sessionId": "847f90e1-c4c9-4780-b68c-540535ba47d4",
   "providerState": {
     "providerSessionId": "847f90e1-c4c9-4780-b68c-540535ba47d4"
@@ -13,11 +13,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 817,
-    "cacheReadInputTokens": 313045,
+    "cacheCreationInputTokens": 317,
+    "cacheReadInputTokens": 348731,
     "contextWindow": 1000000,
-    "contextTokens": 313863,
-    "percentage": 31,
+    "contextTokens": 349049,
+    "percentage": 35,
     "contextWindowIsAuthoritative": true
   }
 }
