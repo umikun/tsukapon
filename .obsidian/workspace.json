@@ -39,77 +39,21 @@
             }
           },
           {
-            "id": "9759c2444dfbeca2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/action-20260504.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "action-20260504"
-            }
-          },
-          {
-            "id": "e0500ed46e110583",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/analytics/W18戦略メモ.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W18戦略メモ"
-            }
-          },
-          {
-            "id": "fcc242a7644eef5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/draft/W19-x-header-design.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W19-x-header-design"
-            }
-          },
-          {
-            "id": "b18bbcfe0b12edaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/title/title-20260504.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "title-20260504"
-            }
-          },
-          {
             "id": "71b13f29172198c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Post by @osabori_code on X.md",
+                "file": "Clippings/Post by @NainsiDwiv50980 on X 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post by @osabori_code on X"
+              "title": "Post by @NainsiDwiv50980 on X 1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -286,28 +230,39 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "71b13f29172198c0",
   "lastOpenFiles": [
+    "SNS運用/post/day100.md",
+    "Clippings/Post by @NainsiDwiv50980 on X 1.md",
+    "SNS運用/archive/post/thread/archive.md",
+    "SNS運用/archive/post/article/archive.md",
+    "SNS運用/archive/note/archive.md",
+    "SNS運用/archive/action/archive.md",
+    "SNS運用/archive/post/thread/20260504_note紹介スレッド.md",
+    "SNS運用/archive/post/article/X-20260504.md",
+    "SNS運用/archive/note/note-20260504.md",
+    "SNS運用/archive/action/action-20260504.md",
+    "SNS運用/action-20260504.md",
+    "SNS運用/post/draft/W19-note-profile-design.md",
+    "SNS運用/analytics/screenshots/W19-x-header-day100-after.png",
+    "SNS運用/analytics/screenshots/W19-note-profile-day100-pc-after.png",
+    "SNS運用/analytics/screenshots/W19-note-profile-day100-after.png",
+    "SNS運用/analytics/screenshots/W19-note-profile-day108-after.png",
+    "_ kiwami/my-clone/note-プロフィール背景.psd",
+    "SNS運用/post/draft/W19-x-header-design.md",
     "SNS運用/post/draft/W19-x-header-cand3-rejected.png",
     "SNS運用/post/draft/W19-x-header-cand2-rejected.png",
     "SNS運用/post/draft/W19-x-header-cand1-rejected.png",
     "SNS運用/post/draft/W19-x-header-final.png",
     "_ kiwami/my-clone/W19-x-header-cand9.png",
     "SNS運用/analytics/screenshots/W19-x-profile-day100-afterSP_after.jpg",
-    "SNS運用/analytics/screenshots/W19-x-profile-day100-after_after.png",
-    "_ kiwami/my-clone/W19-x-header-cand3.png",
-    "_ kiwami/my-clone/W19-x-header-cand2.png",
-    "_ kiwami/my-clone/W19-x-header-cand1.png",
     "SNS運用/analytics/W18戦略メモ.md",
     "SNS運用/post/draft/20260427_pin_candidates.md",
-    "SNS運用/action-20260504.md",
-    "SNS運用/analytics/screenshots/W18-Threads-weekly-summary-final.png",
     "SNS運用/analytics/W19戦略メモ.md",
     "SNS運用/archive/threads/profile.md",
     "SNS運用/post/draft/20260501_threads_profile_candidates.md",
-    "SNS運用/post/draft/W19-x-header-design.md",
     "_ kiwami/my-clone/プロフィール背景.psd",
-    "SNS運用/action-20260505.md",
+    "SNS運用/action-20260505@main.md",
     "SNS運用/post/draft/W19-series06-claude-code.md",
     "SNS運用/post/draft/W19-series05-skills.md",
     "SNS運用/analytics/W18分析レポート.md",
@@ -320,20 +275,9 @@
     "SNS運用/サムネイル作成/~ai-9becaf54-cc90-40c8-87aa-8c550467621a_.tmp",
     "調査/2026-05-04-gemini-notebooklm-workflow.md",
     "SNS運用/サムネイル作成/~ai-c4cdb717-962b-4b6f-a7db-629def39c75c_.tmp",
-    "Clippings/Post by @osabori_code on X.md",
-    "調査/2026-04-29-sns-automation-implementation-plan.md",
-    "調査/2026-05-01-claude-design-mcp-anti-ai-slop.md",
-    "調査/2026-05-04-claude-code-superpowers-plugin.md",
-    "Clippings/Post by @ComagerTon79278 on X.md",
-    "SNS運用/ネタ/2026-05-03-lazyweb-ui-mcp-design-agent.md",
-    "SNS運用/post/thread/20260504_note紹介スレッド.md",
-    "SNS運用/archive/action/action-20260503.md",
-    "SNS運用/note/note-20260503.md",
     "_ kiwami/tools/daily-log/clockify/2026-05-04.json",
     "_ kiwami/tools/daily-log/activity/2026-05-04.jsonl",
-    "Clippings/Post by @ClaudeCode_love on X 1.md",
     "_ memory/daily/2026-04-26.md.tmp.72024.1777801261534",
-    "SNS運用/全体ダッシュボード.base",
     "無題のファイル.canvas"
   ]
 }

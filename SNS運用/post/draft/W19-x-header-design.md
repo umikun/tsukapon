@@ -1,10 +1,13 @@
 # Xヘッダー画像 改装案（W19批評型ポジション対応）
 
-> ✅ **2026-05-04 確定**: **cand9（メインコピー1本勝負・"原理1個"超大判赤強調）を採用**。
-> → 確定ファイル: [[SNS運用/post/draft/W19-x-header-final.png]]
-> → 採用検討で却下: cand1（[[SNS運用/post/draft/W19-x-header-cand1-rejected.png]]）/ cand2（[[SNS運用/post/draft/W19-x-header-cand2-rejected.png]]）/ cand3（[[SNS運用/post/draft/W19-x-header-cand3-rejected.png]]）
-> → 投入予定: 2026-05-09（土）21:00（[[SNS運用/analytics/W19戦略メモ.md]] 7日間カレンダー Sat 5/9 セクション）
-> → スマホプレビュー検証済（[[SNS運用/analytics/screenshots/W19-x-profile-day100-afterSP_after.jpg]]）
+> ✅ **2026-05-04 day100 実装完了（5/9予定から前倒し）**:
+> - 採用: **cand9（メインコピー1本勝負・"原理1個"超大判赤強調）**
+> - 確定ファイル: [[SNS運用/post/draft/W19-x-header-final.png]]
+> - 却下案（履歴）: cand1（[[SNS運用/post/draft/W19-x-header-cand1-rejected.png]]）/ cand2（[[SNS運用/post/draft/W19-x-header-cand2-rejected.png]]）/ cand3（[[SNS運用/post/draft/W19-x-header-cand3-rejected.png]]）
+> - スマホプレビュー検証済（[[SNS運用/analytics/screenshots/W19-x-profile-day100-afterSP_after.jpg]]）
+> - **本実装後スクショ**: [[SNS運用/analytics/screenshots/W19-x-header-day100-after.png]]（X PC画面・全体プロフィール）
+> - 連動する note プロフィール改装も同日 day100 に前倒し実装完了（[[SNS運用/post/draft/W19-note-profile-design.md]] 参照）
+> - → **5/4 day100 一斉ロールアウト**で X+Threads+note の批評型ポジ統一が完了
 
 > **🔗 関連コンテンツ**
 > - 📋 W19戦略メモ: [[SNS運用/analytics/W19戦略メモ.md]]
@@ -78,10 +81,10 @@
 
 ### 投入手順（5/9土21:00予定）
 
-1. 投入直前: `W19-x-header-day108-before.png` 撮影（現状＝改装前ヘッダーのスクショ）
+1. 投入直前: `W19-x-header-day100-before.png` 撮影（現状＝改装前ヘッダーのスクショ）
 2. Xアプリ → プロフィール編集 → ヘッダー画像 → [[SNS運用/post/draft/W19-x-header-final.png]] をアップロード
-3. 投入直後: `W19-x-header-day108-after.png` 撮影
-4. [[SNS運用/post/day108.md]] 末尾にヘッダー変更記録を追記
+3. 投入直後: `W19-x-header-day100-after.png` 撮影
+4. [[SNS運用/post/day100.md]] 末尾にヘッダー変更記録を追記
 5. [[SNS運用/analytics/W19戦略メモ.md]] のF項目に「ヘッダー変更前後 profv率」記入欄を追加
 
 ---
@@ -242,8 +245,8 @@ AI記事を読むときの3つのフィルター
 - 5/9（土）夜にヘッダー画像投入 → 5/9〜5/10の2日間で profv率を計測（A/Bテスト）
 - 5/10（日）の W19振り返りで「ヘッダー変更で profv率がさらに伸びたか」を判定
 - 撮影:
-  - 投入前: `W19-x-header-day108-before.png`（5/9 投入直前）
-  - 投入後: `W19-x-header-day108-after.png`（5/9 投入直後）
+  - 投入前: `W19-x-header-day100-before.png`（5/9 投入直前）
+  - 投入後: `W19-x-header-day100-after.png`（5/9 投入直後）
 
 ### Phase 3: 効果が出なければW20で再差し替え
 
@@ -259,10 +262,10 @@ AI記事を読むときの3つのフィルター
 - [ ] Canva or Figma で 1500×500px のヘッダー画像作成
 - [ ] セーフエリア（左下250×250px）にメインコピーが被らないか確認
 - [ ] スマホ表示でメインコピーが読めるか確認（実機で確認推奨）
-- [ ] 5/9 投入直前に `W19-x-header-day108-before.png` 撮影
+- [ ] 5/9 投入直前に `W19-x-header-day100-before.png` 撮影
 - [ ] Xアプリ → プロフィール編集 → ヘッダー画像変更
-- [ ] 投入直後に `W19-x-header-day108-after.png` 撮影
-- [ ] [[SNS運用/post/day108.md]] 末尾にヘッダー変更記録を追記（※ day108=5/9 のday番号は要再計算）
+- [ ] 投入直後に `W19-x-header-day100-after.png` 撮影
+- [ ] [[SNS運用/post/day100.md]] 末尾にヘッダー変更記録を追記
 - [ ] [[SNS運用/analytics/W19戦略メモ.md]] のF項目に「ヘッダー変更前後 profv率」を記入
 
 ---
