@@ -53,6 +53,20 @@
             }
           },
           {
+            "id": "500ea38ff41df977",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/post/draft/20260501_threads_profile_candidates.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260501_threads_profile_candidates"
+            }
+          },
+          {
             "id": "899073f4cd0cd31c",
             "type": "leaf",
             "state": {
@@ -123,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -300,11 +314,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "899073f4cd0cd31c",
+  "active": "9759c2444dfbeca2",
   "lastOpenFiles": [
-    "SNS運用/post/draft/20260427_pin_candidates.md",
-    "SNS運用/post/draft/W19-x-header-design.md",
+    "SNS運用/analytics/screenshots/W19-threads-profile-day100-afterSP.png",
+    "SNS運用/analytics/screenshots/W19-threads-profile-day100-after.png",
+    "SNS運用/post/draft/20260501_threads_profile_candidates.md",
     "SNS運用/action-20260504.md",
+    "SNS運用/analytics/screenshots/W19-threads-profile-day100-beforeSP.png",
+    "SNS運用/analytics/screenshots/W19-threads-profile-day100-before.png",
+    "SNS運用/analytics/screenshots/W19-x-profile-day100-afterSP.jpg",
+    "SNS運用/post/draft/20260427_pin_candidates.md",
+    "SNS運用/analytics/screenshots/W19-x-profile-day100-after.png",
+    "SNS運用/post/draft/W19-x-header-design.md",
     "_ kiwami/my-clone/1500x500.jpeg",
     "_ kiwami/my-clone/プロフィール背景.psd",
     "SNS運用/analytics/screenshots/W19-x-profile-day100-before.png",
@@ -337,16 +358,10 @@
     "Clippings/Post by @ClaudeCode_love on X 1.md",
     "SNS運用/ネタ/2026-05-03-codex-plugin-cc-adversarial-review.md",
     "Clippings/Post by @nicos_ai on X 1.md",
-    "SNS運用/ネタ/2026-05-03-syswatch-rust-tui-monitor.md",
     "_ memory/daily/2026-04-26.md.tmp.72024.1777801261534",
     "SNS運用/全体ダッシュボード.base",
     "SNS運用/analytics/screenshots/W18-series04-day6-EOD.png",
     "SNS運用/analytics/screenshots/W18-series03-day6-EOD.png",
-    "SNS運用/analytics/screenshots/W18-series02-day6-EOD.png",
-    "SNS運用/analytics/screenshots/W18-series01-day6-EOD.png",
-    "SNS運用/analytics/screenshots/W18-series02-EOD-2of4.png",
-    "SNS運用/analytics/screenshots/W18-series01-EOD-1of4.png",
-    "SNS運用/analytics/screenshots/W18-routineB-day6-am-60min.png",
     "無題のファイル.canvas"
   ]
 }
