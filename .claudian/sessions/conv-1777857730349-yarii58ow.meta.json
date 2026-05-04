@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777857730349-yarii58ow",
+  "providerId": "claude",
+  "title": "Clarify analytics metric extraction",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777857730354,
+  "updatedAt": 1777857797321,
+  "lastResponseAt": 1777857797321,
+  "sessionId": "847f90e1-c4c9-4780-b68c-540535ba47d4",
+  "providerState": {
+    "providerSessionId": "847f90e1-c4c9-4780-b68c-540535ba47d4"
+  },
+  "currentNote": "SNS運用/action-20260504.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 8861,
+    "cacheReadInputTokens": 42467,
+    "contextWindow": 1000000,
+    "contextTokens": 51329,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}
