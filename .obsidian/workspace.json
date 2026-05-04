@@ -53,48 +53,6 @@
             }
           },
           {
-            "id": "500ea38ff41df977",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/draft/20260501_threads_profile_candidates.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260501_threads_profile_candidates"
-            }
-          },
-          {
-            "id": "899073f4cd0cd31c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/draft/W19-x-header-design.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W19-x-header-design"
-            }
-          },
-          {
-            "id": "937bf1c45228a216",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/draft/20260427_pin_candidates.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260427_pin_candidates"
-            }
-          },
-          {
             "id": "e0500ed46e110583",
             "type": "leaf",
             "state": {
@@ -106,6 +64,20 @@
               },
               "icon": "lucide-file",
               "title": "W18戦略メモ"
+            }
+          },
+          {
+            "id": "fcc242a7644eef5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/post/draft/W19-x-header-design.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "W19-x-header-design"
             }
           },
           {
@@ -137,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -314,29 +286,33 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "9759c2444dfbeca2",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
+    "_ kiwami/my-clone/W19-x-header-cand3.png",
+    "_ kiwami/my-clone/W19-x-header-cand2.png",
+    "_ kiwami/my-clone/W19-x-header-cand1.png",
+    "SNS運用/analytics/W18戦略メモ.md",
+    "SNS運用/post/draft/20260427_pin_candidates.md",
+    "SNS運用/action-20260504.md",
+    "SNS運用/analytics/screenshots/W18-Threads-weekly-summary-final.png",
+    "SNS運用/analytics/W19戦略メモ.md",
+    "SNS運用/archive/threads/profile.md",
     "SNS運用/analytics/screenshots/W19-threads-profile-day100-afterSP.png",
     "SNS運用/analytics/screenshots/W19-threads-profile-day100-after.png",
     "SNS運用/post/draft/20260501_threads_profile_candidates.md",
-    "SNS運用/action-20260504.md",
     "SNS運用/analytics/screenshots/W19-threads-profile-day100-beforeSP.png",
     "SNS運用/analytics/screenshots/W19-threads-profile-day100-before.png",
     "SNS運用/analytics/screenshots/W19-x-profile-day100-afterSP.jpg",
-    "SNS運用/post/draft/20260427_pin_candidates.md",
     "SNS運用/analytics/screenshots/W19-x-profile-day100-after.png",
     "SNS運用/post/draft/W19-x-header-design.md",
     "_ kiwami/my-clone/1500x500.jpeg",
     "_ kiwami/my-clone/プロフィール背景.psd",
-    "SNS運用/analytics/screenshots/W19-x-profile-day100-before.png",
-    "SNS運用/analytics/screenshots/W19-x-profile-day100-beforeSP.JPG",
     "SNS運用/action-20260505.md",
     "SNS運用/post/draft/W19-series06-claude-code.md",
     "SNS運用/post/draft/W19-series05-skills.md",
     "SNS運用/analytics/W18分析レポート.md",
     "SNS運用/analytics/source/account_overview_analytics_2026-04-27_2026-05-03.csv",
     "SNS運用/analytics/source/account_analytics_content_2026-04-27_2026-05-03.csv",
-    "SNS運用/analytics/W18戦略メモ.md",
     "SNS運用/title/title-20260504.md",
     "SNS運用/note/note-20260504.md",
     "SNS運用/post/article/X-20260504.md",
@@ -356,12 +332,8 @@
     "_ kiwami/tools/daily-log/clockify/2026-05-04.json",
     "_ kiwami/tools/daily-log/activity/2026-05-04.jsonl",
     "Clippings/Post by @ClaudeCode_love on X 1.md",
-    "SNS運用/ネタ/2026-05-03-codex-plugin-cc-adversarial-review.md",
-    "Clippings/Post by @nicos_ai on X 1.md",
     "_ memory/daily/2026-04-26.md.tmp.72024.1777801261534",
     "SNS運用/全体ダッシュボード.base",
-    "SNS運用/analytics/screenshots/W18-series04-day6-EOD.png",
-    "SNS運用/analytics/screenshots/W18-series03-day6-EOD.png",
     "無題のファイル.canvas"
   ]
 }
