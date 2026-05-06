@@ -39,21 +39,35 @@
             }
           },
           {
+            "id": "b3b9dcb375338ad9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNS運用/action-20260506.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "action-20260506"
+            }
+          },
+          {
             "id": "71b13f29172198c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS運用/ネタ/2026-05-04-leaf-terminal-markdown-previewer.md",
-                "mode": "source",
+                "file": "SNS運用/action-20260505@main.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-04-leaf-terminal-markdown-previewer"
+              "title": "action-20260505@main"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -230,13 +244,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "71b13f29172198c0",
   "lastOpenFiles": [
+    "SNS運用/analytics/screenshots/W19-series05-EOD.png",
+    "SNS運用/post/article/X-20260506.md",
     "SNS運用/action-20260506.md",
     "SNS運用/post/thread/20260506_note紹介スレッド.md",
-    "SNS運用/post/article/X-20260506.md",
-    "SNS運用/title/title-20260506.md",
     "SNS運用/note/note-20260506.md",
+    "SNS運用/title/title-20260506.md",
+    "SNS運用/サムネイル作成/~ai-31468626-6e3a-4447-bab0-302465ca1053_.tmp",
+    "SNS運用/サムネイル作成/Acr554564000192704119188.tmp",
+    "SNS運用/サムネイル作成/~ai-f924ee32-b4ba-49e6-9201-8c0a18ac92c0_.tmp",
+    "SNS運用/ネタ/2026-05-04-leaf-terminal-markdown-previewer.md",
     "_ kiwami/tools/daily-log/clockify/2026-05-06.json",
     "_ kiwami/tools/daily-log/activity/2026-05-06.jsonl",
     "SNS運用/note/note-20260504.md",
@@ -245,7 +264,6 @@
     "_ kiwami/tools/daily-log/activity/2026-05-05.jsonl",
     "SNS運用/post/draft/W19-series07-leaf-terminal.md",
     "Clippings/Post by @NainsiDwiv50980 on X 1.md",
-    "SNS運用/ネタ/2026-05-04-leaf-terminal-markdown-previewer.md",
     "SNS運用/post/day100.md",
     "SNS運用/archive/post/thread/archive.md",
     "SNS運用/archive/post/article/archive.md",
@@ -272,12 +290,8 @@
     "SNS運用/analytics/W18戦略メモ.md",
     "SNS運用/post/draft/20260427_pin_candidates.md",
     "SNS運用/analytics/W19戦略メモ.md",
-    "SNS運用/archive/threads/profile.md",
     "_ kiwami/my-clone/プロフィール背景.psd",
     "SNS運用/analytics/source/account_overview_analytics_2026-04-27_2026-05-03.csv",
-    "SNS運用/analytics/source/account_analytics_content_2026-04-27_2026-05-03.csv",
-    "SNS運用/サムネイル作成/~ai-aab88670-0f1f-47b0-9783-e08843944a5b_.tmp",
-    "SNS運用/サムネイル作成/~ai-9becaf54-cc90-40c8-87aa-8c550467621a_.tmp",
     "無題のファイル.canvas"
   ]
 }
