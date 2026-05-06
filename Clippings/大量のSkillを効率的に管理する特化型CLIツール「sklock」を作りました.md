@@ -1,0 +1,2 @@
+大量のSkillを効率的に管理する特化型CLIツール「sklock」を作りました
+[大量のSkillを効率的に管理する特化型CLIツール「sklock」を作りました](https://qiita.com/artie/items/980b1b48f943e096b46c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items)
