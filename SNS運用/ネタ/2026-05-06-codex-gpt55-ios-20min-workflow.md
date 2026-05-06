@@ -14,7 +14,7 @@ action: 投稿ネタ, 取り込み検討
 # 「Codex × GPT-5.5でiOS/Macアプリを20分で作る」を裏取りしてみる
 
 > **🔗 関連コンテンツ**
-> - 🆓 同日のAIツール代替リスト調査（Cursor → Trae 等）: [[調査/2026-05-06-dont-pay-ai-tool-alternatives.md]]
+> - 🆓 同日のAIツール代替リスト調査（Cursor → Trae 等）: [[2026-05-06-dont-pay-ai-tool-alternatives]]
 > - 🧠 Obsidian × Claude Code 全体マップ: [[Claudian-obsidian-skills活用マップ.md]]
 > - 🤖 関連ネタ（Vault×AIエージェント）: [[Clippings/Post by @obsidianstudio9 on X.md]]
 

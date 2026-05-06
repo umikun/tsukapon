@@ -8,7 +8,7 @@ tags:
   - vault運用
   - ワークフロー
 source: https://x.com/eryidebiji/status/2051647798223991023
-action: 運用参考
+action: 運用参考,
 ---
 
 # 二一的笔记氏が「Obsidianユーザー全員すぐ入れろ」と推す Notebook Navigator プラグインを解剖する

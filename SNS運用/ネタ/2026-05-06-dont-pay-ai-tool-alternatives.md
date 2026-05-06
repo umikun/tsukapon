@@ -13,7 +13,7 @@ action: 投稿ネタ, サブスクネタ
 # 「Don't pay for X, use Y」14ペアのAIツール代替リストを裏取りする
 
 > **🔗 関連コンテンツ**
-> - 🧠 同日のAIニュースツール調査: [[調査/2026-05-06-ai-news-radar-horizon-trendradar.md]]
+> - 🧠 同日のAIニュースツール調査: [[2026-05-06-ai-news-radar-horizon-trendradar]]
 > - 📰 ニューススレッド作成スキル: [[. claude/commands/news-thread.md]]
 > - 🐦 関連ネタ（Vault×AIエージェント）: [[Clippings/Post by @obsidianstudio9 on X.md]]
 

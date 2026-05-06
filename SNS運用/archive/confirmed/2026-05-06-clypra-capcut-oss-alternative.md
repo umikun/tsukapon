@@ -14,8 +14,8 @@ action: 採用なし
 # 「CapCutの代わりにClypra（OSS）を使え」を裏取りしてみる
 
 > **🔗 関連コンテンツ**
-> - 🆓 同日のSaaS代替リスト調査（Descript→CapCutの上書き対象）: [[調査/2026-05-06-dont-pay-ai-tool-alternatives.md]]
-> - 🤖 Codex × iOS開発（同じ「20分で〇〇」系フォーマット）: [[調査/2026-05-06-codex-gpt55-ios-20min-workflow.md]]
+> - 🆓 同日のSaaS代替リスト調査（Descript→CapCutの上書き対象）: [[2026-05-06-dont-pay-ai-tool-alternatives]]
+> - 🤖 Codex × iOS開発（同じ「20分で〇〇」系フォーマット）: [[2026-05-06-codex-gpt55-ios-20min-workflow]]
 > - 🐦 関連ネタ（Vault×AIエージェント）: [[Clippings/Post by @obsidianstudio9 on X.md]]
 
 > **TL;DR**
@@ -63,7 +63,7 @@ action: 採用なし
 
 **Tauri + React のデスクトップアプリ流行（2024〜）。** ElectronのRAM喰い問題への反動として、**Tauri（Rust + WebView）** がデスクトップアプリ開発で急伸。React/TypeScriptフロント＋Rustバックエンドで「**Webの開発体験 × ネイティブの性能**」を狙う構成は、2026年も主要トレンド。Clypraの技術スタックはこの典型。
 
-**「Don't pay for X, use Y」型のSNSバズ（2024〜）。** [[調査/2026-05-06-dont-pay-ai-tool-alternatives.md|別ノートで分析した]] @SocialtyPro の14ペアリストと**同じフォーマット**で、@ErickSky の今回のスペイン語投稿はその単発版。Likes 1,220 / RT 187と**スペイン語圏では強い反応**。新興OSSをスポットライトに乗せる役割を果たす一方、**「鵜呑み危険」問題**は同様。
+**「Don't pay for X, use Y」型のSNSバズ（2024〜）。** [[2026-05-06-dont-pay-ai-tool-alternatives|別ノートで分析した]] @SocialtyPro の14ペアリストと**同じフォーマット**で、@ErickSky の今回のスペイン語投稿はその単発版。Likes 1,220 / RT 187と**スペイン語圏では強い反応**。新興OSSをスポットライトに乗せる役割を果たす一方、**「鵜呑み危険」問題**は同様。
 
 **スペイン語圏のテック系発信者ネットワーク。** @ErickSky を含むスペイン語インフルエンサーは英語圏のリポジトリを**スペイン語圏に翻訳・紹介**するハブ機能を持ち、英語圏でまだ無名のOSSが**先にラテンアメリカで広まる**現象がある。Clypraも英語圏での認知より先にスペイン語圏でバズった可能性。
 
@@ -118,7 +118,7 @@ action: 採用なし
   - **「CapCut全機能の代替」は誇張**: README自身が「プレミアム機能の無料実装に注力」と明記し、現時点では限定機能。CapCut Desktopの全機能（AIエフェクト・自動字幕・テンプレ等）には全く届かない
   - **★75は実用判断には早すぎる**: 同カテゴリの**OpenCut（★48.7k）**と比較して**約650倍の差**。コミュニティサポート・バグ修正速度・継続性の観点でClypraを本番採用は時期尚早
   - **そもそもCapCut Desktopは無料で使える**: 「金を払うな」と煽るが、**CapCut Desktopは基本機能無料**。有料はAI機能等の一部のみ。"使うな"と"金を払うな"を混同している
-  - **「鵜呑み危険」のSNSバズ問題**: [[調査/2026-05-06-dont-pay-ai-tool-alternatives.md|同日調査の14ペアリスト]] と同じ構造で、**新興OSSを実用レベルと誤認させる**コンテンツになりうる
+  - **「鵜呑み危険」のSNSバズ問題**: [[2026-05-06-dont-pay-ai-tool-alternatives|同日調査の14ペアリスト]] と同じ構造で、**新興OSSを実用レベルと誤認させる**コンテンツになりうる
   - **OpenCut/Kdenliveの方が筋が良い**: 真に「OSSでCapCut代替」を狙うなら**まずOpenCutかKdenlive**から検討すべき。Clypraは"見て応援するOSS"段階
 - **中立的に見るときの補助線**:
   - **3層で評価する**:
