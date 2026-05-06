@@ -794,3 +794,63 @@
 {"ts": "13:27", "app": "Opera", "title": "", "idle": 7617, "cat": "idle"}
 {"ts": "13:28", "app": "Opera", "title": "", "idle": 7678, "cat": "idle"}
 {"ts": "13:29", "app": "Opera", "title": "", "idle": 7738, "cat": "idle"}
+{"ts": "13:30", "app": "Opera", "title": "", "idle": 7799, "cat": "idle"}
+{"ts": "13:31", "app": "Opera", "title": "", "idle": 7859, "cat": "idle"}
+{"ts": "13:32", "app": "Opera", "title": "", "idle": 7919, "cat": "idle"}
+{"ts": "13:33", "app": "Opera", "title": "", "idle": 7980, "cat": "idle"}
+{"ts": "13:34", "app": "Opera", "title": "", "idle": 8040, "cat": "idle"}
+{"ts": "13:35", "app": "Opera", "title": "", "idle": 8101, "cat": "idle"}
+{"ts": "13:36", "app": "Opera", "title": "", "idle": 8161, "cat": "idle"}
+{"ts": "13:37", "app": "Opera", "title": "", "idle": 8222, "cat": "idle"}
+{"ts": "13:38", "app": "Opera", "title": "", "idle": 8282, "cat": "idle"}
+{"ts": "13:39", "app": "Opera", "title": "", "idle": 8342, "cat": "idle"}
+{"ts": "13:40", "app": "Opera", "title": "", "idle": 8403, "cat": "idle"}
+{"ts": "13:41", "app": "Opera", "title": "", "idle": 8463, "cat": "idle"}
+{"ts": "13:42", "app": "Opera", "title": "", "idle": 8524, "cat": "idle"}
+{"ts": "13:43", "app": "Opera", "title": "", "idle": 8584, "cat": "idle"}
+{"ts": "13:44", "app": "Opera", "title": "", "idle": 8644, "cat": "idle"}
+{"ts": "13:45", "app": "Opera", "title": "", "idle": 8705, "cat": "idle"}
+{"ts": "13:46", "app": "Opera", "title": "", "idle": 8765, "cat": "idle"}
+{"ts": "13:47", "app": "Opera", "title": "", "idle": 8826, "cat": "idle"}
+{"ts": "13:48", "app": "Opera", "title": "", "idle": 8886, "cat": "idle"}
+{"ts": "13:49", "app": "Opera", "title": "", "idle": 8947, "cat": "idle"}
+{"ts": "13:50", "app": "Opera", "title": "", "idle": 9007, "cat": "idle"}
+{"ts": "13:51", "app": "Opera", "title": "", "idle": 9067, "cat": "idle"}
+{"ts": "13:52", "app": "Opera", "title": "", "idle": 9128, "cat": "idle"}
+{"ts": "13:53", "app": "Opera", "title": "", "idle": 9188, "cat": "idle"}
+{"ts": "13:54", "app": "Opera", "title": "", "idle": 9249, "cat": "idle"}
+{"ts": "13:55", "app": "Opera", "title": "", "idle": 9309, "cat": "idle"}
+{"ts": "13:56", "app": "Opera", "title": "", "idle": 9370, "cat": "idle"}
+{"ts": "13:57", "app": "Opera", "title": "", "idle": 9430, "cat": "idle"}
+{"ts": "13:58", "app": "Opera", "title": "", "idle": 9491, "cat": "idle"}
+{"ts": "13:59", "app": "Opera", "title": "", "idle": 9551, "cat": "idle"}
+{"ts": "14:00", "app": "Opera", "title": "", "idle": 9612, "cat": "idle"}
+{"ts": "14:01", "app": "Opera", "title": "", "idle": 9672, "cat": "idle"}
+{"ts": "14:02", "app": "Opera", "title": "", "idle": 9732, "cat": "idle"}
+{"ts": "14:03", "app": "Opera", "title": "", "idle": 9793, "cat": "idle"}
+{"ts": "14:04", "app": "Opera", "title": "", "idle": 9853, "cat": "idle"}
+{"ts": "14:05", "app": "Opera", "title": "", "idle": 9914, "cat": "idle"}
+{"ts": "14:06", "app": "Opera", "title": "", "idle": 9974, "cat": "idle"}
+{"ts": "14:07", "app": "Opera", "title": "", "idle": 10034, "cat": "idle"}
+{"ts": "14:08", "app": "Opera", "title": "", "idle": 10095, "cat": "idle"}
+{"ts": "14:09", "app": "Opera", "title": "", "idle": 10155, "cat": "idle"}
+{"ts": "14:10", "app": "Opera", "title": "", "idle": 10215, "cat": "idle"}
+{"ts": "14:11", "app": "Opera", "title": "", "idle": 10276, "cat": "idle"}
+{"ts": "14:12", "app": "Opera", "title": "", "idle": 10336, "cat": "idle"}
+{"ts": "14:13", "app": "Opera", "title": "", "idle": 10397, "cat": "idle"}
+{"ts": "14:14", "app": "Opera", "title": "", "idle": 10457, "cat": "idle"}
+{"ts": "14:15", "app": "Opera", "title": "", "idle": 10518, "cat": "idle"}
+{"ts": "14:16", "app": "Opera", "title": "", "idle": 10578, "cat": "idle"}
+{"ts": "14:17", "app": "Opera", "title": "", "idle": 10639, "cat": "idle"}
+{"ts": "14:18", "app": "Opera", "title": "", "idle": 10699, "cat": "idle"}
+{"ts": "14:19", "app": "Opera", "title": "", "idle": 10759, "cat": "idle"}
+{"ts": "14:20", "app": "Opera", "title": "", "idle": 10820, "cat": "idle"}
+{"ts": "14:21", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 40, "cat": "other"}
+{"ts": "14:22", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 101, "cat": "other"}
+{"ts": "14:23", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 161, "cat": "other"}
+{"ts": "14:24", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 221, "cat": "idle"}
+{"ts": "14:25", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 282, "cat": "idle"}
+{"ts": "14:26", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 342, "cat": "idle"}
+{"ts": "14:27", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 403, "cat": "idle"}
+{"ts": "14:28", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 463, "cat": "idle"}
+{"ts": "14:29", "app": "Google Chrome", "title": "Claude Platform - Google Chrome - kun", "idle": 524, "cat": "idle"}
