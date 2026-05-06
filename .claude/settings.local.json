@@ -76,7 +76,13 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:api.vxtwitter.com)",
       "WebFetch(domain:openai.com)",
-      "WebFetch(domain:techcrunch.com)"
+      "WebFetch(domain:techcrunch.com)",
+      "WebFetch(domain:developer.chrome.com)",
+      "WebFetch(domain:twitter.com)",
+      "WebFetch(domain:fxtwitter.com)",
+      "WebFetch(domain:api.fxtwitter.com)",
+      "WebFetch(domain:www.microsoft.com)",
+      "WebFetch(domain:threadreaderapp.com)"
     ]
   }
 }
