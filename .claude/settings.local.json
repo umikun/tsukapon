@@ -82,7 +82,9 @@
       "WebFetch(domain:fxtwitter.com)",
       "WebFetch(domain:api.fxtwitter.com)",
       "WebFetch(domain:www.microsoft.com)",
-      "WebFetch(domain:threadreaderapp.com)"
+      "WebFetch(domain:threadreaderapp.com)",
+      "WebFetch(domain:note.com)",
+      "WebFetch(domain:www.shopify.com)"
     ]
   }
 }
