@@ -68,7 +68,15 @@
       "Bash(mv /Volumes/500GB/GoogleDrive/.claude '/Volumes/500GB/_trash/_ claude/GoogleDrive-claude設定-20260503')",
       "Bash(mv /Volumes/500GB/GoogleDrive/.tmp.driveupload '/Volumes/500GB/_trash/_ claude/GoogleDrive-tmp.driveupload-20260503')",
       "Bash(mv /Volumes/500GB/GoogleDrive/note-chack '/Volumes/500GB/_trash/_ claude/GoogleDrive-note-chack-20260503')",
-      "Bash(/usr/bin/python3 *)"
+      "Bash(/usr/bin/python3 *)",
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:nitter.net)",
+      "WebFetch(domain:cdn.syndication.twimg.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.vxtwitter.com)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:techcrunch.com)"
     ]
   }
 }
