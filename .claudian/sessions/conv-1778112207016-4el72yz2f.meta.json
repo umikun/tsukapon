@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778112207016-4el72yz2f",
+  "providerId": "claude",
+  "title": "Generate alternative title",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778112207027,
+  "updatedAt": 1778112272527,
+  "lastResponseAt": 1778112272527,
+  "sessionId": "b853beac-2696-4c8f-9199-5a8b32df312a",
+  "providerState": {
+    "providerSessionId": "b853beac-2696-4c8f-9199-5a8b32df312a"
+  },
+  "currentNote": "SNS運用/title/title-20260507.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 820,
+    "cacheReadInputTokens": 38048,
+    "contextWindow": 1000000,
+    "contextTokens": 38869,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
