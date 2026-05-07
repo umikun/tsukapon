@@ -4,8 +4,8 @@
   "title": "Integrate ChatGPT Plus workflow",
   "titleGenerationStatus": "success",
   "createdAt": 1778121277853,
-  "updatedAt": 1778132477558,
-  "lastResponseAt": 1778132477558,
+  "updatedAt": 1778146003732,
+  "lastResponseAt": 1778146003732,
   "sessionId": "e79295f3-a5b8-4f0b-9a13-929b8cb812e1",
   "providerState": {
     "providerSessionId": "e79295f3-a5b8-4f0b-9a13-929b8cb812e1"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 6,
-    "cacheCreationInputTokens": 96756,
-    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3024,
+    "cacheReadInputTokens": 151502,
     "contextWindow": 1000000,
-    "contextTokens": 96762,
-    "percentage": 10,
+    "contextTokens": 154532,
+    "percentage": 15,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -44,40 +44,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "SNS運用/title/title-20260507.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "title-20260507"
+            }
+          },
+          {
+            "id": "08776263dc7d6368",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "SNS運用/action-20260507.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "action-20260507"
-            }
-          },
-          {
-            "id": "a438abd6833f7e24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/article/X-20260507.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "X-20260507"
-            }
-          },
-          {
-            "id": "3b9ed1ed42a95532",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/post/thread/20260507_note紹介スレッド.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260507_note紹介スレッド"
             }
           },
           {
@@ -95,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,6 +260,11 @@
   },
   "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
+    "SNS運用/analytics/screenshots/W19-save-single-day103-image.png",
+    "SNS運用/サムネイル作成/claude_code_tips_snippet_1080x1080.png",
+    "make_claude_code_tips_snippet.py",
+    "SNS運用/title/title-20260507.md",
+    "SNS運用/action-20260507.md",
     "SNS運用/サムネイル作成/daily_ai_news_heading_05_05_august_ready_1280x670.png",
     "SNS運用/サムネイル作成/daily_ai_news_heading_04_04_polling_ends_1280x670.png",
     "SNS運用/サムネイル作成/daily_ai_news_heading_03_03_infra_battleground_1280x670.png",
@@ -284,8 +275,6 @@
     "SNS運用/サムネイル作成/見出しバナー背景14.png",
     "SNS運用/サムネイル作成/見出しバナー背景13.png",
     "SNS運用/サムネイル作成/見出しバナー背景12.png",
-    "SNS運用/サムネイル作成/daily_ai_news_ogp_pearl_gold_14_1200x630.png",
-    "SNS運用/サムネイル作成/daily_ai_news_ogp_pearl_gold_13_1200x630.png",
     "SNS運用/サムネイル作成/名称未設定フォルダ",
     "make_more_pearl_gold_variants.py",
     "make_light_mode_background_variants.py",
@@ -296,7 +285,6 @@
     "SNS運用/ネタ/2026-05-07-insforge-skills-claude-code-token-cut.md",
     "Clippings/Post by @ClaudeCode_love on X 2.md",
     "SNS運用/ネタ/2026-05-07-irodori-tts-local-japanese-tts.md",
-    "SNS運用/action-20260507.md",
     "SNS運用/post/article/X-20260507.md",
     "SNS運用/post/thread/20260507_note紹介スレッド.md",
     "SNS運用/note/note-20260507.md",
@@ -305,7 +293,6 @@
     "Clippings/Post by @kawai_design on X 1.md",
     "Clippings/AIで金をかけずにサクッと新規事業を作る方法。.md",
     "Clippings/Post by @L_go_mrk on X 7.md",
-    "SNS運用/title/title-20260507.md",
     "SNS運用/サムネイル作成/~ai-31468626-6e3a-4447-bab0-302465ca1053_.tmp",
     "SNS運用/サムネイル作成/~ai-f924ee32-b4ba-49e6-9201-8c0a18ac92c0_.tmp",
     "SNS運用/note/note-20260507@G.md",
@@ -313,7 +300,6 @@
     "SNS運用/サムネイル作成/~ai-0d2985df-fd10-4489-a461-6fed3f2b5828_.tmp",
     "SNS運用/note/note-20260506.md",
     "SNS運用/ネタ/2026-05-06-frappe-insights-oss-bi.md",
-    "_ kiwami/tools/daily-log/clockify/2026-05-07.json",
     "Clippings/大量のSkillを効率的に管理する特化型CLIツール「sklock」を作りました.md",
     "SNS運用/archive/action/action-20260505.md",
     "SNS運用/action-20260506.md",
