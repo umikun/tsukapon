@@ -84,7 +84,9 @@
       "WebFetch(domain:www.microsoft.com)",
       "WebFetch(domain:threadreaderapp.com)",
       "WebFetch(domain:note.com)",
-      "WebFetch(domain:www.shopify.com)"
+      "WebFetch(domain:www.shopify.com)",
+      "WebFetch(domain:9to5google.com)",
+      "WebFetch(domain:www.artificialintelligence-news.com)"
     ]
   }
 }
