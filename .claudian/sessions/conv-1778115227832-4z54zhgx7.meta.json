@@ -4,21 +4,20 @@
   "title": "Analyze Gigazine X post",
   "titleGenerationStatus": "success",
   "createdAt": 1778115227839,
-  "updatedAt": 1778116942453,
-  "lastResponseAt": 1778116942452,
+  "updatedAt": 1778120008153,
+  "lastResponseAt": 1778120008153,
   "sessionId": "d36e7dd6-149a-44ae-be08-a5f21c002936",
   "providerState": {
     "providerSessionId": "d36e7dd6-149a-44ae-be08-a5f21c002936"
   },
-  "currentNote": "SNS運用/ネタ/2026-05-07-frappe-insights-oss-bi.md",
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 8750,
-    "cacheReadInputTokens": 135029,
+    "cacheCreationInputTokens": 1716,
+    "cacheReadInputTokens": 233549,
     "contextWindow": 1000000,
-    "contextTokens": 143780,
-    "percentage": 14,
+    "contextTokens": 235266,
+    "percentage": 24,
     "contextWindowIsAuthoritative": true
   }
 }

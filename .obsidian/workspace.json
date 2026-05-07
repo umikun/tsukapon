@@ -86,16 +86,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "調査/2026-05-07-insforge-skills-claude-code-token-cut.md",
+                "file": "SNS運用/ネタ/2026-05-07-codex-claude-code-mcp-integration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-07-insforge-skills-claude-code-token-cut"
+              "title": "2026-05-07-codex-claude-code-mcp-integration"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,10 +272,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "987b29fcbcf5e891",
+  "active": "9218fe29a5a173d6",
   "lastOpenFiles": [
+    "SNS運用/ネタ/2026-05-07-codex-claude-code-mcp-integration.md",
+    "SNS運用/ネタ/2026-05-07-insforge-skills-claude-code-token-cut.md",
     "Clippings/Post by @ClaudeCode_love on X 2.md",
-    "調査/2026-05-07-insforge-skills-claude-code-token-cut.md",
     "SNS運用/ネタ/2026-05-07-irodori-tts-local-japanese-tts.md",
     "SNS運用/action-20260507.md",
     "SNS運用/post/article/X-20260507.md",
@@ -313,7 +314,6 @@
     "SNS運用/analytics/screenshots/W19-series05-day102-EOD.png",
     "SNS運用/analytics/screenshots/W19-note-access-day102-EOD.PNG",
     "Clippings/Post by @fukuda_CEO on X.md",
-    "CLAUDE.md",
     "SNS運用/analytics/screenshots/W19-series05-EOD.png",
     "SNS運用/サムネイル作成/Acr554564000192704119188.tmp",
     "_ kiwami/tools/daily-log/clockify/2026-05-06.json",
