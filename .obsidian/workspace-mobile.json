@@ -11,14 +11,10 @@
             "id": "ba33b52dee851e7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS運用/action-20260506.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "action-20260506"
+              "title": "新規タブ"
             }
           }
         ]
@@ -169,8 +165,9 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "ba33b52dee851e7e",
+  "active": "569069428cc1c1b0",
   "lastOpenFiles": [
+    "SNS運用/note/note-20260508.md",
     "Clippings/Post by @fukuda_CEO on X.md",
     "調査/2026-05-06-best-llm-stack-2026.md",
     "調査/2026-05-06-webmcp-natural-language-googlemap.md",
@@ -197,7 +194,6 @@
     "Clippings/Post by @ComagerTon79278 on X.md",
     "Clippings/Post by @osabori_code on X.md",
     "調査/2026-05-04-gemini-notebooklm-workflow.md",
-    "調査/2026-05-04-claude-code-superpowers-plugin.md",
     "_ kiwami/my-clone/note-プロフィール背景.psd",
     "_ kiwami/my-clone/プロフィール背景.psd",
     "_ kiwami/my-clone/1500x500.jpeg",
