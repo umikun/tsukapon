@@ -258,8 +258,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf0cc0ddc9bc14b1",
+  "active": "08776263dc7d6368",
   "lastOpenFiles": [
+    "_ kiwami/tools/daily-log/clockify/2026-05-08.json",
+    "_ kiwami/tools/daily-log/activity/2026-05-08.jsonl",
     "SNS運用/analytics/screenshots/W19-save-single-day103-5min.png",
     "SNS運用/analytics/screenshots/W19-save-single-day103-image.png",
     "SNS運用/サムネイル作成/claude_code_tips_snippet_1080x1080.png",
@@ -274,7 +276,6 @@
     "make_heading_thumbnails_from_attached.py",
     "SNS運用/サムネイル作成/見出しバナー背景15.png",
     "SNS運用/サムネイル作成/見出しバナー背景14.png",
-    "SNS運用/サムネイル作成/見出しバナー背景13.png",
     "SNS運用/サムネイル作成/名称未設定フォルダ",
     "make_more_pearl_gold_variants.py",
     "make_light_mode_background_variants.py",
@@ -297,7 +298,6 @@
     "SNS運用/サムネイル作成/~ai-f924ee32-b4ba-49e6-9201-8c0a18ac92c0_.tmp",
     "SNS運用/note/note-20260507@G.md",
     "SNS運用/post/day103.md",
-    "SNS運用/サムネイル作成/~ai-0d2985df-fd10-4489-a461-6fed3f2b5828_.tmp",
     "SNS運用/note/note-20260506.md",
     "SNS運用/ネタ/2026-05-06-frappe-insights-oss-bi.md",
     "Clippings/大量のSkillを効率的に管理する特化型CLIツール「sklock」を作りました.md",
