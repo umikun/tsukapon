@@ -272,8 +272,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "9218fe29a5a173d6",
+  "active": "bf0cc0ddc9bc14b1",
   "lastOpenFiles": [
+    "daily_ai_news_thumb_05_05_august_ready_1280x670.png",
+    "daily_ai_news_thumb_04_04_polling_ends_1280x670.png",
+    "daily_ai_news_thumb_03_03_infra_battleground_1280x670.png",
+    "daily_ai_news_thumb_02_02_never_forgets_1280x670.png",
+    "daily_ai_news_thumb_01_01_control_tower_1280x670.png",
+    "make_daily_ai_news_thumbnails.py",
+    "daily_ai_news_banner_1280x670.png",
+    "make_daily_ai_news_banner.py",
+    "調査/2026-05-07-chatgpt-voice-mode-claudian-workflow.md",
     "SNS運用/ネタ/2026-05-07-codex-claude-code-mcp-integration.md",
     "SNS運用/ネタ/2026-05-07-insforge-skills-claude-code-token-cut.md",
     "Clippings/Post by @ClaudeCode_love on X 2.md",
@@ -303,23 +312,14 @@
     "SNS運用/archive/post/thread/20260506_note紹介スレッド.md",
     "SNS運用/archive/post/article/X-20260506.md",
     "SNS運用/archive/note/note-20260506.md",
-    "SNS運用/archive/action/action-20260506.md",
     "SNS運用/analytics/screenshots/W19-x-profile-day102-EOD.PNG",
     "SNS運用/analytics/screenshots/W19-x-day102-pm-EOD.PNG",
     "SNS運用/analytics/screenshots/W19-x-day102-am-EOD.PNG",
     "SNS運用/analytics/screenshots/W19-x-analytics-day102-EOD.PNG",
     "SNS運用/analytics/screenshots/W19-Threads-profile-day102-EOD.PNG",
-    "SNS運用/analytics/screenshots/W19-Threads-day102-pm-EOD.PNG",
-    "SNS運用/analytics/screenshots/W19-Threads-day102-am-EOD.PNG",
-    "SNS運用/analytics/screenshots/W19-series05-day102-EOD.png",
-    "SNS運用/analytics/screenshots/W19-note-access-day102-EOD.PNG",
-    "Clippings/Post by @fukuda_CEO on X.md",
-    "SNS運用/analytics/screenshots/W19-series05-EOD.png",
     "SNS運用/サムネイル作成/Acr554564000192704119188.tmp",
     "_ kiwami/tools/daily-log/clockify/2026-05-06.json",
     "_ kiwami/tools/daily-log/activity/2026-05-06.jsonl",
-    "_ kiwami/tools/daily-log/clockify/2026-05-05.json",
-    "_ kiwami/tools/daily-log/activity/2026-05-05.jsonl",
     "無題のファイル.canvas"
   ]
 }
